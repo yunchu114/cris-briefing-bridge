@@ -1,1 +1,246 @@
-{"date":"2026-10-23","podcast":{"audio_url":"","duration":"7分54秒","title":"晨间充电站 · 试播集（2026-10-23）"},"sections":[{"id":"x","items":[{"summary":"招股书曝光半年营收 163 亿美元、净亏 807 亿（实际经营亏损约 87 亿，大头是可转债账面调整），2 万亿估值争议大。","title":"Anthropic 最快今天公开 S-1","url":"https://x.com/search?q=Anthropic%20S-1&f=live"},{"summary":"纳指大跌 2.6%、费半跌 6.7%、日经跌 2.65%；IBM CEO 直言企业对 AI 投资成效存疑。","title":"AI 投资回报担忧砸盘","url":"https://x.com/search?q=%E7%BA%B3%E6%8C%87%20AI%20%E6%B3%A1%E6%B2%AB&f=live"},{"summary":"彭博称新一轮约 1000 亿元融资完成（腾讯、宁德时代领投），同时接触投行筹备科创板 IPO。","title":"DeepSeek 千亿融资＋筹备科创板","url":"https://x.com/search?q=DeepSeek%20%E8%9E%8D%E8%B5%84%20%E7%A7%91%E5%88%9B%E6%9D%BF&f=live"},{"summary":"AI 辅助发现、CVSS 9.2 分；公开后数小时攻击尝试飙至数百万，多国政府网站紧急下线。","title":"PHP 高危漏洞 PHP2Shell","url":"https://x.com/search?q=PHP2Shell&f=live"},{"summary":"能在用户开口前主动干活并推送晨间简报，Agent 大战正式开打。","title":"Anthropic 推主动型 Agent「Claude Duet」","url":"https://x.com/search?q=Claude%20Duet&f=live"},{"summary":"1999 美元起，The Verge 7 分 / Engadget 8.8 分，媒体评分两极。","title":"折叠屏 iPhone Duo 开售","url":"https://x.com/search?q=iPhone%20Duo&f=live"}],"title":"X 中文区热议"},{"id":"tech","items":[{"summary":"宁德时代、腾讯参投，国产大模型最大单轮之一；两天前美联邦机构刚下令移除其技术，一天前公司开源生产级推理引擎。","title":"DeepSeek 拿下约 150 亿美元融资","url":"https://ai-daily.musxiao.com/"},{"summary":"Inception Labs 第三代扩散式 LLM，整稿并行生成，速度号称同级 4–8 倍，质量基准持平或更高。","title":"Mercury 3：扩散式大模型 1068 tokens/秒","url":"https://www.theaitools.tech/"},{"summary":"连同名称、域名一并移交 Agentic AI Foundation；70 多个平台已集成，智能体的知识层正变成公共基础设施。","title":"Anthropic 把 Agent Skills 捐给 Linux 基金会","url":"https://ai-daily.musxiao.com/"},{"summary":"投资范围扩展到 AI、自主机器、生物科技；判断是区块链已下沉为基础设施，全栈创业公司是未来。","title":"a16z 加密基金改名 Frontier","url":"https://finance.biggo.com/news/bfda8f36-1eb7-440d-be31-090afffa3ded"},{"summary":"复杂诊断案例上超过人类全科医生，AI 医疗获同行评议背书，临床落地的监管与责任问题升温。","title":"微软 MAI-DxO 在 Science 研究中击败全科医生","url":"https://aifuturefront.com/"},{"summary":"Apache 2.0 发布小芯片互联测试版，算力竞争从「谁的模型大」蔓延到「谁的芯片生态开放」。","title":"Tenstorrent 开源 OCA Chiplet Harness","url":"https://aifuturefront.com/"}],"title":"科技前沿"},{"id":"feed","items":[{"summary":"OpenAI 向 GPT-6 全量推送 Intelligent UI，对话里实时编译出可交互小工具（按钮、滑块、表单、图表、地图、计算器），AI Explained 演示了八个场景并实测 Instant 版首词响应比前代快 44%。","title":"GPT-6 Intelligent UI 解读：对话即应用","url":"https://www.youtube.com/watch?v=hBGFLoZ-Svs"},{"summary":"GTC 柏林大会上黄仁勋展示 sim-to-real 训练管线：云端数千只虚拟鸭在 Isaac Lab 并行学步，策略再下放到只有 25cm 高、15 个电机的实体 Microduck，399 美元预售已售罄。","title":"NVIDIA Robot Duck：399 美元的 Microduck 是怎么学会走路的","url":"https://www.youtube.com/watch?v=R1VtPIjb6Es"},{"summary":"Jon Y 梳理印度如何在重管制体制下长出千亿美元级 IT 服务产业，是理解成本/政策线如何重塑产业链、对照东南亚跨境电商的参照系（约 10-19 发布，超 48 小时窗口）。","title":"Asianometry：印度 IT 外包产业的诞生与崛起","url":"https://pod.wave.co/podcast/asianometry"},{"summary":"百世快运已在 59 个分拨中心开设跨境收货窗口，跨境货物国内揽收量同比增长近 10 倍，福建是核心货源腹地之一，与他 1688→货代仓的履约直接相关。","title":"百世快运跨境国内揽收量同比增近 10 倍","url":"https://www.amz123.com/kx/Z1DnRkK4"},{"summary":"10 月 15 日起印尼、马来、泰国三站同步整治虚假宣传、品牌/版权信息不实等，单次违规最高扣 20 分店铺健康分、问题商品直接下架，正值黑五备货关键期（约 10-18/19 发布，超 48 小时窗口）。","title":"TikTok Shop 印尼/马来/泰国三站严查商品虚假信息","url":"https://www.tiktek.cn/3564.html"},{"summary":"一天三餐、首餐 10 点（72g 蛋白），中午训练每动作 1–2 组做到力竭，核心心法是固定餐食、把每天决策数降到最低——适配他宿舍期外食、8:30–10:00 训练的节奏（10-17 分享，超 48 小时窗口）。","title":"Jeff Nippard：从 20.6% 降到 9% 体脂的饮食与训练方案","url":"https://www.europesays.com/ie/738291/"},{"summary":"10 月 22 日更新的 38 分钟 Essentials：先打地基（行为+营养永远是基础），再逐个测试单一成分、一次只加一种并做周期性 cycling，才能分清谁在起效。","title":"Huberman Lab Essentials：如何建立理性的补剂方案","url":"https://www.hubermanlab.com/episode/essentials-developing-a-rational-approach-to-supplementation-for-health-and-performance"},{"summary":"普利策奖得主、《枪炮、病菌与钢铁》作者 Jared Diamond 拆解魅力只是领导力的众多路径之一，并分享用好奇心驱动职业长期复利的思路（10-19 播出，超 48 小时窗口）。","title":"Huberman Lab × Jared Diamond：伟大的领导者如何炼成","url":"https://www.goloudnow.com/podcasts/huberman-lab-973/what-makes-great-leaders-how-to-live-an-extraordinary-life-dr-jared-diamond-614358"}],"title":"Feed 精选"}],"updated":"2026-10-23T20:06:03+08:00","version":1}
+{
+  "version": 3,
+  "date": "2026-10-23",
+  "updated": "2026-10-23T20:15:59+08:00",
+  "sections": [
+    {
+      "id": "ai",
+      "title": "AI 前沿科技",
+      "items": [
+        {
+          "title": "DeepSeek 拿下约 150 亿美元融资，国产大模型最大单轮融资之一",
+          "summary": "彭博称 DeepSeek 完成约 150 亿美元新一轮融资，腾讯、宁德时代参与，是国内 AI 史上最大融资轮之一，资金将投向 AI 基础设施与开源模型，另有国内 IPO 计划。",
+          "url": "https://ai-daily.musxiao.com/"
+        },
+        {
+          "title": "OpenAI GPT-6 系列登陆 Google Cloud，微软不再是唯一入口",
+          "summary": "Google Cloud 宣布 GPT-6 Astra、Luna 与 GPT-6.1 Sol 开启私密预览，自称唯一同时提供 GPT、Claude、Gemini 三大闭源模型的云厂商，前沿模型正变成「货架商品」。",
+          "url": "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview/"
+        },
+        {
+          "title": "Anthropic 把 Agent Skills 捐给 Linux 基金会",
+          "summary": "Anthropic 将 Agent Skills 开放标准连名字、logo、GitHub 组织和域名一并移交 Linux 基金会，ChatGPT、Cursor 等 70 多个平台已集成，智能体的「知识层」正在变成公共基础设施。",
+          "url": "https://ai-daily.musxiao.com/"
+        },
+        {
+          "title": "GPT-6 Intelligent UI：回答变成可交互的小应用",
+          "summary": "OpenAI 的 GPT-6 上线 Intelligent UI，回答直接在对话里编译成可交互工具（滑块、图表、计算器等），首词响应比前代快 44%，是 AI agent 产品化的关键一步。",
+          "url": "https://www.youtube.com/watch?v=hBGFLoZ-Svs"
+        },
+        {
+          "title": "Mercury 3：扩散式大模型，1068 tokens/秒",
+          "summary": "Inception Labs 推出第三代扩散式大模型 Mercury 3，整稿并行生成，在标准 GPU 上号称达到 1068 tokens/秒，是 GPT-6 Luna、Claude Haiku 5.5 的 4–8 倍，而基准质量持平甚至更高。",
+          "url": "https://www.theaitools.tech/"
+        },
+        {
+          "title": "Agility Robotics 把 Digit 5 机载计算全押英伟达 IGX Thor",
+          "summary": "Digit 5 标准化采用 NVIDIA IGX Thor 作为唯一机载计算平台，视觉-语言-动作模型本地执行、不再依赖云端，预计 2027 年上半年交付，人形机器人瓶颈正从「能不能走」转向「过不过得了安全认证」。",
+          "url": "https://theaiinsider.tech/2026/10/23/agility-robotics-standardizes-digit-5-on-nvidia-igx-thor-ahead-of-2027-rollout/"
+        },
+        {
+          "title": "NVIDIA Robot Duck：$399 的 Microduck 是怎么学会走路的",
+          "summary": "GTC 柏林大会上黄仁勋演示了 $399 的 Microduck 机器人，其训练管线是云端 Isaac Lab 数千只虚拟鸭并行训练后再落地实体，首批预售售罄、圣诞前发货，是 sim-to-real 范式的代表作。",
+          "url": "https://www.youtube.com/watch?v=R1VtPIjb6Es"
+        },
+        {
+          "title": "微软 MAI-DxO 在 Science 同行评议研究中击败全科医生",
+          "summary": "微软诊断 AI 系统 MAI-DxO 在发表于 Science 的研究中，在复杂诊断案例上超过了参与的全科医生，AI 诊断正从「辅助工具」走向在受控环境下实打实超越人类医生。",
+          "url": "https://aifuturefront.com/"
+        },
+        {
+          "title": "a16z 加密基金改名 Frontier，杀入 AI 和机器人",
+          "summary": "a16z 将数字资产品牌更名为 a16z Frontier，投资范围扩展到 AI、自主机器、生物科技与医疗健康，判断未来机会在于 AI 降低软硬件开发门槛后的全栈创业公司。",
+          "url": "https://finance.biggo.com/news/bfda8f36-1eb7-440d-be31-090afffa3ded"
+        },
+        {
+          "title": "Tenstorrent 开源 OCA Chiplet Harness 测试版",
+          "summary": "Tenstorrent 以 Apache 2.0 协议发布 Open Chiplet Atlas (OCA) Harness 开源测试版；Chiplet 是绕开单片大芯片成本和良率瓶颈的主流路线，工具链开源意味着中小厂商也能搭上 chiplet 列车——算力竞争正从「谁的模型大」向「谁的芯片生态开放」蔓延。",
+          "url": "https://aifuturefront.com/"
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "title": "推特热议",
+      "items": [
+        {
+          "title": "Anthropic 最快今天公开 S-1，招股书曝光半年亏 807 亿美元",
+          "summary": "钜亨网引三名知情人士称 Anthropic 最快今天公开提交 S-1；招股书曝光上半年营收 163 亿美元、净亏 807 亿（大头是 720 亿可转债账面调整），2 万亿估值争议大。",
+          "url": "https://x.com/search?q=Anthropic%20S-1&f=live"
+        },
+        {
+          "title": "AI 投资回报担忧砸盘：纳指大跌 2.6%、费半跌 6.7%",
+          "summary": "纳指 10-22 跌 2.6%（6 月以来最差单日）、费半跌约 6.7%、日经跌 2.65%，IBM CEO 对 AI 投资成效存疑、Meta/特斯拉财报后跌、Lam Research 展望疲软。",
+          "url": "https://x.com/search?q=%E7%BA%B3%E6%8C%87%20AI%20%E6%B3%A1%E6%B2%AB&f=live"
+        },
+        {
+          "title": "DeepSeek 新一轮约 1000 亿元融资完成（腾讯、宁德时代领投）",
+          "summary": "彭博称 DeepSeek 本轮融资完成，约 1000 亿元，腾讯、宁德时代领投，同时严文韬任 CFO、中信证券保荐，科创板 IPO 加速、目标今年底递表 2027 挂牌。",
+          "url": "https://x.com/search?q=DeepSeek%20%E8%9E%8D%E8%B5%84%20%E7%A7%91%E5%88%9B%E6%9D%BF&f=live"
+        },
+        {
+          "title": "PHP 爆高危漏洞 PHP2Shell（AI 发现、9.2 分），公开后攻击数小时飙至数百万",
+          "summary": "CVE-2026-109618/619 高危漏洞由 AI 辅助发现，Cloudflare CEO 称公开后 45 分钟数万、2 小时数十万、最终数百万攻击尝试，欧洲政府网站、法国省府、三菱 UFJ、日财务省紧急下线补救。",
+          "url": "https://x.com/search?q=PHP2Shell&f=live"
+        },
+        {
+          "title": "Anthropic 发布主动型 Agent 应用 Claude Duet",
+          "summary": "Anthropic 发布基于 Opus 5.5 的独立主动型 Agent 应用 Claude Duet，能主动推送晨间简报并连接 6000+ 服务，与 Meta Muse、OpenAI Dots 形成 Agent 大战。",
+          "url": "https://x.com/search?q=Claude%20Duet&f=live"
+        },
+        {
+          "title": "苹果折叠屏iPhone Duo 开售，1999 美元起",
+          "summary": "苹果折叠屏iPhone Duo 正式开售，起售 1999 美元，The Verge 给 7 分、Engadget 给 8.8 分，媒体评分两极。",
+          "url": "https://x.com/search?q=iPhone%20Duo&f=live"
+        },
+        {
+          "title": "特斯拉与 SpaceX 合并商讨：潜在 3 万亿美元 AI 集团",
+          "summary": "特斯拉 Q3 交付超 48.6 万辆、SpaceX Q3 营收同比 +161% 首次盈利（AI 业务收入 +830%），马斯克证实两家已成立特别委员会商讨合并，引爆 X 讨论。",
+          "url": "https://x.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89%20SpaceX%20%E5%90%88%E5%B9%B6&f=live"
+        },
+        {
+          "title": "中外 Token 消耗对立争议：两组数据都查不到可靠出处",
+          "summary": "网传「国内 55% Token 烧在 AI 短剧、美国 58% 用在编程」在 X 与中文圈热传，上海证券报 10-23 求证发现两组数据都查不到可靠出处，话题转向「谁在制造对立」。",
+          "url": "https://x.com/search?q=Token%20%E6%B6%88%E8%80%97%20AI%E7%9F%AD%E5%89%A7&f=live"
+        },
+        {
+          "title": "英特尔 CTO 谈算力天花板：全球尖端晶圆产量翻倍已是供应链极限",
+          "summary": "拉纳德在 Dwarkesh 播客称全球尖端晶圆产量翻倍已是供应链极限、AI 算力年增 3 倍难持续，并称 Intel 工艺已赶上台积电，半导体圈在 X 热议。",
+          "url": "https://x.com/search?q=%E8%8B%B1%E7%89%B9%E5%B0%94%20CTO%20%E6%99%B6%E5%9C%86%E4%BA%A7%E9%87%8F&f=live"
+        },
+        {
+          "title": "CoinDCX 安全事件反转：官方先否认后被 ZachXBT 逐条打脸",
+          "summary": "印度交易所 CoinDCX 关联地址流出约 1600 万美元，官方先否认后被 ZachXBT 在 X 逐条打脸、当晚改口承认「营运损失」，ZachXBT 呼吁用户撤资，加密中文区热议。",
+          "url": "https://x.com/search?q=CoinDCX%20ZachXBT&f=live"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "运动营养科学",
+      "items": [
+        {
+          "title": "限时进食＋规律训练，12 周减脂 RCT：约 30% 脂肪肝参与者脱出诊断",
+          "summary": "Nature Communications 2026 试验：限时进食配合监督训练 12 周后减脂更多、体能提升更大，约 30% 脂肪肝参与者不再符合诊断标准（对照组 6.5%），但 1 年后组间差异消失——坚持比短期冲刺重要。",
+          "url": "https://medicalxpress.com/news/2026-10-intermittent-fasting-boosts-fat-loss.html"
+        },
+        {
+          "title": "蛋白质天花板：增肌期 1.6 g/kg/天后收益递减，减脂期按去脂体重约 2.3–3.1 g/kg",
+          "summary": "Stuart Phillips 2026 SportRχiv 述评＋29 项研究的元回归：增肌期蛋白质超过约 1.6 g/kg/天后收益递减；热量缺口下蛋白质摄入与去脂体重保留呈线性剂量反应，按去脂体重计（约 2.3–3.1 g/kg LBM）目标更稳。",
+          "url": "https://evidencebasedmuscle.com/protein-intake-for-muscle-growth-2026-paper-questions-the-protein-maxing-trend/"
+        },
+        {
+          "title": "只睡 4 小时，第二天杠铃速度掉 7–13%",
+          "summary": "2026 随机交叉研究（24 名有训练经验者）：睡 4h 时男性中重量下平均杠速降 7–13%、女性深蹲耐力降 7–12%，最大力量不一定掉，但「同样重量变得更难重复」。",
+          "url": "https://www.mensfitness.com/news/what-one-night-of-4-hours-of-sleep-does-to-your-lifting-performance"
+        },
+        {
+          "title": "睡眠不足时，是大脑先放弃、不是肌肉",
+          "summary": "Int J Psychophysiology 2026 研究：睡 <4h 后肱二头肌 30% 1RM 力竭测试中，肌肉电信号和平时一样，但大脑「走神回路」关不掉、神经效率低下——大脑提前拔插头，肌肉还没到极限。",
+          "url": "https://welltica.com/losing-sleep-may-make-your-muscles-give-out-sooner-and-heres-why/"
+        },
+        {
+          "title": "Jeff Nippard：从 20.6% 降到 9% 体脂的饮食与训练方案",
+          "summary": "Nippard 在 Instagram 分享了自己降体脂的方法（10 月 17 日，经 europesays 整理）：一天三餐、首餐在 10 点（两杯蛋白+火鸡培根+蔬菜+羊奶酪+燕麦+草莓，72g 蛋白）；午餐吃大沙拉、刻意吃得「无聊」以减少决策；晚间用带壳葵花籽对付馋瘾、用看书/数独代替看电视来避免无聊进食。中午训练，每动作只做 1–2 组正式组、每组做到力竭，优先强度而非堆量。核心心法：减脂成功的关键不是选「健康食物」，而是把每天的决策数降到最低——固定餐食、记录饮食、管理晚间馋瘾。",
+          "url": "https://www.europesays.com/ie/738291/"
+        },
+        {
+          "title": "Huberman Lab Essentials：如何建立理性的补剂方案",
+          "summary": "Huberman 10-22 更新的 Essentials（38 分钟）：按睡眠、激素支持、专注力/运动表现分目标搭建补剂方案——先打地基（行为+营养永远是基础），再逐个测试单一成分、选合适剂量，并对某些成分做周期性 cycling；一次只加一种，才分得清谁在起效。",
+          "url": "https://www.hubermanlab.com/episode/essentials-developing-a-rational-approach-to-supplementation-for-health-and-performance"
+        },
+        {
+          "title": "Huberman × Stuart McGill：不用大重量硬拉也能练壮",
+          "summary": "脊柱生物力学专家 McGill 在节目中给了 5 个替代方案：上坡倒走、臀腘挺身、后脚抬高分腿蹲、高脚杯深蹲、单腿台阶上，外加腰带深蹲；核心观点是按目标、年龄、腰痛史选动作，而非人人硬拉。",
+          "url": "https://www.youtube.com/watch?v=1GL2Hj1SD_M"
+        },
+        {
+          "title": "Peter Attia AMA #90：改主意了——远离大重量杠铃深蹲硬拉",
+          "summary": "Attia 回顾 400 期节目更新观点：自己已不再做大重量杠铃深蹲/硬拉，转向收益–受伤风险比更优的动作；这是他个人经验更新，非研究结论。",
+          "url": "https://www.tapesearch.com/podcast/the-peter-attia-drive/1400828889"
+        },
+        {
+          "title": "左旋肉碱促炎机制（Cell 2026，耶鲁）：机制研究，「吃左旋肉碱会发炎」未证实",
+          "summary": "耶鲁 10-19 发表于 Cell 的研究发现左旋肉碱（红肉和「燃脂/运动」类补剂的常见成分）可能通过新机制放大炎症；注意这是机制研究，不是临床试验，「吃左旋肉碱会发炎」未证实。",
+          "url": "https://medicalxpress.com/news/2026-10-carnitine-red-meat-supplements-amplify.html"
+        },
+        {
+          "title": "弹力带/铁链对爆发力有用，对最大力量没用＋运动净能量消耗工具",
+          "summary": "Stronger by Science 最新一期：Greg 梳理研究发现 accommodating resistance（弹力带、铁链）利于爆发力和快速动作，但对极限力量提升没有额外意义；Eric 介绍了 SBS 团队的「运动净能量消耗」估算工具。",
+          "url": "https://www.ivoox.com/en/podcast-the-stronger-by-science-podcast_sq_f1704892_3.html"
+        },
+        {
+          "title": "Sports Medicine 综述（10-13）：肌肉变大可能自带「抗疲劳」红利",
+          "summary": "10 月 13 日发表的综述提出：肌肥大可能不只是为了更大力量，还能帮助肌肉在疲劳下维持输出——但机制仍是假说，「变大→更耐疲劳」的因果未证实。",
+          "url": "https://www.mensjournal.com/health/bigger-muscles-may-have-a-hidden-benefit-that-goes-beyond-lifting-heavier-weights"
+        },
+        {
+          "title": "髌股疼痛做腿屈伸：70°–25° 区间最疼",
+          "summary": "J Athletic Training 2026 研究（100 名髌股疼痛患者）：70°–25° 活动范围疼痛最高，45°–0° 和 90°–45° 疼痛相近、但 45°–0° 力量输出最低；疼痛是信号，按症状调范围比硬扛明智。",
+          "url": "http://nata.kglmeridian.com/view/journals/attr/61/10/article-p675.xml"
+        },
+        {
+          "title": "血流限制训练（BFR）对髌股疼痛：2026 年元分析",
+          "summary": "Frontiers in Physiology 2026 元分析（11 项 RCT、508 人）：BFR 在功能性任务中能即时镇痛，长期随访对疼痛和股四头肌力量有小幅优势，但自我报告的膝功能无显著差异；需专业指导绑带压力，别自己瞎绑。",
+          "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1859305/full"
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "title": "其他精选",
+      "items": [
+        {
+          "title": "TikTok Shop 印尼/马来/泰国三站严查商品虚假信息，单次违规最高扣 20 分",
+          "summary": "10 月 15 日起 TikTok Shop 在印尼、马来、泰国三个本土站点同步启动商品信息专项整治：虚假宣传、品牌/版权信息不实、类目资质不全等问题，一次违规最高扣 20 分店铺健康分，问题商品直接下架或禁售，影响持续 90 天，直播带货同样纳入检查。",
+          "url": "https://www.tiktek.cn/3564.html"
+        },
+        {
+          "title": "TikTok Shop 东南亚站设 7 天售后申诉窗口，10 月 27 日起生效",
+          "summary": "TikTok Shop 东南亚跨境与本土站更新《退货与退款政策》：针对平台已批准的首轮退款申请，卖家只有 7 个自然日的申诉期限；开箱视频/打包视频在多种情形下成为强制举证要求，视频须连续清晰、无剪辑。",
+          "url": "https://www.amz123.com/kx/OjjGnwF3"
+        },
+        {
+          "title": "百世快运：跨境国内揽收量同比增近 10 倍，59 个分拨中心开跨境收货窗口",
+          "summary": "百世快运依托「橙异提」产品把分散各地的跨境货物统一转运至指定跨境集货仓，截至 9 月跨境货物国内揽收量同比增长近 10 倍，已在 59 个分拨中心开设跨境收货窗口，货源集中在浙江、福建、江苏、广东外贸制造业集中区。",
+          "url": "https://www.amz123.com/kx/Z1DnRkK4"
+        },
+        {
+          "title": "TikTok Shop 越南站开放非处方药类目申请",
+          "summary": "TikTok Shop 自 10 月 20 日起允许越南站卖家申请类目审核、销售非处方药（OTC）及治疗类产品中的部分商品；门槛不低：卖家须完成资质备案、每件商品须持有效注册凭证，上线初期不得投放广告、设置促销或参与营销活动。",
+          "url": "https://www.amz123.com/kx/KZf2JatM"
+        },
+        {
+          "title": "亚马逊推出 Listing Protection：违规链接可边整改边继续卖",
+          "summary": "亚马逊在 2026 Amazon Accelerate 大会公布新机制：商品 Listing 被标记为政策违规时，符合条件的卖家可在平台审核期间让链接保持在线、边整改或提异议边继续销售；计划 2026 年底前覆盖美国站 Account Health Assurance 卖家，2027 年全球推广。",
+          "url": "https://www.amz123.com/t/KvFbjhF7"
+        },
+        {
+          "title": "2026 黑五消费趋势：消费者预算最高下降 32%，折扣成转化关键",
+          "summary": "Omnisend 与 Hostinger 报告汇总：今年黑五网一消费者仍会购物，但受生活成本影响预算明显收紧（最高降幅达 32%）；商家侧拉开差距的是转化——折扣力度、优惠券与支付方式调整成为把流量变成订单的关键变量。",
+          "url": "https://www.amz123.com/t/AxZJjiEU"
+        },
+        {
+          "title": "Asianometry：印度 IT 外包产业的诞生与崛起",
+          "summary": "Jon Y 回顾印度如何从一个贫穷的农业国变成全球 IT 服务出口巨头：在重管制的社会主义经济体制下，竟长出了一批千亿美元级的科技服务公司，并梳理外包产业兴起的历史链条与离岸外包在今天引发强烈情绪的原因。",
+          "url": "https://pod.wave.co/podcast/asianometry"
+        },
+        {
+          "title": "Peter Attia × Siddhartha Mukherjee：癌症科学这 15 年变了什么",
+          "summary": "The Drive 第 412 期：普利策奖得主、《皇帝的疾病》作者 Mukherjee 推出该书 15 周年更新版，与 Attia 复盘癌症认知的变化——遗传、环境暴露、随机突变与炎症各自的权重，高胰岛素血症与代谢的新角色；早筛为何仍然难；免疫治疗、CAR-T、KRAS 抑制剂如何改变治疗版图。",
+          "url": "https://podcasts.apple.com/us/podcast/412-the-evolving-science-of-cancer-emerging/id1400828889?i=1000797012250"
+        },
+        {
+          "title": "Huberman Lab × Jared Diamond：伟大的领导者如何炼成 & 如何过好这一生",
+          "summary": "普利策奖得主、《枪炮、病菌与钢铁》作者 Jared Diamond 做客，聊领导力的真相：魅力只是众多路径之一——从希特勒、杜鲁门到 Patagonia 创始人 Yvon Chouinard，历史案例拆解「个人 vs 结构」谁在推动历史；还分享了他如何靠好奇心驱动走出多条职业线（生理学、鸟类学、语言学），以及保持头脑与身体活力的日常工具。",
+          "url": "https://www.goloudnow.com/podcasts/huberman-lab-973/what-makes-great-leaders-how-to-live-an-extraordinary-life-dr-jared-diamond-614358"
+        }
+      ]
+    }
+  ],
+  "podcast": {
+    "title": "晨间充电站（2026-10-23）",
+    "duration": "7分54秒",
+    "audio_url": ""
+  }
+}
