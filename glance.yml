@@ -1,0 +1,70 @@
+# Glance 配置 · cris 的「每日信息页」
+# 装机时放到 VPS 的 ~/glance/glance.yml
+# 两个占位符装机前替换：
+#   __DIGEST_URL__  = 简报桥摘要的直链（Dropbox 公开链接的直下载形式）
+#   __AIDAILY_URL__ = AIDaily 简体转换版的直链（同样来自 Dropbox 简报桥，勿填官方繁体源）
+#   __WEATHER_KEY__ = OpenWeather API key（免费注册一个；不想注册就删掉天气组件）
+server:
+  host: 127.0.0.1        # 只监听本机，外网一律走 Tailscale 进来，不裸奔
+  port: 8080
+theme:
+  background-color: 240 10 10
+  primary-color: 160 90 60
+
+pages:
+  - name: 今日简报
+    width: wide
+    center-vertically: true
+    columns:
+      # 左栏（主）：阿澜精选 —— 简报桥摘要
+      - size: full
+        widgets:
+          - type: custom-api
+            title: 阿澜精选 · 今日简报
+            cache: 30m
+            url: __DIGEST_URL__
+            template: |
+              {{ range .JSON.Array "sections" }}
+                <div class="widget-header"><span>{{ .String "title" }}</span></div>
+                <ul class="list list-gap-10 collapsible-container" data-collapse-after="20">
+                {{ range .Array "items" }}
+                  <li>
+                    {{ if ne (.String "url") "" }}<a href="{{ .String "url" }}" target="_blank" class="text-highlight">{{ .String "title" }}</a>{{ else }}<span class="text-highlight">{{ .String "title" }}</span>{{ end }}
+                    <div class="color-subdue">{{ .String "summary" }}</div>
+                  </li>
+                {{ end }}
+                </ul>
+              {{ end }}
+          - type: custom-api
+            title: 晨间播客
+            cache: 30m
+            url: __DIGEST_URL__
+            template: |
+              <div>🎙️ {{ .JSON.String "podcast.title" }}（{{ .JSON.String "podcast.duration" }}）</div>
+              <div class="color-subdue">音频在 Muse 对话里推送，本页仅作索引</div>
+
+      # 右栏：AIDaily 自动流 + 天气时钟
+      - size: small
+        widgets:
+          - type: clock
+            hour-format: 24h
+          - type: weather
+            location: Xiamen, China
+            units: metric
+            hour-format: 24h
+          - type: rss
+            title: AIDaily · AI 晨报快递（简体转换版）
+            cache: 1h
+            limit: 8
+            collapse-after: 5
+            feeds:
+              - url: __AIDAILY_URL__
+                title: AIDaily
+          - type: rss
+            title: Hacker News 头条
+            cache: 1h
+            limit: 10
+            collapse-after: 6
+            feeds:
+              - url: https://news.ycombinator.com/rss
+                title: HN
