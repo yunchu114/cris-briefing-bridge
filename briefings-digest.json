@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-23",
+  "podcast": {
+    "title": "晨间充电站 · 试播集（2026-10-23）"
+  },
+  "sections": [
+    {
+      "id": "x",
+      "items": [
+        {
+          "summary": "招股书曝光半年营收 163 亿美元、净亏 807 亿（实际经营亏损约 87 亿，大头是可转债账面调整），2 万亿估值争议大。",
+          "title": "Anthropic 最快今天公开 S-1",
+          "url": ""
+        },
+        {
+          "summary": "纳指大跌 2.6%、费半跌 6.7%、日经跌 2.65%；IBM CEO 直言企业对 AI 投资成效存疑。",
+          "title": "AI 投资回报担忧砸盘",
+          "url": ""
+        },
+        {
+          "summary": "彭博称新一轮约 1000 亿元融资完成（腾讯、宁德时代领投），同时接触投行筹备科创板 IPO。",
+          "title": "DeepSeek 千亿融资＋筹备科创板",
+          "url": ""
+        },
+        {
+          "summary": "AI 辅助发现、CVSS 9.2 分；公开后数小时攻击尝试飙至数百万，多国政府网站紧急下线。",
+          "title": "PHP 高危漏洞 PHP2Shell",
+          "url": ""
+        },
+        {
+          "summary": "能在用户开口前主动干活并推送晨间简报，Agent 大战正式开打。",
+          "title": "Anthropic 推主动型 Agent「Claude Duet」",
+          "url": ""
+        },
+        {
+          "summary": "1999 美元起，The Verge 7 分 / Engadget 8.8 分，媒体评分两极。",
+          "title": "折叠屏 iPhone Duo 开售",
+          "url": ""
+        }
+      ],
+      "title": "X 中文区热议"
+    },
+    {
+      "id": "tech",
+      "items": [
+        {
+          "summary": "宁德时代、腾讯参投，国产大模型最大单轮之一；两天前美联邦机构刚下令移除其技术，一天前公司开源生产级推理引擎。",
+          "title": "DeepSeek 拿下约 150 亿美元融资",
+          "url": "https://ai-daily.musxiao.com/"
+        },
+        {
+          "summary": "Inception Labs 第三代扩散式 LLM，整稿并行生成，速度号称同级 4–8 倍，质量基准持平或更高。",
+          "title": "Mercury 3：扩散式大模型 1068 tokens/秒",
+          "url": "https://www.theaitools.tech/"
+        },
+        {
+          "summary": "连同名称、域名一并移交 Agentic AI Foundation；70 多个平台已集成，智能体的知识层正变成公共基础设施。",
+          "title": "Anthropic 把 Agent Skills 捐给 Linux 基金会",
+          "url": "https://ai-daily.musxiao.com/"
+        },
+        {
+          "summary": "投资范围扩展到 AI、自主机器、生物科技；判断是区块链已下沉为基础设施，全栈创业公司是未来。",
+          "title": "a16z 加密基金改名 Frontier",
+          "url": "https://finance.biggo.com/news/bfda8f36-1eb7-440d-be31-090afffa3ded"
+        },
+        {
+          "summary": "复杂诊断案例上超过人类全科医生，AI 医疗获同行评议背书，临床落地的监管与责任问题升温。",
+          "title": "微软 MAI-DxO 在 Science 研究中击败全科医生",
+          "url": "https://aifuturefront.com/"
+        },
+        {
+          "summary": "Apache 2.0 发布小芯片互联测试版，算力竞争从「谁的模型大」蔓延到「谁的芯片生态开放」。",
+          "title": "Tenstorrent 开源 OCA Chiplet Harness",
+          "url": "https://aifuturefront.com/"
+        }
+      ],
+      "title": "科技前沿"
+    },
+    {
+      "id": "feed",
+      "items": [],
+      "title": "Feed 精选"
+    }
+  ],
+  "updated": "2026-10-23T19:05:00+08:00",
+  "version": 1
+}
