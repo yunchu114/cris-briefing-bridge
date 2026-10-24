@@ -1,21 +1,71 @@
 {
   "version": 3,
   "date": "2026-10-24",
-  "updated": "2026-10-24T12:16:17+08:00",
+  "updated": "2026-10-24T12:40:00+08:00",
   "sections": [
     {
       "id": "ai",
       "title": "AI 前沿科技",
       "items": [
         {
+          "title": "月之暗面发布 Kimi K3.1 Pro：金融研究与编码是主攻方向",
+          "summary": "Moonshot（月之暗面）10 月 23 日发布 K3.1 Pro，这是其经历\"DeepSeek 时刻\"后的第一次大模型升级（公司估值约 500 亿美元）。",
+          "url": "https://news.bgov.com/artificial-intelligence/moonshot-debuts-first-ai-upgrade-since-its-own-deepseek-moment"
+        },
+        {
+          "title": "Kimi 开放权重前主动剔除网络安全训练数据",
+          "summary": "随 Kimi K3.1 Pro 一同披露的还有 Moonshot 的安全决策：工程师发现网络安全内容混入了通用训练语料、网络任务混进了强化学习环境，内部测试中模型甚至能写出可执行漏洞利用（xdev-bench-hard 通过率 90.5%）。",
+          "url": "https://www.webpronews.com/moonshot-kimi-k3-1-pro-open-weights-cyber-data/"
+        },
+        {
+          "title": "Anthropic 把前沿模型一分为二：Claude Fable 5 用\"分类器守门\"",
+          "summary": "Anthropic 推出 Fable 5（Mythos 级）时采用了新机制：一个独立分类器在前扫描请求，判定为高风险的（恶意网络攻击、敏感生物化学、蒸馏竞争模型等）请求会被静默降级到上代旗舰 Opus 4.8 回答，用户会收到已降级的通知。",
+          "url": "https://bitrss.com/anthropic-splits-the-ai-frontier-in-two-what-the-claude-fable-5-and-mythos-5-launch-means-for-crypto-markets-and-everyone-else-219481"
+        },
+        {
+          "title": "DeepSeek 发布 V4.1 Flash（1017）并开放自研搜索 API",
+          "summary": "DeepSeek 10 月 17 日更新网页端、App 与 API 至 V4.1 Flash，代码与智能体能力显著增强，官方称用更少的 token 和更短时间完成同等任务。",
+          "url": "https://kimkj.com/zh/ai-board-zh/?mod=document&uid=19837"
+        },
+        {
+          "title": "大湾区大学团队用国产大模型破解三维 Ghys 猜想",
+          "summary": "困扰数学界 30 余年的世界级难题三维 Ghys 猜想被宣布破解：大湾区大学许地生团队依托上海 AI 实验室书生科学多模态大模型 S2（\"通专融合\"路线），经 7 批接续推演、千页严密推导完成证明；北大董彬、刘若川院士团队用约 5 天、峰值 100 智能体并行、约 55 万行 Lean 代码完成形式化验证，确认正确。",
+          "url": "https://www.21jingji.com/article/20261017/herald/9eb040baba973963a86f8f0d4291e11d.html"
+        },
+        {
+          "title": "国产机加工工艺大模型\"沃土 2.0\"开源",
+          "summary": "上海精智/蓝沃 AI 10 月 13 日在国际工业互联网大会上开源沃土大模型 2.0（LevelField-2，Apache 2.0 可商用）：输入一张图纸，结合工厂自身的设备、刀具、加工习惯，直接输出经工艺人员复核即可下车间的工艺卡（工序描述、设备、刀具、检具、工时），支持图片图纸、18→43 类机加工艺覆盖。",
+          "url": "http://21econ.cn/caishang/120159.html"
+        },
+        {
+          "title": "中国发布首个政务大模型国家标准 GB/T 48324-2026",
+          "summary": "市场监管总局与国家标准委批准发布《人工智能 政务大模型系统技术要求》，这是首个政务大模型国家标准：确立政府与公共机构大模型系统的基础架构，对模型能力、应用支撑、应用场景、安全合规、部署运维全流程提技术要求。",
+          "url": "https://kimkj.com/zh/ai-board-zh/?mod=document&uid=19837"
+        },
+        {
+          "title": "德州仪器：每台人形机器人含 500–1000 美元芯片价值",
+          "summary": "德州仪器 CEO Haviv Ilan 10 月 21 日称，每台人形机器人预计搭载价值 500–1000 美元的 TI 芯片（功率器件、实时微控制器、传感），并预计 2027 年机器人相关业务大幅放量。",
+          "url": "https://www.tokenpost.com/news/business/37784"
+        },
+        {
+          "title": "现代汽车：波士顿动力 Atlas 2028 年量产，年产 3 万台机器人工厂同步推进",
+          "summary": "现代汽车集团宣布，波士顿动力人形机器人 Atlas 的量产版本将于 2028 年起部署到其美国佐治亚工厂，先做零件分拣、2030 年扩展到部件装配；目标到 2028 年建成年产能 3 万台的人形机器人工厂。",
+          "url": "http://ts2.tech/en/ces-2026-highlights-nvidias-vera-rubin-ai-chips-and-humanoid-robots-push-tech-into-the-real-world/"
+        },
+        {
+          "title": "Hugging Face 发布 DNA 分析模型 Carbon-X：1/1800 成本挑战 GPT-6.1 Sol",
+          "summary": "Hugging Face 发布开源模型 Carbon-X，专用于 DNA 序列分析：在五项标准 DNA 基准上平均 66.7% 准确率，仅次于 GPT-6.1 Sol（67.5%），但推理成本约是后者的 1/1800，权重可跑在单张 80GB 显卡上。",
+          "url": "https://www.techrepublic.com/article/news-hugging-face-carbon-x-ai-dna-analysis/"
+        },
+        {
           "title": "Epoch Brief 2026-10-23：Gemini 4 Argon 逼近前沿，GPT-6 Astra 与 Claude Opus 5.5 并列榜首",
-          "summary": "Epoch AI 最新能力指数显示 GPT-6 Astra 与 Claude Opus 5.5 同为 169 分并列榜首，Google 的 Gemini 4 Argon 得 166 分、为今年最接近前沿的一次。",
-          "url": "https://epochai.substack.com/p/the-epoch-brief-october-23-2026"
+          "summary": "Epoch AI 官方周报更新能力指数：GPT-6 Astra 与 Claude Opus 5.5 同为 169 分并列榜首，GPT-6.1 Sol 168 分；Google 10 月 13 日公开发布的 Gemini 4 Argon 得 166 分，与 Claude Fable 5.1 并列——这是 Google 自 2 月 Gemini 3.1 Pro 以来最接近前沿的一次，比 9 月初的 Gemini 3.8 Flash（157 分）大跳跃。",
+          "url": "https://epochai.substack.com/p/the-epoch-brief-october-23-2026（Epoch"
         },
         {
           "title": "TorchNeuron：AWS 用\"一行配置\"正面挑战 CUDA 护城河",
-          "summary": "AWS 随 Neuron SDK 2.33 发布 Trainium 芯片的原生 PyTorch 后端 TorchNeuron（Apache 2.0 开源），声称现有 PyTorch 代码改一行配置即可迁移，是对 CUDA 护城河最正面的一次挑战。",
-          "url": "https://www.youtube.com/watch?v=s5uUKdJ4RSE"
+          "summary": "AWS 10 月 19 日宣布 TorchNeuron——Trainium 自研 AI 芯片的原生 PyTorch 后端，随 Neuron SDK 2.33 公开测试发布，代码按 Apache 2.0 开源（10 月 20 日 PyTorch 大会上发布）。",
+          "url": "https://www.youtube.com/watch?v=s5uUKdJ4RSE（约"
         }
       ]
     },
