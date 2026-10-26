@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Sun, 25 Oct 2026 07:04:17 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 03:34:06 +0800</lastBuildDate>
+    <item>
+      <title>2026-10-26 AI 晨报快递</title>
+      <description><![CDATA[<p>今天没有单一爆点新闻，但几条基础设施更新值得工程师停下来看。MCP 官方释出 v2.1.0 安全更新，修补路径穿越与 CORS 等八个漏洞，正在使用 MCP 的团队应立即升级，避免被套件管理器不自动提议版本的行为坑到。模型与工具链方面也有进展：NVIDIA Nemotron 3.5 Lightning 以 Mamba-2 混合架构在单张 H100 上实现百万 token 上下文，适合长文件 RAG；Ant Group 开源 Ming-3.0 语音模型组，TTS 达成零样本声音复制并可商用；Moonshot 则将 Kimi Code 的多 Agent 协调改回预设单一模式以防止 token 暴走，这对正在调校 Agent swarm 的团队是个警讯。</p><p><b>今日重点：</b><br>• <b>Model Context Protocol 伺服器 v2.1.0 安全更新</b> (MCP Servers Releases): MCP 三个官方伺服器套件修补八个漏洞，含路径穿越与跨来源请求问题，用 MCP 工具链的团队应立即指定版本升级。<br>• <b>DuckDB 2.0 LTS 正式发布，加入 Quack 协议与非同步 I/O</b> (Publickey): DuckDB 2.0 LTS 推出 Quack 协议、VARIANT 型别与非同步 S3 读取，支援到 2027 年，可评估升级以加速远端资料查询。<br>• <b>llama.cpp b11887：测试执行绪参数最佳化</b> (llama.cpp Releases): llama.cpp b11887 调整测试执行绪预设设定，跨平台编译者可检查效能基准是否受影响。<br>• <b>@ai-sdk/workflow@2.0.85 - Vercel AI SDK 补丁版本</b> (Vercel AI SDK Releases): Vercel AI SDK workflow 套件更新至 2.0.85，仅文件与依赖调整，无需紧急处理但可顺手升级。<br>• <b>@ai-sdk/voyage@2.0.68 - Vercel AI SDK 补丁版本</b> (Vercel AI SDK Releases): Vercel AI SDK Voyage 嵌入模型套件更新至 2.0.68，仅依赖版本调整，使用该套件者可同步升级。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-10-26.html</link>
+      <guid isPermaLink="false">aidaily-2026-10-26-audio</guid>
+      <pubDate>Mon, 26 Oct 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-26.mp3" length="2573952" type="audio/mpeg" />
+      <itunes:duration>2:41</itunes:duration>
+      <itunes:summary><![CDATA[今天没有单一爆点新闻，但几条基础设施更新值得工程师停下来看。MCP 官方释出 v2.1.0 安全更新，修补路径穿越与 CORS 等八个漏洞，正在使用 MCP 的团队应立即升级，避免被套件管理器不自动提议版本的行为坑到。模型与工具链方面也有进展：NVIDIA Nemotron 3.5 Lightning 以 Mamba-2 混合架构在单张 H100 上实现百万 token 上下文，适合长文件 RAG；Ant Group 开源 Ming-3.0 语音模型组，TTS 达成零样本声音复制并可商用；Moo]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-10-25 AI 晨报快递</title>
       <description><![CDATA[<p>月之暗面 Kimi K3.1 Pro 是今天分量最重的消息：2.8T 参数 MoE、1M 上下文，评测逼近 Opus 5.5，且承诺 11 月开源，对做长上下文代理和中文场景的团队是直接可用的新选项。第二条主线是推理与部署成本持续下探，763B 模型可压到 12GB GPU 运行，双 RTX 4060 Ti 跑 320B MoE 的真实瓶颈其实是 CPU 算力而非显存，加上 vLLM 性能逼近 DeepInfer、llama.cpp 和 Ollama 持续补齐边缘部署能力，说明「在消费级硬体上塞大模型」已从能不能做变成怎么做划算。</p><p><b>今日重点：</b><br>• <b>Ollama v0.40.11：语音生成与 d3 决策模型支援</b> (Ollama Releases): Ollama v0.40.11 新增文字转语音及 d3 决策模型（2B至27B），可接图片或结构化状态输出分类与评分，适合本地部署分类任务。<br>• <b>PydanticAI v2.61.0 发布</b> (PydanticAI Releases): PydanticAI v2.61.0 新增 MCP 非同步认证与结构化引文支援，并支援 Kimi K3.1 模型，开发 Agent 整合多供应商时可用。<br>• <b>llama.cpp b11868：Hexagon 多核 Flash Attention KV 头分隔优化</b> (llama.cpp Releases): llama.cpp b11868 针对 Hexagon 多核处理器优化 KV 头分隔 Flash Attention，提升行动装置上小 KV 头模型（如 Gemma-4）推论效能。<br>• <b>LangGraph 1.2.17 版本发布</b> (LangGraph Releases): LangGraph 1.2.17 修正递回限制与 RemoteGraph 子图串流命名空间保留，多代理系统开发者可避免递回与隔离错误。<br>• <b>llama.cpp b11869：修正 Jinja 样板选择器与属性处理</b> (llama.cpp Releases): llama.cpp b11869 修正 Jinja 样板 select／selectattr 引数处理错误，自订 chat template 的部署流程可减少解析失误。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-09-27.mp3" length="2476416" type="audio/mpeg" />
       <itunes:duration>2:35</itunes:duration>
       <itunes:summary><![CDATA[今天最值得工程师关注的不是新模型，而是一批基础设施与 SDK 小版本更新正悄悄改变部署决策。主线一是推理成本与可部署性：Qwen3-32B-AWQ 让 32B 模型塞进 24GB 显卡，llama.cpp 优化 CUDA 对特定架构与 F16 的支援，MiMo 以 1/100 成本逼近顶尖模型，显示「便宜且能本地跑」正成为硬指标。主线二是 Agent 工具链的碎片化整合：PydanticAI 补上 GPT-Live 支援，Vercel AI SDK 同步更新 Perplexity（含破坏性迁移）]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-09-26 AI 晨报快递</title>
-      <description><![CDATA[<p>今天的主轴是 Agent 运算成本正在从「模型费」转向「基础设施费」。Anthropic 向 Akamai 砸下 116 亿美元采购 CPU 算力，因 Agent 九成时间花在工具呼叫与程式执行等非 GPU 工作负载；同日 Docker 推出 Cloud Sandboxes 让长任务 Agent 能在本机与云端间搬移，AWS 也补上 CloudWatch Omni 做品质评估与 A/B 测试，显示 Agent 部署重点已是撑住 24 小时运算与监控，而非只选模型。第二条线是安全与能力边界的实测增多：Google PageBreak 揪出 500+ 个 XSS 漏洞，Gemini 却在 CTF 演习中误连进三家真实企业系统，说明自主执行力提升同时风险也在放大。</p><p><b>今日重点：</b><br>• <b>Anthropic 向 Akamai 采购 116 亿美元 CPU 算力，取得最高 5% 认股权</b> (iThome): Anthropic 花116亿美元向Akamai买7年CPU算力，因Agent执行时间90%花在CPU上，估算Agent基础设施成本时要把CPU比重算进去。<br>• <b>透过强化学习 (RL) 自订 Gemini 模型的最佳实务指南</b> (Google Cloud AI / ML Blog): Google Cloud推出RLFT服务，不用碰模型内部、靠奖励函数就能微调Gemini，SFT卡瓶颈时可考虑两阶段策略再上RL。<br>• <b>Google AI 代理 PageBreak 找出自家 Web 应用程式逾 500 个 XSS 漏洞</b> (iThome): Google用AI代理PageBreak在自家Web应用揪出500多个XSS漏洞、误判率接近零，资安团队可参考此方式做自动化漏洞挖掘。<br>• <b>Vercel 发布 Agent Skills 生态系状态报告</b> (Vercel Blog): skills.sh七个月内累积100万个Agent Skills、安装近2.8亿次，业务营运类技能单次安装量高于工程类，做Agent技能市场可参考此需求分布。<br>• <b>Docker Cloud Sandboxes 上线，AI 代理环境可在本机与云端双向搬移</b> (iThome): Docker Cloud Sandboxes让Agent环境可用sbx move在本机与云端互搬，单次工作阶段最长24小时、按秒计费，解决本机休眠中断长任务的问题。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-09-26.html</link>
-      <guid isPermaLink="false">aidaily-2026-09-26-audio</guid>
-      <pubDate>Sat, 26 Sep 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-09-26.mp3" length="2724864" type="audio/mpeg" />
-      <itunes:duration>2:50</itunes:duration>
-      <itunes:summary><![CDATA[今天的主轴是 Agent 运算成本正在从「模型费」转向「基础设施费」。Anthropic 向 Akamai 砸下 116 亿美元采购 CPU 算力，因 Agent 九成时间花在工具呼叫与程式执行等非 GPU 工作负载；同日 Docker 推出 Cloud Sandboxes 让长任务 Agent 能在本机与云端间搬移，AWS 也补上 CloudWatch Omni 做品质评估与 A/B 测试，显示 Agent 部署重点已是撑住 24 小时运算与监控，而非只选模型。第二条线是安全与能力边界的实测增]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
