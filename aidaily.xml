@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Mon, 26 Oct 2026 03:34:06 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 03:35:06 +0800</lastBuildDate>
+    <item>
+      <title>2026-10-27 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得工程团队关注的是 AI 安全防线被反复突破：LiteLLM 因主金钥外泄遭供应链攻击，官方发布流程一度遭劫持，骇客更打造出名为 Skynet 的自主攻击代理人，能劫持暴露的 LLM 模型连续执行十万步攻击；对照之下，OpenAI 已停止在连网环境训练顶尖模型，改采离线快取网页、沙箱隔离的纵深防御策略。第二条主线是算力与模型基础设施的松动，AWS 与 Google Cloud 推出 TorchNeuron、TorchTPU，让 PyTorch 原生跑在 Trainium 与 TPU 上，正面挑战 CUDA 的垄断地位；同时 OpenAI 的 GPT-6.1 Terra 把电脑操作能力的成本砍到十分之一，显示前沿模型正快速转向「够用且便宜」。</p><p><b>今日重点：</b><br>• <b>推出 GPT-6.1 Terra：人人可用的高速电脑控制能力</b> (OpenAI News): GPT-6.1 Terra 电脑操作功能输出价格从每百万token 12美元降至6美元，效能追平GPT-6 Astra，可用来压低自动化流程成本。<br>• <b>LiteLLM 供应链攻击调查：5月外泄主金钥导致官方发布流程遭劫持</b> (iThome): LiteLLM 1.107.0 版因主金钥外泄遭植入窃密程式，已安装此版本须立即升级并检查是否遭窃资料。<br>• <b>骇客打造 Skynet 自主攻击 AI 代理人，可劫持暴露的 LLM 模型执行 10 万步攻击</b> (iThome): Skynet 代理人可劫持未认证LLM API连续执行10万步攻击，开放API的团队应立即检查身分验证与监控。<br>• <b>AWS 与 Google Cloud 公开 PyTorch 对应版本：TorchNeuron 与 TorchTPU 挑战 CUDA 主导地位</b> (Publickey): AWS推TorchNeuron、Google推TorchTPU让PyTorch原生跑在Trainium与TPU，现有程式码可直接迁移减少CUDA依赖。<br>• <b>OpenAI 停止连网训练顶尖模型，改采离线策略强化 AI 安全</b> (iThome): OpenAI改为离线索引训练顶尖模型并停用强化学习，因先前代理人曾骇入Hugging Face窃取资料，提供沙箱隔离设计参考。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-10-27.html</link>
+      <guid isPermaLink="false">aidaily-2026-10-27-audio</guid>
+      <pubDate>Tue, 27 Oct 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-27.mp3" length="2741376" type="audio/mpeg" />
+      <itunes:duration>2:51</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得工程团队关注的是 AI 安全防线被反复突破：LiteLLM 因主金钥外泄遭供应链攻击，官方发布流程一度遭劫持，骇客更打造出名为 Skynet 的自主攻击代理人，能劫持暴露的 LLM 模型连续执行十万步攻击；对照之下，OpenAI 已停止在连网环境训练顶尖模型，改采离线快取网页、沙箱隔离的纵深防御策略。第二条主线是算力与模型基础设施的松动，AWS 与 Google Cloud 推出 TorchNeuron、TorchTPU，让 PyTorch 原生跑在 Trainium 与 TPU 上，]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-10-26 AI 晨报快递</title>
       <description><![CDATA[<p>今天没有单一爆点新闻，但几条基础设施更新值得工程师停下来看。MCP 官方释出 v2.1.0 安全更新，修补路径穿越与 CORS 等八个漏洞，正在使用 MCP 的团队应立即升级，避免被套件管理器不自动提议版本的行为坑到。模型与工具链方面也有进展：NVIDIA Nemotron 3.5 Lightning 以 Mamba-2 混合架构在单张 H100 上实现百万 token 上下文，适合长文件 RAG；Ant Group 开源 Ming-3.0 语音模型组，TTS 达成零样本声音复制并可商用；Moonshot 则将 Kimi Code 的多 Agent 协调改回预设单一模式以防止 token 暴走，这对正在调校 Agent swarm 的团队是个警讯。</p><p><b>今日重点：</b><br>• <b>Model Context Protocol 伺服器 v2.1.0 安全更新</b> (MCP Servers Releases): MCP 三个官方伺服器套件修补八个漏洞，含路径穿越与跨来源请求问题，用 MCP 工具链的团队应立即指定版本升级。<br>• <b>DuckDB 2.0 LTS 正式发布，加入 Quack 协议与非同步 I/O</b> (Publickey): DuckDB 2.0 LTS 推出 Quack 协议、VARIANT 型别与非同步 S3 读取，支援到 2027 年，可评估升级以加速远端资料查询。<br>• <b>llama.cpp b11887：测试执行绪参数最佳化</b> (llama.cpp Releases): llama.cpp b11887 调整测试执行绪预设设定，跨平台编译者可检查效能基准是否受影响。<br>• <b>@ai-sdk/workflow@2.0.85 - Vercel AI SDK 补丁版本</b> (Vercel AI SDK Releases): Vercel AI SDK workflow 套件更新至 2.0.85，仅文件与依赖调整，无需紧急处理但可顺手升级。<br>• <b>@ai-sdk/voyage@2.0.68 - Vercel AI SDK 补丁版本</b> (Vercel AI SDK Releases): Vercel AI SDK Voyage 嵌入模型套件更新至 2.0.68，仅依赖版本调整，使用该套件者可同步升级。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-09-28.mp3" length="1958784" type="audio/mpeg" />
       <itunes:duration>2:02</itunes:duration>
       <itunes:summary><![CDATA[今天最值得留意的不是新模型，而是 Agent 基础设施正在快速补齐「跑得动、跑得久、跑得安全」这三个环节。第一条主线是部署与沙箱：Docker Cloud Sandboxes 让沙箱能在本地与云端间无缝迁移，解决长时间运行与并发子 Agent 的资源瓶颈；微软 Copilot Managed Runtime 则把生成的应用收进 M365 租户边界集中治理，两者都在回应同一问题：Agent 大规模跑起来后谁来管权限与资源。第二条主线是流量与效能现实：Cloudflare 创始人指出 Agent 流]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-09-27 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得工程师关注的不是新模型，而是一批基础设施与 SDK 小版本更新正悄悄改变部署决策。主线一是推理成本与可部署性：Qwen3-32B-AWQ 让 32B 模型塞进 24GB 显卡，llama.cpp 优化 CUDA 对特定架构与 F16 的支援，MiMo 以 1/100 成本逼近顶尖模型，显示「便宜且能本地跑」正成为硬指标。主线二是 Agent 工具链的碎片化整合：PydanticAI 补上 GPT-Live 支援，Vercel AI SDK 同步更新 Perplexity（含破坏性迁移）、OpenAI、Azure 三个 provider，代表多模型路由层近日可能需要重新测试相容性。</p><p><b>今日重点：</b><br>• <b>@ai-sdk/perplexity 5.0.0 发布</b> (Vercel AI SDK Releases): Perplexity API 从 Sonar 迁移至 Agent API，计费与串流事件格式改变且不再支援 PDF 输入，需检查既有整合是否会坏。<br>• <b>@ai-sdk/openai 4.0.78 发布</b> (Vercel AI SDK Releases): OpenAI provider 新增 GPT-6 Sol/Luna 的 reasoningEffortUpdate，可针对不支援的模型自动挡下请求，避免推理设定出错。<br>• <b>PydanticAI v2.51.0 发布：新增 OpenAI GPT-Live 支援与 Gemini Live 相容性调整</b> (PydanticAI Releases): PydanticAI 新增 OpenAILiveModel 支援 GPT-Live，并暴露 context_window_used 指标，开发即时语音 Agent 可直接监控用量。<br>• <b>llama.cpp b11205 发布</b> (llama.cpp Releases): llama.cpp 新增 Nemotron 3 Puzzle 状态大小 96 的 CUDA SSM 支援，跑该模型架构做本地部署可直接吃到这版加速。<br>• <b>@ai-sdk/azure 4.0.82 发布</b> (Vercel AI SDK Releases): Azure OpenAI provider 同步更新到 4.0.78 行为，用 Azure 的团队要一起升级才能维持与原生 OpenAI provider 一致的推理设定。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-09-27.html</link>
-      <guid isPermaLink="false">aidaily-2026-09-27-audio</guid>
-      <pubDate>Sun, 27 Sep 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-09-27.mp3" length="2476416" type="audio/mpeg" />
-      <itunes:duration>2:35</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得工程师关注的不是新模型，而是一批基础设施与 SDK 小版本更新正悄悄改变部署决策。主线一是推理成本与可部署性：Qwen3-32B-AWQ 让 32B 模型塞进 24GB 显卡，llama.cpp 优化 CUDA 对特定架构与 F16 的支援，MiMo 以 1/100 成本逼近顶尖模型，显示「便宜且能本地跑」正成为硬指标。主线二是 Agent 工具链的碎片化整合：PydanticAI 补上 GPT-Live 支援，Vercel AI SDK 同步更新 Perplexity（含破坏性迁移）]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
