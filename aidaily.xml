@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Fri, 30 Oct 2026 03:36:08 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 03:36:03 +0800</lastBuildDate>
+    <item>
+      <title>2026-10-31 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是台湾AI基础设施与供应链安全同时浮上台面：GMI Cloud在桃园展示AI Factory，点名电力而非机柜才是资料中心新瓶颈；同时iThome揭露中国骇客利用Claude Code、DeepSeek、Kimi等AI工具攻击25台Palo Alto Networks防火墙，加上全家因委外商91APP遭自动化攻击外泄5万笔会员资料，显示供应链安全风险正在升高。第二条主线是云端与推理层持续降门槛：Vercel将Ling 3.1 Flash 1019免费上架AI Gateway，提供1M context供Codex、Cursor等agent使用，Cloudflare私有来源也让MCP伺服器与AI agent后端无需暴露公网。</p><p><b>今日重点：</b><br>• <b>GMI Cloud 展示台湾 AI Factory，AI 资料中心的新瓶颈不是机柜而是电力</b> (iThome): GMI Cloud 桃园 AI Factory 用 25MW 供电架构撑 GB300 SuperPOD，建置资料中心时电力规划要优先于机柜数量。<br>• <b>PHP2Shell 与 Linux 核心漏洞遭串连利用，中国骇客用 AI 攻击 25 台防火墙</b> (iThome): 骇客用 Claude Code、DeepSeek、Kimi 写约 40 支攻击脚本，串连 PHP2Shell 与 Linux 漏洞入侵 25 台 Palo Alto 防火墙取得 root。<br>• <b>Ling 3.1 Flash 1019 现已在 AI Gateway 免费提供</b> (Vercel Blog): Ling 3.1 Flash 1019 在 Vercel AI Gateway 免费用到 2026 年 11 月，支援 1M token 上下文，适合拿来跑长文件或编码 agent 省成本。<br>• <b>Amazon Q3 营收 201.9 亿美元成长 12%，AWS 营收成长 39% 创近 5 年新高</b> (iThome): AWS Q3 营收年增 39%，Bedrock token 用量年增近 17 倍，但 Amazon 过去 12 个月自由现金流净流出 423.6 亿美元，反映 AI 投资回报压力。<br>• <b>全家行动购会员资料遭撷取，源于委外厂商 91APP 资料库自动化攻击</b> (iThome): 全家 5 万会员资料因委外商 91APP 遭自动化工具攻击外泄，提醒把第三方服务商安全纳入供应链风险管理。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-10-31.html</link>
+      <guid isPermaLink="false">aidaily-2026-10-31-audio</guid>
+      <pubDate>Sat, 31 Oct 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-31.mp3" length="2831616" type="audio/mpeg" />
+      <itunes:duration>2:57</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是台湾AI基础设施与供应链安全同时浮上台面：GMI Cloud在桃园展示AI Factory，点名电力而非机柜才是资料中心新瓶颈；同时iThome揭露中国骇客利用Claude Code、DeepSeek、Kimi等AI工具攻击25台Palo Alto Networks防火墙，加上全家因委外商91APP遭自动化攻击外泄5万笔会员资料，显示供应链安全风险正在升高。第二条主线是云端与推理层持续降门槛：Vercel将Ling 3.1 Flash 1019免费上架AI Gateway，提供]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-10-30 AI 晨报快递</title>
       <description><![CDATA[<p>开放权重阵营今天明显加速，直接冲击闭源模型的护城河。Mistral Large 4以1T参数、100万token上下文上架Hugging Face，在网路安全与程式码代理测试中追平甚至超越部分闭源模型；Nvidia同步释出Nemotron 3.5语音系列与3.5 Super VL多模态模型，并开源Granary v2资料集，拉低语音辨识、多模态推理门槛。DeepSeek V4.1 Flash的安全评估显示开放模型对齐表现逼近前沿闭源系统，但小版本更新可能让安全性倒退，部署前需做增量测试。第二条主线是Agent工程从「能跑」转向「可信任」：Cognition并购Corridor补强Devin的程式码审查与安全扫描，MCP Servers紧急修补凭证泄露漏洞，相关论文揭露Agent在协作品质与排程效率上的落差。</p><p><b>今日重点：</b><br>• <b>Mistral Large 4（Le Chonk）在 Hugging Face 上线</b> (Hugging Face Blog): Mistral Large 4开放权重，1T参数49B活跃，网路安全测试达82%准确率，不受API厂商限制可自架部署。<br>• <b>Nvidia 释出 Nemotron 3.5 语音模型，整合转录、翻译与讲者辨识</b> (iThome): Nemotron 3.5 Transcribe开放权重，340亿参数每次仅启用43亿，支援40种语言转录与讲者辨识，词错误率2.8%可自行部署微调。<br>• <b>MCP Servers v2.2.0 发布</b> (MCP Servers Releases): MCP Servers v2.2.0修补凭证泄露与Node.js高风险漏洞，使用相关伺服器的开发者应尽速升级Node.js版本。<br>• <b>Google 推出 Connected Apps 平台，第三方服务透过 MCP 整合 Gemini 与搜寻</b> (iThome): Google开放Connected Apps平台预览版，透过MCP把服务整合进Gemini与搜寻，已有50多款应用上线可申请加入。<br>• <b>高雄打造城市 AI 大脑，从影像理解进阶到事件推理，提早发现淹水与塞车</b> (iThome): 高雄用VLM加推理模型让道路巡检派工缩短到2分钟、淹水告警提前14分钟，做城市AI应用可参考这套从辨识到推理的架构。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-02.mp3" length="2567424" type="audio/mpeg" />
       <itunes:duration>2:40</itunes:duration>
       <itunes:summary><![CDATA[今天最重要的讯号是企业级 Agent 基础设施全面成熟：Barclays 宣布 2026 年底让半数开发者用上 Claude Code，并以 RAG 知识助手服务两千万零售客户，证明高监管产业也能规模化落地 Agentic AI。围绕这条主线，部署层竞争白热化，Cloudflare 推出开源决策模型 Clef 与重构后的 Containers，直接对位 Vercel AI Gateway 新接入的 Laya 决策模型与 Microsoft 语音模型，三家都在抢「轻量判断／路由」新战场。]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-01 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得工程团队立刻处理的，是 Anthropic 宣布 Claude Sonnet 4.5 将于 11 月底退役、Sonnet 5.5 上线且带有破坏性变更，凡是用 Claude 做 RAG 或 Agent 的团队都得排迁移计划。模型与基础设施这条主线同时有 Google 发布 Gemini 4 Argon，主打百万 token 输出与长程推理，定价与能力值得与 Sonnet 5.5、GPT-6.1 Sol／Decisions API 一并比较选型。</p><p><b>今日重点：</b><br>• <b>Claude 平台发布说明：Sonnet 4.5 弃用与 Sonnet 5.5 上线</b> (Anthropic API Release Notes): Claude Sonnet 4.5 将于2026年11月30日退役，迁移至Sonnet 5.5会有thinking参数、工具使用等破坏性变更，需提前规划迁移。<br>• <b>Google 发布前沿模型 Gemini 4 Argon</b> (Google DeepMind Blog): Gemini 4 Argon输出上限达1M tokens，定价每百万token 2美元/10美元，适合长文件与复杂代码迁移任务。<br>• <b>Anthropic 警告智谱 GLM-5.3 具自主漏洞攻击能力，安全防护容易遭绕过</b> (iThome): 智谱GLM-5.3能自主开发漏洞利用程式，安全防护可被绕过，突破率最高达100%，资安团队需评估开放权重模型风险。<br>• <b>Cloudflare AI Gateway 推出 Auto Router 自动路由功能</b> (Cloudflare Blog): Cloudflare AI Gateway的Auto Router可依任务复杂度自动选模型，内部测试省下最多30%成本，适合多场景AI部署优化预算。<br>• <b>Cloudflare Monetization Gateway Beta：让 AI Agent 透过 HTTP 402 付费使用资源</b> (Cloudflare Blog): Cloudflare Monetization Gateway让AI Agent透过HTTP 402按请求或token向网站付费使用资源，API提供者可借此向AI流量变现。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-01.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-01-audio</guid>
-      <pubDate>Thu, 01 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-01.mp3" length="2394624" type="audio/mpeg" />
-      <itunes:duration>2:30</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得工程团队立刻处理的，是 Anthropic 宣布 Claude Sonnet 4.5 将于 11 月底退役、Sonnet 5.5 上线且带有破坏性变更，凡是用 Claude 做 RAG 或 Agent 的团队都得排迁移计划。模型与基础设施这条主线同时有 Google 发布 Gemini 4 Argon，主打百万 token 输出与长程推理，定价与能力值得与 Sonnet 5.5、GPT-6.1 Sol／Decisions API 一并比较选型。]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
