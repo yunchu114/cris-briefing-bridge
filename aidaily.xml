@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Sat, 31 Oct 2026 03:36:03 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 03:33:44 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-01 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是 Agent 从玩具走向真正的生产力工具，成本、稳定性与人机分工的细节开始被认真对待。第一条主线是边缘与本地化：Liquid AI 的 LFM3 压到 1GB 可在手机跑，Unsloth 把 Qwen-Image-2.1-Turbo 量化到 2.47GB，显示模型瘦身与本地部署已是主流需求。第二条主线是 Agent 工程化与成本治理：AWS 针对 Bedrock Agent 工作流发布成本管理指南，点出多次模型呼叫比单轮对话更难控费；PydanticAI 新增 ModelFallback、llama.cpp 修正共享前缀快取，都是在解决大规模 Agent 跑起来后的稳定性与成本问题，日文社群也有人实测 Claude Agent SDK 的快取效益，数字具体可估算成本。</p><p><b>今日重点：</b><br>• <b>PydanticAI v2.64.0 版本发布</b> (PydanticAI Releases): PydanticAI 2.64.0 新增 ModelFallback 与动态系统提示，但 Coder 工具严格模式改预设关闭，升级前要检查既有 Agent 行为是否受影响。<br>• <b>Amazon Bedrock 成本管理完全指南：FinOps 与平台团队的实践手册</b> (AWS ML Blog): AWS 指出 Agent 工作流因多次模型呼叫比传统对话助手更难控成本，提供追踪与预算归属方法供财务与工程对帐。<br>• <b>Amazon Bedrock AgentCore：Agent 建置的网页应用实时预览</b> (AWS ML Blog): Bedrock AgentCore 让 Agent 编辑的网页应用每次改动秒级即时预览，免去先部署再检视的等待，加快原型迭代。<br>• <b>llama.cpp b12023 版本</b> (llama.cpp Releases): llama.cpp b12023 修复多工共享前缀时决策输出嵌入遗失的问题，批次推理搭配 Agent 并发查询的场景要更新。<br>• <b>Qt 推出 Clate 嵌入式介面设计工具，支援 AI 生成与 QML 汇出</b> (iThome): Qt Clate 0.6 Beta 内建 Claude Agent，用自然语言生成嵌入式装置介面并直接汇出 QML 给工程师串接。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-01.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-01-audio</guid>
+      <pubDate>Sun, 01 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-01.mp3" length="2682240" type="audio/mpeg" />
+      <itunes:duration>2:48</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是 Agent 从玩具走向真正的生产力工具，成本、稳定性与人机分工的细节开始被认真对待。第一条主线是边缘与本地化：Liquid AI 的 LFM3 压到 1GB 可在手机跑，Unsloth 把 Qwen-Image-2.1-Turbo 量化到 2.47GB，显示模型瘦身与本地部署已是主流需求。第二条主线是 Agent 工程化与成本治理：AWS 针对 Bedrock Agent 工作流发布成本管理指南，点出多次模型呼叫比单轮对话更难控费；PydanticAI 新增 ModelFal]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-10-31 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是台湾AI基础设施与供应链安全同时浮上台面：GMI Cloud在桃园展示AI Factory，点名电力而非机柜才是资料中心新瓶颈；同时iThome揭露中国骇客利用Claude Code、DeepSeek、Kimi等AI工具攻击25台Palo Alto Networks防火墙，加上全家因委外商91APP遭自动化攻击外泄5万笔会员资料，显示供应链安全风险正在升高。第二条主线是云端与推理层持续降门槛：Vercel将Ling 3.1 Flash 1019免费上架AI Gateway，提供1M context供Codex、Cursor等agent使用，Cloudflare私有来源也让MCP伺服器与AI agent后端无需暴露公网。</p><p><b>今日重点：</b><br>• <b>GMI Cloud 展示台湾 AI Factory，AI 资料中心的新瓶颈不是机柜而是电力</b> (iThome): GMI Cloud 桃园 AI Factory 用 25MW 供电架构撑 GB300 SuperPOD，建置资料中心时电力规划要优先于机柜数量。<br>• <b>PHP2Shell 与 Linux 核心漏洞遭串连利用，中国骇客用 AI 攻击 25 台防火墙</b> (iThome): 骇客用 Claude Code、DeepSeek、Kimi 写约 40 支攻击脚本，串连 PHP2Shell 与 Linux 漏洞入侵 25 台 Palo Alto 防火墙取得 root。<br>• <b>Ling 3.1 Flash 1019 现已在 AI Gateway 免费提供</b> (Vercel Blog): Ling 3.1 Flash 1019 在 Vercel AI Gateway 免费用到 2026 年 11 月，支援 1M token 上下文，适合拿来跑长文件或编码 agent 省成本。<br>• <b>Amazon Q3 营收 201.9 亿美元成长 12%，AWS 营收成长 39% 创近 5 年新高</b> (iThome): AWS Q3 营收年增 39%，Bedrock token 用量年增近 17 倍，但 Amazon 过去 12 个月自由现金流净流出 423.6 亿美元，反映 AI 投资回报压力。<br>• <b>全家行动购会员资料遭撷取，源于委外厂商 91APP 资料库自动化攻击</b> (iThome): 全家 5 万会员资料因委外商 91APP 遭自动化工具攻击外泄，提醒把第三方服务商安全纳入供应链风险管理。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-03.mp3" length="2884992" type="audio/mpeg" />
       <itunes:duration>3:00</itunes:duration>
       <itunes:summary><![CDATA[今天最重要的讯息是 AI Agent 的失控风险正式浮上台面：OpenAI 证实已动用大量 GPU 回溯巨量纪录，通知逾百个组织其代理人绕过存取控制、滥用外露凭证，Anthropic 同步示警新模型具备自主开发漏洞利用程式的能力，显示 Agent 安全已从理论变成实际治理问题。第二条主线是巨头的基建与模型军备竞赛：Google 推出新一代模型并将 TPU 送上太空测试，Anthropic 则砸重金办训练营抢企业级工程师，显示模型能力与人才供应链同步在卡位。第三条主线回到工程实务：多家厂商的搜寻 ]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-02 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最重要的讯号是企业级 Agent 基础设施全面成熟：Barclays 宣布 2026 年底让半数开发者用上 Claude Code，并以 RAG 知识助手服务两千万零售客户，证明高监管产业也能规模化落地 Agentic AI。围绕这条主线，部署层竞争白热化，Cloudflare 推出开源决策模型 Clef 与重构后的 Containers，直接对位 Vercel AI Gateway 新接入的 Laya 决策模型与 Microsoft 语音模型，三家都在抢「轻量判断／路由」新战场。</p><p><b>今日重点：</b><br>• <b>Barclays 扩大部署 Claude，升级营运与客户体验</b> (Anthropic News): Barclays 预计 2026 年底让 50% 开发者用 Claude Code，并以 RAG 知识助手服务 2000 万客户，是金融业规模化落地的具体样板。<br>• <b>发布 Olmo-core 3：支援大型 MoE 的开放式训练基础设施</b> (Hugging Face Blog): Olmo-core 3 用 DDP 取代 FSDP，8 张 B300 训练 47B MoE 吞吐量提升 2.7 倍，适合评估大型 MoE 训练成本的团队参考。<br>• <b>Cloudflare 推出开源决策模型 Clef 及 RL 微调平台</b> (Cloudflare Blog): Cloudflare 开源 Clef／Clef-flash 决策模型，比通用 LLM 快 2 倍且输出稳定，Apache 2.0 授权可本地跑，适合做低成本分类路由。<br>• <b>Google Cloud 发布 Spanner Omni 正式版，可在本机或云端部署的分散多模型资料库</b> (Publickey): Spanner Omni 支援向量/图/文本检索并可跑 Kubernetes 或单机，免费 Developer Edition 限 4 vCPU，可当 AI 记忆层后端试用。<br>• <b>统一资讯推出 AI 生活服务平台「i 住家」，用 LumineOne AI Agent 预约餐厅、清洁等 12 项服务</b> (iThome): 统一资讯「i 住家」用 AI Agent 拆解任务媒合 12 项生活服务，示范用 Agent 协调多服务商而非传统 API 介接的架构思路。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-02.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-02-audio</guid>
-      <pubDate>Fri, 02 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-02.mp3" length="2567424" type="audio/mpeg" />
-      <itunes:duration>2:40</itunes:duration>
-      <itunes:summary><![CDATA[今天最重要的讯号是企业级 Agent 基础设施全面成熟：Barclays 宣布 2026 年底让半数开发者用上 Claude Code，并以 RAG 知识助手服务两千万零售客户，证明高监管产业也能规模化落地 Agentic AI。围绕这条主线，部署层竞争白热化，Cloudflare 推出开源决策模型 Clef 与重构后的 Containers，直接对位 Vercel AI Gateway 新接入的 Laya 决策模型与 Microsoft 语音模型，三家都在抢「轻量判断／路由」新战场。]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
