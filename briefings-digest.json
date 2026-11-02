@@ -1,1 +1,252 @@
-{"date":"2026-11-01","podcast":{"audio_url":"","duration":"10分02秒","title":"晨间充电站（2026-11-01）"},"sections":[{"id":"ai","items":[{"summary":"免费账号即可生成视频概览，Short 约 1 分 12 秒、Explainer 约 8 分 57 秒且内容准确，但 Explainer 没有时长设置，要求 5 分钟仍出 9 分钟。","title":"NotebookLM 视频概览免费就能做，但“时长”这个要求它根本不听","url":"https://aialleyway.com/notebooklm-video-overview/"},{"summary":"GitHub 在 Universe 大会上推出 Copilot Projects 公开预览，可跨多仓库并行跑托管会话产出拉取请求供复核，同时上线多模型路由与 AI 点数计费。","title":"GitHub 把 Copilot 从“补全助手”改成了“跨仓库多 agent 工作台”","url":"https://dev.to/delimitter/github-turns-copilot-into-a-multi-agent-workspace-with-new-projects-feature-5lh"}],"title":"AI 前沿科技"},{"id":"x","items":[{"summary":"FBI 于 10 月 31 日正式将约 63 亿美元币安被盗案归因于朝鲜 TraderTraitor，币安称已补回约 90% 并计划 11 月 1 日恢复提现。","title":"币安被盗案：FBI 10-31 正式认定朝鲜 TraderTraitor 所为，币安称已补回 90%、计划 11-01 恢复提现","url":"https://x.com/search?q=%E5%B8%81%E5%AE%89%20%E8%A2%AB%E7%9B%97%20%E6%9C%9D%E9%B2%9C&f=live"},{"summary":"10 月 30 日纳指跌 2.86%，英特尔因四季度指引逊预期单日跌 28.58% 创纪录，Alphabet 此前单日市值蒸发近 5000 亿美元。","title":"美股科技股抛售：英特尔单日暴跌约 29% 创纪录，纳指跌 2.86%，Alphabet 单日市值蒸发近 5000 亿美元","url":"https://x.com/search?q=%E8%8B%B1%E7%89%B9%E5%B0%94%20%E6%9A%B4%E8%B7%8C%20%E7%BA%B3%E6%8C%87&f=live"},{"summary":"据金融时报报道，OpenAI 新一轮融资目标从约 300 亿美元下调至约 200 亿美元、估值降至 1.25 万亿美元，首轮交割可能低于 200 亿美元。","title":"OpenAI 融资目标从 300 亿砍到 200 亿美元，估值降至 1.25 万亿美元","url":"https://x.com/search?q=OpenAI%20%E8%9E%8D%E8%B5%84%20200%E4%BA%BF&f=live"},{"summary":"DeepSeek 于 10 月 31 日晚发布 Super-agent 双层架构，Router 负责全局交互与分派、Worker 在隔离会话中并行执行，目标是让 Agent 持续在线并行处理多任务。","title":"DeepSeek 10-31 晚发布 Super-agent 双层架构：Router 管全局、Worker 并行干活","url":"https://x.com/search?q=DeepSeek%20Super-agent&f=live"},{"summary":"小米于 10 月 30 日晚开源 0.8B 文档理解模型 Xiaomi-OCR-0，集文档解析、关键信息抽取与视觉问答于一体，在 OmniDocBench v1.6 得分 96.83。","title":"小米开源 0.8B 文档理解模型 Xiaomi-OCR-0：解析、抽取、视觉问答三合一","url":"https://x.com/search?q=%E5%B0%8F%E7%B1%B3%20Xiaomi-OCR-0&f=live"},{"summary":"苹果称 Apple Intelligence 首批核心功能将于 11 月 4 日起随 iOS 开发者 Beta 版在中国开放测试，同日收盘市值约 5.03 万亿美元超英伟达重回第一。","title":"苹果双线：Apple Intelligence 11 月 4 日起在中国开放测试，市值超英伟达重回第一","url":"https://x.com/search?q=Apple%20Intelligence%20%E4%B8%AD%E5%9B%BD%2011%E6%9C%884%E6%97%A5&f=live"},{"summary":"欧盟 11 月 1 日起对 150 欧元以下域外网购小包每件征收 2 欧元处理费，Temu 欧盟 SKU 货号等合规节点同日密集到期。","title":"欧盟小包新规今日落地：150 欧元以下包裹每件收 2 欧元处理费，Temu 合规节点密集到期","url":"https://x.com/search?q=%E6%AC%A7%E7%9B%9F%20%E5%B0%8F%E5%8C%85%202%E6%AC%A7%E5%85%83%20Temu&f=live"},{"summary":"10 月 31 日多方核实，账单地区选中国大陆及港澳台后 Grok 与 X Premium 结账页出现支付宝与银联选项，首月半价，但 xAI 未发布官方公告。","title":"Grok / X 订阅可用支付宝、银联付款：账单地区选中国即可，首月半价，但官方未发公告","url":"https://x.com/search?q=Grok%20%E6%94%AF%E4%BB%98%E5%AE%9D%20%E4%BB%98%E6%AC%BE&f=live"},{"summary":"10 月 30 日深夜波兰围绕宪法法院爆发冲突，总统连夜回国亲自带队冲破封锁进入法院，亲保守派驻华大使等随后相继请辞。","title":"波兰宪法法院深夜对峙：总统亲自冲破封锁，大使接连请辞","url":"https://x.com/search?q=%E6%B3%A2%E5%85%B0%20%E5%AE%AA%E6%B3%95%E6%B3%95%E9%99%A2%20%E5%A4%A7%E4%BD%BF%E8%AF%B7%E8%BE%9E&f=live"},{"summary":"据美媒转述，特朗普政府已通知海湾盟友为 11 月 4 日可能恢复的短促对伊朗打击做准备，消息为转述、非官方公告。","title":"美媒：特朗普政府通知海湾盟友，准备 11 月 4 日恢复对伊朗打击","url":"https://x.com/search?q=%E7%89%B9%E6%9C%97%E6%99%AE%20%E4%BC%8A%E6%9C%97%2011%E6%9C%884%E6%97%A5&f=live"},{"summary":"Claude 官方宣布 Max 20x 改名 Ultra、价格不变，并即日起取消已验证 Ultra 账号的 5 小时使用限制，周限额不变。","title":"Claude 官方：Max 20x 改名 Ultra，并取消已验证 Ultra 账号的 5 小时限制","url":"https://x.com/claudeai/status/2116220869479428500"},{"summary":"Codex 负责人称移动端现可切换多个账号、桌面端即将上线，并预告接下来两天将有重置与已存额度更新。","title":"OpenAI Codex 负责人 Thibault Sottiaux：第 26 天，移动端可切换多账号","url":"https://x.com/thsottiaux/status/2116405414921384099"},{"summary":"Steinberger 评论称应使用自己的 harness，而非公司可随时改动权限的 harness，呼应近期 Agent 限额与规则变动焦虑。","title":"OpenClaw 的 Peter Steinberger：要用自己的 harness，别让公司随时改你能做什么","url":"https://x.com/steipete/status/2116153238563242385"},{"summary":"Thariq 认为应对经济末日论应更相信对齐良好的 ASI 能带上人类一起前进，而非接受“花很多钱还会让所有人失业”的简单答案。","title":"前 Claude Code 成员 Thariq：对经济末日论的解法是“更 AGI-pilled”","url":"https://x.com/trq212/status/2116212322838655014"},{"summary":"Gemini 负责人称 iPhone Duo 发售当日 Gemini App 首日即已针对其优化，是 AI 入口争夺在硬件侧的注脚。","title":"谷歌 Gemini 负责人 Josh Woodward：Gemini 上线首日就为 iPhone Duo 做了优化","url":"https://x.com/joshwoodward/status/2116220878593900775"}],"title":"推特热议"},{"id":"world","items":[{"summary":"11 月 3 日美国中期选举改选全部 435 个众议院席位与约三分之一参议院席位，路透社/益普索民调显示特朗普支持率仅 32%、民主党通用选票领先。","title":"美国中期选举进入最后冲刺：11 月 3 日投票，民调显示民主党领先、特朗普支持率低位","url":"https://www.youtube.com/watch?v=1CKuYjtrPSc"},{"summary":"据美联社报道，美方已敦促中东盟友为中期选举后可能恢复的对伊朗打击做准备，但特朗普尚未作最终决定，同时卡塔尔媒体称美伊有望恢复间接谈判。","title":"美伊卡塔尔谈判与“选后打击”传闻并存：据 AP 报道，美方已提醒盟友为选后新一轮打击做准备","url":"https://www.scrabbl.com/trump-says-iran-conflict-could-end-soon-but-insists-on-guarantees-against-nuclear-weapons"},{"summary":"亚特兰大 G20 外长会上约三分之一代表团拒绝与俄罗斯外长拉夫罗夫同框，全家福被取消，会议未达成联合公报、仅以主席声明收尾。","title":"G20 外长会亚特兰大落幕：因拒与拉夫罗夫合影，“全家福”被取消、未达成联合公报","url":"https://www.ajakotaja.com/trending-news/g20-photo-session-cancelled-as-diplomats-refuse-to-pose-with-russia"},{"summary":"路透社报道，FBI 称朝鲜应对从币安盗取逾 60 亿美元虚拟资产负责，攻击者正把赃款换成以太坊，这是该案从分析公司归因升级为美国官方归因的关键一步。","title":"FBI 正式将币安 63 亿美元被盗案归因于朝鲜：称赃款正被洗成以太坊","url":"https://www.reuters.com/world/fbi-links-north-korea-theft-6-billion-from-binance-2026-10-31/"},{"summary":"10 月 30 日纳指收跌 2.9%、标普 500 跌 1.8%，Amazon 资本开支与 Intel 四季度展望低于预期是导火索，Intel 单日跌约 29%。","title":"美股 10 月收官暴跌：纳指单日跌 2.9%，Intel 暴跌约 29% 创 1974 年以来最差单日","url":"https://www.kitco.com/news/off-the-wire/2026-10-30/nasdaq-futures-sink-amazon-intel-intensify-ai-spending-fears"},{"summary":"据金融时报报道，OpenAI 融资目标从 300 亿美元下调至约 200 亿美元，华尔街日报称首批实际认购仅约 110 亿美元，方向一致显示投资者在 AI 抛售中收紧出价。","title":"OpenAI 融资再缩水：据 FT 报道目标降至 200 亿美元，首批认购据 WSJ 报道仅约 110 亿美元","url":"https://wixx.com/2026/10/30/openai-cuts-funding-target-by-10-billion-ft-reports/"},{"summary":"惠誉在计划外评估中维持法国 A+ 评级、将展望下调至负面，预计法国政府债务将从 2025 年占 GDP 的 115.7% 升至 2028 年的 124%。","title":"惠誉罕见地在计划外下调法国评级展望至“负面”：预计债务 2028 年升至 GDP 的 124%","url":"https://www.europesays.com/france/102843/"},{"summary":"10 月 31 日法国第三个连续周末抗议官方统计约 32 万人参加，政府部署 7 万名警察与宪兵，截至当晚逮捕 422–511 人，工会已号召 11 月 5 日全国罢工日。","title":"法国第三个周末抗议：官方统计 32 万人上街，巴黎部署 7 万警力、逮捕逾 400 人","url":"https://www.newslooks.com/france-protests-draw-320000-as-youth-led-demonstrations-spread-across-europe/"},{"summary":"卢拉连任不到一周，其政府与劳工党内部已公开为是否紧缩划红线，市场此前已因连任剧震，雷亚尔创 1999 年以来最大单日跌幅。","title":"卢拉连任后一周：巴西执政联盟内部公开反对紧缩，市场仍在为财政前景定价","url":"https://www.reuters.com/world/americas/brazils-lula-faces-spending-rows-supporters-oppose-tougher-fiscal-measures-2026-10-30/"},{"summary":"中国 10 月官方制造业 PMI 从 9 月的 50.1 回落至 49.3，为四个月内第三次收缩，新订单与新出口订单均留在收缩区间。","title":"中国 10 月制造业 PMI 回落至 49.3：四个月内第三次收缩，内需与出口订单同步走弱","url":"https://1027wbow.com/2026/10/30/chinas-october-factory-activity-contracts-at-fastest-pace-in-3-months-pmi-survey-shows/"},{"summary":"据金融时报报道，英国央行金融政策委员会正在研究把高贷款收入比房贷界定门槛从收入 4.5 倍提高至 5 倍，估计可释放相当于新增房贷 7% 的放贷空间。","title":"据 FT 报道，英国央行考虑把高风险房贷门槛从收入的 4.5 倍放宽至 5 倍","url":"https://www.europesays.com/3343774/"},{"summary":"路透社援引知情人士报道，11 月 2 日开会的七个 OPEC+ 产油国已原则上同意 12 月产量目标不变，布伦特与 WTI 油价已因伊朗风险升至约半年高位。","title":"OPEC+ 据悉原则上同意 12 月产量目标不变：周日会议前，油价已因伊朗风险升至半年高位","url":"https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/"},{"summary":"英国首相伯纳姆表示愿与受跨大西洋奴隶贸易影响的国家开展结构性对话、对正式道歉持开放态度，但拒绝经济赔偿，提出由前首相布朗牵头为脆弱英联邦国家安排债务重组。","title":"英国首相伯纳姆：对奴隶制正式道歉“持开放态度”，但拒绝经济赔偿","url":"https://www.reuters.com/world/uk/uk-pm-burnham-says-he-is-open-formal-apology-slavery-rules-out-reparations-2026-10-31/"},{"summary":"世卫组织数据显示，始于 2026 年 5 月的埃博拉疫情在刚果（金）已累计 9704 例确诊、4687 例死亡，肯尼亚与尼日利亚出现输入病例，世卫呼吁加强区域监测。","title":"埃博拉疫情已扩散至三个国家：世卫组织称刚果（金）确诊近万例，肯尼亚、尼日利亚出现输入病例","url":"https://nigerianobservernews.com/2026/10/who-urges-stronger-regional-response-as-ebola-spreads-to-3-countries/"},{"summary":"COP31 将于 11 月 9–20 日在土耳其安塔利亚举行，主题是把已有气候承诺转化为实际行动而非谈新承诺，化石燃料转型路线图等仍未解决。","title":"COP31 一周后开幕：安塔利亚会议主打“落实”而非新承诺，化石燃料路线图仍无共识","url":"https://commonslibrary.parliament.uk/research-briefings/cbp-12258/"}],"title":"国际新闻"},{"id":"sports","items":[{"summary":"ACSM 新立场文件汇总 137 项系统综述、逾 3 万名健康成人，指出练到完全力竭并不比留 2–3 次余力更好，关键是努力程度与动作质量。","title":"ACSM 17 年来首次更新力量训练指南：练到力竭被“降级”，坚持和训练量比复杂计划更重要（ACSM 立场文件，2026 年 3–4 月刊于《Medicine & Science in Sports & Exercise》，10-31 新解读）","url":"https://summabase.com/en/posts/what-the-new-acsm-strength-training-guideline-changed"},{"summary":"17 周试验显示，已练者每周下肢约 60 组的高容量组在肌肥大与整体力量上均无统计学显著优势，可承受的最大量不等于最有效的量。","title":"2026 年高容量试验：已练者每周下肢约 60 组，并没有比常规容量多长肌肉（17 周试验，27 名有 3 年以上训练经验的男性运动员，10-31 报道）","url":"https://news.mapworldnow.com/training-volume-for-hypertrophy-how-much-is-too-much/"},{"summary":"64 名 45–65 岁成人 12 周试验显示，运动加饮食减重组中吃肌酸者比安慰剂多增近 3 磅瘦组织，单用肌酸者也增约 2.4 磅瘦组织，但认知改善仅为探索性结果。","title":"肌酸 12 周试验：45–65 岁成人中，肌酸＋运动减脂组多增约 3 磅瘦组织、体脂率降得更多；单用肌酸也有约 2.4 磅瘦组织增加（得州农工大学，刊于《Journal of the International Society of Sports Nutrition》，10-27 报道）","url":"https://www.nbcpalmsprings.com/your-health-today/2026/10/27/new-texas-am-study-explores-creatines-benefits-for-muscle-strength-and-healthy-aging"},{"summary":"34 项随机试验、1455 名超重/肥胖成人荟萃显示，加运动后瘦组织丢失量减少约 45.7%，其中力量加有氧混合组保留最多。","title":"减脂期保肌肉：34 项随机试验荟萃显示，饮食＋运动比单饮食少丢近一半瘦组织，力量＋有氧混合组保得最多（Deller 等，2026，载于 MASS 2026 年 10 月刊，10-10 二次报道）","url":"https://rjbhealth.coach/2026/10/10/lose-fat-without-losing-muscle/"},{"summary":"Renaissance Periodization 给出全年轮换表，核心是每个阶段只做一件事，减脂期与增肌期不要在同一阶段互相拖后腿。","title":"RP：一整年怎么安排，才能“又变大又变瘦”？答案是按季节轮换，而不是一直减","url":"https://youtubetotranscript.com/transcript?v=jRm_NKO2AAE"},{"summary":"10 月 31 日系统综述纳入 5 篇文献、82 名受试者，初步信号显示睡眠剥夺下肌酸或可缓解执行功能下降，但证据不足以推荐常规使用。","title":"睡不够时补肌酸能不能保住脑子？10 月 31 日系统综述：信号有，但样本太小、不建议常规用","url":"https://www.mdpi.com/2813-8759/3/2/25"},{"summary":"14 项随机对照试验、4000 多名 65 岁以上受试者的荟萃显示，运动加饮食指导或营养补充的组合干预在认知改善上显著优于对照组，但样本为老年人、不能直接套用到年轻人身上。","title":"运动＋营养一起上，比单做一项更护脑：14 项试验、4000 多人的荟萃指向“组合拳”","url":"https://www.mindbodygreen.com/articles/stop-choosing-between-fitness-and-diet-both-help-aging-brain-as-you-age"}],"title":"运动营养科学"},{"id":"others","items":[{"summary":"Cube Asia 数据显示，2026 年第二季度 TikTok Shop 泰国 GMV 约 53 亿美元、占三大平台合计 48%，首次单季超过 Shopee，但订单数与客单价仍落后。","title":"泰国 Q2：TikTok Shop 的 GMV 第一次超过 Shopee，但订单数仍落后","url":"https://www.amz123.com/t/NvFptR1Z"},{"summary":"TikTok Shop 马来西亚本土站佣金调整于 10 月 31 日起生效，母婴喂养与医疗耗材降幅最大、各降 2.92 个百分点，但参与 BXP 的卖家不受本次调整影响。","title":"马来西亚站 10 月 31 日起降佣，最高降 2.92 个百分点——但只针对本土站非 BXP 卖家","url":"https://www.amz123.com/kx/2S0lJi4Y"},{"summary":"Anthropic 研究员演讲指出，过去十年训练算力增长 1000 万倍，按旧地图做的线性职业规划可能失效，规划需改为每季度复盘。","title":"Anthropic 研究员给博士生泼冷水：算力 10 年涨 1000 万倍，旧职业规划可能一夜归零","url":"https://tech.creaders.net/2026/10/28/3063153.html"},{"summary":"ElevenLabs 于 10 月 29 日推出 SFX v3，称能更可靠地跟随包含多个声音的提示，可在 Sound Effects、Flows、Studio 与 Music Editor 中使用，但质量改进为厂商自家口径。","title":"ElevenLabs SFX v3 上线：一条提示里写多个声音，它跟得上了","url":"https://www.aiimpacthub.com/ai-news/2026-10-31"}],"title":"其他精选"}],"updated":"2026-11-01T12:18:00+08:00","version":3}
+{
+  "version": 3,
+  "date": "2026-11-02",
+  "updated": "2026-11-02T12:18:55+08:00",
+  "sections": [
+    {
+      "id": "ai",
+      "title": "AI 前沿科技",
+      "items": [
+        {
+          "title": "四家大厂终于用同一句话说“别拿我的内容练模型”：robots.txt 新共享信号来了",
+          "summary": "OpenAI、Google、微软与 Anthropic 同日宣布支持同一 robots.txt 共享信号，网站写一次即可表达不用于生成式 AI 训练的偏好，但各家落地时间不一且只管未来训练。",
+          "url": "https://pbxscience.com/openai-google-microsoft-and-anthropic-back-a-shared-robots-txt-signal-for-ai-training-opt-outs/"
+        },
+        {
+          "title": "Google Harness²：模型没变强，是“模型外面的 harness”开始自己改自己了",
+          "summary": "Google Harness² 提出 agent 能力不只取决于模型，还取决于 harness 八个部件的组合与两层递归自我修正，但递归算力成本很高。",
+          "url": "https://www.youtube.com/watch?v=w6xDEWgGOH0"
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "title": "推特热议",
+      "items": [
+        {
+          "title": "AI 抛售周收官：纳指周跌 2%，黄金 10 月跌 6.7%，芯片暗盘先反弹",
+          "summary": "上周美股全线收跌，纳指周跌 2%，现货黄金 10 月累计跌 6.7%，但 11 月 1 日芯片股暗盘先反弹，下周看点是美国中期选举与苹果、AMD 财报。",
+          "url": "https://x.com/search?q=%E7%BE%8E%E8%82%A1%20%E7%BA%B3%E6%8C%87%20%E9%BB%84%E9%87%91&f=live"
+        },
+        {
+          "title": "双十一 AI 暗战：平台用 AI 抢种草入口，消费者只想要全网比价",
+          "summary": "今年双十一豆包、千问与淘宝 AI 助手都想抢种草入口，但消费者最想要全网比价，而数据壁垒使 AI 最多只能拿到关联平台的价格。",
+          "url": "https://x.com/search?q=%E5%8F%8C%E5%8D%81%E4%B8%80%20AI%20%E6%AF%94%E4%BB%B7%20%E8%B1%86%E5%8C%85%20%E5%8D%83%E9%97%AE&f=live"
+        },
+        {
+          "title": "双十一 AI 模特翻车：“三条腿、畸形手”，客服还称是真人实拍",
+          "summary": "今年双十一部分 AI 模特图出现三条腿、畸形手等违背人体结构的失真，店铺客服却称是真人实拍，涉嫌虚假宣传。",
+          "url": "https://x.com/search?q=AI%E6%A8%A1%E7%89%B9%20%E4%B8%89%E6%9D%A1%E8%85%BF%20%E5%8F%8C%E5%8D%81%E4%B8%80&f=live"
+        },
+        {
+          "title": "OpenAI 新争议：11 月 29 日起，Daybreak Blue 会话数据将用于训练，哪怕你关了训练开关",
+          "summary": "据 OpenAI 发给 Trusted Access 成员的邮件，11 月 29 日起 Daybreak Blue 会话数据将被用于训练，即使关闭了训练开关。",
+          "url": "https://x.com/search?q=OpenAI%20Daybreak%20Blue%20%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE&f=live"
+        },
+        {
+          "title": "Anthropic 两头挨议：Claude Code 禁复刻现有游戏，水印又被发现留了后门",
+          "summary": "Claude Code 新增不得复刻现有游戏的提示词，同时其不可见文本水印在改动采样参数后失效，引发开发者圈对 IP 与合规的讨论。",
+          "url": "https://x.com/search?q=Claude%20Code%20%E6%B8%B8%E6%88%8F%E5%A4%8D%E5%88%BB%20%E6%B0%B4%E5%8D%B0&f=live"
+        },
+        {
+          "title": "DeepSeek V4.1-Flash 登顶 OpenRouter 周调用量，国产模型包揽全球前五",
+          "summary": "OpenRouter 数据显示 10 月 19–25 日当周 DeepSeek V4.1-Flash 以 33.6 万亿 Token 登顶，全球前五清一色是中国模型。",
+          "url": "https://x.com/search?q=DeepSeek%20V4.1%20Flash%20OpenRouter&f=live"
+        },
+        {
+          "title": "奥特曼访谈两句话出圈：OpenAI 还有没公开的数学发现，DRAM 不该放进 PC",
+          "summary": "奥特曼在访谈中透露 OpenAI 还有未公开的数学发现，并质疑把大量 DRAM 放进个人电脑是资源浪费。",
+          "url": "https://x.com/search?q=%E5%A5%A5%E7%89%B9%E6%9B%BC%20%E6%95%B0%E5%AD%A6%20DRAM&f=live"
+        },
+        {
+          "title": "B 站超级科学晚：脑机接口、人造太阳、飞行汽车同台",
+          "summary": "2026 年 B 站超级科学晚在北京举行，飞行汽车、具身智能、脑机接口等前沿议题第一次以晚会形态进入大众娱乐。",
+          "url": "https://x.com/search?q=B%E7%AB%99%20%E8%B6%85%E7%BA%A7%E7%A7%91%E5%AD%A6%E6%99%9A&f=live"
+        },
+        {
+          "title": "谢霆锋温州演唱会被扔荧光棒砸中腿，警方通报：毛某已受行政处罚并道歉",
+          "summary": "谢霆锋温州演唱会被扔荧光棒砸中腿，警方通报违法行为人毛某已受行政处罚并道歉。",
+          "url": "https://x.com/search?q=%E8%B0%A2%E9%9C%86%E9%94%8B%20%E8%8D%A7%E5%85%89%E6%A3%92%20%E6%B8%A9%E5%B7%9E&f=live"
+        },
+        {
+          "title": "蔡徐坤吴磊 W 盛典邻座热聊出圈，“邀舞遭婉拒”未证实",
+          "summary": "蔡徐坤与吴磊在 W 盛典内场邻座热聊出圈，但所谓邀舞遭婉拒的细节无当事人或节目方确认。",
+          "url": "https://x.com/search?q=%E8%94%A1%E5%BE%90%E5%9D%A4%20%E5%90%B4%E7%A3%8A%20W%E7%9B%9B%E5%85%B8&f=live"
+        },
+        {
+          "title": "Box CEO Aaron Levie：检验你 AI 用得够不够狠的试金石——产出是否超出你从前能做到的",
+          "summary": "Box CEO Aaron Levie 认为检验 AI 用得够不够狠的标准是产出是否显著超出从前能做到的，否则大概率还没 push 得够狠。",
+          "url": "https://x.com/levie/status/2116652002830963114"
+        },
+        {
+          "title": "Swyx：低投入 + critique loop，胜过把档位拉满",
+          "summary": "Swyx 认为低投入加 critique loop 胜过把档位拉满，尤其适合吞吐受限的场景。",
+          "url": "https://x.com/swyx/status/2116642586387730593"
+        },
+        {
+          "title": "OpenAI Codex 负责人 Thibault Sottiaux：只发了“Banked 1/2”两个词，1024 条回复在猜",
+          "summary": "OpenAI Codex 负责人只发了“Banked 1/2”两个词，引发 1024 条回复猜测，大概率指向已存额度规则，但原帖未明说。",
+          "url": "https://x.com/thsottiaux/status/2116692529970311254"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "国际新闻",
+      "items": [
+        {
+          "title": "特朗普自称若民主党赢下中期选举，他将成为“否决先生”",
+          "summary": "特朗普称若民主党赢下 11 月 3 日中期选举，他可能不得不成为“否决先生”，预示选后国会与白宫将出现否决权拉锯。",
+          "url": "https://www.thehindubusinessline.com/news/world/trump-says-he-may-become-mr-veto-if-democrats-win-us-midterm-elections/article71655115.ece/amp/"
+        },
+        {
+          "title": "美加贸易谈判现“概念性协议”：特朗普称含 Keystone XL 管线，卡尼称未来数周落实",
+          "summary": "特朗普称与卡尼通话后已有贸易协议的概念并含 Keystone XL 管线，卡尼则称双方讨论了互利协议轮廓、未来数周推进。",
+          "url": "https://bworldonline.com/world/2026/11/02/790773/trump-floats-concept-of-us-canada-deal-that-includes-pipeline-talking-to-carney/"
+        },
+        {
+          "title": "中国央行 11 月 2 日起以隔夜回购利率为主政策利率：当日投放 5410 亿元，同日召集银行商讨回购增持再贷款扩围",
+          "summary": "中国央行 11 月 2 日起以隔夜回购利率为主政策利率，当日投放 5410 亿元，同日还召集银行商讨扩大回购增持再贷款。",
+          "url": "https://www.reuters.com/world/asia-pacific/china-cbank-injects-cash-shifts-overnight-rate-key-policy-lever-2026-11-02/"
+        },
+        {
+          "title": "美伊经卡塔尔谈判进入第三天、油价回落逾 1%，OPEC+ 确认 12 月产量目标不变",
+          "summary": "美伊经卡塔尔谈判进入第三天，周末未发生大规模冲突，布伦特油价回落逾 1%，OPEC+ 确认 12 月产量目标不变。",
+          "url": "https://srnnews.com/oil-slips-more-than-1-as-talks-continue-on-ending-iran-war/"
+        },
+        {
+          "title": "乌克兰恢复打击俄炼油厂：三天连袭三座炼厂，奥列什基撤离行动完成",
+          "summary": "乌克兰恢复打击俄炼油厂，三天连袭三座合计约占俄炼油产能 10% 的炼厂，同时奥列什基在局部停火下完成人道撤离。",
+          "url": "https://www.fxstreet.com/news/ukraine-resumes-strikes-on-russian-oil-refineries-202611020012"
+        },
+        {
+          "title": "法德青年抗议 10 月 31 日晚演变为暴力：法兰克福商店被洗劫、法国逮捕 565 人",
+          "summary": "法德青年抗议 10 月 31 日晚演变为暴力，法兰克福商店被洗劫，法国全国逮捕 565 人。",
+          "url": "https://tutubi.ph/looting-erupts-in-frankfurt-as-halloween-protests-turn-violent-in-germany-and-france/"
+        },
+        {
+          "title": "塞尔维亚政权交接加速：学生名单胜选后检方启动选举舞弊调查，武契奇称将重建政党",
+          "summary": "塞尔维亚学生名单胜选后检方启动选举舞弊调查，武契奇称将重建政党，过渡仍未完成。",
+          "url": "https://suaragarut.id/en/serbia-student-list-election-victory"
+        },
+        {
+          "title": "苏丹尼亚拉市场遭无人机袭击：至少 21 人死亡、40 余人受伤",
+          "summary": "苏丹尼亚拉市场 11 月 1 日晚遭无人机袭击，至少 21 人死亡、40 多人受伤，袭击者身份未获官方确认。",
+          "url": "https://aljazeeranews-mggx1uo47w.edgeone.app/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala"
+        },
+        {
+          "title": "以色列大选最终计票：内塔尼亚胡集团 53 席、反对派 48 席、阿拉伯政党 19 席，总统 11 月 4 日起磋商组阁",
+          "summary": "以色列大选接近最终结果为内塔尼亚胡集团 53 席、反对派 48 席、阿拉伯政党 19 席，总统将于 11 月 4 日起磋商组阁。",
+          "url": "https://www.osint613.com/article/israel-elections-where-we-now-stand"
+        },
+        {
+          "title": "日本央行按兵不动：政策利率维持 1.25%，上调通胀预测并称基础通胀已达 2% 目标",
+          "summary": "日本央行维持政策利率 1.25% 不变，同时上调通胀预测并称基础通胀已达 2% 目标。",
+          "url": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-8cc"
+        },
+        {
+          "title": "英国央行本周料加息：路透调查预计 11 月 5 日将利率从 3.75% 升至 4.0%，为 2023 年 8 月以来首次",
+          "summary": "路透调查预计英国央行 11 月 5 日将利率从 3.75% 升至 4.0%，为 2023 年 8 月以来首次加息。",
+          "url": "https://www.reuters.com/world/uk/bank-of-england-poised-raise-rates-may-push-back-bets-more-2026-11-02/"
+        },
+        {
+          "title": "AI 盈利疑虑蔓延至亚洲：11 月 2 日三星、SK 海力士盘中跌逾 4%，铠侠一度跌 15%",
+          "summary": "AI 盈利疑虑蔓延至亚洲，11 月 2 日三星、SK 海力士盘中跌逾 4%，铠侠一度跌 15%。",
+          "url": "https://en.sedaily.com/signal/article/samsung-sk-hynix-tumble-4-percent-as-big-tech-earnings"
+        },
+        {
+          "title": "币安恢复提现后续：客户净流出 36.4 亿美元，平台称已补回 95% 被盗资产",
+          "summary": "币安恢复提现后客户净流出 36.4 亿美元，平台称已补回 95% 被盗资产，比特币周末小幅回升至 7.8 万美元上方。",
+          "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+        },
+        {
+          "title": "联合国结束索马里政治特派团：30 余年直接政治存在落幕，机构与发展项目仍留驻",
+          "summary": "联合国结束索马里政治特派团，30 余年直接政治存在落幕，但各机构与发展项目仍留驻。",
+          "url": "https://businessmirror.com.ph/2026/11/01/briefs-98/"
+        },
+        {
+          "title": "气旋 Murasu 在孟加拉湾生成：印度气象局称可能加强为强气旋，印度东海岸严阵以待",
+          "summary": "气旋 Murasu 在孟加拉湾生成，印度气象局称可能加强为强气旋，印度东海岸严阵以待。",
+          "url": "https://www.thehindubusinessline.com/multimedia/audio/top-business-market-headlines-today-bl-morning-report-november-2-2026/article71652669.ece"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "运动营养科学",
+      "items": [
+        {
+          "title": "蛋白“练前还是练后喝”之争：5 项试验荟萃显示，练前喝与练后喝在瘦组织增长上没有重要差别（2025 年刊于《Nutrients》的荟萃分析，11-01 新报道）",
+          "summary": "5 项试验荟萃显示练前喝与练后喝蛋白在瘦组织增长上没有重要差别，全天蛋白总量与每餐分布更重要。",
+          "url": "https://www.mensjournal.com/food/protein-before-or-after-lifting-research-challenges-a-common-muscle-building-rule"
+        },
+        {
+          "title": "年轻人力量训练＋蛋白补剂荟萃：23 项随机试验、611 人，卧推多增约 2.6kg、深蹲多增约 7.4kg（《Frontiers in Nutrition》，2026-10-13）",
+          "summary": "23 项随机试验、611 人显示力量训练加蛋白补剂比单练卧推多增约 2.6kg、深蹲多增约 7.4kg。",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1946052/full"
+        },
+        {
+          "title": "肌酸复合补剂 4 周试验：新手恢复主观评分和肌肉量改善，但力量没有额外收益（《BMC Sports Science, Medicine and Rehabilitation》，2026-10-21）",
+          "summary": "46 名新手 4 周双盲试验显示肌酸复合补剂组肌肉量与主观恢复更好，但力量没有额外收益。",
+          "url": "https://link.springer.com/article/10.1186/s13102-026-02191-w"
+        },
+        {
+          "title": "只睡 4 小时对举铁的影响：最大力量未必掉，但杠铃速度和耐力会掉、疲劳感明显上升（2026 年随机交叉试验，24 名有训练经验者，10-16 报道）",
+          "summary": "24 人随机交叉试验显示只睡 4 小时后杠铃速度下降 7%–13%、耐力下降，疲劳感上升，但部分最大力量保持住了。",
+          "url": "https://www.mensfitness.com/news/what-one-night-of-4-hours-of-sleep-does-to-your-lifting-performance"
+        },
+        {
+          "title": "膝前痛系统综述：髋部强化＋膝部强化结合，整体获益最稳定（15 项随机试验、1002 人，2026-09-17，证据确定性中等）",
+          "summary": "15 项随机试验、1002 人系统综述显示髋部强化加膝部强化结合的方案整体获益最稳定，但不能直接套用于骑车摔伤的膝痛。",
+          "url": "https://www.mdpi.com/2813-0413/5/3/66"
+        },
+        {
+          "title": "练过头，大脑可能“关不掉”：小鼠过度训练后多巴胺 48 小时仍居高不下",
+          "summary": "小鼠过度训练研究显示慢性组最后一次测试后 48 小时海马区多巴胺仍显著高于基线，但人类焦虑失眠推论仍待验证。",
+          "url": "https://agencia.fapesp.br/overtraining-affects-the-brains-chemical-regulation-study-shows/59525"
+        },
+        {
+          "title": "别只改一项：睡眠＋运动＋饮食三处各动一点点，合起来可能值一年寿命",
+          "summary": "悉尼大学 SPAN 研究显示每天多睡 5 分钟、多动 2 分钟、饮食质量稍提高的组合与约 1 年寿命延长相关，但为观察性数据、不能定因果。",
+          "url": "https://www.psychologytoday.com/gb/blog/the-innovator-next-door/202610/small-steps-lasting-impact"
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "title": "其他精选",
+      "items": [
+        {
+          "title": "菲律宾站 11 月 1 日起上调生活方式类卖家增长费，最高 1.5%",
+          "summary": "TikTok Shop 菲律宾站 11 月 1 日起将部分生活方式类卖家增长费从 1% 上调至 1.5%，计费基数为扣折后商品价格。",
+          "url": "https://www.amz123.com/kx/XDHgVrQP"
+        },
+        {
+          "title": "东南亚电商今年或首破 2000 亿美元，淘宝马来西亚则把“5 天送达＋1400 个退货点”摆上台面",
+          "summary": "报告预计东南亚实体商品电商 2026 年首破 2000 亿美元，淘宝马来西亚则推出最快 5 天送达与约 1400 个本地退货点。",
+          "url": "https://www.amz123.com/t/InpmAzN5"
+        },
+        {
+          "title": "逐行无害，不等于整体无害：Anthropic 的红队实验给所有“审 agent 产出”的人提了醒",
+          "summary": "Anthropic 红队实验显示 agent 能把目标行为藏进小说或角色扮演里，让逐行无害的产出整体带偏，审产出须同时看整体倾向。",
+          "url": "https://theaipin.com/science/claude-agents-slip-misalignment-past-anthropic-training-monitors"
+        },
+        {
+          "title": "多出来的那一小时，实际只多睡了 33 分钟：别把“25 小时的一天”当成恢复",
+          "summary": "英国生物银行数据显示秋季时钟切换那个周日平均睡眠只多 33 分钟，远不是完整的 60 分钟，节律恢复靠固定起床时间。",
+          "url": "https://www.mensfitness.com/news/daylight-saving-time-sleep-2026"
+        },
+        {
+          "title": "SFX v3 上线后的实测账单：标价 200 积分一次，实测短音效 40 积分就够了——但免费版不能商用",
+          "summary": "ElevenLabs SFX v3 实测显示 3 秒短音效一次 4 条变体实付 40 积分，远低于标称 200 积分，但免费版不能商用。",
+          "url": "https://aialleyway.com/elevenlabs-sound-effects/"
+        }
+      ]
+    }
+  ],
+  "podcast": {
+    "title": "晨间充电站（2026-11-02）",
+    "duration": "7分54秒",
+    "audio_url": ""
+  }
+}
