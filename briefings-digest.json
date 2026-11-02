@@ -1,12 +1,62 @@
 {
   "version": 3,
   "date": "2026-11-02",
-  "updated": "2026-11-02T12:18:55+08:00",
+  "updated": "2026-11-02T14:50:31+08:00",
   "sections": [
     {
       "id": "ai",
       "title": "AI 前沿科技",
       "items": [
+        {
+          "title": "苹果中国版 Apple Intelligence 定档：11 月 4 日开发者测试，接阿里 Qwen 模型",
+          "summary": "苹果宣布中国用户 11 月 4 日起开发者测试版先用上 Apple Intelligence，12 月随 iOS 27.3 正式推送，境内接入阿里 Qwen 模型。",
+          "url": "https://kimkj.com/en/daily-briefing-en/?mod=document&uid=20527"
+        },
+        {
+          "title": "Meta 联手傅利叶造人形机器人 Max：三个月赶出的 Muse“物理化身”",
+          "summary": "Meta 与傅利叶合作三个月赶出人形机器人原型 Max，约 1.5 米高、48 公斤、搭载英伟达 Thor 芯片，目标承担日常家务。",
+          "url": "https://k.sina.cn/article_7857201856_1d45362c001908t7ws.html?from=tech"
+        },
+        {
+          "title": "一夜之间双双曝光：GPT-6.2 Astra 与 Claude Fable 5.5 线索齐现，11 月或迎旗舰模型集中更新",
+          "summary": "11 月 1 日深夜至 2 日凌晨，GPT-6.2 Astra 与 Claude Fable 5.5 线索同日曝光，均为传闻、未经官方确认。",
+          "url": "https://finance.sina.cn/stock/jdts/2026-11-02/detail-inixicie7301675.d.html"
+        },
+        {
+          "title": "OpenAI 12 月起合并 ChatGPT 与 Codex 额度：按 Token 扣费，并收紧同一支付卡/设备绑定的付费账号",
+          "summary": "OpenAI 12 月起把 ChatGPT 与 Codex 额度合并为一份按 Token 扣费，并收紧同一支付卡或设备绑定的付费账号数量。",
+          "url": "https://kimkj.com/en/daily-briefing-en/?mod=document&uid=20626"
+        },
+        {
+          "title": "英伟达 129 亿美元收购 Hugging Face，美司法部介入审查是否损害竞争",
+          "summary": "英伟达拟以 129 亿美元收购 Hugging Face，美国司法部 10 月 28 日介入审查交易是否损害竞争。",
+          "url": "https://kimkj.com/en/daily-briefing-en/?mod=document&uid=20626"
+        },
+        {
+          "title": "韩国 10 月半导体出口同比大增 259%，占出口总额近一半",
+          "summary": "韩国 10 月半导体出口同比大增 259%，约占当月出口总额 49%，推动当月出口总额创纪录达 1153 亿美元。",
+          "url": "https://k.sina.cn/article_7857201856_1d45362c001908t8xc.html?from=finance"
+        },
+        {
+          "title": "AI 投资回报拷问：10 月纳斯达克 100 蒸发约 2 万亿美元，英特尔把 CPU 产能转向数据中心",
+          "summary": "10 月纳斯达克 100 市值合计蒸发约 2 万亿美元，英特尔同时把部分 CPU 产能从消费级转向数据中心。",
+          "url": "https://www.nationscope.news/news/ai-reality-check-triggers-2-trillion-tech-stock-ro-e698288e"
+        },
+        {
+          "title": "前沿模型直接操控机械臂：操作分数约每 8 周翻一倍，但长程精细任务仍不如专用策略",
+          "summary": "研究显示 9 个前沿多模态模型操控双臂机器人的基准分数约每 8 周翻一倍，但长程精细任务仍不如专用策略。",
+          "url": "https://theprimary.com/ai-tech/2026-10-27/frontier-models-robotic-arms"
+        },
+        {
+          "title": "中国大模型两年调用量激增约 1400 倍，OpenRouter 上国产模型份额冲到约六成",
+          "summary": "全国日均 Token 调用量从 2024 年初 1000 亿飙升至 2026 年 3 月 140 万亿，在 OpenRouter 上中国模型份额冲至约六成。",
+          "url": "https://finance.sina.cn/stock/jdts/2026-11-02/detail-inixhwzh7333089.d.html"
+        },
+        {
+          "title": "具身数据被视为物理 AI 的核心资产：国信证券称数据需求向亿小时级迈进，市场空间或达百亿",
+          "summary": "国信证券研报指出具身数据需求向亿小时级迈进，按数百元每小时测算对应约百亿元市场空间。",
+          "url": "https://finance.sina.cn/hkstock/gsxw/2026-11-02/detail-inixiiqx2282985.d.html"
+        },
         {
           "title": "四家大厂终于用同一句话说“别拿我的内容练模型”：robots.txt 新共享信号来了",
           "summary": "OpenAI、Google、微软与 Anthropic 同日宣布支持同一 robots.txt 共享信号，网站写一次即可表达不用于生成式 AI 训练的偏好，但各家落地时间不一且只管未来训练。",
