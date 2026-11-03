@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Tue, 03 Nov 2026 03:35:07 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 03:36:16 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-04 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得关注的是基础设施层的连环调整：GitHub 把 Git 架构从 repository 锁改成 branch 锁并迁移至 Azure，写入吞吐量拉高 180 倍，目的是撑住单一 repo 中 5000 个 AI 代理同时工作的场景，等于提前为「人人跑 agent」的开发模式铺路。安全面同时拉警报，Langflow 爆出两个 CVSS 9.8 的身分验证绕过与 RCE 漏洞，加上 Hugging Face 上伪装成 Qwen2 的恶意模型已被下载三万多次，皆利用 trust_remote_code 类信任假设，自架推论环境、CI 跑 Langflow 的团队须立即检查版本。</p><p><b>今日重点：</b><br>• <b>Langflow 修补 2 项重大漏洞，涉及身分验证绕过与远端程式码执行</b> (iThome): Langflow 1.0.0-1.12.8 存在 CVSS 9.8 身分验证绕过与 RCE 漏洞，用此平台的团队应立即升级至 1.13.0。<br>• <b>Hugging Face 遭恶意模型滥用，31 个储存库散布挖矿程式与后门</b> (iThome): Hugging Face 上 31 个伪装成 Qwen2 的恶意模型靠 trust_remote_code=True 植入挖矿与后门，自架推论环境应关闭此设定。<br>• <b>用轻量级分类器优化 Gemini 模型路由与推理成本</b> (Google AI Developers Blog): 用轻量级分类器拦截简单决策再决定是否呼叫 Gemini 大模型，可避免每次都跑昂贵推理，降低 agent 生产成本。<br>• <b>GitHub性能提升180倍，为AI代理时代做准备</b> (Publickey): GitHub 改用 branch 级锁并迁移 Azure，写入吞吐提升 180 倍，支援单一 repo 5000 个 AI 代理并行工作。<br>• <b>Amazon Bedrock 支援 Kimi K3 在印度的本地推论</b> (AWS ML Blog): Amazon Bedrock 新增 Kimi K3 印度本地推论，受资料驻留法规限制的团队可在当地部署前沿级编程与 agent 模型。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-04.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-04-audio</guid>
+      <pubDate>Wed, 04 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-04.mp3" length="2535168" type="audio/mpeg" />
+      <itunes:duration>2:38</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得关注的是基础设施层的连环调整：GitHub 把 Git 架构从 repository 锁改成 branch 锁并迁移至 Azure，写入吞吐量拉高 180 倍，目的是撑住单一 repo 中 5000 个 AI 代理同时工作的场景，等于提前为「人人跑 agent」的开发模式铺路。安全面同时拉警报，Langflow 爆出两个 CVSS 9.8 的身分验证绕过与 RCE 漏洞，加上 Hugging Face 上伪装成 Qwen2 的恶意模型已被下载三万多次，皆利用 trust_remote_]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-03 AI 晨报快递</title>
       <description><![CDATA[<p>真正值得放第一的是四大厂（Google、OpenAI、微软、Anthropic）联手定出的 AI 训练偏好标准，透过 robots.txt 的 `__usage_ai-training` 标记统一授权规则，这对所有经营内容网站、未来可能被抓去训练模型的团队是结构性改变，Anthropic 已开跑、OpenAI 数月内跟上。第二条主线是模型与基础设施的持续迭代：Google 端出 Gemini 4 Argon／Carbon 与 Genie 4 互动模拟，OpenAI 则把 ChatGPT、Work、Codex 额度合并改成 Token 计价，并搭配 Qodo 深度整合 Codex 做程式码审查，意味 Agent 化工作流正式变成计费单位。</p><p><b>今日重点：</b><br>• <b>Google 十月 2026 年 AI 最新动态</b> (Google AI Blog): Gemini 4 Argon 全球上线、Gemini 4 Carbon 将推出，SynthID 已浮水印 1,800 亿张图像，用 Gemini API 的团队要跟上版本差异。<br>• <b>OpenAI 预计 12 月起合并 ChatGPT 与 Codex 使用额度，改以 Token 计算</b> (iThome): 12 月起 ChatGPT 对话、Work 与 Codex 额度合并以 Token 计算，Plus/Pro 用户要重新评估用量分配。<br>• <b>Google、OpenAI、微软、Anthropic 宣布共通 AI 训练偏好讯号标准</b> (iThome): Google、OpenAI、微软、Anthropic 共用 robots.txt 新标记 `__usage_ai-training`，网站经营者一次设定即可控管内容是否被训练。<br>• <b>OCRia 推理堆叠：实现 10 倍 token 生成速度提升</b> (LlamaIndex Blog): OCRia 文件解析从 285 tokens/sec 提升到 2,800 tokens/sec，B200 上近 10 倍加速，适合压低文件解析延迟。<br>• <b>日本防卫研究所分析 AI 网攻新威胁：攻击规模和速度提升，资安通报机制面临挑战</b> (iThome): 日本防卫研究所指出 AI 攻击核心变化是规模与速度暴增而非技术突破，既有漏洞修补与 API 安全设定仍是有效防线。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-06.mp3" length="2414208" type="audio/mpeg" />
       <itunes:duration>2:31</itunes:duration>
       <itunes:summary><![CDATA[今天最值得留意的是企业部署侧的松绑与补强：Anthropic 的 Claude Opus 5.5／Sonnet 5.5 正式进驻 AWS GovCloud，让受监管产业也能合法使用 Claude Code 开发，同时砸 1 亿美元办 Claude Frontier Academy，解决企业导入 AI 却无人会落地的瓶颈。第二条主线是基础设施效能战：Ollama v0.40 在 Apple Silicon 预设跑 MLX，Cloudflare Containers 把启动时间从 4 秒砍到 648]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-05 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得注意的是「模型瘦身」与「Agent 自主化」同步加速，正把 AI 从云端拉向本地、从辅助工具推向真正的执行者。瘦身方面，中国电信 Xing4.0-29B 仅需 19GB 即可跑本地编码 Agent，加上 ByteShape、Mitsuba 对 Qwen3.8-27B 的量化压缩，以及 Ollama v0.40.0 在 Apple Silicon 预设启用 MLX，消费级硬体跑大模型已成常态。Agent 基础设施方面更关键：Supabase 收购 Turso，是为让单伺服器撑起数百万个 Agent 专用轻量资料库；而 Microsoft／Hugging Face 的 ThinkingBox 以后端状态验证戳破「单次成功率高」的假象——连续 20 次全成功的比例仅 47%，失败多出在工具调用而非推理本身。</p><p><b>今日重点：</b><br>• <b>Supabase 收购 Turso：以 SQLite 架构支援 AI Agent 时代的海量资料库需求</b> (Publickey): Supabase 收购 Turso，以 SQLite 单伺服器承载数百万轻量资料库，解决 AI Agent 动态建立短生命周期资料库的需求。<br>• <b>中国电信 Xing4.0 在 19GB 本地环境运行 29B 编码 Agent</b> (AlphaSignal): Xing4.0-29B-A4B 仅激活 4B 参数、支援 256K 上下文，GGUF 版本可在 19GB 本地环境跑编码 Agent。<br>• <b>Ollama v0.40.0：Apple Silicon 预设使用 MLX 运行模型</b> (Ollama Releases): Ollama v0.40.0 在 Apple Silicon 上预设改用 MLX 运行时执行相容架构模型，Mac 本地部署无需额外设定即提速。<br>• <b>ThinkingBox：衡量 AI Agent 真实完成度的公开基准测试框架</b> (Zenn (LLM)): ThinkingBox 用后端状态验证测 Agent：单次成功率67%，但连续20次全对仅47%，失败多是工具调用出错而非推理。<br>• <b>HENNGE AI 成立：仅设两名董事，由 AI Agent 承担日常业务</b> (Qiita (LLM)): HENNGE AI 只设两名董事，日常开发、客服、行销全由 AI Agent 执行，示范企业可把营运自主权交给 Agent 到何种程度。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-05.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-05-audio</guid>
-      <pubDate>Mon, 05 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-05.mp3" length="2702592" type="audio/mpeg" />
-      <itunes:duration>2:49</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得注意的是「模型瘦身」与「Agent 自主化」同步加速，正把 AI 从云端拉向本地、从辅助工具推向真正的执行者。瘦身方面，中国电信 Xing4.0-29B 仅需 19GB 即可跑本地编码 Agent，加上 ByteShape、Mitsuba 对 Qwen3.8-27B 的量化压缩，以及 Ollama v0.40.0 在 Apple Silicon 预设启用 MLX，消费级硬体跑大模型已成常态。Agent 基础设施方面更关键：Supabase 收购 Turso，是为让单伺服器撑起数百万个 ]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
