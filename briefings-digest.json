@@ -1,16 +1,61 @@
 {
   "version": 3,
   "date": "2026-11-04",
-  "updated": "2026-11-04T12:15:55+08:00",
+  "updated": "2026-11-04T23:21:45+08:00",
   "sections": [
     {
       "id": "ai",
       "title": "AI 前沿科技",
       "items": [
         {
-          "title": "新基准 GDPx 给 agent 泼了一盆冷水：最强的也只做对 12%，金融与法律题全军覆没",
-          "summary": "SemiAnalysis 11 月 3 日发布的 GDPx 以真实经济工作任务考 agent，Claude Opus 5.5 以 12.0% 居首，而金融与法律类任务所有模型均为 0%。",
-          "url": "https://aitoolsrecap.com/Blog/ai-news-november-03-2026"
+          "title": "新基准 GDPx 给前沿模型泼冷水：最强智能体也只拿 12 分",
+          "summary": "SemiAnalysis 11 月 2 日发布 GDPx 基准，覆盖芯片设计、网络安全、分子生物学、法律、量化交易等 11 个高价值专业领域，测的是“真干活”的智能体能力。",
+          "url": "https://www.gadgets360.com/ai/news/google-gemini-4-carbon-frontier-ai-model-agentic-capabilities-anthropic-claude-opus-5-5-semianalysis-benchmark-results-12274852"
+        },
+        {
+          "title": "安全专用模型 VR-1.1 修漏洞胜过通用编码旗舰",
+          "summary": "Cogent Security 11 月 3 日发布 VR-1.1，在公开基准 LiveCVEBench（190 个新披露漏洞、14 种语言的真实代码库修补任务）上修出可用补丁的比例为 57.9%，高于 Claude Code 与 Codex 的 45.3%。",
+          "url": "https://siliconangle.com/2026/11/03/exclusive-cogent-securitys-vr-1-1-model-outscores-claude-code-and-codex-on-vulnerability-repair/"
+        },
+        {
+          "title": "传 DeepSeek V5 将用华为昇腾 950 从头预训练，官方未证实",
+          "summary": "据财联社、科创板日报等经 TrendForce 转引的供应链消息，DeepSeek 计划用华为 Ascend 950 系列（据报乌兰察布数据中心部署约 16 万颗 950DT）预训练下一代 V5，最早 2026 年底启动、大规模训练预计在 2027 年。",
+          "url": "https://www.mlllm.io/articles/3704-deepseek-prepares-to-shift-v5-training-from-nvidia-to-huawei-ascend-at-least-160-000-chips-to-be-deployed-in-ulanqab/"
+        },
+        {
+          "title": "韩国砸 21.3 万亿韩元押注 AI：芯片＋物理 AI＋数据中心",
+          "summary": "韩国总统李在明 11 月 2 日向国会提交创纪录的 820.9 万亿韩元 2027 年预算案，其中 AI 相关 21.3 万亿韩元（约 160 亿美元），接近翻倍，覆盖半导体、物理 AI、AI 数据中心三大项目，另有 4.7 万亿韩元用于打造“世界最高性能”的自主模型。",
+          "url": "https://bworldonline.com/world/2026/11/02/790790/south-koreas-lee-vows-to-make-bold-ai-investment-in-record-budget-push/"
+        },
+        {
+          "title": "苹果智能中国版今天起测：Qwen 进 Siri，12 月随 iOS 27.3 上线",
+          "summary": "苹果 10 月 31 日确认，中国版 Apple Intelligence 今天（11 月 4 日）起进入开发者测试，12 月随 iOS 27.3 正式推送。",
+          "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/"
+        },
+        {
+          "title": "英国主权 AI 基金入局推理芯片 Fractile，估值半年翻 6 倍",
+          "summary": "据《电讯报》及 Companies House 文件，伦敦推理芯片初创 Fractile 新一轮约 7 亿美元融资，估值约 65 亿美元，较 5 月的约 10 亿美元翻了 6 倍多，英国政府主权 AI 基金也参与其中。",
+          "url": "https://dealroom.co/news/168114-uk-taxpayers-buy-into-the-ai-chip-boom-as-the-sovereign-ai-fund-joins-fr/"
+        },
+        {
+          "title": "谷歌 Computer Use 正式 GA：AI 能看屏操作电脑了，但执行仍归开发者",
+          "summary": "谷歌 10 月 30 日在 Gemini API 更新日志中宣布 Computer Use 进入正式版（GA），覆盖 Interactions 与 GenerateContent 两个 API：模型看截图、建议点击/滚动/输入，开发者负责真正执行动作并回传下一屏。",
+          "url": "https://jbiznews.com/google-moves-gemini-computer-use-into-general-availability/"
+        },
+        {
+          "title": "隐身实验室 Prefrontal 的新注意力方法：千万 Token 下快 72 倍",
+          "summary": "英国隐身前沿实验室 Prefrontal 发布 Latent Sparse Attention（LSA）：按语义而非位置组织信息，在 1000 万 Token 上下文下，注意力层预填充比全注意力快 72.4 倍、比现有稀疏注意力方法快 22.7 倍，端到端首 Token 时间最多快 9.2 倍，且精度相当。",
+          "url": "https://sifted.eu/articles/breakthrough-from-stealth-frontier-ai-lab-brnd/"
+        },
+        {
+          "title": "今日看点跟进：Kimi K3.1 Pro 承诺今天开源权重，截至今晨仍未上线",
+          "summary": "月之暗面承诺 K3.1 Pro（2.8 万亿参数 MoE、100 万上下文）完整权重“11 月 4 日前”放出，但据今日技术简报今晨核查，Hugging Face 上 Moonshot 组织下仍无 K3.1 公开仓库，最新仍是 Kimi K3。",
+          "url": "https://medium.com/@hx_research/llm-technical-brief-nov-4-2026-anthropic-nears-its-rsi-threshold-best-agent-scores-12-on-gdpx-b9ffd79015f8"
+        },
+        {
+          "title": "前沿实验室声称 AI 否定了指数时间假设，学界正在验证",
+          "summary": "OpenAI 与 Anthropic 相继声称，其模型找到了“次指数时间”算法，从而否定（refute）了计算复杂性理论中长期成立的指数时间假设（ETH）——该假设关乎哪些问题本质上难算。",
+          "url": "https://www.winzheng.com/en/article/frontier-ai-eth-refutation"
         },
         {
           "title": "Mistral Large 4 开源权重上线：1 万亿参数、改良 MIT 协议，但本地跑仍是数据中心级别",
