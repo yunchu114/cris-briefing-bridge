@@ -1,66 +1,31 @@
 {
   "version": 3,
-  "date": "2026-11-04",
-  "updated": "2026-11-04T23:21:45+08:00",
+  "date": "2026-11-05",
+  "updated": "2026-11-05T12:14:18+08:00",
   "sections": [
     {
       "id": "ai",
       "title": "AI 前沿科技",
       "items": [
         {
-          "title": "新基准 GDPx 给前沿模型泼冷水：最强智能体也只拿 12 分",
-          "summary": "SemiAnalysis 11 月 2 日发布 GDPx 基准，覆盖芯片设计、网络安全、分子生物学、法律、量化交易等 11 个高价值专业领域，测的是“真干活”的智能体能力。",
-          "url": "https://www.gadgets360.com/ai/news/google-gemini-4-carbon-frontier-ai-model-agentic-capabilities-anthropic-claude-opus-5-5-semianalysis-benchmark-results-12274852"
+          "title": "agent 脚手架越堆越输：100 任务基准里，“多想一会儿”打败了 37 个技能＋17 个 agent 的豪华配置",
+          "summary": "100 任务基准对比显示，37 个技能加 17 个 agent 的豪华配置成本是普通版 8 倍、得分却更低，赢的是更少的编排加更长的思考加及时压缩上下文。",
+          "url": "https://www.llm-digest.com/daily"
         },
         {
-          "title": "安全专用模型 VR-1.1 修漏洞胜过通用编码旗舰",
-          "summary": "Cogent Security 11 月 3 日发布 VR-1.1，在公开基准 LiveCVEBench（190 个新披露漏洞、14 种语言的真实代码库修补任务）上修出可用补丁的比例为 57.9%，高于 Claude Code 与 Codex 的 45.3%。",
-          "url": "https://siliconangle.com/2026/11/03/exclusive-cogent-securitys-vr-1-1-model-outscores-claude-code-and-codex-on-vulnerability-repair/"
+          "title": "腾讯 Hy4 正式版来了：第一次原生支持视觉，但厂商跑分只说明“差距缩小了、还没追上”",
+          "summary": "腾讯 Hunyuan Hy4 正式版首次原生支持视觉与电脑操作，厂商跑分称超过 DeepSeek-V4.1-Flash 但仍落后 GPT-6.1 Sol 与 Claude Opus 5.5，权重计划开源而非已可下载。",
+          "url": "https://siliconnoon.com/today-in-ai-november-4-2026/"
         },
         {
-          "title": "传 DeepSeek V5 将用华为昇腾 950 从头预训练，官方未证实",
-          "summary": "据财联社、科创板日报等经 TrendForce 转引的供应链消息，DeepSeek 计划用华为 Ascend 950 系列（据报乌兰察布数据中心部署约 16 万颗 950DT）预训练下一代 V5，最早 2026 年底启动、大规模训练预计在 2027 年。",
-          "url": "https://www.mlllm.io/articles/3704-deepseek-prepares-to-shift-v5-training-from-nvidia-to-huawei-ascend-at-least-160-000-chips-to-be-deployed-in-ulanqab/"
+          "title": "半导体材料的下一局可能不在硅：金刚石带隙 5.6eV、导热碾压硅与氮化镓，但掺杂仍是硬骨头",
+          "summary": "金刚石以约 5.6eV 带隙与 900–2320 W·m⁻¹·K⁻¹ 导热率被列入下一代半导体观察清单，但长晶与掺杂等量产工艺至今仍棘手。",
+          "url": "https://hackaday.com/2026/11/04/from-germanium-to-diamond-the-many-shapes-of-semiconductors/"
         },
         {
-          "title": "韩国砸 21.3 万亿韩元押注 AI：芯片＋物理 AI＋数据中心",
-          "summary": "韩国总统李在明 11 月 2 日向国会提交创纪录的 820.9 万亿韩元 2027 年预算案，其中 AI 相关 21.3 万亿韩元（约 160 亿美元），接近翻倍，覆盖半导体、物理 AI、AI 数据中心三大项目，另有 4.7 万亿韩元用于打造“世界最高性能”的自主模型。",
-          "url": "https://bworldonline.com/world/2026/11/02/790790/south-koreas-lee-vows-to-make-bold-ai-investment-in-record-budget-push/"
-        },
-        {
-          "title": "苹果智能中国版今天起测：Qwen 进 Siri，12 月随 iOS 27.3 上线",
-          "summary": "苹果 10 月 31 日确认，中国版 Apple Intelligence 今天（11 月 4 日）起进入开发者测试，12 月随 iOS 27.3 正式推送。",
-          "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/"
-        },
-        {
-          "title": "英国主权 AI 基金入局推理芯片 Fractile，估值半年翻 6 倍",
-          "summary": "据《电讯报》及 Companies House 文件，伦敦推理芯片初创 Fractile 新一轮约 7 亿美元融资，估值约 65 亿美元，较 5 月的约 10 亿美元翻了 6 倍多，英国政府主权 AI 基金也参与其中。",
-          "url": "https://dealroom.co/news/168114-uk-taxpayers-buy-into-the-ai-chip-boom-as-the-sovereign-ai-fund-joins-fr/"
-        },
-        {
-          "title": "谷歌 Computer Use 正式 GA：AI 能看屏操作电脑了，但执行仍归开发者",
-          "summary": "谷歌 10 月 30 日在 Gemini API 更新日志中宣布 Computer Use 进入正式版（GA），覆盖 Interactions 与 GenerateContent 两个 API：模型看截图、建议点击/滚动/输入，开发者负责真正执行动作并回传下一屏。",
-          "url": "https://jbiznews.com/google-moves-gemini-computer-use-into-general-availability/"
-        },
-        {
-          "title": "隐身实验室 Prefrontal 的新注意力方法：千万 Token 下快 72 倍",
-          "summary": "英国隐身前沿实验室 Prefrontal 发布 Latent Sparse Attention（LSA）：按语义而非位置组织信息，在 1000 万 Token 上下文下，注意力层预填充比全注意力快 72.4 倍、比现有稀疏注意力方法快 22.7 倍，端到端首 Token 时间最多快 9.2 倍，且精度相当。",
-          "url": "https://sifted.eu/articles/breakthrough-from-stealth-frontier-ai-lab-brnd/"
-        },
-        {
-          "title": "今日看点跟进：Kimi K3.1 Pro 承诺今天开源权重，截至今晨仍未上线",
-          "summary": "月之暗面承诺 K3.1 Pro（2.8 万亿参数 MoE、100 万上下文）完整权重“11 月 4 日前”放出，但据今日技术简报今晨核查，Hugging Face 上 Moonshot 组织下仍无 K3.1 公开仓库，最新仍是 Kimi K3。",
-          "url": "https://medium.com/@hx_research/llm-technical-brief-nov-4-2026-anthropic-nears-its-rsi-threshold-best-agent-scores-12-on-gdpx-b9ffd79015f8"
-        },
-        {
-          "title": "前沿实验室声称 AI 否定了指数时间假设，学界正在验证",
-          "summary": "OpenAI 与 Anthropic 相继声称，其模型找到了“次指数时间”算法，从而否定（refute）了计算复杂性理论中长期成立的指数时间假设（ETH）——该假设关乎哪些问题本质上难算。",
-          "url": "https://www.winzheng.com/en/article/frontier-ai-eth-refutation"
-        },
-        {
-          "title": "Mistral Large 4 开源权重上线：1 万亿参数、改良 MIT 协议，但本地跑仍是数据中心级别",
-          "summary": "Mistral 11 月 3 日在 Hugging Face 放出约 1 万亿参数的 Large 4 权重，改良 MIT 协议允许免费使用与商用，但转售托管服务需另拿授权。",
-          "url": "https://www.technology.org/2026/11/03/mistral-large-4-open-weights-hugging-face-modified-mit/"
+          "title": "agent 落地 reality check：Uber 上季度经第三方 AI agent 成交的打车只有 4 单，同期总量是 3.2 亿单",
+          "summary": "Uber 三季度经第三方 AI agent 成交的打车仅 4 单、同期打车与配送总量 3.2 亿单，演示跑通与用户真正把消费交给 agent 之间还隔着信任与纠错成本。",
+          "url": "https://siliconnoon.com/today-in-ai-november-4-2026/"
         }
       ]
     },
@@ -69,79 +34,84 @@
       "title": "推特热议",
       "items": [
         {
-          "title": "美国中期选举今日开票：东部票站北京时间今早陆续关闭，初步结果今陆续出炉",
-          "summary": "美东 11 月 3 日投票日换算成北京时间后东部票站 11 月 4 日早上起陆续关闭，改选众议院全部 435 席与参议院 35 席，初步结果今日陆续出炉。",
-          "url": "https://x.com/search?q=%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%20%E5%BC%80%E7%A5%A8&f=live"
+          "title": "美国中期选举结果出炉：民主党拿下两院，特朗普称承认结果",
+          "summary": "11 月 3 日投票的中期选举计票结果 11 月 4 日陆续明朗，民主党夺回参众两院控制权，特朗普表态承认结果并将与民主党合作。",
+          "url": "https://x.com/search?q=%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%20%E7%BB%93%E6%9E%9C%20%E6%B0%91%E4%B8%BB%E5%85%9A&f=live"
         },
         {
-          "title": "Apple Intelligence 中国今日开测：开发者 Beta 上线，千问接入由用户自选",
-          "summary": "苹果中国区首批 Apple Intelligence 功能 11 月 4 日起随最新 iOS 开发者测试版开放测试，千问接入须用户自选并先征求同意。",
-          "url": "https://x.com/search?q=Apple%20Intelligence%20%E4%B8%AD%E5%9B%BD%20%E5%8D%83%E9%97%AE&f=live"
+          "title": "A 股 11 月 4 日午后大反转：科创 50 暴涨 9.92%，成交重回 2 万亿",
+          "summary": "11 月 3 日调整一天后，11 月 4 日 A 股午后半导体、CPO、算力硬件全线爆发，沪指涨 2.16% 报 3686.17 点，两市成交 2.04 万亿元。",
+          "url": "https://x.com/search?q=A%E8%82%A1%2011%E6%9C%884%E6%97%A5%20%E7%A7%91%E5%88%9B50&f=live"
         },
         {
-          "title": "Kimi K3.1 Pro 权重今日到期开放：2.8T 参数开源，但个人电脑根本跑不动",
-          "summary": "月之暗面承诺 11 月 4 日前开放 Kimi K3.1 Pro 完整权重，MoE 总参 2.8T、100 万 token 上下文，但量化后仍需数百 GB，普通电脑无法本地运行。",
-          "url": "https://x.com/search?q=Kimi%20K3.1%20%E5%BC%80%E6%BA%90%E6%9D%83%E9%87%8D&f=live"
+          "title": "第九届进博会今天开幕：4142 家境外企业参展，规模再创历史新高",
+          "summary": "第九届进博会 11 月 5–10 日在上海举行，162 个国家、地区和国际组织参与，4142 家境外企业参展，整体面积首次突破 44 万平方米。",
+          "url": "https://x.com/search?q=%E8%BF%9B%E5%8D%9A%E4%BC%9A%20%E5%BC%80%E5%B9%95&f=live"
         },
         {
-          "title": "国际油价单日大跌超 7%：美伊“两天通航”信号挤掉战争溢价，但 3 日晚又走出 V 型反复",
-          "summary": "美伊谈判信号推动 11 月 2 日国际油价单日大跌超 7%，但 11 月 3 日晚伊方称美方回应未能令人信服，油价走出 V 型反复。",
-          "url": "https://x.com/search?q=%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%20%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1&f=live"
+          "title": "中美 AI 管制连出两招：甲骨文被曝取消腾讯 70 亿美元芯片租约，腾讯 Hy4 主动限训",
+          "summary": "据《金融时报》报道，甲骨文在特朗普政府施压下取消了向腾讯出租约 10 万颗先进 AI 芯片、价值约 70 亿美元的五年租约，同日腾讯 Hy4 主动把网络安全训练限制在防御用途。",
+          "url": "https://x.com/search?q=%E7%94%B2%E9%AA%A8%E6%96%87%20%E8%85%BE%E8%AE%AF%20%E8%8A%AF%E7%89%87%E7%A7%9F%E7%BA%A6&f=live"
         },
         {
-          "title": "A 股 11 月 3 日震荡调整：沪指跌 0.82%，算力硬件集体走弱，AI 漫剧逆势走强",
-          "summary": "11 月 3 日 A 股三大指数集体调整，沪指跌 0.82%，算力硬件集体走弱，而 AI 漫剧概念继续走强。",
-          "url": "https://x.com/search?q=A%E8%82%A1%2011%E6%9C%883%E6%97%A5%20%E6%94%B6%E7%9B%98&f=live"
+          "title": "年底旗舰竞赛提前开打：OpenAI DevDay 收官超 20 项发布，GPT-6.2 已灰测、Claude Mythos 5.5 短暂曝光",
+          "summary": "OpenAI DevDay 2026 总结称覆盖全线超 20 项重大发布，GPT-6.2-Astra 已进入灰度测试，Claude Mythos 5.5 则短暂出现在 Anthropic 官网前端代码中后被移除。",
+          "url": "https://x.com/search?q=OpenAI%20DevDay%20GPT-6.2&f=live"
         },
         {
-          "title": "九寨沟拍照冲突调解结案，但舆论没平息：通报没说清“谁先动手”",
-          "summary": "九寨沟拍照冲突双方已相互赔礼道歉并达成调解协议，但通报未交代谁先动手与为何适用调解，舆论仍存争议。",
-          "url": "https://x.com/search?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%20%E6%8B%8D%E7%85%A7%E5%86%B2%E7%AA%81%20%E8%B0%83%E8%A7%A3&f=live"
+          "title": "延安大学副教授离世引关注：省教育厅称专门部门已介入，校方正核实网传绝笔信",
+          "summary": "延安大学钢琴副教授白保国离世消息持续发酵，陕西省教育厅 11 月 4 日回应称已有专门部门处理，校方正在调查核实网传绝笔信内容。",
+          "url": "https://x.com/search?q=%E5%BB%B6%E5%AE%89%E5%A4%A7%E5%AD%A6%20%E7%99%BD%E4%BF%9D%E5%9B%BD&f=live"
         },
         {
-          "title": "低保女生赴港看演唱会后续：11 月 3 日确认低保已取消",
-          "summary": "赣州经开区 11 月 3 日确认低保家庭中专女生赴港看演唱会事件中该家庭低保已经取消，争论焦点仍是一次个人消费是否应让全家失去兜底。",
-          "url": "https://x.com/search?q=%E4%BD%8E%E4%BF%9D%20%E8%B5%B4%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A&f=live"
+          "title": "陕西商南重大刑案冲上热搜首位：网传嫌疑人持刀在逃、照片已曝光",
+          "summary": "11 月 5 日凌晨起陕西商南重大刑案话题冲上热搜首位，网传协查通报称嫌疑人持刀在逃，目前尚未见到官方发布的详细案情通报。",
+          "url": "https://x.com/search?q=%E9%99%95%E8%A5%BF%E5%95%86%E5%8D%97%20%E5%88%91%E6%A1%88&f=live"
         },
         {
-          "title": "央视曝光 AI 网恋诈骗：AI 生成“男友”直播，成都团伙 28 人被抓",
-          "summary": "央视曝光成都警方打掉一个 AI 网恋团伙，抓获 28 人，AI 生成男性形象直播出镜、主播用变声器冒充，涉案 100 余万元。",
-          "url": "https://x.com/search?q=AI%E7%BD%91%E6%81%8B%E8%AF%88%E9%AA%97%20%E6%88%90%E9%83%BD&f=live"
+          "title": "S16 八强：IG 3-1 淘汰 TES，时隔 7 年重返四强；369 拼到最后，Zuian 一场未打成尴尬纪录",
+          "summary": "11 月 4 日英雄联盟 S16 八强赛首日，IG 3-1 击败 TES 时隔 7 年重返四强，TES 上单 Zuian 因签证问题整届一场未打就随队出局。",
+          "url": "https://x.com/search?q=TES%20IG%20S16%20%E5%85%AB%E5%BC%BA&f=live"
         },
         {
-          "title": "冷空气今天起南下：4–6 日北方大风降温 4–8℃，南方先迎一轮大雨",
-          "summary": "中央气象台预报 4–6 日冷空气自北向南，北方大风降温 4–8℃、局部超 10℃，南方则先迎一轮大雨。",
-          "url": "https://x.com/search?q=%E5%86%B7%E7%A9%BA%E6%B0%94%20%E9%99%8D%E6%B8%A9%2011%E6%9C%884%E6%97%A5&f=live"
+          "title": "高市早苗面见天皇的仪态视频传开了：11 月 3 日文化勋章亲授式上的姿势被批“丢人”",
+          "summary": "11 月 3 日皇居文化勋章亲授式上，日本首相高市早苗在天皇面前的行走与递托盘动作被拍下扩散，批评集中在姿势不自然与不懂基本礼仪。",
+          "url": "https://x.com/search?q=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%20%E5%A4%A9%E7%9A%87&f=live"
         },
         {
-          "title": "乌镇峰会今明两天向公众开放：此前要预约，今天起可凭预约进场看展",
-          "summary": "2026 年世界互联网大会乌镇峰会公众参观日为 11 月 4–5 日，须提前实名预约，可参观“互联网之光”博览会与具身智能展区。",
-          "url": "https://x.com/search?q=%E4%B9%8C%E9%95%87%E5%B3%B0%E4%BC%9A%20%E5%85%AC%E4%BC%97%E5%BC%80%E6%94%BE&f=live"
+          "title": "拓竹发布旗舰 3D 打印机 H3C：9 个可切换打印头，标准套装 15999 元起",
+          "summary": "11 月 3 日晚拓竹发布第三代旗舰 3D 打印机 H3C，标配 9 个可切换打印头与 9 槽全封闭供料系统，标准套装售价 15999 元起。",
+          "url": "https://x.com/search?q=%E6%8B%93%E7%AB%B9%20H3C&f=live"
         },
         {
-          "title": "Thariq：不用无限 Token 也能干出好活，200 美元套餐已经很惊人——而且这是智能最贵的时候",
-          "summary": "前 Claude Code 成员 Thariq 称不需要无限 Token 也能做出出色工作，200 美元档套餐已经非常好，而且智能只会越来越便宜。",
-          "url": "https://x.com/trq212/status/2117305792923889731"
+          "title": "Cat Wu：Claude Code 核心成员的告别——两年前它还是内部小工具，如今默认被信任自动审批",
+          "summary": "Claude Code 成员 Cat Wu 告别 Anthropic，称两年前 Claude Code 还是内部小工具，如今默认是信任其判断自动审批，能做大型迁移与建新产品。",
+          "url": "https://x.com/_catwu/status/2117731934340337676"
         },
         {
-          "title": "Peter Yang：写作用 Gemini 改得比 ChatGPT 好，但 Antigravity 的浏览器功能还没跟上",
-          "summary": "Peter Yang 称同时让 ChatGPT 和 Gemini 提修改意见时 Gemini 的建议真的更好，但 Antigravity 尚无可用浏览器功能，只能把意见粘回 ChatGPT 再改。",
-          "url": "https://x.com/petergyang/status/2117333424403042330"
+          "title": "Sam Altman：人应始终掌控未来，不能把人降格为“AI 认为值得奖励的事”",
+          "summary": "OpenAI CEO Sam Altman 写道，人不应把对未来的控制权让渡给超级智能，反对人被降格为去做 AI 系统认为值得奖励的事。",
+          "url": "https://x.com/sama/status/2117794005165748448"
         },
         {
-          "title": "Vercel CEO Rauch：无状态沙箱是错的基准，Agent 只有带着自己的工作区才有用",
-          "summary": "Rauch 称无状态沙箱是错误的基准，Agent 只有带着自己的工作区（身份、技能、仓库、记忆）才真正有用。",
-          "url": "https://x.com/rauchg/status/2117338179535810957"
+          "title": "Thariq：苦涩的教训在起作用——最聪明的模型需要的 token 越来越少，最终直接做对",
+          "summary": "前 Claude Code 成员 Thariq 写道，最聪明的模型需要的 token 会越来越少，不需要验证自己的工作、不需要查 bug，直接就是对的。",
+          "url": "https://x.com/trq212/status/2117670540148347273"
         },
         {
-          "title": "Codex 团队 Thibault Sottiaux：团队终于能聊聊他们的 Git 功夫了",
-          "summary": "Codex 成员 Thibault Sottiaux 称团队终于能稍微聊聊其 Git 工作流，并称模型会按任务选最合适的模型。",
-          "url": "https://x.com/thsottiaux/status/2117412956950638872"
+          "title": "Boris Cherny：Claude 现在能自动连接公司的插件了，不用逐个登录",
+          "summary": "Anthropic 的 Boris Cherny 写道，Team 和 Enterprise 管理员设好之后，Claude 可在队友第一次使用插件时自动连接，不用逐个登录。",
+          "url": "https://x.com/bcherny/status/2117693181651542387"
         },
         {
-          "title": "YC 总裁 Garry Tan：Capy Captains 让他的 issue 修复吞吐一夜提升约 5 倍",
-          "summary": "Garry Tan 称 Capy Captains 让他的 issue 修复吞吐量一夜之间提升约 5 倍，跨队长、跨子线程协调是关键解锁。",
-          "url": "https://x.com/garrytan/status/2117410016730964358"
+          "title": "Aaron Levie：AI 产出分化已是史上最大，前沿与不关注者之间差一个数量级",
+          "summary": "Box CEO Aaron Levie 写道，AI 产出分化可能是史上最大的，如今模型能连续做更长任务、多 Agent 并行，提效上限已到 5–10 倍。",
+          "url": "https://x.com/levie/status/2117505799937577263"
+        },
+        {
+          "title": "Guillermo Rauch：Vercel 的内部安全 Agent“hacker”审计每一行代码，现在对外开放了",
+          "summary": "Vercel CEO Rauch 写道，内部安全 Agent“hacker”对每一行代码自动审计的效果惊人，现在同样的能力对外开放，无论代码是否托管在 Vercel 上都能用。",
+          "url": "https://x.com/rauchg/status/2117734833824948373"
         }
       ]
     },
@@ -150,79 +120,79 @@
       "title": "国际新闻",
       "items": [
         {
-          "title": "美国中期选举开票：民主党先赢北卡参议院席位，奥索夫、帕帕斯守住佐治亚与新罕布什尔（美联社/《卫报》）",
-          "summary": "中期选举之夜民主党先声夺人，赢下北卡参议院席位并守住佐治亚与新罕布什尔，但两院归属截至发稿均未确定。",
-          "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/03/midterm-elections-results-updates-2026--live/91892413007/"
+          "title": "民主党横扫美国中期选举，拿下参众两院（《经济学人》/美联社）",
+          "summary": "美联社等机构计票预测显示，民主党翻转多地共和党参议院席位并跨过众议院 218 席门槛，新一届国会将于 2027 年 1 月就职，最终席位数仍在计票中。",
+          "url": "https://apnews.com/projects/elections-2026/?ap_doc=ap%2Fv2%2F20261103%2Fl%2F999999%2FUS%2Fn%2F178506"
         },
         {
-          "title": "美军对伊朗格什姆岛实施“防御性”打击，美伊谈判仍远未达成协议（路透社/《经济学人》）",
-          "summary": "美方称美军对霍尔木兹海峡口的伊朗格什姆岛实施针对地对空导弹的有限防御性打击，而伊朗高级官员称美伊距结束战争的协议仍很远。",
-          "url": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/"
+          "title": "全球市场消化“蓝色浪潮”：美元大跌，欧洲股市上涨、亚洲科技股承压（《金融时报》）",
+          "summary": "民主党横扫国会后，美元创约两个月最大跌幅、10 年期美债收益率回落约 8 个基点至 4.88%，欧洲股市反弹而亚洲科技股先跌后回升。",
+          "url": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-1ed"
         },
         {
-          "title": "特朗普称年底前停止每年约 40 亿美元对以色列军援，执行细节未明、现行协议本至 2028 年（路透社）",
-          "summary": "特朗普称美方将在今年底前停止每年约 40 亿美元对以色列资助，但现行十年备忘录约定至 2028 财年，且拨款最终由国会决定。",
-          "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/"
+          "title": "英国央行今日料 3 年多来首次加息，基准利率或从 3.75% 升至 4%（BBC）",
+          "summary": "英国央行将于北京时间 11 月 5 日晚间公布利率决定，市场普遍预期加息 25 个基点至 4%，背景是英国 9 月 CPI 通胀升至 3.5%。",
+          "url": "https://newsstocks.live/news/bank-of-england-expected-to-raise-interest-rates-to-4-thursday"
         },
         {
-          "title": "俄军轰炸乌克兰扎波罗热援助点，死亡人数在 26 至 33 人之间滚动更新，俄方说法不同（《泰晤士报》/《卫报》）",
-          "summary": "俄军 11 月 2 日轰炸扎波罗热州一处人道援助发放点，死亡人数在统计中从 26 人升至 33 人，俄方称打击的是乌军部队，该说法未经独立核实。",
-          "url": "https://www.thetimes.com/world/russia-ukraine-war/article/24-killed-russian-strike-aid-centre-xb9xm7d2m"
+          "title": "Alphabet 单日市值蒸发约 5000 亿美元，创公司史上最差单日表现（《经济学人》）",
+          "summary": "Alphabet 在三季报后单日大跌约 12.6%，市值蒸发约 5050 亿美元并跌出 4 万亿美元俱乐部，三季度资本开支高达约 514 亿美元、自由现金流转为负值。",
+          "url": "https://www.fool.com/investing/2026/11/01/alphabet-gets-kicked-out-of-the-4-trillion-club/"
         },
         {
-          "title": "乌克兰和谈新日程：欧盟周三先开协调会，阿布扎比三方会谈定于 11 月 10–11 日；美俄中还磋商深圳 APEC 三方峰会（路透社/《金融时报》）",
-          "summary": "欧盟将于 11 月 4 日主持乌克兰问题协调会，为 11 月 10–11 日阿布扎比美乌俄三方会谈做准备，美俄中还磋商在深圳 APEC 期间举行三方会晤。",
-          "url": "https://www.reuters.com/world/eu-host-talks-ukraine-with-united-states-others-wednesday-2026-11-03/"
+          "title": "中国 AI 股市泡沫已经破裂：科创 50 不到 4 个月跌约 40%，蒸发约 4800 亿美元（路透社）",
+          "summary": "据路透社梳理，上证科创板 50 指数自夏季高点下跌约 40%、市值蒸发约 4800 亿美元，光模块股自高点跌约 60%，北京已通过国家队资金与回购支持托市。",
+          "url": "https://www.newfortunetimes.com/chinas-ai-stock-rout-wipes-out-us480-billion-as-investors-question-lofty-valuations/"
         },
         {
-          "title": "印尼总统幕僚长等三名高级警官涉嫌窃听总统被捕，官方称暂无叛国证据（路透社）",
-          "summary": "印尼警方逮捕总统幕僚长等三名高级警官，指控他们自 2025 年起非法窃听总统、部长、记者与政商界人士，调查尚处早期、未发现叛国证据。",
-          "url": "https://www.reuters.com/world/asia-pacific/indonesia-arrests-chief-staff-top-policemen-alleged-wiretapping-president-2026-11-04/"
+          "title": "据《金融时报》报道，Oracle 取消与腾讯约 70 亿美元的 AI 芯片租赁协议（《金融时报》）",
+          "summary": "据《金融时报》报道，Oracle 已取消一份为期 5 年、约 70 亿美元的协议，该协议原拟让腾讯通过东南亚数据中心获得至多 10 万颗先进 AI 芯片算力，相关方均未立即回应。",
+          "url": "https://www.thehindubusinessline.com/info-tech/oracle-cancels-7-billion-chip-leasing-deal-with-chinas-tencent-ft-reports/article71664185.ece/amp/"
         },
         {
-          "title": "国际法院定于 11 月 19 日就缅甸罗兴亚种族灭绝案作出裁决，为十余年来首例（路透社）",
-          "summary": "国际法院宣布将于 11 月 19 日宣读缅甸罗兴亚种族灭绝案判决，这是十余年来历史上仅第三次就种族灭绝案作出判决。",
-          "url": "https://www.reuters.com/world/asia-pacific/world-court-rule-rohingya-genocide-case-19-november-2026-11-03/"
+          "title": "Meta 首发欧元债获创纪录 530 亿欧元认购，拟募资至多 90 亿欧元（彭博社）",
+          "summary": "据彭博社报道，Meta 首次欧元债发行获得创纪录的 530 亿欧元投资者订单，拟募资至多 90 亿欧元，背景是科技公司为 AI 基建大规模举债。",
+          "url": "https://www.reuters.com/business/meta-draws-record-orders-debut-euro-bond-sale-bloomberg-news-reports-2026-11-04/"
         },
         {
-          "title": "据《金融时报》报道英伟达要求云客户非中国业务占比至少 51%，英伟达未证实、执行口径有分歧（《金融时报》/路透社）",
-          "summary": "据《金融时报》报道英伟达口头要求云客户确保至少 51% 服务售予非中国企业，英伟达未证实该数字，实际执行力度仍不明。",
-          "url": "https://invezz.com/ca/news/2026/11/03/nvidia-tells-data-center-partners-to-limit-china-exposure-below-50percent-report/"
+          "title": "据彭博社报道，苹果削减员工 AI 预算以控制成本（彭博社）",
+          "summary": "据彭博社报道，苹果已将部分工程师的每日 AI 使用额度从 300 美元下调至 200 美元，并考虑对部分团队进一步降至 100 美元，显示 AI 成本管控正在大公司内部蔓延。",
+          "url": "https://www.reuters.com/business/retail-consumer/apple-cuts-employee-ai-budgets-cost-control-push-bloomberg-news-reports-2026-11-04/"
         },
         {
-          "title": "澳大利亚央行加息至 4.85%，创 18 年新高，6 比 3 的分歧票显示紧缩或近尾声（澳大利亚央行/路透社）",
-          "summary": "澳大利亚央行 11 月 3 日将现金利率上调 25 个基点至 4.85%，为 2008 年底以来最高水平，但声明删除了进一步加息的表述。",
-          "url": "https://bworldonline.com/banking-finance/2026/11/03/791079/rba-lifts-rates-to-18-year-high/"
+          "title": "美国选民在地方公投中全面否决 AI 数据中心，30 多地通过限制措施（《卫报》）",
+          "summary": "11 月 3 日投票中，10 个州 40 余项数据中心议题中已有 33 项限制措施通过或领先，内容包括禁令、暂停期、能耗上限与须经公众投票等。",
+          "url": "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms/"
         },
         {
-          "title": "巴西发布全球首份化石燃料退出“路线图”，COP31 前夕定调执行而非再谈判（《卫报》/法新社）",
-          "summary": "巴西发布全球首份化石燃料退出路线图与 2030 年前遏止毁林路线图，文件本身不具约束力，巴西强调其不会在 COP31 上谈判。",
-          "url": "https://www.thenews.pk/print/1446752-brazil-publishes-first-global-roadmap-for-phasing-out-fossil-fuels"
+          "title": "万斯称“输掉的原因就是战争”，特朗普回应“基本属实”但坚持伊朗战争值得打（《卫报》/NBC News）",
+          "summary": "副总统万斯称共和党失利的原因是伊朗战争，特朗普称这一判断基本属实但坚持阻止伊朗获得核武器别无选择，两人对战争代价的表述存在分歧。",
+          "url": "https://tnsnews.com.my/jd-vance-blames-iran-war-for-midterm-losses-as-trump-defends-us-campaign/"
         },
         {
-          "title": "西班牙交通大臣 Óscar Puente 辞职：一年内两起致命高铁事故共致 115 人死亡，距提前大选不足四周（路透社/CNN）",
-          "summary": "西班牙交通大臣 Óscar Puente 在一年内两起致命高铁事故共致 115 人死亡后宣布辞职，并退出 11 月 29 日提前大选候选人名单。",
-          "url": "https://www.cnn.com/2026/11/03/americas/spain-transport-minister-resigns-intl-latam?cid=external-feeds_iluminar_meta"
+          "title": "以色列无人机袭击黎巴嫩南部 Qabrikha，致 1 死 1 伤（《卫报》/路透社）",
+          "summary": "黎巴嫩卫生部称，11 月 4 日以色列无人机在南部城镇 Qabrikha 袭击一辆摩托车，造成 1 人死亡、1 人受伤，以军随后证实袭击了两名监视以军士兵的人员。",
+          "url": "https://theinsightinternational.com/israeli-strike-qabrikha-southern-lebanon-kills-one-november-4/"
         },
         {
-          "title": "Canva 重组影响 1271 个岗位、约 22% 员工，十年来首次增速放缓（路透社）",
-          "summary": "澳大利亚设计平台 Canva 宣布重组影响 1271 个岗位、约占全球员工 22%，为公司 13 年历史上首轮裁员。",
-          "url": "https://www.reuters.com/business/world-at-work/australias-canva-cut-22-jobs-growth-slows-first-time-decade-2026-11-03/"
+          "title": "乌克兰公布执法记录仪视频，指认俄军对援助中心“二次打击”致至少 40 死（BBC）",
+          "summary": "乌克兰警方公布的执法记录仪画面显示，扎波罗热州 Kamyshuvakha 村居民在首轮袭击后走向掩体时遭遇第二轮打击，乌方称至少 40 人死亡、约 30 人可能仍被埋压。",
+          "url": "https://aseannow.com/topic/1408770-ukraine-releases-bodycam-video-of-deadly-russian-double-tap-bombing/"
         },
         {
-          "title": "币安公布 63.4 亿美元被盗案细节：假招聘＋恶意代码作业＋内部 AI 工具，FBI 归因朝鲜（币安/《财富》）",
-          "summary": "币安 11 月 3 日公布 10 月 29 日约 63.4 亿美元被盗案细节，攻击历时数月经假面试恶意代码作业与内部 AI 工具进入钱包签名服务，约 28.5 亿美元已被冻结或拦截。",
-          "url": "https://www.binance.com/en/square/post/11-03-2026-binance-initial-report-fbi-attributes-6-34-billion-attack-to-north-korea-which-used-fake-job-interviews-and-an-ai-tool-to-reach-hot-wallets-users-fully-covered-384321660235967"
+          "title": "朝鲜 11 月 4 日再向东海发射多枚导弹，为一个月内第四次试射（路透社）",
+          "summary": "韩国联合参谋本部称，朝鲜 11 月 4 日上午从东海岸 Sondok 一带向东海发射多枚导弹，若确认为弹道导弹，这将是自 10 月 31 日以来的第四次发射。",
+          "url": "https://bworldonline.com/world/2026/11/04/791442/north-korea-fires-multiple-missiles-in-fourth-weapon-launch-in-a-month-seoul-says/"
         },
         {
-          "title": "特朗普称美印“非常接近”达成贸易协议，印方称谈判正走向“落点”（彭博社）",
-          "summary": "特朗普称美印已非常接近敲定一份不同以往的贸易协议，印度外长称谈判正走向落点，只剩少数细节待敲定。",
-          "url": "https://edailygraph.com/india-us-pretty-close-to-signing-a-different-kind-of-deal-says-donald-trump/"
+          "title": "巴伐利亚副州长艾万格在柏林酒店猝死，警方立案调查死因（路透社/《卫报》）",
+          "summary": "巴伐利亚副州长兼经济部长 Hubert Aiwanger（55 岁）11 月 4 日晚被发现死于柏林一家酒店房间，柏林警方与检方已立案查明死因并排除第三方责任，目前死因未公布。",
+          "url": "https://www.reuters.com/world/deputy-premier-german-state-bavaria-dies-suddenly-2026-11-04/"
         },
         {
-          "title": "市场观望中期选举结果：油价跌至近四周低点、金价走高，交易员押注美联储 12 月加息概率约 78%（路透社/彭博社）",
-          "summary": "市场观望中期选举结果，油价跌至近四周低点、现货金小幅走高，交易员押注美联储 12 月加息概率约 78%。",
-          "url": "https://www.reuters.com/world/india/gold-firms-softer-oil-prices-us-midterm-results-awaited-2026-11-04/"
+          "title": "联合国：气候适应资金停滞，COP31 前夕缺口仍达约九成（《卫报》）",
+          "summary": "联合国环境规划署《2026 适应差距报告》显示，2024 年国际公共适应资金仅 282–317 亿美元，而 155 个发展中国家到 2035 年每年需要约 3050 亿美元。",
+          "url": "https://news.un.org/en/story/2026/11/1168725"
         }
       ]
     },
@@ -231,34 +201,34 @@
       "title": "运动营养科学",
       "items": [
         {
-          "title": "减脂也能同时增肌：小幅缺口＋高蛋白 10 周，减脂组掉了 2.94kg 脂肪、多了 1.04kg 瘦体重（《European Journal of Applied Physiology》2026 年随机对照试验，30 名有训练经验者）",
-          "summary": "30 名有训练经验者的随机对照试验显示，小幅热量缺口加每天 2.5g/kg 蛋白质、每周练 4 天，10 周减脂 2.94kg 的同时增瘦体重 1.04kg。",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13380550/"
+          "title": "ACSM 力量训练新指南：不必每组都练到力竭，练够量、练得够努力、长期坚持更重要",
+          "summary": "ACSM 自 2009 年以来首次大更新的力量训练新指南把练到力竭降级，练到力竭并不比留 1–3 次余力在力量、增肌或爆发力上更好，关键是训练量与努力程度的组合。",
+          "url": "https://summabase.com/en/posts/what-the-new-acsm-strength-training-guideline-changed"
         },
         {
-          "title": "超级组与递减组省时间但不加效果：62 项试验的 2026 年综述，普通组数对大多数人一样好（2026-11-03 新报道的综述解读）",
-          "summary": "纳入 62 项试验的 2026 年综述显示，超级组、递减组等高级方法在力量、爆发力与肌肉尺寸上与传统组数多数情况下无实质差异。",
-          "url": "https://medium.com/@shun_exedulab/do-you-need-supersets-and-drop-sets-to-get-stronger-59aeb74c0df6"
+          "title": "正常范围内的睾酮水平预测不了你能长多少肌肉：只有严重缺乏会拖后腿，外源补充才呈剂量效应",
+          "summary": "《Sports》2026 年综述把证据拼成三段模型：严重睾酮缺乏会削弱增肌反应，男性正常范围内基线睾酮与增肌幅度无预测关系，外源睾酮则随剂量增加瘦体重。",
+          "url": "https://www.mdpi.com/2075-4663/14/11/484"
         },
         {
-          "title": "膝前痛的低负荷替代选项：血流限制训练荟萃，短期止痛与肌力有小幅优势、但功能与肌肉形态未见明确优势（《Frontiers in Physiology》2026 年系统综述与荟萃分析，11 项随机对照试验、508 人）",
-          "summary": "11 项随机对照试验、508 人的荟萃显示血流限制训练在短期止痛与膝伸肌力上有小幅优势，但自我报告膝功能与股四头肌形态无明确优势。",
-          "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1859305/full"
+          "title": "有氧不会“吃掉”肌肉，但和力量同场练可能拖累爆发力：分开至少 3 小时更稳妥",
+          "summary": "更新版同期训练荟萃解读称，有氧加力量一起练对整体肌肉尺寸和最大力量总体上没有实质干扰，更脆弱的是爆发力，尤其是有氧和力量在同一场或间隔太近时。",
+          "url": "https://ironpinoy.com/cardio-and-muscle-gain-guide/"
         },
         {
-          "title": "入睡困难可试的低成本方法：军方 2 分钟入睡法 4 周，运动员入睡潜伏期与睡眠质量改善（《Journal of Human Sport and Exercise》2026 年准实验研究，72 名高水平运动员）",
-          "summary": "72 名高水平运动员的 4 周准实验显示，肌肉放松加呼吸控制加认知想象的军方入睡法改善入睡潜伏期与睡眠质量，效应量均约 0.8 以上。",
-          "url": "https://www.jhse.es/index.php/jhse/article/view/biorhythms-athletes-military-minute-sleep-method"
+          "title": "练后喝咖啡因可能小幅帮恢复期的运动表现，却可能损害睡眠恢复：晚间训练尤其要当心",
+          "summary": "《Frontiers in Physiology》2026 年系统综述纳入 17 项随机对照试验，咖啡因对恢复期功能表现有小幅益处，但睡眠恢复变差，晚间训练尤其要当心。",
+          "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1960237/full"
         },
         {
-          "title": "RP：每周只练 2 小时也能保住约 95% 的围度——前提是动作选得对、不是练得少",
-          "summary": "Renaissance Periodization 方案称每周 4 次、每次约 30 分钟分布式复合动作可长期维持约 95% 现有围度，前提是已有一定肌肉量且动作品质高。",
-          "url": "https://youtubetotranscript.com/transcript?v=Q-xQX79woHI"
+          "title": "睡前 40g 乳清蛋白可能帮你更快入睡、少点酸痛——但这项试验只有 9 个人，别当成定论",
+          "summary": "9 名年轻力量训练者的随机双盲交叉试验显示，练后睡前 30 分钟喝 40g 乳清组入睡中位 9 分钟、对照组 19 分钟，且 12 与 24 小时肌肉酸痛更轻，但样本仅 9 人只是初步信号。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42413910/"
         },
         {
-          "title": "Sigma Nutrition 11 月 3 日新一期：广谱微量营养素对情绪有没有用？三项随机试验的答案很克制",
-          "summary": "Sigma Nutrition Radio 11 月 3 日一期审视三项广谱微量营养素随机对照试验，基调审慎，公开部分未披露具体效应数字。",
-          "url": "https://uk.radio.net/podcast/sigma-nutrition-radio"
+          "title": "蛋白“练前喝还是练后喝”之争，5 项研究的荟萃给了个省心的答案：先保证全天总量",
+          "summary": "2025 年《Nutrients》荟萃分析对比 5 项研究后称，蛋白摄入时机对瘦体重变化没有重要影响，提高全天蛋白摄入量带来的收益是小而确实的，时机的影响远小于总量。",
+          "url": "https://www.mensjournal.com/food/protein-before-or-after-lifting-research-challenges-a-common-muscle-building-rule"
         }
       ]
     },
@@ -267,31 +237,31 @@
       "title": "其他精选",
       "items": [
         {
-          "title": "东南亚跨境退货新规明天生效：收到寄回指令不配合，就同时丢掉申诉资格和运费报销",
-          "summary": "TikTok Shop 东南亚跨境退货争议新规 11 月 5 日生效，收到平台寄回指令后须在 1 个工作日内发货并提交资料，否则工单判支持买家且申诉与报销资格失效。",
-          "url": "https://t.chwang.com/article/211610807864"
+          "title": "泰国降佣的资格缺口钉死了：跨境店大概率三项全不满足，别按降后费率算账",
+          "summary": "PriceMinder 拆解称泰国降佣受益门槛须三项同时满足——在泰国登记电商经营、个人年销售额低于 180 万泰铢、11 月 1 日起提交申请并通过审核，典型跨境店三项大概率全不满足。",
+          "url": "https://www.priceminder.online/blog/thailand-fee-cut-eligibility-gap/"
         },
         {
-          "title": "泰国降佣再进一步：商务部已拿到三平台配合，费率回落到 2026 年初水平",
-          "summary": "泰国商务部已获得 Shopee、Lazada 与 TikTok Shop 配合，将强制性费用降回 2026 年初水平，但公开部分未披露分品类具体新费率表。",
-          "url": "https://www.mlex.com/mlex/amp/articles/2545504"
+          "title": "东南亚消费的另一面：快消增长停滞、约三成消费者自认比一年前更拮据，但 80% 已用 AI 比价",
+          "summary": "贝恩与 NielsenIQ 11 月 5 日联合报告称，2023 年至 2026 年上半年东南亚六市场快消品价值增长基本停滞，约 80% 消费者已用 AI 比价，TikTok Shop 区域电商份额从 2024 年 17% 升至 2025 年 34%。",
+          "url": "https://www.businesstoday.com.my/2026/11/05/southeast-asias-consumer-boom-faces-reality-check-as-fmcg-sales-stagnate/"
         },
         {
-          "title": "Justin Sung 的 RAIL 框架：学复杂技能先别堆课，四个阶段缺一环都会卡住",
-          "summary": "Justin Sung 的 RAIL 框架按相关性、觉察、迭代、终身化四个阶段递进，跳过任一环都会让后续努力打折。",
-          "url": "https://podwise.ai/episodes/2351231"
+          "title": "自主研究 agent 的冷水：验证标准越严，模型相对随机对照的优势越小——扩“提议池”才真正有效",
+          "summary": "两项研究显示，验证强度上升时模型相对随机对照的优势反而缩小，真正有效的是扩宽提议池，混合多个提议池带来了 1.52 个留出价值单位的提升。",
+          "url": "https://siliconnoon.com/today-in-ai-november-4-2026/"
         },
         {
-          "title": "Huberman 11 月 2 日新一期：Robert Greene 谈“崇高感”——它不是玄学，而是一种可进入的注意状态",
-          "summary": "Huberman Lab 11 月 2 日一期中 Robert Greene 把崇高感描述为可通过关系、工作、观察与表达进入的注意状态，而非偶然降临的灵感。",
-          "url": "https://podcasts.apple.com/us/podcast/access-the-sublime-live-your-best-life-robert-greene/id1545953110?i=1000799372105"
+          "title": "状态管理：熬一夜，肌肉合成直接掉 18%——睡眠不是恢复的“加分项”，而是恢复本身",
+          "summary": "运动与睡眠恢复梳理拼成的因果链显示，13 名健康年轻人熬一整夜后第二天肌肉合成新蛋白速率比正常睡眠后低 18%，每晚睡不到 8 小时的中学生运动员受伤风险是睡满 8 小时者的 1.7 倍。",
+          "url": "https://www.therapeuticassociates.com/sleep-exercise-recovery/"
         }
       ]
     }
   ],
   "podcast": {
     "audio_url": "",
-    "duration": "8分23秒",
-    "title": "晨间充电站（2026-11-04）"
+    "duration": "9分15秒",
+    "title": "晨间充电站（2026-11-05）"
   }
 }
