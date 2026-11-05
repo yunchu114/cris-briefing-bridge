@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Wed, 04 Nov 2026 03:36:16 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 03:35:07 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-05 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得注意的是 OpenAI 收购 Pierre Computer Company 扩充 Codex，显示程式码工具已成前沿模型厂商的下一个必争之地。整体条目可归纳成三条主线：第一是模型与推理效能持续优化，llama.cpp、Unsloth 与 Artificial Analysis 的更新都更贴近真实部署场景而非纸面跑分。第二是 Agent 工具链与安全防线同步升级，Vercel、Cloudflare 的进展与 PydanticAI、LiteLLM、WorkOS 相继爆出的安全问题并存，说明 Agent 落地越快、暴露面也越大。第三是中日文社群累积的实战经验，从 Claude Code 的 hook 规则到 AI 审核的实测数据，都比官方文件更贴近台湾团队的日常痛点。</p><p><b>今日重点：</b><br>• <b>PydanticAI v1.107.10 及 v2.66.0 安全更新</b> (PydanticAI Releases): PydanticAI v1.107.10/v2.66.0 修复工具 schema 指数展开 DoS 与云端中继资料泄露等 6 项漏洞，用该框架的 agent 应立即升级。<br>• <b>llama.cpp v0.9.0 释出</b> (llama.cpp Releases): llama.cpp v0.9.0 新增 OCP FP8 E4M3 量化与多序列推理优化，支援 Mistral Large 4 等四种新架构，本地部署可升级取得效能提升。<br>• <b>身分验证服务WorkOS遭骇，攻击者利用AI框架ARTEX得逞</b> (iThome): WorkOS（服务 OpenAI、Anthropic 等 3000 家客户）遭攻击者用 AI 渗透框架 ARTEX 自动化入侵销售系统，CRM 与客服资料外泄，需重新检视自动化攻击防线。<br>• <b>OpenAI 收购 Pierre Computer Company，扩展 Codex 代码工具</b> (OpenAI News): OpenAI 收购 Pierre Computer Company 扩充 Codex 程式码建构与审查能力，用 Codex 开发的团队应留意后续功能整合。<br>• <b>Kimi K3.1 Pro 现在在 AI Gateway 上有更多 ZDR 提供商</b> (Vercel Blog): Kimi K3.1 Pro 与高速版在 Vercel AI Gateway 上线多个零资料保留提供商，具 1M token 上下文并支援影像输入，可用于长上下文 agent 任务。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-05.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-05-audio</guid>
+      <pubDate>Thu, 05 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-05.mp3" length="2706432" type="audio/mpeg" />
+      <itunes:duration>2:49</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得注意的是 OpenAI 收购 Pierre Computer Company 扩充 Codex，显示程式码工具已成前沿模型厂商的下一个必争之地。整体条目可归纳成三条主线：第一是模型与推理效能持续优化，llama.cpp、Unsloth 与 Artificial Analysis 的更新都更贴近真实部署场景而非纸面跑分。第二是 Agent 工具链与安全防线同步升级，Vercel、Cloudflare 的进展与 PydanticAI、LiteLLM、WorkOS 相继爆出的安全问题并存，说]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-04 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得关注的是基础设施层的连环调整：GitHub 把 Git 架构从 repository 锁改成 branch 锁并迁移至 Azure，写入吞吐量拉高 180 倍，目的是撑住单一 repo 中 5000 个 AI 代理同时工作的场景，等于提前为「人人跑 agent」的开发模式铺路。安全面同时拉警报，Langflow 爆出两个 CVSS 9.8 的身分验证绕过与 RCE 漏洞，加上 Hugging Face 上伪装成 Qwen2 的恶意模型已被下载三万多次，皆利用 trust_remote_code 类信任假设，自架推论环境、CI 跑 Langflow 的团队须立即检查版本。</p><p><b>今日重点：</b><br>• <b>Langflow 修补 2 项重大漏洞，涉及身分验证绕过与远端程式码执行</b> (iThome): Langflow 1.0.0-1.12.8 存在 CVSS 9.8 身分验证绕过与 RCE 漏洞，用此平台的团队应立即升级至 1.13.0。<br>• <b>Hugging Face 遭恶意模型滥用，31 个储存库散布挖矿程式与后门</b> (iThome): Hugging Face 上 31 个伪装成 Qwen2 的恶意模型靠 trust_remote_code=True 植入挖矿与后门，自架推论环境应关闭此设定。<br>• <b>用轻量级分类器优化 Gemini 模型路由与推理成本</b> (Google AI Developers Blog): 用轻量级分类器拦截简单决策再决定是否呼叫 Gemini 大模型，可避免每次都跑昂贵推理，降低 agent 生产成本。<br>• <b>GitHub性能提升180倍，为AI代理时代做准备</b> (Publickey): GitHub 改用 branch 级锁并迁移 Azure，写入吞吐提升 180 倍，支援单一 repo 5000 个 AI 代理并行工作。<br>• <b>Amazon Bedrock 支援 Kimi K3 在印度的本地推论</b> (AWS ML Blog): Amazon Bedrock 新增 Kimi K3 印度本地推论，受资料驻留法规限制的团队可在当地部署前沿级编程与 agent 模型。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-07.mp3" length="2454912" type="audio/mpeg" />
       <itunes:duration>2:33</itunes:duration>
       <itunes:summary><![CDATA[今天最大的讯号是模型版图再度洗牌：Mistral Large 4、GLM 5.3、Reflection AI 的 Beam 相继推出开源旗舰模型，显示企业选模型将更在意「谁训练的、能否自部署」，而不只是分数高低。第二条主线是地端与成本：Ollama v0.40 让 Apple Silicon 预设跑 MLX、EmbeddingGemma 2 主打端侧多模态嵌入，加上 Vercel AI Gateway 新增置信度回退机制，都指向同一件事——压低推理成本、把运算挪到更靠近使用者的地方。第三条是风险]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-06 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得留意的是企业部署侧的松绑与补强：Anthropic 的 Claude Opus 5.5／Sonnet 5.5 正式进驻 AWS GovCloud，让受监管产业也能合法使用 Claude Code 开发，同时砸 1 亿美元办 Claude Frontier Academy，解决企业导入 AI 却无人会落地的瓶颈。第二条主线是基础设施效能战：Ollama v0.40 在 Apple Silicon 预设跑 MLX，Cloudflare Containers 把启动时间从 4 秒砍到 648 毫秒并重新设计 Agent 沙盒，两者都冲著推理成本而来。</p><p><b>今日重点：</b><br>• <b>使用 Claude Code 与 Amazon Bedrock 加速受监管工作负载</b> (AWS ML Blog): Claude Opus 5.5 与 Sonnet 5.5 进驻 AWS GovCloud，受 ITAR 等合规限制的金融、国防团队可合法导入 AI 辅助开发。<br>• <b>Ollama v0.40.0 发布：Apple Silicon 预设使用 MLX 运行模型</b> (Ollama Releases): Ollama v0.40.0 在 Apple Silicon 预设改用 MLX 运行模型并支援 gemma4、qwen3.6，Mac 本地跑 LLM 可望提速。<br>• <b>Cloudflare Containers 针对 AI Agent 重新设计，启动速度提升 6 倍</b> (Publickey): Cloudflare Containers 启动中位数从 4 秒降至 648 毫秒，适合需要大量并发沙盒的 AI Agent 执行环境。<br>• <b>Google 暂停开源软体漏洞奖励计划，因 AI 生成无效通报激增</b> (iThome): Google 因 AI 生成大量无效漏洞报告而暂停 OSS VRP 受理，依赖此管道的资安研究者需改投其他计划。<br>• <b>ReviewBench：用于 AI 程式码审查的开放基准</b> (GitHub Blog (AI &amp; ML)): GitHub 推出 ReviewBench，用 1 亿多真实 PR 分布与 219 个跨 19 语言样本量化评比 Code Review Agent 准确率。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-06.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-06-audio</guid>
-      <pubDate>Tue, 06 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-06.mp3" length="2414208" type="audio/mpeg" />
-      <itunes:duration>2:31</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得留意的是企业部署侧的松绑与补强：Anthropic 的 Claude Opus 5.5／Sonnet 5.5 正式进驻 AWS GovCloud，让受监管产业也能合法使用 Claude Code 开发，同时砸 1 亿美元办 Claude Frontier Academy，解决企业导入 AI 却无人会落地的瓶颈。第二条主线是基础设施效能战：Ollama v0.40 在 Apple Silicon 预设跑 MLX，Cloudflare Containers 把启动时间从 4 秒砍到 648]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
