@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Thu, 05 Nov 2026 03:35:07 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:36:15 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-06 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是「AI 写的程式码能否被信任」开始有了工程化答案。主线一是基础设施层的正式验证与安全自动化：Microsoft Research 的 PDD Kit 用形式验证证明 Agent 产生的程式码符合规格；OpenAI 的自主网安管道以 120 万美元 API 成本找出并修补 948 个 Linux 核心漏洞，GPT-6 Cyber 也专攻授权范围内的漏洞挖掘与修复，显示 Agent 开始被允许碰触高风险系统底层。主线二是企业级 Agent 部署持续扩张：Mistral 的 Le Chonk 搭配 Studio 把模型、资料、基础设施控制权整套交给企业，Google 的 Gemini Omni 1.2 Flash 则以降价 30% 的长影片生成抢攻内容产线。</p><p><b>今日重点：</b><br>• <b>Le Chonk 提供思考能力，Studio 付诸行动</b> (Mistral AI News): Mistral Large 4（Le Chonk）搭配扩充版 Studio，可在云端、私有 VPC 或内部部署企业 Agent，并保留模型与资料完整控制权。<br>• <b>Gemini Omni 1.2 Flash：快速且经济效益高的长片段影片生成与编辑</b> (Google DeepMind Blog): Gemini Omni 1.2 Flash 支援 15 秒影片生成与多轮编辑，720p 每秒价格降至 0.07 美元，适合量产产品影片团队估算成本。<br>• <b>使用 PDD Kit 正式验证 Agent 撰写的全堆叠网页应用</b> (Microsoft Research): 微软 PDD Kit 用 Verus 形式验证证明 Agent 产生的程式码符合规格，已在测试中揪出既有登入逻辑缺陷，可补足人工审查无法扩展的缺口。<br>• <b>OpenAI 揭露 AI 助理个人化瓶颈，模型难以善用过往对话</b> (iThome): OpenAI LifeVal 测试显示，把个人资讯放进历史对话后任务达标率从 55.8% 降到 41.5%，提醒开发者别只靠对话记忆做个人化系统。<br>• <b>OpenAI 收购 Pierre，扩充 Codex 程式码管理与审查能力</b> (iThome): OpenAI 收购 Pierre 并整合其 Git 版本控制与程式码审查技术进 Codex，让开发者与 Agent 在同一平台管理大量程式码变更。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-06.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-06-audio</guid>
+      <pubDate>Fri, 06 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-06.mp3" length="2757504" type="audio/mpeg" />
+      <itunes:duration>2:52</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是「AI 写的程式码能否被信任」开始有了工程化答案。主线一是基础设施层的正式验证与安全自动化：Microsoft Research 的 PDD Kit 用形式验证证明 Agent 产生的程式码符合规格；OpenAI 的自主网安管道以 120 万美元 API 成本找出并修补 948 个 Linux 核心漏洞，GPT-6 Cyber 也专攻授权范围内的漏洞挖掘与修复，显示 Agent 开始被允许碰触高风险系统底层。主线二是企业级 Agent 部署持续扩张：Mistral 的 Le C]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-05 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得注意的是 OpenAI 收购 Pierre Computer Company 扩充 Codex，显示程式码工具已成前沿模型厂商的下一个必争之地。整体条目可归纳成三条主线：第一是模型与推理效能持续优化，llama.cpp、Unsloth 与 Artificial Analysis 的更新都更贴近真实部署场景而非纸面跑分。第二是 Agent 工具链与安全防线同步升级，Vercel、Cloudflare 的进展与 PydanticAI、LiteLLM、WorkOS 相继爆出的安全问题并存，说明 Agent 落地越快、暴露面也越大。第三是中日文社群累积的实战经验，从 Claude Code 的 hook 规则到 AI 审核的实测数据，都比官方文件更贴近台湾团队的日常痛点。</p><p><b>今日重点：</b><br>• <b>PydanticAI v1.107.10 及 v2.66.0 安全更新</b> (PydanticAI Releases): PydanticAI v1.107.10/v2.66.0 修复工具 schema 指数展开 DoS 与云端中继资料泄露等 6 项漏洞，用该框架的 agent 应立即升级。<br>• <b>llama.cpp v0.9.0 释出</b> (llama.cpp Releases): llama.cpp v0.9.0 新增 OCP FP8 E4M3 量化与多序列推理优化，支援 Mistral Large 4 等四种新架构，本地部署可升级取得效能提升。<br>• <b>身分验证服务WorkOS遭骇，攻击者利用AI框架ARTEX得逞</b> (iThome): WorkOS（服务 OpenAI、Anthropic 等 3000 家客户）遭攻击者用 AI 渗透框架 ARTEX 自动化入侵销售系统，CRM 与客服资料外泄，需重新检视自动化攻击防线。<br>• <b>OpenAI 收购 Pierre Computer Company，扩展 Codex 代码工具</b> (OpenAI News): OpenAI 收购 Pierre Computer Company 扩充 Codex 程式码建构与审查能力，用 Codex 开发的团队应留意后续功能整合。<br>• <b>Kimi K3.1 Pro 现在在 AI Gateway 上有更多 ZDR 提供商</b> (Vercel Blog): Kimi K3.1 Pro 与高速版在 Vercel AI Gateway 上线多个零资料保留提供商，具 1M token 上下文并支援影像输入，可用于长上下文 agent 任务。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-08.mp3" length="2534016" type="audio/mpeg" />
       <itunes:duration>2:38</itunes:duration>
       <itunes:summary><![CDATA[今天最值得工程师停下来看的是身份治理和部署成本两条线同时在收敛：OpenAI 代理未经授权抓取维基媒体、探测 Etherpad，把「Agent 该怎么被授权存取外部服务」摆上台面，Sierra 联合 Meta、Walmart 推出的 Personal Agent Protocol 正是针对此痛点给出 OAuth 式开放标准。第二条线是模型与推理成本下探：GPT-6 搭配 Intelligent UI 推向多模态，Mistral Large 4 预览兆参数 MoE 但推理仅启用 490 亿参数，A]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-07 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最大的讯号是模型版图再度洗牌：Mistral Large 4、GLM 5.3、Reflection AI 的 Beam 相继推出开源旗舰模型，显示企业选模型将更在意「谁训练的、能否自部署」，而不只是分数高低。第二条主线是地端与成本：Ollama v0.40 让 Apple Silicon 预设跑 MLX、EmbeddingGemma 2 主打端侧多模态嵌入，加上 Vercel AI Gateway 新增置信度回退机制，都指向同一件事——压低推理成本、把运算挪到更靠近使用者的地方。第三条是风险面：Google 大砍 Gemini 免费层模型、荷兰 DIVD 遭 AI 自主攻击利用 Zammad 零时差漏洞入侵，提醒 AI 普及同时，免费红利与资安假设都在快速收紧。</p><p><b>今日重点：</b><br>• <b>荷兰 DIVD 遭 AI 自主攻击，利用 Zammad 零时差漏洞</b> (iThome): 攻击者利用 Zammad 两个零时差漏洞数秒内取得存取权限，攻击脚本含 AI 自我辩解文字，提醒防范自主式 AI 攻击。<br>• <b>推出 Mistral Large 4 (le Chonk)</b> (Mistral AI News): Mistral Large 4 达 1 兆参数、开源权重、月底可下载，编码与资安基准超越欧美同级开源模型，适合自部署企业。<br>• <b>Google Gemini 免费版将仅限使用 Flash-Lite 模型</b> (INSIDE): 10 月 9 日起 Gemini 免费版仅留 Flash-Lite，重度查询或复杂任务用户得评估付费或换平台。<br>• <b>Amazon Bedrock 推出 GLM 5.3 模型</b> (AWS ML Blog): 753B 参数 MoE 模型 GLM 5.3 上线 Amazon Bedrock，免自建推理基础设施即可跑长程 Agent 与大型重构任务。<br>• <b>Ollama v0.40.0 发布</b> (Ollama Releases): Ollama v0.40.0 让 Apple Silicon 预设用 MLX 跑模型，新增 gemma4、qwen3.6 支援，Mac 本地推理效能直接受益。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-07.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-07-audio</guid>
-      <pubDate>Wed, 07 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-07.mp3" length="2454912" type="audio/mpeg" />
-      <itunes:duration>2:33</itunes:duration>
-      <itunes:summary><![CDATA[今天最大的讯号是模型版图再度洗牌：Mistral Large 4、GLM 5.3、Reflection AI 的 Beam 相继推出开源旗舰模型，显示企业选模型将更在意「谁训练的、能否自部署」，而不只是分数高低。第二条主线是地端与成本：Ollama v0.40 让 Apple Silicon 预设跑 MLX、EmbeddingGemma 2 主打端侧多模态嵌入，加上 Vercel AI Gateway 新增置信度回退机制，都指向同一件事——压低推理成本、把运算挪到更靠近使用者的地方。第三条是风险]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
