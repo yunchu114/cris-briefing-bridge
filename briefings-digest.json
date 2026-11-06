@@ -1,21 +1,66 @@
 {
   "version": 3,
   "date": "2026-11-06",
-  "updated": "2026-11-06T12:15:43+08:00",
+  "updated": "2026-11-06T14:17:55+08:00",
   "sections": [
     {
       "id": "ai",
       "title": "AI 前沿科技",
       "items": [
         {
+          "title": "OpenAI 用 AI 自主挖出并修补 948 个 Linux 内核提权漏洞",
+          "summary": "OpenAI 公布了一套五阶段自主流水线，在 Linux 内核约 4000 万行代码中锁定 5034 个审计目标，最终确认 948 个可让普通用户提权的漏洞，并附上 948 份补丁交给内核社区审核。",
+          "url": "https://ai-daily.musxiao.com/"
+        },
+        {
+          "title": "OpenAI 发布网络安全专用模型 GPT-6 Cyber",
+          "summary": "GPT-6 Cyber 专为在授权范围内发现软件漏洞、开发验证性利用并给出修复建议而训练，已在 Firefox 中发现 81 个此前未知漏洞，并在 Linux 内核中产出 948 个可用 exploit。",
+          "url": "https://aienews.org/news.html"
+        },
+        {
+          "title": "Google Gemini 4 Carbon 登顶智能指数，幻觉率最低",
+          "summary": "Gemini 4 Carbon 在 Artificial Analysis Intelligence Index V5 上以 1 分优势领先 Claude Opus 5.5 排名第一，且基准显示它是前沿模型中最不容易产生幻觉的。",
+          "url": "https://aibriefing.dev/story/3e93342c42d6/"
+        },
+        {
+          "title": "Anthropic 递交 IPO 文件：Q3 收入约 170 亿美元，同比增 12 倍",
+          "summary": "Anthropic 修订后的 S-1 显示三季度收入约 170 亿美元，背后是到 2045 年累计 8954 亿美元的算力采购承诺。",
+          "url": "https://aibriefing.dev/story/3e93342c42d6/"
+        },
+        {
+          "title": "DeepSeek 计划用 16 万片华为昇腾芯片预训练 V5",
+          "summary": "DeepSeek 计划 2027 年在 16 万片华为 Ascend 950DT 芯片上训练 V5 基础模型。",
+          "url": "https://aibriefing.dev/story/3e93342c42d6/"
+        },
+        {
+          "title": "Apple Intelligence 终于进中国：基于阿里 Qwen 的试用开启",
+          "summary": "苹果 11 月 4 日在中国启动 Apple Intelligence 试用，底层改用阿里巴巴 Qwen 模型以符合监管要求，计划 12 月正式推出。",
+          "url": "https://aibriefing.dev/story/3e93342c42d6/"
+        },
+        {
+          "title": "全球首家人形机器人上市公司诞生：Agility 登陆纳斯达克",
+          "summary": "Agility Robotics 通过 SPAC 反向合并上市，成为首家纯人形机器人上市公司，募资 4.65 亿美元。",
+          "url": "https://ai-daily.musxiao.com/"
+        },
+        {
+          "title": "NVIDIA 发布 CUDA 13.5，Rubin 平台进入全面可用",
+          "summary": "NVIDIA 发布 CUDA 13.5，Vera Rubin 平台获得全面支持。",
+          "url": "https://aibriefing.dev/story/3e93342c42d6/"
+        },
+        {
+          "title": "美股 AI 板块大跌：中期选举后纳指跌 4% 进入调整区",
+          "summary": "美国中期选举后 AI 交易遭遇抛售，纳斯达克下跌 4% 进入技术性调整，科技股单日蒸发约 3.2 万亿美元；全美 13 个州 40 多项数据中心相关公投措施中有 38 项被否。",
+          "url": "https://aienews.org/news.html"
+        },
+        {
+          "title": "百度开源 ERNIE 5.5 Flash：280B 参数、33.5T token 训练",
+          "summary": "百度开源 ERNIE 5.5 Flash Base（280B 参数、14B 激活，33.5T token 训练），开放权重模型继续向旗舰性能靠拢。",
+          "url": "https://thecontext.dev/en/topics/frontier-models/"
+        },
+        {
           "title": "Kimi K3.1 Pro 开源权重上线：2.8 万亿参数、百万 token 上下文，月之暗面同时推托管 agent 云服务",
           "summary": "月之暗面 11 月 5 日把 Kimi K3.1 Pro 权重放上 Hugging Face，约 2.8 万亿总参数、每次请求约激活 1040 亿参数、支持百万 token 上下文，华为昇腾同日宣布首日支持，同期还推出了托管 agent 云服务 Kimi Hosted Agents。",
           "url": "https://www.llm-digest.com/daily"
-        },
-        {
-          "title": "OpenAI GPT-6 Cyber 自主安全管线：948 个 Linux 内核提权漏洞，单个漏洞成本约 1279 美元",
-          "summary": "OpenAI 自主安全管线对 Linux 内核发起调查后识别出 2308 个潜在缺陷、为 948 个本地提权漏洞开发出可用攻击验证，整轮实验约花 121 万美元 API 积分，三个月内同类发现量翻了近 6 倍。",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-5-2026/"
         },
         {
           "title": "博通首款 2nm 定制芯片出货：3.5D 封装把算力、内存、网络 I/O 拆开扩，市场反应却很冷淡",
