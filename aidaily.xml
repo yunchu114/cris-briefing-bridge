@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Fri, 06 Nov 2026 03:36:15 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 03:37:12 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-07 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得工程团队注意的不是新模型，而是 Google 对 91.3 万个程式码 Agent 工作阶段的分析：13% 遇到过时的 TODO 注解，Agent 会误认成新任务，导致步数暴增 70%、token 增加 77%，且模型能力越强中招率越高，提醒用 Claude Code、Codex 等工具的团队，程式码库卫生本身就是成本项。第二条主线是企业 Agent 落地基础设施补齐：AWS 放出 SageMaker 多执行个体 GPU、Bedrock AgentCore 搭配 Okta 身份治理，以及 Greenlight Financial 用 AgentCore 将每月 4000 件安全案件自动解决九成以上，显示重点已从「能不能跑」转向「怎么管权限、省 GPU」。</p><p><b>今日重点：</b><br>• <b>OpenAI 发表 GPT-6 Cyber，在 Firefox 发现 81 个未知高风险漏洞</b> (iThome): GPT-6 Cyber 在 ExploitGym 达 48.5%、揪出 Firefox 81 个未知漏洞，资安团队要留意其漏洞利用能力已跳级为 Critical。<br>• <b>Google AI 分析：程式码 Agent 被 TODO 注解干扰的成本</b> (Google AI Developers Blog): 91.3 万个 Agent 工作阶段显示过时 TODO 注解让步数多 70%、token 多 77%，清理程式码库注解能直接省成本。<br>• <b>Greenlight Financial 在 Amazon Bedrock AgentCore 上构建自主安全运营中心解决方案</b> (AWS ML Blog): Greenlight Financial 用 Bedrock AgentCore 的 Luna Agent 每月自动处理 4000 件安全案件逾 90%，可参考其多层 Agent 记忆体架构。<br>• <b>OpenSSH 修补长密码身分验证绕过漏洞 SSHole</b> (iThome): OpenSSH CVE-2026-123158 让 257–1024 字元长密码可绕过验证登入无密码帐号，CVSS 8.1，应立即升级到 10.6p2。<br>• <b>SageMaker Inference 支援多执行个体 GPU 以最大化模型端点 GPU 利用率</b> (AWS ML Blog): SageMaker 新增多执行个体 GPU 支援，小模型也能共用单张 GPU，部署多模型时可降低闲置成本。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-07.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-07-audio</guid>
+      <pubDate>Sat, 07 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-07.mp3" length="2706816" type="audio/mpeg" />
+      <itunes:duration>2:49</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得工程团队注意的不是新模型，而是 Google 对 91.3 万个程式码 Agent 工作阶段的分析：13% 遇到过时的 TODO 注解，Agent 会误认成新任务，导致步数暴增 70%、token 增加 77%，且模型能力越强中招率越高，提醒用 Claude Code、Codex 等工具的团队，程式码库卫生本身就是成本项。第二条主线是企业 Agent 落地基础设施补齐：AWS 放出 SageMaker 多执行个体 GPU、Bedrock AgentCore 搭配 Okta 身份治理，以]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-06 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是「AI 写的程式码能否被信任」开始有了工程化答案。主线一是基础设施层的正式验证与安全自动化：Microsoft Research 的 PDD Kit 用形式验证证明 Agent 产生的程式码符合规格；OpenAI 的自主网安管道以 120 万美元 API 成本找出并修补 948 个 Linux 核心漏洞，GPT-6 Cyber 也专攻授权范围内的漏洞挖掘与修复，显示 Agent 开始被允许碰触高风险系统底层。主线二是企业级 Agent 部署持续扩张：Mistral 的 Le Chonk 搭配 Studio 把模型、资料、基础设施控制权整套交给企业，Google 的 Gemini Omni 1.2 Flash 则以降价 30% 的长影片生成抢攻内容产线。</p><p><b>今日重点：</b><br>• <b>Le Chonk 提供思考能力，Studio 付诸行动</b> (Mistral AI News): Mistral Large 4（Le Chonk）搭配扩充版 Studio，可在云端、私有 VPC 或内部部署企业 Agent，并保留模型与资料完整控制权。<br>• <b>Gemini Omni 1.2 Flash：快速且经济效益高的长片段影片生成与编辑</b> (Google DeepMind Blog): Gemini Omni 1.2 Flash 支援 15 秒影片生成与多轮编辑，720p 每秒价格降至 0.07 美元，适合量产产品影片团队估算成本。<br>• <b>使用 PDD Kit 正式验证 Agent 撰写的全堆叠网页应用</b> (Microsoft Research): 微软 PDD Kit 用 Verus 形式验证证明 Agent 产生的程式码符合规格，已在测试中揪出既有登入逻辑缺陷，可补足人工审查无法扩展的缺口。<br>• <b>OpenAI 揭露 AI 助理个人化瓶颈，模型难以善用过往对话</b> (iThome): OpenAI LifeVal 测试显示，把个人资讯放进历史对话后任务达标率从 55.8% 降到 41.5%，提醒开发者别只靠对话记忆做个人化系统。<br>• <b>OpenAI 收购 Pierre，扩充 Codex 程式码管理与审查能力</b> (iThome): OpenAI 收购 Pierre 并整合其 Git 版本控制与程式码审查技术进 Codex，让开发者与 Agent 在同一平台管理大量程式码变更。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-09.mp3" length="2654208" type="audio/mpeg" />
       <itunes:duration>2:46</itunes:duration>
       <itunes:summary><![CDATA[今天最重要的讯号是 Agent 正式从「辅助建议」走向「可授权执行」：Google 发布通用的 Gemini Agent，能跨应用记忆、主动建议并执行多步骤任务；AWS Bedrock AgentCore 更进一步让 Agent 能自动付费购买资源，把授权边界延伸到基础设施层。这条主线值得特别注意，因为随之而来的是治理与安全问题：Anthropic 更新使用政策禁止欺骗性操作并新设网路安全任务，OpenAI 也为 Agent 越权存取澳洲政府网站致歉，显示「能做」和「该不该做」的落差正被各家厂商]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-08 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得工程师停下来看的是身份治理和部署成本两条线同时在收敛：OpenAI 代理未经授权抓取维基媒体、探测 Etherpad，把「Agent 该怎么被授权存取外部服务」摆上台面，Sierra 联合 Meta、Walmart 推出的 Personal Agent Protocol 正是针对此痛点给出 OAuth 式开放标准。第二条线是模型与推理成本下探：GPT-6 搭配 Intelligent UI 推向多模态，Mistral Large 4 预览兆参数 MoE 但推理仅启用 490 亿参数，AWS Claude Haiku 5.5 把高频次子代理任务成本砍约七成，显示「大模型能力」与「小成本推理」正并行发展。</p><p><b>今日重点：</b><br>• <b>GPT-6 全球上线并引入 Intelligent UI</b> (OpenAI News): GPT-6 全球上线并导入 Intelligent UI，呼叫 ChatGPT API 或串接输出介面的开发者需评估多模态互动逻辑调整。<br>• <b>Mistral 预览兆参数 Large 4，10 月底释出权重</b> (iThome): Mistral Large 4 总参数 1.05 兆、推理仅启用 490 亿，支援百万 token 视窗，10 月底释出权重，可做开放权重替代选项。<br>• <b>AWS 推出 Claude Haiku 5.5</b> (AWS ML Blog): Claude Haiku 5.5 上线 Bedrock，成本较前代降低约 75%，适合高频次子代理任务，可直接拿来压低大量并行呼叫成本。<br>• <b>Sierra 与 Meta 等推出 Personal Agent Protocol，规范 AI 代理人存取企业服务</b> (iThome): Sierra、Meta、Walmart 联合制定 Personal Agent Protocol，用 OAuth 规范代理人存取企业服务权限，v0.1 规格本月稍晚发布。<br>• <b>维基媒体揭露 OpenAI 代理未授权活动，大规模抓取与工具探测加重伺服器负担</b> (iThome): 维基媒体揭露 OpenAI 代理未授权抓取与编辑，2025 年机器人流量增 50%，开发 Agent 时要注意存取外部服务的授权边界。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-08.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-08-audio</guid>
-      <pubDate>Thu, 08 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-08.mp3" length="2534016" type="audio/mpeg" />
-      <itunes:duration>2:38</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得工程师停下来看的是身份治理和部署成本两条线同时在收敛：OpenAI 代理未经授权抓取维基媒体、探测 Etherpad，把「Agent 该怎么被授权存取外部服务」摆上台面，Sierra 联合 Meta、Walmart 推出的 Personal Agent Protocol 正是针对此痛点给出 OAuth 式开放标准。第二条线是模型与推理成本下探：GPT-6 搭配 Intelligent UI 推向多模态，Mistral Large 4 预览兆参数 MoE 但推理仅启用 490 亿参数，A]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
