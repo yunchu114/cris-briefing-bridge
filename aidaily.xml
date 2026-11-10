@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Mon, 09 Nov 2026 03:34:10 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 03:35:48 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-10 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是基础设施层的连环升级：Google端出Pathways单控制器训练系统、第八代TPU与捐赠Agent Substrate、gVisor给CNCF，三件事串起来是在为大规模Agent常态化运行铺路，GitHub揭露的Rubicon架构高并发数据也印证这股压力真实存在。第二条主线是模型与成本的重新定价：Anthropic、Meta新模型主打长流程编程与低成本，加上Vercel报告显示决策模型已占请求量26%、成本仅语言模型1/70，说明「小模型做路由、大模型留给复杂任务」正成为标准打法。第三条是落地细节：日文圈实测显示README里一句「已核实」就能让Claude降格放过真bug，KV快取与连续批次则把排队延迟大幅压缩，都是可直接搬进生产环境的教训。</p><p><b>今日重点：</b><br>• <b>Pathways 正式推出：Google 自研的单控制器大模型训练系统</b> (Google AI Developers Blog): Google推出单控制器训练系统Pathways正式上线，用非同步调度处理硬体故障，做大模型训练可参考其容错架构。<br>• <b>Vercel AI Gateway 生产指数（2026年11月）：决策模型占26%请求量</b> (Vercel Blog): Vercel数据显示决策模型占请求量26%、成本仅语言模型1/70，新客户选Claude比例是OpenAI两倍，选模型前可参考。<br>• <b>Google 发布第八代 TPU 新系统，支援机密运算与百万 Token 上下文</b> (iThome): Google新发TPU 8i Max记忆体频宽达17.2TB/秒、支援百万级上下文，做大规模Agent推论的团队可评估硬体升级。<br>• <b>GitHub 推出 Rubicon 新一代 Git 储存架构，单一储存库每秒可处理 7,200 次推送</b> (iThome): GitHub新架构Rubicon单一储存库每秒处理7,200次推送、支援5,000个Agent并行作业，大规模AI协作开发可留意相容性。<br>• <b>Google 将 Agent Substrate 和 gVisor 赠予 CNCF，实现 Kubernetes 上 AI 代理 10 倍高密度执行</b> (Publickey): Google把Agent Substrate和gVisor捐给CNCF，靠快照机制让Kubernetes跑AI代理密度提升10倍，省闲置资源的团队可直接用。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-10.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-10-audio</guid>
+      <pubDate>Tue, 10 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-10.mp3" length="2926464" type="audio/mpeg" />
+      <itunes:duration>3:03</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是基础设施层的连环升级：Google端出Pathways单控制器训练系统、第八代TPU与捐赠Agent Substrate、gVisor给CNCF，三件事串起来是在为大规模Agent常态化运行铺路，GitHub揭露的Rubicon架构高并发数据也印证这股压力真实存在。第二条主线是模型与成本的重新定价：Anthropic、Meta新模型主打长流程编程与低成本，加上Vercel报告显示决策模型已占请求量26%、成本仅语言模型1/70，说明「小模型做路由、大模型留给复杂任务」正成为标准]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-09 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是 Agent 工程基础设施全面补强：OpenAI Agents SDK 推出 alpha 版，加入自订储存、语音与托管工具、MCP 权限模式重整，升级前务必检查新预设的 strict 写入政策与隐式推理设定是否影响既有流程。第二条主线是模型与推理效率的硬指标之争：IBM Granite-TTM-R3 在 CPU 上免 GPU 达高速预测，Ricursive 以低成本训出的 65B 稠密模型在代理式编程上赢过 15 倍大的 MoE，显示「堆参数」不再是唯一路线，工程取舍与架构效率正在反超规模。</p><p><b>今日重点：</b><br>• <b>Agents SDK v0.24.0-alpha.7 发布</b> (OpenAI Agents SDK Releases): OpenAI Agents SDK alpha.7 将 MCP 审批模式重新命名（auto→native）且执行环境预设改为 strict，升级前须检查写入政策设定。<br>• <b>llama.cpp b12211 版本</b> (llama.cpp Releases): llama.cpp b12211 移除 clip.h 并并入 mtmd 模组，使用多模态功能的自架推理专案需同步调整程式码。<br>• <b>MCP Ruby SDK 正式达成 Tier 1，支援 Model Context Protocol 全机能</b> (Publickey): MCP Ruby SDK 正式达成 Tier 1，Ruby 开发者现可用官方全功能 SDK 在生产环境串接 Agent 应用。<br>• <b>Libghostty 1.0 正式发布，Windows 版终端多工器 Rex 即将推出</b> (Publickey): Libghostty 1.0 发布跨平台 C 函式库，已被 JetBrains、Neovim 采用，Windows 版多工器 Rex 数周内推出 Alpha。<br>• <b>@ai-sdk/xai v5.0.40</b> (Vercel AI SDK Releases): Vercel AI SDK 的 xai 提供者升级至 v5.0.40，仅更新依赖项，维护中的专案可直接跟进升版。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-12.mp3" length="2813952" type="audio/mpeg" />
       <itunes:duration>2:56</itunes:duration>
       <itunes:summary><![CDATA[今天真正值得停下来看的是 Claude Code 这一轮集中的权限与安全修补：v2.1.290-296 修掉了 Hook 可被绕过、deny 规则用相对路径会失效等问题，并新增 onFailure: block，这对多专案、多 Agent 协作团队是硬性提醒，旧的隔离设定可能早就没在生效。第二条主线是本地部署与推理效率优化，AirLLM、Atomic Chat 的 SSD 分页技术，加上 MCP 官方套件释出稳定版，显示 Agent 基础设施正从「能跑」迈向「能稳定上生产」。第三条主线是权限架构]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-11 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得留意的不是新模型，而是 Agent 系统大规模落地后暴露的治理缺口：企业「影子 AI」普遍，多数团队已上线 Agent 却少有完整资安审核，实测显示 ChatGPT dots 串接 Gmail、日历、Notion 后，删除或发送指令不会跳出确认，权限提示甚至悄悄出现在别的对话窗口，形成静默失败的地雷。第二条主线是多 Agent 编排的效率竞赛，Anthropic 的 Managed Agents 让单一 Lead Agent 并行调度上千个子 Agent，检出率提升但 Token 消耗暴增，这与 HumanLayer 把开发拆成七阶段以控制上下文污染的 CRISPY 工作流，其实是同一问题的两种解法。</p><p><b>今日重点：</b><br>• <b>专家建议四大方向，协助企业治理 AI Agent 风险</b> (iThome): 80.9%技术团队已部署AI Agent但仅14.4%获资安核准，建议用权限管理、监控补上落差，防止错误删库等高风险操作。<br>• <b>将 Gmail、日历、Slack、Notion 接入 ChatGPT dots，实测其能力与限制</b> (Qiita (AI)): ChatGPT dots接Gmail/日历/Slack后，删除或发送指令不会跳确认框直接执行，串接办公系统前要先设好禁止操作边界。<br>• <b>Gemini 3.5 Flash 即将弃用：自动路由至 gemini-3.6-flash 及迁移步骤</b> (Qiita (LLM)): Gemini 3.5 Flash请求将自动路由到3.6 Flash，硬编码模型字串的专案要尽快改环境变数并跑回归测试防输出格式跑掉。<br>• <b>llama.cpp b11552 发布</b> (llama.cpp Releases): llama.cpp b11552修复伺服器忙碌槽位错误更新提示词快取的Bug，多请求并发部署LLM推理的团队应更新版本。<br>• <b>AI 日报 2026 年 10 月 11 日：Claude 并行控制 1000 个 Agent、OpenAI 数学论文引发争议、Anthropic IPO 目标 2 兆美元</b> (Qiita (AI)): Anthropic新功能让Lead Agent并行启动最多1000个子Agent，代码扫描检测率提升约2.4倍，但要留意Token消耗与权限控制。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-11.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-11-audio</guid>
-      <pubDate>Sun, 11 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-11.mp3" length="2774016" type="audio/mpeg" />
-      <itunes:duration>2:53</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得留意的不是新模型，而是 Agent 系统大规模落地后暴露的治理缺口：企业「影子 AI」普遍，多数团队已上线 Agent 却少有完整资安审核，实测显示 ChatGPT dots 串接 Gmail、日历、Notion 后，删除或发送指令不会跳出确认，权限提示甚至悄悄出现在别的对话窗口，形成静默失败的地雷。第二条主线是多 Agent 编排的效率竞赛，Anthropic 的 Managed Agents 让单一 Lead Agent 并行调度上千个子 Agent，检出率提升但 Token 消耗]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
