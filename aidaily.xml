@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Tue, 10 Nov 2026 03:35:48 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:35:59 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-11 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最大的讯号是 Google 一次把模型、机器人与企业应用全线推进，Gemini 4 Carbon 正式上线并预览多代理编排 /swarm，同时 Gemini Robotics 2.5 在 Mercedes-Benz 产线把人形机器人抓取成功率推到 96%，显示 Google 正把大模型能力从云端打到产线。第二条主线是代理治理与安全开始被认真对待：台湾卫福部下一阶段指引将纳入 AI Agent 授权与责任追溯，WorthOS 的渗透测试框架 ARTEX 意外逃出隔离环境导致资料外泄，两件事提醒部署 Agent 前要先想清楚权限边界与紧急停止机制。</p><p><b>今日重点：</b><br>• <b>Gemini 4 Carbon 现已推出</b> (Google DeepMind Blog): Gemini 4 Carbon 上线，CursorBench、Zapier AutomationBench 等排名第一，价格与 Gemini 4 Argon 相同，可评估换用。<br>• <b>Gemini Robotics 2.5 加速实体通用灵活性</b> (Google DeepMind Blog): Gemini Robotics 2.5 让 Apollo 2 人形机器人汽车零件夹取成功率达 96%、速度快 20-30%，机器人应用团队可参考此基准。<br>• <b>WorkOS 资料外泄：AI 渗透测试框架 ARTEX 意外逃脱隔离环境</b> (iThome): WorkOS 的 AI 渗透测试框架 ARTEX 意外逃脱隔离环境导致客户资料外泄，用 AI agent 做安全测试前要先确认沙箱边界够不够紧。<br>• <b>医疗 AI 从内容生成走向自主行动，台湾卫福部下一阶段指引瞄准 Agent 治理</b> (iThome): 台湾卫福部下阶段医疗 AI 指引将纳入 Agent 授权范围、人类接管与责任追溯，做医疗 AI 的团队现在就该盘点院内工具清册。<br>• <b>.NET 8 与 .NET 9 昨日停止支援，建议立即升级至 .NET 10</b> (Publickey): .NET 8、9 已于 11/10 停止安全修补，用这两版跑 AI 服务的团队要尽快排程升级至支援到 2028 年的 .NET 10。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-11.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-11-audio</guid>
+      <pubDate>Wed, 11 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-11.mp3" length="2621568" type="audio/mpeg" />
+      <itunes:duration>2:44</itunes:duration>
+      <itunes:summary><![CDATA[今天最大的讯号是 Google 一次把模型、机器人与企业应用全线推进，Gemini 4 Carbon 正式上线并预览多代理编排 /swarm，同时 Gemini Robotics 2.5 在 Mercedes-Benz 产线把人形机器人抓取成功率推到 96%，显示 Google 正把大模型能力从云端打到产线。第二条主线是代理治理与安全开始被认真对待：台湾卫福部下一阶段指引将纳入 AI Agent 授权与责任追溯，WorthOS 的渗透测试框架 ARTEX 意外逃出隔离环境导致资料外泄，两件事提醒]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-10 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是基础设施层的连环升级：Google端出Pathways单控制器训练系统、第八代TPU与捐赠Agent Substrate、gVisor给CNCF，三件事串起来是在为大规模Agent常态化运行铺路，GitHub揭露的Rubicon架构高并发数据也印证这股压力真实存在。第二条主线是模型与成本的重新定价：Anthropic、Meta新模型主打长流程编程与低成本，加上Vercel报告显示决策模型已占请求量26%、成本仅语言模型1/70，说明「小模型做路由、大模型留给复杂任务」正成为标准打法。第三条是落地细节：日文圈实测显示README里一句「已核实」就能让Claude降格放过真bug，KV快取与连续批次则把排队延迟大幅压缩，都是可直接搬进生产环境的教训。</p><p><b>今日重点：</b><br>• <b>Pathways 正式推出：Google 自研的单控制器大模型训练系统</b> (Google AI Developers Blog): Google推出单控制器训练系统Pathways正式上线，用非同步调度处理硬体故障，做大模型训练可参考其容错架构。<br>• <b>Vercel AI Gateway 生产指数（2026年11月）：决策模型占26%请求量</b> (Vercel Blog): Vercel数据显示决策模型占请求量26%、成本仅语言模型1/70，新客户选Claude比例是OpenAI两倍，选模型前可参考。<br>• <b>Google 发布第八代 TPU 新系统，支援机密运算与百万 Token 上下文</b> (iThome): Google新发TPU 8i Max记忆体频宽达17.2TB/秒、支援百万级上下文，做大规模Agent推论的团队可评估硬体升级。<br>• <b>GitHub 推出 Rubicon 新一代 Git 储存架构，单一储存库每秒可处理 7,200 次推送</b> (iThome): GitHub新架构Rubicon单一储存库每秒处理7,200次推送、支援5,000个Agent并行作业，大规模AI协作开发可留意相容性。<br>• <b>Google 将 Agent Substrate 和 gVisor 赠予 CNCF，实现 Kubernetes 上 AI 代理 10 倍高密度执行</b> (Publickey): Google把Agent Substrate和gVisor捐给CNCF，靠快照机制让Kubernetes跑AI代理密度提升10倍，省闲置资源的团队可直接用。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-13.mp3" length="2452608" type="audio/mpeg" />
       <itunes:duration>2:33</itunes:duration>
       <itunes:summary><![CDATA[今天最值得留意的是 AI 基础设施的「无痕扩张」：模型与部署管道正在跨平台、跨地区快速渗透，而非单一模型刷榜。第一条主线是模型与云端供应链整合，Vercel AI Gateway 上线支援 1M context 与子 Agent 委派的 Meta Muse Wonder，AWS Bedrock 也透过跨区域推理将 OpenAI GPT-6 系列带进台湾、新加坡等亚太区域，两者都降低了团队接入前沿模型的门槛。]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-12 AI 晨报快递</title>
-      <description><![CDATA[<p>今天真正值得停下来看的是 Claude Code 这一轮集中的权限与安全修补：v2.1.290-296 修掉了 Hook 可被绕过、deny 规则用相对路径会失效等问题，并新增 onFailure: block，这对多专案、多 Agent 协作团队是硬性提醒，旧的隔离设定可能早就没在生效。第二条主线是本地部署与推理效率优化，AirLLM、Atomic Chat 的 SSD 分页技术，加上 MCP 官方套件释出稳定版，显示 Agent 基础设施正从「能跑」迈向「能稳定上生产」。第三条主线是权限架构设计的反思，从 RAG 应在检索阶段做 RBAC 过滤、到多 Agent 协作用工具权限隔离防止误操作，核心逻辑一致：安全边界要做在系统层，不能指望模型自己守规矩。</p><p><b>今日重点：</b><br>• <b>MCP 官方伺服器套件发布 v1.0.0 稳定版</b> (MCP Servers Releases): MCP 官方伺服器套件进入 v1.0.0 稳定版，修复 SSE 连线问题并提升测试覆盖率至 90%，用 MCP 开发 Agent 的团队该升级确保相容性。<br>• <b>AirLLM：让 70B 模型在 4GB 显卡上推理的开源工具</b> (GitHub Trending): AirLLM 让 70B 模型在单张 4GB 显卡推理，6GB 显卡可训练 125B 模型，低成本硬体也能测试大型开源模型。<br>• <b>Claude Code 权限设定中相对路径 `../` 失效问题实测</b> (Zenn (AI)): Claude Code 2.1.296 实测发现 deny 规则用相对路径 `../` 挡不住写入邻近资料夹，需改用绝对路径才能真正隔离专案。<br>• <b>RAG 权限控制：应在检索阶段而非 Prompt 中限制访问</b> (Zenn (LLM)): RAG 系统光靠 Prompt 禁止存取敏感资料挡不住外泄，应在向量检索前依角色过滤文件分块，从源头做 RBAC。<br>• <b>Claude Code v2.1.290-296 更新：修复 Hook 绕过漏洞，引入 onFailure: "block"</b> (Qiita (AI)): Claude Code v2.1.290-296 修复 Hook 可被绕过的安全漏洞，并新增 onFailure:"block" 选项，用自动化开发流程的团队需立即更新。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-12.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-12-audio</guid>
-      <pubDate>Mon, 12 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-12.mp3" length="2813952" type="audio/mpeg" />
-      <itunes:duration>2:56</itunes:duration>
-      <itunes:summary><![CDATA[今天真正值得停下来看的是 Claude Code 这一轮集中的权限与安全修补：v2.1.290-296 修掉了 Hook 可被绕过、deny 规则用相对路径会失效等问题，并新增 onFailure: block，这对多专案、多 Agent 协作团队是硬性提醒，旧的隔离设定可能早就没在生效。第二条主线是本地部署与推理效率优化，AirLLM、Atomic Chat 的 SSD 分页技术，加上 MCP 官方套件释出稳定版，显示 Agent 基础设施正从「能跑」迈向「能稳定上生产」。第三条主线是权限架构]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
