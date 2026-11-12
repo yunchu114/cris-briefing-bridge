@@ -1,12 +1,52 @@
 {
  "version": 3,
  "date": "2026-11-12",
- "updated": "2026-11-12T12:15:26+08:00",
+ "updated": "2026-11-12T14:38:20+08:00",
  "sections": [
   {
    "id": "ai",
    "title": "AI 前沿科技",
    "items": [
+    {
+     "title": "DeepMind 发布 AlphaGenome 2：基因变异的影响能精确到单个细胞类型",
+     "summary": "谷歌 DeepMind 发布新一代基因组模型 AlphaGenome 2，基于 1.07 亿个细胞图谱、覆盖 68 种组织训练，能预测同一 DNA 变异在不同细胞类型里的不同效应，识别出的调控变异数量接近上一代的两倍，模型向非商业研究开放。",
+     "url": "https://www.techbuzz.ai/articles/google-deepmind-s-alphagenome-2-maps-dna-changes-across-cell-types"
+    },
+    {
+     "title": "百度披露「自我进化」系统 ERNIE Evolve：AI 智能体自己给模型提速 6.2 倍",
+     "summary": "百度首次公开递归自我改进实践，一组 AI 智能体自主设定研究目标、改代码、跑实验，下一代 ERNIE 模型在自研昆仑芯 P800 上文本生成提速最高 6.2 倍，数字均为百度自测、未经独立验证。",
+     "url": "https://chinafactor.news/2026/11/11/baidu-ernie-evolve-ai-agents-kunlunxin/"
+    },
+    {
+     "title": "阿里 Qwen4-Max 开启两周限时预览：100 万 token 上下文，11 月 25 日下线",
+     "summary": "阿里 11 月 11 日上线 Qwen4-Max 预览版，上下文 100 万 token、最大输出 393,216 token，支持文本、图像、视频输入，只能通过 Token Plan 订阅调用，11 月 25 日 24:00 预览结束即下线，至今未公布任何基准成绩与参数量。",
+     "url": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview"
+    },
+    {
+     "title": "微软研究：改不到 10 个「休眠神经元」就能给 AI 智能体埋后门，无需重新训练",
+     "summary": "微软研究院披露名为 Lazarus 的技术，只需重编程大模型里不到 10 个平时不活跃的神经元就能在智能体里植入后门，全程无需训练，触发条件可以平凡到时钟跨过 2027 年元旦，现有检测只能靠与原始权重逐项比对，可靠防御仍无解。",
+     "url": "https://pivotnews.ai/five/microsoft-researchers-backdoor-ai-agents-by-rewiring-under"
+    },
+    {
+     "title": "Google 推出 Gemini Decision 1：一次前向传播判 1000 道题，专做「选择题」",
+     "summary": "DeepMind 发布 Gemini Decision 1 及配套 Decisions API，专为是非题、选择题、量表打分这类封闭式判断设计，一次前向传播可并行处理最多 1000 个问题，输入价 0.1 美元/百万 token、输出不计费。",
+     "url": "https://www.todayforai.com/en/daily"
+    },
+    {
+     "title": "AI 双雄财报对照：Anthropic IPO 传数倍超额认购，OpenAI 三季度营收破百亿、亏损 109 亿",
+     "summary": "Anthropic IPO 路演传数倍超额认购，11 月 18 日定价、19 日挂牌；Anthropic Q3 营收 169.6 亿美元、经营亏损仅 5.67 亿，OpenAI Q3 营收首次突破 100 亿美元、环比增近 50%，但调整后经营亏损扩大到 109 亿美元。",
+     "url": "https://michaelparekh.substack.com/p/cleared-for-takeoff-in-ai-anthropic"
+    },
+    {
+     "title": "韩国 DEEPX 发布 2nm 边缘 AI 芯片 DX-M2：5W 功耗跑大模型，瞄准机器人",
+     "summary": "韩国芯片公司 DEEPX 公布 DX-M2 处理器，采用三星 2nm GAA 工艺，功耗约 5W，目标是在机器人和工业设备上本地运行大语言模型和视觉语言模型、摆脱对云端连接的依赖，已获 CES 2027 创新奖，计划 2027 年四季度量产。",
+     "url": "https://www.gsmdome.com/deepx-s-2nm-dx-m2-ai-chip-targets-robots-and-industrial-systems-at-5w"
+    },
+    {
+     "title": "澳大利亚推出「主权模型」Agentaus 1：2200 亿参数，瞄准政府与企业市场",
+     "summary": "澳大利亚公司 Trellis Data 发布 Agentaus 1，一个 2200 亿参数的模型，主打「主权 AI」，面向澳大利亚企业和政府客户，强调从设计之初就满足安全合规要求，发布时机正值澳大利亚联邦政府本周提出新的 AI 安全强制保护措施。",
+     "url": "https://australiancybersecuritymagazine.com.au/trellis-data-launches-near-frontier-model-agentaus-1/"
+    },
     {
      "title": "OpenAI 新模型 GPT-6 Cyber 一天复现 1724 个 Linux 漏洞，找漏洞已比修漏洞容易得多",
      "summary": "OpenAI 11 月 5 日发布的网络安全专用模型 GPT-6 Cyber 在 Linux 内核复现出 1724 个漏洞、为其中 948 个做出可用提权攻击，在 Firefox 找到 81 个未知严重漏洞，OpenAI 自评最高档「Critical」只开放给少数审查过的安全团队，而公开看板上截至 10 月 30 日上报的问题只修了约 23%。",
