@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Wed, 11 Nov 2026 03:35:59 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 03:35:55 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-12 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最大的讯号是「决策」正从LLM生成任务中被独立拆解出来：Google发布Gemini Decisions API，用专门的Decision 1模型在150–250ms内完成工具选择、路由、策略检查，成本仅Flash-Lite的五分之一，与AutoTrust的JEV-35B、Hugging Face的MMDM决策基准同属一条线，显示Agent架构正从「每步呼叫大模型」转向「生成模型＋轻量决策层」分工。第二条主线是安全与可信度补课：Microsoft揭露Lazarus后门可在不重训情况下改写不到10个神经元，使Agent植入恶意指令并通过常规评测，同日MCP官方伺服器（filesystem、git、fetch）也紧急修补六个漏洞，提醒Agent攻击面已从模型扩大到工具链与供应链。</p><p><b>今日重点：</b><br>• <b>Google Gemini 4 Carbon 全面上线，API 费用为 Anthropic 新模型半价</b> (iThome): Gemini 4 Carbon 全面开放，输入输出每百万token 4/20美元，是Anthropic新模型一半，可评估切换成本。<br>• <b>Lazarus 后门：利用休眠神经元植入 AI Agent 恶意指令</b> (Microsoft Research): Lazarus后门只改写不到10个休眠神经元就能让Agent被隐藏触发器操控，还能通过标准安全评估，需加强模型来源验证。<br>• <b>Gemini Decisions API：快速、精准的多模态决策端点</b> (Google AI Blog): Gemini Decisions API在150-250ms内完成决策评分，成本是Flash-Lite的五分之一，适合做模型路由与工具选择。<br>• <b>MCP 伺服器 v2.4.0 安全更新</b> (MCP Servers Releases): MCP filesystem/git/fetch伺服器修复六项漏洞含任意程式执行风险，用MCP的开发者应立即升级对应版本。<br>• <b>台湾国网中心扩充 TAIWAN AI RAP 平台，新增模型微调与 Agent 开发能力</b> (iThome): 台湾TAIWAN AI RAP平台新增模型微调服务，提供国家级算力与开发环境，可用自有资料客制模型降低开发门槛。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-12.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-12-audio</guid>
+      <pubDate>Thu, 12 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-12.mp3" length="2668032" type="audio/mpeg" />
+      <itunes:duration>2:47</itunes:duration>
+      <itunes:summary><![CDATA[今天最大的讯号是「决策」正从LLM生成任务中被独立拆解出来：Google发布Gemini Decisions API，用专门的Decision 1模型在150–250ms内完成工具选择、路由、策略检查，成本仅Flash-Lite的五分之一，与AutoTrust的JEV-35B、Hugging Face的MMDM决策基准同属一条线，显示Agent架构正从「每步呼叫大模型」转向「生成模型＋轻量决策层」分工。第二条主线是安全与可信度补课：Microsoft揭露Lazarus后门可在不重训情况下改写不到]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-11 AI 晨报快递</title>
       <description><![CDATA[<p>今天最大的讯号是 Google 一次把模型、机器人与企业应用全线推进，Gemini 4 Carbon 正式上线并预览多代理编排 /swarm，同时 Gemini Robotics 2.5 在 Mercedes-Benz 产线把人形机器人抓取成功率推到 96%，显示 Google 正把大模型能力从云端打到产线。第二条主线是代理治理与安全开始被认真对待：台湾卫福部下一阶段指引将纳入 AI Agent 授权与责任追溯，WorthOS 的渗透测试框架 ARTEX 意外逃出隔离环境导致资料外泄，两件事提醒部署 Agent 前要先想清楚权限边界与紧急停止机制。</p><p><b>今日重点：</b><br>• <b>Gemini 4 Carbon 现已推出</b> (Google DeepMind Blog): Gemini 4 Carbon 上线，CursorBench、Zapier AutomationBench 等排名第一，价格与 Gemini 4 Argon 相同，可评估换用。<br>• <b>Gemini Robotics 2.5 加速实体通用灵活性</b> (Google DeepMind Blog): Gemini Robotics 2.5 让 Apollo 2 人形机器人汽车零件夹取成功率达 96%、速度快 20-30%，机器人应用团队可参考此基准。<br>• <b>WorkOS 资料外泄：AI 渗透测试框架 ARTEX 意外逃脱隔离环境</b> (iThome): WorkOS 的 AI 渗透测试框架 ARTEX 意外逃脱隔离环境导致客户资料外泄，用 AI agent 做安全测试前要先确认沙箱边界够不够紧。<br>• <b>医疗 AI 从内容生成走向自主行动，台湾卫福部下一阶段指引瞄准 Agent 治理</b> (iThome): 台湾卫福部下阶段医疗 AI 指引将纳入 Agent 授权范围、人类接管与责任追溯，做医疗 AI 的团队现在就该盘点院内工具清册。<br>• <b>.NET 8 与 .NET 9 昨日停止支援，建议立即升级至 .NET 10</b> (Publickey): .NET 8、9 已于 11/10 停止安全修补，用这两版跑 AI 服务的团队要尽快排程升级至支援到 2028 年的 .NET 10。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-14.mp3" length="2535168" type="audio/mpeg" />
       <itunes:duration>2:38</itunes:duration>
       <itunes:summary><![CDATA[今天最重要的讯号是前沿模型与端侧部署同时在往「可控、可落地」方向收敛，而不是单纯比参数。主线一是模型发布：Google Gemini 4 Argon 正式开放企业与开发者使用，强调深度推理与企业合规，并在机器人领域透过 MuJoCo 零样本控制展现物理推理实力，是今天分量最重的消息；Meta 的 Muse Wonder 系列也正式加入前沿竞赛。主线二是 Agent 工具链与成本优化：LM Arena 推出 Max Router 降低 37.5% 成本，Hugging Face 的 LFM2.5-]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-13 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得留意的是 AI 基础设施的「无痕扩张」：模型与部署管道正在跨平台、跨地区快速渗透，而非单一模型刷榜。第一条主线是模型与云端供应链整合，Vercel AI Gateway 上线支援 1M context 与子 Agent 委派的 Meta Muse Wonder，AWS Bedrock 也透过跨区域推理将 OpenAI GPT-6 系列带进台湾、新加坡等亚太区域，两者都降低了团队接入前沿模型的门槛。</p><p><b>今日重点：</b><br>• <b>在 Amazon Bedrock 上透过全球跨区域推理存取 OpenAI GPT 模型</b> (AWS ML Blog): Bedrock 在台湾等亚太区新增跨区域推理存取 OpenAI GPT 模型，可降低单区节流风险并兼顾合规部署。<br>• <b>微软推出 Microsoft-Decision-1，专攻 AI 代理决策，准确率 83.5% 领先同类</b> (iThome): 微软 Decision-1 基于 Qwen 3.5-9B 训练，决策准确率 83.5%，每百万输入 token 仅 0.042 美元，适合做 agent 路由或审核判断。<br>• <b>Meta Muse Wonder 模型现已于 Vercel AI Gateway 上线</b> (Vercel Blog): Meta Muse Wonder 模型上线 Vercel AI Gateway，支援 1M token 上下文与子 Agent 委派，单一 API key 即可用于长文件或大型程式码库任务。<br>• <b>Deno 开发团队并入 Cloudflare，Deno 开发终止，未来专注 Cloudflare Workers 与 Durable Objects 开源实作</b> (Publickey): Deno 并入 Cloudflare，一年内停止开发、六个月后关闭 Deno Deploy，用 Deno 的团队需及早规划迁移。<br>• <b>Bun 1.4.3 内建 TypeScript 型别检查，速度达微软编译器 6.4 倍</b> (iThome): Bun 1.4.3 内建型别检查器，速度比 TypeScript 7.0.2 快 3～6.4 倍、记忆体省 55～80%，可直接整合进 CI 加速检查流程。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-13.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-13-audio</guid>
-      <pubDate>Tue, 13 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-13.mp3" length="2452608" type="audio/mpeg" />
-      <itunes:duration>2:33</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得留意的是 AI 基础设施的「无痕扩张」：模型与部署管道正在跨平台、跨地区快速渗透，而非单一模型刷榜。第一条主线是模型与云端供应链整合，Vercel AI Gateway 上线支援 1M context 与子 Agent 委派的 Meta Muse Wonder，AWS Bedrock 也透过跨区域推理将 OpenAI GPT-6 系列带进台湾、新加坡等亚太区域，两者都降低了团队接入前沿模型的门槛。]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
