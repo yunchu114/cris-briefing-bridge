@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Thu, 12 Nov 2026 03:35:55 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 03:36:33 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-13 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是决策型（System One）模型正式成为主流战场：Google 发布 Gemini Decision 1，延迟仅150–250毫秒、成本比Flash-Lite便宜5倍，Gemini 4 Hydrogen以十分之一Opus成本登陆Cursor并拿下54.3%分数，显示大厂正把轻量模型推进多智能体架构核心。第二条主线是Agent基础设施的安全与治理：Google标出87%恶意行为、IBM Granite的LLMON几乎消除间接prompt injection、AWS新AgentCore瞄准长时间运行Agent的安全与成本问题。第三条主线是工具链补强，LangGraph、PydanticAI、CrewAI更新子图、审批流程与Temporal整合，LlamaIndex推出ParseBench-2。</p><p><b>今日重点：</b><br>• <b>Google 推出 Gemini 4 Hydrogen 模型：高效执行的轻量级 Agent 模型</b> (Google DeepMind Blog): Gemini 4 Hydrogen 执行速度快 2.5 倍，定价 1.5／7.5 美元，适合取代现有 Agent 执行引擎降成本。<br>• <b>LLMON：LLM 原生标记语言，整合于 Granite 4.1 3B 与 8B</b> (Hugging Face Blog): Granite 4.1 导入 LLMON 标记语言，让间接 prompt injection 成功率降到近零，可套用在小型模型防注入。<br>• <b>使用下一代 AgentCore 执行环境安全高效地运行 Agent</b> (AWS ML Blog): AWS 新一代 AgentCore 执行环境支援长时间运行 Agent，Agent 执行时长每四个月翻倍，部署前先评估安全边界。<br>• <b>Agent 异常检测在公开安全基准上的表现评估</b> (Google AI Developers Blog): Google Agent 异常检测在 5 个基准测出 87% 恶意行为，但长期记忆投毒 18 例仅抓到 4 例，仍需额外防线。<br>• <b>Google 推出生成式介面协定 A2UI 1.0</b> (iThome): Google A2UI 1.0 支援双向函式呼叫，让 Agent 与 App 介面互相操作，可接入 Claude、Gemini 等助理建生成式 UI。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-13.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-13-audio</guid>
+      <pubDate>Fri, 13 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-13.mp3" length="2571648" type="audio/mpeg" />
+      <itunes:duration>2:41</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是决策型（System One）模型正式成为主流战场：Google 发布 Gemini Decision 1，延迟仅150–250毫秒、成本比Flash-Lite便宜5倍，Gemini 4 Hydrogen以十分之一Opus成本登陆Cursor并拿下54.3%分数，显示大厂正把轻量模型推进多智能体架构核心。第二条主线是Agent基础设施的安全与治理：Google标出87%恶意行为、IBM Granite的LLMON几乎消除间接prompt injection、AWS新AgentC]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-12 AI 晨报快递</title>
       <description><![CDATA[<p>今天最大的讯号是「决策」正从LLM生成任务中被独立拆解出来：Google发布Gemini Decisions API，用专门的Decision 1模型在150–250ms内完成工具选择、路由、策略检查，成本仅Flash-Lite的五分之一，与AutoTrust的JEV-35B、Hugging Face的MMDM决策基准同属一条线，显示Agent架构正从「每步呼叫大模型」转向「生成模型＋轻量决策层」分工。第二条主线是安全与可信度补课：Microsoft揭露Lazarus后门可在不重训情况下改写不到10个神经元，使Agent植入恶意指令并通过常规评测，同日MCP官方伺服器（filesystem、git、fetch）也紧急修补六个漏洞，提醒Agent攻击面已从模型扩大到工具链与供应链。</p><p><b>今日重点：</b><br>• <b>Google Gemini 4 Carbon 全面上线，API 费用为 Anthropic 新模型半价</b> (iThome): Gemini 4 Carbon 全面开放，输入输出每百万token 4/20美元，是Anthropic新模型一半，可评估切换成本。<br>• <b>Lazarus 后门：利用休眠神经元植入 AI Agent 恶意指令</b> (Microsoft Research): Lazarus后门只改写不到10个休眠神经元就能让Agent被隐藏触发器操控，还能通过标准安全评估，需加强模型来源验证。<br>• <b>Gemini Decisions API：快速、精准的多模态决策端点</b> (Google AI Blog): Gemini Decisions API在150-250ms内完成决策评分，成本是Flash-Lite的五分之一，适合做模型路由与工具选择。<br>• <b>MCP 伺服器 v2.4.0 安全更新</b> (MCP Servers Releases): MCP filesystem/git/fetch伺服器修复六项漏洞含任意程式执行风险，用MCP的开发者应立即升级对应版本。<br>• <b>台湾国网中心扩充 TAIWAN AI RAP 平台，新增模型微调与 Agent 开发能力</b> (iThome): 台湾TAIWAN AI RAP平台新增模型微调服务，提供国家级算力与开发环境，可用自有资料客制模型降低开发门槛。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-15.mp3" length="2416128" type="audio/mpeg" />
       <itunes:duration>2:31</itunes:duration>
       <itunes:summary><![CDATA[今天真正值得停下来看的是安全边界的全面收紧：Anthropic 揭露小型模型已能在低成本 IoT 装置上自我复制形成「AI 蠕虫」，MITRE ATT&amp;CK v20 把提示注入与 AI 辅助资料外泄纳入标准威胁框架，Microsoft 也在 Windows 11 推出 MXC 隔离环境让 AI 代理执行有边界，三者合起来说明业界已从「模型多强」转向「模型跑起来会不会失控」。第二条主线是模型与推理层持续升级，Gemini 4 Argon 冲到百万 token 输出并重写 Chromium 程式码，]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-14 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最重要的讯号是前沿模型与端侧部署同时在往「可控、可落地」方向收敛，而不是单纯比参数。主线一是模型发布：Google Gemini 4 Argon 正式开放企业与开发者使用，强调深度推理与企业合规，并在机器人领域透过 MuJoCo 零样本控制展现物理推理实力，是今天分量最重的消息；Meta 的 Muse Wonder 系列也正式加入前沿竞赛。主线二是 Agent 工具链与成本优化：LM Arena 推出 Max Router 降低 37.5% 成本，Hugging Face 的 LFM2.5-24B-A2B 以 2B 活跃参数做到端侧高效推理，LINE 则把 NoCode Agent 平台做进商家后台，显示部署门槛正快速降低。</p><p><b>今日重点：</b><br>• <b>Gemini 4 Argon：为解决最难问题而设计</b> (Google AI Blog): Google 正式开放 Gemini 4 Argon API，主打长文件与深度推理，所有 Gemini API 开发者可直接升级调用。<br>• <b>Gemini 4 Argon 在机器人领域的应用</b> (Google DeepMind Blog): Argon 在 ERQA 物理推理测试得分 87%，可零样本控制 Boston Dynamics Spot，具身智能专案可直接评估导入。<br>• <b>Hugging Face 发布 LFM2.5-24B-A2B 端侧推理模型</b> (Hugging Face Blog): LFM2.5-24B-A2B 总参数 24B 仅激活 2B，Apple M5 Max 上跑 184 tok/s，适合做端侧低成本 Agent。<br>• <b>GitHub 的秘密侦测模型：以更少噪音发现更多秘密</b> (GitHub Blog (AI &amp; ML)): GitHub 新秘密侦测模型把扫描时间降 86%、服务成本降 98%，CI/CD 管线可减少误报负担。<br>• <b>LINE 官方帐号将内建 AI 代理平台，先提供 3 款店家 AI 代理角色，也将支援 MCP 协定</b> (iThome): LINE 官方帐号内建 NoCode AI 代理平台并计划支援 MCP 协定，店家可直接接 POS、CRM 打造客服 Agent。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-14.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-14-audio</guid>
-      <pubDate>Wed, 14 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-14.mp3" length="2535168" type="audio/mpeg" />
-      <itunes:duration>2:38</itunes:duration>
-      <itunes:summary><![CDATA[今天最重要的讯号是前沿模型与端侧部署同时在往「可控、可落地」方向收敛，而不是单纯比参数。主线一是模型发布：Google Gemini 4 Argon 正式开放企业与开发者使用，强调深度推理与企业合规，并在机器人领域透过 MuJoCo 零样本控制展现物理推理实力，是今天分量最重的消息；Meta 的 Muse Wonder 系列也正式加入前沿竞赛。主线二是 Agent 工具链与成本优化：LM Arena 推出 Max Router 降低 37.5% 成本，Hugging Face 的 LFM2.5-]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
