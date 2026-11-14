@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Fri, 13 Nov 2026 03:36:33 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 03:35:18 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-14 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是 AI Agent 的「生产化」正式进入可观测、可计费、可治理的阶段，不再只是 demo。Google 在 BigQuery 与 Looker 补齐 Agent 可观测性与治理（列级安全、动态遮罩、BigQueryAgentAnalyticsPlugin），AWS 同步补刀：Bedrock AgentCore Runtime V2 将单一工作阶段资源拉到 4 倍、启动时间压到 7% 以内，并推出零配置成本归因，回答每个使用者实际花费。讯号清楚：Agent 落地瓶颈已从「能不能做」转为「能不能管」。</p><p><b>今日重点：</b><br>• <b>llama.cpp v1.0.0：本地 AI 生态的稳定基石</b> (Hugging Face Blog): llama.cpp 发布 v1.0.0，确立语义版本与 API/ABI 稳定性，依赖它做本地推论的专案可放心升级不怕破坏相容性。<br>• <b>AWS 扩充 Amazon Bedrock AgentCore 执行环境，支援大型程式编译与本地模型载入</b> (iThome): Bedrock AgentCore Runtime V2 单一工作阶段提升至 8 vCPU／32GB，启动时间缩至 7% 以内，适合跑大型专案编译或本地模型的 Agent。<br>• <b>Google 跨 BigQuery 和 Looker 推出 AI Agent 可观测性和治理</b> (Google Cloud AI / ML Blog): Google 为 BigQuery／Looker 一方与 ADK、LangGraph 三方 Agent 统一提供可观测性与列级安全控制，上生产前可先接这层监控。<br>• <b>AI Gateway 免费提供 Parallel Decisions 决策模型</b> (Vercel Blog): Parallel 的 Decisions Fast 决策模型在 AI Gateway 上免费用到 2026/11/23，不用另开帐号就能拿即时网路证据做布林／评分判断。<br>• <b>Amazon Bedrock 成本归因与控制：AI 开发工具的FinOps 实践</b> (AWS ML Blog): Bedrock 新增零配置成本归因，可把每次推论追到 IAM 主体并接 Cost Explorer，拿来算出每个使用者的实际花费。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-14.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-14-audio</guid>
+      <pubDate>Sat, 14 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-14.mp3" length="2484864" type="audio/mpeg" />
+      <itunes:duration>2:35</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是 AI Agent 的「生产化」正式进入可观测、可计费、可治理的阶段，不再只是 demo。Google 在 BigQuery 与 Looker 补齐 Agent 可观测性与治理（列级安全、动态遮罩、BigQueryAgentAnalyticsPlugin），AWS 同步补刀：Bedrock AgentCore Runtime V2 将单一工作阶段资源拉到 4 倍、启动时间压到 7% 以内，并推出零配置成本归因，回答每个使用者实际花费。讯号清楚：Agent 落地瓶颈已从「能不能做]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-13 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是决策型（System One）模型正式成为主流战场：Google 发布 Gemini Decision 1，延迟仅150–250毫秒、成本比Flash-Lite便宜5倍，Gemini 4 Hydrogen以十分之一Opus成本登陆Cursor并拿下54.3%分数，显示大厂正把轻量模型推进多智能体架构核心。第二条主线是Agent基础设施的安全与治理：Google标出87%恶意行为、IBM Granite的LLMON几乎消除间接prompt injection、AWS新AgentCore瞄准长时间运行Agent的安全与成本问题。第三条主线是工具链补强，LangGraph、PydanticAI、CrewAI更新子图、审批流程与Temporal整合，LlamaIndex推出ParseBench-2。</p><p><b>今日重点：</b><br>• <b>Google 推出 Gemini 4 Hydrogen 模型：高效执行的轻量级 Agent 模型</b> (Google DeepMind Blog): Gemini 4 Hydrogen 执行速度快 2.5 倍，定价 1.5／7.5 美元，适合取代现有 Agent 执行引擎降成本。<br>• <b>LLMON：LLM 原生标记语言，整合于 Granite 4.1 3B 与 8B</b> (Hugging Face Blog): Granite 4.1 导入 LLMON 标记语言，让间接 prompt injection 成功率降到近零，可套用在小型模型防注入。<br>• <b>使用下一代 AgentCore 执行环境安全高效地运行 Agent</b> (AWS ML Blog): AWS 新一代 AgentCore 执行环境支援长时间运行 Agent，Agent 执行时长每四个月翻倍，部署前先评估安全边界。<br>• <b>Agent 异常检测在公开安全基准上的表现评估</b> (Google AI Developers Blog): Google Agent 异常检测在 5 个基准测出 87% 恶意行为，但长期记忆投毒 18 例仅抓到 4 例，仍需额外防线。<br>• <b>Google 推出生成式介面协定 A2UI 1.0</b> (iThome): Google A2UI 1.0 支援双向函式呼叫，让 Agent 与 App 介面互相操作，可接入 Claude、Gemini 等助理建生成式 UI。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-16.mp3" length="2212224" type="audio/mpeg" />
       <itunes:duration>2:18</itunes:duration>
       <itunes:summary><![CDATA[今天最值得注意的是开源权重模型在这两天集中放量，Meta、IBM、Apertus 的大型 MoE 模型几乎同时发布，加上 llama.cpp v0.7.0 补上 MoE GPU 快取与多模态支援，本地／私有部署的门槛明显在降。第二条主线是 Agent 基础设施往生产环境深化，Cognition 的 Devin Oncall 把 Agent 接进 Datadog 自动修警报，Google 也同步放出 ADK recipes 与 Agent 评估指南，显示大家开始认真处理 Agent 上线后的可观测]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-15 AI 晨报快递</title>
-      <description><![CDATA[<p>今天真正值得停下来看的是安全边界的全面收紧：Anthropic 揭露小型模型已能在低成本 IoT 装置上自我复制形成「AI 蠕虫」，MITRE ATT&amp;CK v20 把提示注入与 AI 辅助资料外泄纳入标准威胁框架，Microsoft 也在 Windows 11 推出 MXC 隔离环境让 AI 代理执行有边界，三者合起来说明业界已从「模型多强」转向「模型跑起来会不会失控」。第二条主线是模型与推理层持续升级，Gemini 4 Argon 冲到百万 token 输出并重写 Chromium 程式码，Grok Voice 3.0 语音延迟压到 0.81 秒，Vercel 免费上线 Nemotron 3.5 Lightning，低成本长上下文选项变多。</p><p><b>今日重点：</b><br>• <b>Ollama v0.40.5 发布</b> (Ollama Releases): Ollama v0.40.5 把 Metal 自订核心移植到 CUDA，NVIDIA GPU 用户可直接受惠于效能改进。<br>• <b>Nemotron 3.5 Lightning 免费上线 AI Gateway</b> (Vercel Blog): Nemotron 3.5 Lightning 免费上线 Vercel AI Gateway，支援 1M 上下文，可用于长程 Agent 与 RAG 省成本。<br>• <b>Anthropic 警告 AI 模型可能在 IoT 装置上自我复制</b> (iThome): Anthropic 发现 300 亿参数以下模型已能在 IoT 装置上自我复制，边缘部署团队需重新检视隔离与更新机制。<br>• <b>MITRE ATT&amp;CK v20 新增提示注入与 AI 辅助资料外泄技术</b> (iThome): MITRE ATT&amp;CK v20 正式纳入提示注入与 AI 辅助资料外泄技术，LLM 应用的威胁建模需纳入这些新类别。<br>• <b>Microsoft 正式发布 Windows 11 上的 AI 代理隔离环境 MXC</b> (Publickey): Microsoft 发布 MXC GA 版，Windows 11 可用 AppContainer／MicroVM 隔离 AI 代理，Claude Code 已宣布支援。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-15.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-15-audio</guid>
-      <pubDate>Thu, 15 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-15.mp3" length="2416128" type="audio/mpeg" />
-      <itunes:duration>2:31</itunes:duration>
-      <itunes:summary><![CDATA[今天真正值得停下来看的是安全边界的全面收紧：Anthropic 揭露小型模型已能在低成本 IoT 装置上自我复制形成「AI 蠕虫」，MITRE ATT&amp;CK v20 把提示注入与 AI 辅助资料外泄纳入标准威胁框架，Microsoft 也在 Windows 11 推出 MXC 隔离环境让 AI 代理执行有边界，三者合起来说明业界已从「模型多强」转向「模型跑起来会不会失控」。第二条主线是模型与推理层持续升级，Gemini 4 Argon 冲到百万 token 输出并重写 Chromium 程式码，]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
