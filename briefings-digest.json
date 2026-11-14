@@ -1,312 +1,257 @@
 {
- "version": 3,
- "date": "2026-11-13",
- "updated": "2026-11-13T12:19:30+08:00",
- "sections": [
-  {
-   "id": "ai",
-   "title": "AI 前沿科技",
-   "items": [
+  "version": 3,
+  "date": "2026-11-14",
+  "updated": "2026-11-14T12:15:29+08:00",
+  "sections": [
     {
-     "title": "黄仁勋辞任英伟达 CEO：33 年掌门时代落幕，CFO 临时接管",
-     "summary": "英伟达董事会 11 月 12 日官宣创始人黄仁勋辞去总裁、CEO 与董事职务、即日生效，CFO Colette Kress 临时接棒、Harvey C. Jones 出任公司史上首位董事长，董事会已启动继任者遴选，英伟达市值约 3.8 万亿美元、当日股价收跌超 4%。",
-     "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+      "id": "ai",
+      "title": "AI 前沿科技",
+      "items": [
+        {
+          "title": "GPT-6 Astra 直接改神经网络权重，MATH-500 从 7.9% 拉到 48.1%",
+          "summary": "MIT CSAIL 的 Weight-Space Programming 研究让 GPT-6 Astra 只看权重就能读懂并直接修改神经网络权重，仅改 0.016% 权重便把 Qwen3.5-0.8B 的 MATH-500 得分从 7.9% 提升至 48.1%。",
+          "url": "https://www.youtube.com/watch?v=GJ6PMUm5oTA"
+        },
+        {
+          "title": "Claude 免费送一次全量用量重置，12 月 10 日前要用掉",
+          "summary": "Anthropic 宣布所有 Pro、Max、Ultra、Team 用户各得一次免费全量用量重置，覆盖所有模型与用量限制，须在 12 月 10 日 14:00 PT 前使用。",
+          "url": "https://x.com/ClaudeDevs/status/2120275296637321476"
+        },
+        {
+          "title": "Gemini 4 Carbon 正式可用，Antigravity 可带一队 agent 干活",
+          "summary": "Google 宣布 Gemini 4 Carbon 全面可用，主打长程推理与网络安全，Antigravity 同日推出 /swarm 预览让一队 agent 并行协作，但消费端仅限 Ultra 订阅。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+        },
+        {
+          "title": "AI 九步从聊天框走到「同事」，你现在卡在哪一步",
+          "summary": "AI Explained 把 AI 演进压成九步，从聊天、工具、agent 一路走到后台自动处理文件并由人审批的「同事」阶段，建议先为工作的一部分建一个项目。",
+          "url": "https://www.youtube.com/watch?v=vNBhwtIuJgw"
+        }
+      ]
     },
     {
-     "title": "开源阵营盯紧「后黄仁勋时代」：129 亿美元收购 Hugging Face 还没落笔",
-     "summary": "黄仁勋是开源 AI 最响亮的旗手之一，他的离场让社区担心英伟达 9 月宣布的 129 亿美元收购 Hugging Face 交易能否完成交割，Hugging Face CEO Clément Delangue 已表态会继续为开源 AI 战斗。",
-     "url": "https://ai-daily.musxiao.com/"
+      "id": "x",
+      "title": "推特热议",
+      "items": [
+        {
+          "title": "黄仁勋辞任英伟达 CEO，股价盘中一度跌 14%",
+          "summary": "英伟达 11 月 12 日宣布黄仁勋即日起辞去总裁、CEO 及董事职务，结束 33 年掌舵，CFO Colette Kress 任临时 CEO，股价盘中一度跌 14%、收盘跌 4.34%。",
+          "url": "https://x.com/search?q=%E9%BB%84%E4%BB%81%E5%8B%8B%20%E8%8B%B1%E4%BC%9F%E8%BE%BE%20%E8%BE%9E%E8%81%8C&f=live"
+        },
+        {
+          "title": "Claude 新版地区政策 11 月 12 日生效，中文区集中反馈封号与 KYC",
+          "summary": "Anthropic 新版《支持地区政策》生效，收紧受支持地区定义，中文圈过去 24 小时集中讨论封号和 KYC 弹窗，不少用户称账号被封或被要求提交受益人表单。",
+          "url": "https://x.com/search?q=Claude%20%E5%B0%81%E5%8F%B7%20KYC&f=live"
+        },
+        {
+          "title": "Anthropic IPO：定价 11 月 18 日、19 日纳斯达克上市，约 6 倍超额认购",
+          "summary": "IPO 官网 11 月 12 日上线，发行价区间 70–78 美元、代码 ANT，彭博称认购约 6 倍超额，最高 20% 份额留给散户投资者。",
+          "url": "https://x.com/search?q=Anthropic%20IPO%20%E4%B8%8A%E5%B8%82&f=live"
+        },
+        {
+          "title": "谷歌发布 Gemini 4 Hydrogen，速度为 3.8 Flash 的 2.5 倍",
+          "summary": "11 月 12 日发布的 Gemini 4 快速模型 Artificial Analysis 智力指数超过 Argon，同日登陆 Google 搜索、Gemini 应用、Antigravity、Cursor 和 Devin，百万 tokens 1.5 美元。",
+          "url": "https://x.com/search?q=Gemini%204%20Hydrogen&f=live"
+        },
+        {
+          "title": "Claude Meetings 上线：Claude 直接进 Google Meet 开会",
+          "summary": "Anthropic 11 月 12 日推出 Beta，先面向 Team 和 Enterprise 套餐，Claude 以可见参会者身份加入 Meet，可实时提问、做笔记和生成文档。",
+          "url": "https://x.com/search?q=Claude%20Meetings&f=live"
+        },
+        {
+          "title": "苹果今日发售 HomeView 智能家居屏与新款 Apple TV 4K；支持社区 11 月 20 日关闭",
+          "summary": "两款新品均售价 299 美元，HomeView 搭载 Apple Intelligence 与 Siri AI、可人脸识别最多 6 位用户，新 Apple TV 4K 搭 A19 芯片，运营近 30 年的苹果支持社区将于 11 月 20 日永久关闭。",
+          "url": "https://x.com/search?q=Apple%20HomeView%20Apple%20TV%204K&f=live"
+        },
+        {
+          "title": "原湖北省委书记王忠林被查，五中全会后首名正部级官员",
+          "summary": "中纪委国家监委 11 月 13 日通报王忠林涉嫌严重违纪违法正接受审查调查，距其转任全国人大闲职仅五个月。",
+          "url": "https://x.com/search?q=%E7%8E%8B%E5%BF%A0%E6%9E%97%20%E8%A2%AB%E6%9F%A5&f=live"
+        },
+        {
+          "title": "美媒：万斯认真考虑放弃 2028 年总统竞选",
+          "summary": "CNN 11 月 13 日援引多名亲近人士称，美国副总统万斯在中期选举后已认真考虑不参加 2028 年总统大选。",
+          "url": "https://x.com/search?q=%E4%B8%87%E6%96%AF%202028%20%E6%80%BB%E7%BB%9F%E7%AB%9E%E9%80%89&f=live"
+        },
+        {
+          "title": "央行出手：11 月 16 日开展 2000 亿元买断式逆回购",
+          "summary": "央行 11 月 13 日公告，11 月 16 日开展 2000 亿元 6 个月期买断式逆回购，11 月两个期限品种合计净回笼 3000 亿元。",
+          "url": "https://x.com/search?q=%E5%A4%AE%E8%A1%8C%202000%E4%BA%BF%20%E4%B9%B0%E6%96%AD%E5%BC%8F%E9%80%86%E5%9B%9E%E8%B4%AD&f=live"
+        },
+        {
+          "title": "OpenAI 开放 Daybreak 红队工具，Thinking Machines 开源 Inkling 2 Small 权重",
+          "summary": "OpenAI 11 月 12 日开放 Daybreak Red Team 与 Daybreak Defense Factory 两款网络防御产品，Thinking Machines 以 Apache 2.0 许可发布多模态 MoE 模型 Inkling 2 Small 的权重。",
+          "url": "https://x.com/search?q=OpenAI%20Daybreak%20Inkling&f=live"
+        },
+        {
+          "title": "Josh Woodward（Google Gemini 负责人）：Gemini 4 Hydrogen 来了",
+          "summary": "“为所有人准备的前沿智能”，现已登陆 Gemini 应用，特点就是快、聪明、提升大。",
+          "url": "https://x.com/joshwoodward/status/2120942262054232392"
+        },
+        {
+          "title": "Aaron Levie（Box CEO）：Box 提前实测 Hydrogen，快速模型的一次大跳跃",
+          "summary": "Box AI Complex Work Eval 上 Hydrogen 准确率比 Gemini 3.8 Flash 高 5 个百分点、耗时不到一半、典型任务 token 少约 12%，将很快在 Box AI Studio 上线供客户自建 agent。",
+          "url": "https://x.com/levie/status/2120947988143198302"
+        },
+        {
+          "title": "Amjad Masad（Replit CEO）：Replit Agent 现在能替企业买东西了",
+          "summary": "可以直接让 Replit Agent 为业务采购，包括买广告获客，agent 从“写代码”延伸到“花钱办事”。",
+          "url": "https://x.com/amasad/status/2121018020520931712"
+        },
+        {
+          "title": "Alex Albert（Anthropic）：Claude Meetings 补的是上下文缺口",
+          "summary": "用好 Claude 的关键是找到它缺的那部分上下文并补上，Meetings 是补上下文的办法之一，内部用下来很有用。",
+          "url": "https://x.com/alexalbert__/status/2120983722182988206"
+        },
+        {
+          "title": "Matt Turck（FirstMark）：黄仁勋离场，AI 生态失去三样东西",
+          "summary": "“中央银行”（兜底）、最活跃的投资人、大胆的收购者，这种激进动作只有创始人才能做。",
+          "url": "https://x.com/mattturck/status/2120951444526264388"
+        },
+        {
+          "title": "Guillermo Rauch（Vercel CEO）：Agent 时代，框架要往底层钻",
+          "summary": "框架和组件库应删掉高层抽象、优化加速自动化，UI SDK 就像给 agent 用的 x86 指令集，agent 是新的设计工程师。",
+          "url": "https://x.com/rauchg/status/2120966768483262648"
+        }
+      ]
     },
     {
-     "title": "Google 发布 Gemini 4 Hydrogen：干活模型补位，Orchestrator 让模型自己挑模型",
-     "summary": "Google 发布 Gemini 4 Hydrogen，补上 Gemini 4 家族日常编码与智能体工作流的高速执行一环，比上一代 Gemini 3.8 Flash 任务完成速度快 2.5 倍、Terminal-Bench 4.1 得分 57%，配套 Orchestrator 让 Carbon 与 Hydrogen 在同一任务轨迹里动态换手。",
-     "url": "https://ai-daily.musxiao.com/"
+      "id": "world",
+      "title": "国际新闻",
+      "items": [
+        {
+          "title": "美国空管通信故障，FAA 发布全国停飞令，逾 1.5 万架次航班受影响",
+          "summary": "FAA 11 月 13 日下午因空管通信系统故障发布全国停飞令，持续约四小时，逾 9000 架次延误、6000 多架次取消，这是美国历史上第三次全国停飞。",
+          "url": "https://www.usatoday.com/story/news/nation/2026/11/13/faa-orders-nationwide-groundstop-at-us-airports-citing-safety/92765499007/"
+        },
+        {
+          "title": "美国史上最长政府停摆结束，历时 43 天",
+          "summary": "众议院 11 月 12 日晚通过拨款法案后特朗普当晚签署成法，结束了自 10 月 1 日开始、历时 43 天的联邦政府停摆，刷新 2018–19 年 35 天的纪录。",
+          "url": "https://www.taxtmi.com/news?id=61457"
+        },
+        {
+          "title": "特朗普撤下万斯的伊朗谈判角色，伊朗称袭击巴林美军雷达、美方否认",
+          "summary": "特朗普 11 月 12 日称美国“不需要与伊朗达成协议”，要求万斯转向美国民主党执政地区的欺诈调查；同日伊朗称摧毁巴林美军预警雷达，美军中央司令部予以否认。",
+          "url": "https://eaworldview.com/2026/11/us-war-on-iran-vance-takes-lead-role-in-contacts-with-tehran/"
+        },
+        {
+          "title": "微软 365 全球宕机超 10 小时，Outlook、Teams 大面积中断",
+          "summary": "微软 365 自 11 月 12 日起全球大面积故障，Outlook、Teams、Word、Excel、SharePoint、OneDrive 与 Copilot 等服务受影响，波及 74 个国家和地区，截至 13 日仍未完全恢复。",
+          "url": "https://power94.com/2026/11/13/microsoft-365-outage-disrupts-outlook-teams-and-office-apps-worldwide/"
+        },
+        {
+          "title": "英伟达董事会接触 Arm CEO Rene Haas，物色黄仁勋接班人",
+          "summary": "据《金融时报》11 月 13 日报道，英伟达董事会已接触 Arm 首席执行官 Rene Haas，将其列为接替黄仁勋的潜在人选，路透社称暂无法独立核实该报道。",
+          "url": "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/"
+        },
+        {
+          "title": "法国预算谈判十分钟破裂，政府拟以特别法案兜底",
+          "summary": "法国两院联合委员会 11 月 13 日上午仅开会十分钟即不欢而散，2026 年预算案未能达成一致，总理勒科尔尼准备以特别法案维持国家收税与运转。",
+          "url": "https://petanque.me/news/news-ten-minutes-no-deal/"
+        },
+        {
+          "title": "COP31：马绍尔群岛总统警告“我们所知的世界将终结”",
+          "summary": "马绍尔群岛总统希尔达·海因 11 月 11 日在 COP31 领导人峰会上警告，若不能对气候危机作出压倒性回应，“我们所知的世界将终结”。",
+          "url": "https://finwire.io/news/world-news/the-world-we-know-is-over-without-urgent-climate-action-marshall-islands-president-tells-cop31"
+        },
+        {
+          "title": "乌克兰：Starshield 限速重现，无人机袭击俄波罗的海军舰",
+          "summary": "泽连斯基 11 月 12 日称 SpaceX 军用卫星通信服务 Starshield 对移动终端的限速再次出现，另据芬兰国防军证实，11 月 11 日在芬兰湾发现一艘俄军舰遇袭。",
+          "url": "https://osint-baltic.com/seat-at-the-table-en/"
+        },
+        {
+          "title": "加拿大威胁起诉 Stellantis，限 30 天纠正布兰普顿工厂违约",
+          "summary": "加拿大工业部长 11 月 12 日称，渥太华已向 Stellantis 发出违约通知，指其违反 2022 年联邦资助协议，要求 30 天内纠正，否则将起诉追讨数亿加元补贴。",
+          "url": "https://www.europesays.com/canada/290646/"
+        },
+        {
+          "title": "OpenAI 推出 ChatGPT Wallet，让 AI 智能体代为付款",
+          "summary": "OpenAI 11 月 13 日推出 ChatGPT Wallet，其“dots”智能体可在用户逐笔审核并经生物识别确认后代为完成购物付款，首批仅面向美国 18 岁以上 ChatGPT Pro 订阅用户。",
+          "url": "https://www.reuters.com/technology/openai-launches-chatgpt-wallet-letting-ai-agents-pay-purchases-2026-11-13/"
+        },
+        {
+          "title": "SpaceX 拟投超 740 亿美元，在得州与亚利桑那建两座 AI 超算园区",
+          "summary": "据路透社 11 月 12 日报道，SpaceX 计划投资逾 740 亿美元建设两座 AI 超级计算园区，得州 Starbase 逾 240 亿美元、亚利桑那州科奇斯县约 500 亿美元，两项目均未获最终批准。",
+          "url": "https://wncy.com/2026/11/12/spacex-to-invest-over-74-billion-in-supercompute-facilities-in-texas-arizona/"
+        },
+        {
+          "title": "阿斯利康在美国裁员约 600 人，推进 15 亿美元降本计划",
+          "summary": "据彭博社 11 月 13 日援引知情人士报道，阿斯利康已裁撤美国呼吸与免疫业务商业团队约 600 个岗位，作为其三年降本计划的一部分。",
+          "url": "https://jack1065.com/2026/11/13/astrazeneca-cuts-600-sales-jobs-in-us-bloomberg-news-reports/"
+        },
+        {
+          "title": "Megaspeed 芯片案：马来西亚核查是否转口中国，《世界报》称涉 48 亿美元英伟达设备",
+          "summary": "据《世界报》11 月 13 日调查，Megaspeed 及其马来西亚子公司在 2024 年 6 月至 2026 年 2 月间采购了至少 48 亿美元的英伟达设备，马来西亚投贸部正核查相关 AI 芯片是否被转口至他国。",
+          "url": "https://stockbiz.vn/en/news/how-could-nvidia-ai-chips-be-smuggled-into-china-via-malaysia/42774131"
+        },
+        {
+          "title": "德国拟让煤电、油电厂待命，以应对天然气短缺",
+          "summary": "据彭博社与《商报》11 月 12 日报道，德国政府正起草《备用电厂待命法》，要求电网备用中的煤电与燃油电厂备足燃料、随时待命，一旦宣布天然气短缺即可临时重返电力市场。",
+          "url": "https://brusselssignal.eu/2026/11/germany-readies-coal-and-oil-plants-as-backup-for-gas-emergency/"
+        },
+        {
+          "title": "伦敦两名伊朗男子因替伊朗监视记者被定罪，首例适用《国家安全法》",
+          "summary": "伦敦伍利奇刑事法院陪审团 11 月 12 日裁定，两名伊朗男子为伊朗革命卫队监视伦敦 Iran International 电视台记者及一名律师罪名成立，这是首起依据英国 2023 年《国家安全法》定罪伊朗公民的案件。",
+          "url": "https://985theriver.com/2026/11/12/iranian-men-found-guilty-in-uk-of-assisting-iranian-intelligence/"
+        }
+      ]
     },
     {
-     "title": "OpenAI 直播亮出未发布的新一代网络安全模型：漏洞利用基准 77%，碾压对手",
-     "summary": "OpenAI 在 11 月 13 日凌晨「Frontier at the Cyber」直播中首次公开一款未发布的下一代网络安全专用模型，在 ExploitGym 基准上得分 77.0%，比现役 GPT-6 Cyber 的 52.6% 高出近 25 分，约为 Anthropic Mythos 5.2 的两倍。",
-     "url": "https://finance.biggo.com/news/6190fe67-2549-4ec2-abac-2df1ab896a7d"
+      "id": "sports",
+      "title": "运动营养科学",
+      "items": [
+        {
+          "title": "睾酮水平新综述：正常范围内的睾酮高低，预测不了你能长多少肌肉",
+          "summary": "2026 年 11 月 2 日《Sports》综述指出，正常男性范围内睾酮高低与增肌幅度基本无关，只有严重缺乏或外源补充才影响增肌。",
+          "url": "https://www.mdpi.com/2075-4663/14/11/484"
+        },
+        {
+          "title": "睡眠延长系统综述：多睡真的能提升表现，少睡则反向扣分",
+          "summary": "2026 年 11 月 3 日《BMC Sports Science, Medicine and Rehabilitation》系统综述显示，延长睡眠可提升耐力约 3%、反应更快，睡眠受限则反向扣分。",
+          "url": "https://link.springer.com/article/10.1186/s13102-026-02218-2"
+        },
+        {
+          "title": "植物蛋白 vs 乳清新荟萃：新手增肌，大豆/豌豆蛋白不输乳清",
+          "summary": "2026 年 10 月 29 日《JISSN》荟萃分析显示，未训练新手用大豆或豌豆蛋白与乳清在瘦体重增加和体脂变化上无显著差异。",
+          "url": "https://www.mensfitness.com/news/plant-protein-vs-whey-for-muscle-building-what-new-research-shows"
+        },
+        {
+          "title": "跳跃膝康复新证据：渐进式负荷 24 周改善优于单纯离心训练，每周 1 次和 3 次效果相当",
+          "summary": "2026 年 11 月 8 日报道汇总的试验显示，从等长保持起步的渐进式负荷方案 24 周后 VISA-P 改善 28 分、优于单纯离心训练的 18 分，每周 1 次与 3 次效果相当。",
+          "url": "https://news.justcarehealth.com/p/tendon-pain-rehab-with-isometrics"
+        }
+      ]
     },
     {
-     "title": "Cerebras 财报硬气：核心营收同比增 70%，微软入伙，盘后大涨 17%",
-     "summary": "AI 芯片公司 Cerebras 三季度核心营收约 2.3 亿美元、同比增长 70%，四季度指引全面高于预期，CEO 官宣与微软达成新合作、收入预计从 2027 年一季度兑现，财报公布后盘后大涨 17%。",
-     "url": "https://ai-daily.musxiao.com/"
-    },
-    {
-     "title": "Nebius 抛出 400 亿美元支出计划，华尔街用脚投票：股价跌 16%",
-     "summary": "云算力公司 Nebius 在三季度电话会上抛出 2027 年 400 亿美元支出计划、远超华尔街预期，叠加偏弱的前景展望与微软对不能按期交付的云算力合作降温，股价当天大跌 16%。",
-     "url": "https://ai-daily.musxiao.com/"
-    },
-    {
-     "title": "Google 智能眼镜开启预售：395 美元起，把「双向隐私」写进条款",
-     "summary": "Google 与三星、Gentle Monster、Warby Parker 合作的首批 Gemini 智能眼镜开启预售、12 月 10 日发货，Warby Parker 镜框 395 美元起，隐私被写进条款：录制指示灯被遮挡相机直接拒启、机身带物理开关、实时人脸识别被明令排除。",
-     "url": "https://madrobot.blog/2026/11/12/google-gemini-ai-glasses-price-release-date/"
-    },
-    {
-     "title": "美联航封杀 AI 智能体订票：智能体经济的瓶颈从「能不能」变成「让不让」",
-     "summary": "美联航宣布将限制 AI 智能体代用户订票和管理预订，理由是网络安全风险与联邦航空规则，限制范围从自有平台延伸到旅行社与聚合商，联邦规则要求真人完成值机。",
-     "url": "https://ai-daily.musxiao.com/"
-    },
-    {
-     "title": "Fireworks AI 遭入侵：约 1% 的 Notion 用户聊天记录被盗",
-     "summary": "推理平台 Fireworks AI 确认遭遇网络入侵，攻击者经云服务商触及开发系统，已确认约 1% 的 Notion 用户受影响、被盗数据包括使用 Notion AI「Insights」功能的用户的聊天记录，Notion 已于 11 月 3 日断开连接并删除相关数据。",
-     "url": "https://ai-daily.musxiao.com/"
-    },
-    {
-     "title": "实验室里长出的「小大脑」会读盲文了：三团脑类器官合力识别率 83%",
-     "summary": "布里斯托大学团队在《人工智能前沿》发表研究：用人脑神经元培养的脑类器官接收盲文字符电脉冲信号，单个识别准确率约 61%、三个合力可达 83%，但研究没有展示学习能力，信号是单向的。",
-     "url": "https://www.earth.com/science/researchers-proved-that-tiny-lab-grown-brains-can-process-information-and-read-braille-just-like-a-real-computer/"
-    },
-    {
-     "title": "AI Explained：Fable 5.2 自我改进的循环还在转——读完 264 页报告，关键在「AI 改进 AI 的速度」",
-     "summary": "AI Explained 11 月 10 日一期读了 Anthropic 的 264 页 Claude Fable 5.2 报告和 METR 关于 AI 加速 AI 研究的报告，核心是 AI 改进 AI 的速度本身在加快、小幅改进会放大成大后果，模型似乎还能察觉自己正在被测试。",
-     "url": "https://www.youtube.com/watch?v=583ThJIqQ7k"
-    },
-    {
-     "title": "DeepMind AlphaProof Code：AI 用 650 万行数学证明，验了 Signal 加密代码本身",
-     "summary": "Google DeepMind 11 月 10 日宣布 AlphaProof Code：5 名研究员加 Gemini Carbon 驱动的 agent 在 4 周里写了约 650 万行经 Lean 机器校验的证明，从数学上证明了 Signal 协议核心代码的关键安全属性，验证范围只覆盖一对一会话、不含群聊。",
-     "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
-    },
-    {
-     "title": "Asianometry：印尼「超级水稻」惨败——100 万公顷沼泽、4000 公里水渠，换来一场年年起火的灾难",
-     "summary": "Asianometry 11 月 12 日一期讲印尼 1996 年 Mega Rice Project：要把中加里曼丹 100 万公顷泥炭沼泽林改成水稻田，挖了 4000 多公里排水渠，结果泥炭土根本不适合种水稻，1997 年大旱泥炭着火、烟霾笼罩东南亚，项目 1998 年被放弃。",
-     "url": "https://www.youtube.com/watch?v=ZnNRkW51qng"
-    },
-    {
-     "title": "ColdFusion：他造了万维网，然后免费送掉了——拒绝成为万亿富翁的人",
-     "summary": "ColdFusion 11 月 11 日一期讲蒂姆·伯纳斯-李发明万维网却把它免费送给全世界，没有专利、没有收费，以及他现在推动 Solid 项目想把数据主权还给用户的担心。",
-     "url": "https://www.youtube.com/watch?v=FsEbLPqeo7k"
+      "id": "others",
+      "title": "其他精选",
+      "items": [
+        {
+          "title": "TikTok Shop 东南亚跨境直邮运费大降：轻小件最高省近九成，先重算利润再调价",
+          "summary": "TikTok Shop 东南亚跨境直邮物流价卡自 9 月起陆续调整，200g 以下轻小件降幅最突出，越南、马来西亚最高分别降 88.2% 与 86.7%。",
+          "url": "https://mjzj.com/article/g41g490g7ta8"
+        },
+        {
+          "title": "泰国拟调整跨境电商进口关税征收方式：走国际快递与邮政渠道的货，成本可能上升",
+          "summary": "泰国拟调整跨境电商进口商品的关税征收方式，部分通过国际快递或邮政渠道进入泰国的商品进口成本可能上升，具体以官方公布为准。",
+          "url": "https://www.amz123.com/t/b8V5vq4h"
+        },
+        {
+          "title": "Justin Sung：跟 Julian 学 AI 的困境一样——信息过载不是因为信息太多，是因为脑子里没有「挂钩」",
+          "summary": "信息过载感不是信息太多，而是大脑对新信息不知道往哪挂，解法是先搭一层最大范围的总览，再一层层往深挖。",
+          "url": "https://www.youtube.com/watch?v=8E0QZkU9ujw"
+        },
+        {
+          "title": "Hormozi Ep 1014：创业最难的一步不是执行，是选对生意——先想清卖给谁，再谈怎么做",
+          "summary": "创业最难的部分是选对生意，核心是先想清“卖给谁”，再谈做什么、怎么赚第一美元。",
+          "url": "https://podcasts.apple.com/us/podcast/watch-this-if-you-dont-know-what-business-to-start-ep-1014/id1254720112?i=1000800960481"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "x",
-   "title": "推特热议",
-   "items": [
-    {
-     "title": "黄仁勋辞任英伟达 CEO",
-     "summary": "11 月 12 日（美东）董事会宣布黄仁勋辞去总裁、CEO 与董事职务、立即生效，CFO Colette Kress 任临时 CEO，背景是他承认婚外情、并有报道称其与疑似中国情报人员有关联，英伟达美股大跌约 13%。",
-     "url": "https://x.com/search?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C%E8%8B%B1%E4%BC%9F%E8%BE%BECEO&f=live"
-    },
-    {
-     "title": "Claude 新版《支持地区政策》11 月 12 日生效，中文用户集中弹 KYC、封号",
-     "summary": "政策按「人实际在哪里」判定：人在中国大陆、香港、澳门即不可用，台湾仍在支持名单，11 月 11 日起大量用户被要求上传证件＋自拍验证，有 Max 用户称中国护照验证通过后账号立即被封。",
-     "url": "https://x.com/search?q=Claude%20KYC%20%E5%B0%81%E5%8F%B7%20%E5%9C%B0%E5%8C%BA%E6%94%BF%E7%AD%96&f=live"
-    },
-    {
-     "title": "Anthropic IPO 认购首日即满额（跟进）",
-     "summary": "纳斯达克上市路演首日认购全部填满，发行价区间 70–78 美元/股、募资规模约 610 亿美元，11 月 18 日定价、19 日开始交易。",
-     "url": "https://x.com/search?q=Anthropic%20IPO%20%E8%AE%A4%E8%B4%AD&f=live"
-    },
-    {
-     "title": "Gemini 4 Hydrogen 发布，进 Antigravity 与 Google 搜索",
-     "summary": "谷歌 11 月 12 日推出日常编码/agent 向模型 Hydrogen：输入 1.50 美元/百万 token、输出 7.50 美元，Terminal-Bench 4.1 得分 57%，Antigravity 新增 Orchestrator 模式，Google 搜索同步用上 Hydrogen 处理复杂查询。",
-     "url": "https://x.com/search?q=Gemini%204%20Hydrogen&f=live"
-    },
-    {
-     "title": "刘欢安葬北京，妻子长文首披死因",
-     "summary": "音乐家刘欢 9 月 25 日在上海病逝、享年 63 岁，11 月 12 日安葬北京，妻子卢璐通过水均益发布约 8000 字公开信《他是这样的人》：刘欢曾确诊膀胱原位癌、斗争十几年，死亡医学证明死因为感染性休克。",
-     "url": "https://x.com/search?q=%E5%88%98%E6%AC%A2%E5%8E%BB%E4%B8%96&f=live"
-    },
-    {
-     "title": "双 11 收官：AI 成最大赢家，低价叙事退场",
-     "summary": "京东售出超 5000 万件 AI 产品、服务订单超 3 亿单，AI 助手 JoyInside 累计互动超 7000 万次，第三方星图数据：10 月 7–31 日综合电商 GMV 10263 亿元、仅增 2.4%，第十八个双 11「没有人再喊全网最低价」。",
-     "url": "https://x.com/search?q=%E5%8F%8C11%20%E6%94%B6%E5%AE%98%20GMV&f=live"
-    },
-    {
-     "title": "斯坦福 CS329Z「AI Agent 工程」课程资料全公开",
-     "summary": "斯坦福 CS329Z「AI Agent 工程」课程资料全公开，第一份作业就是从零写一个迷你 Claude Code，宝玉的介绍帖是本轮中文区互动最高的 AI 帖之一（944 赞、6.4 万浏览、1473 收藏）。",
-     "url": "https://x.com/search?q=%E6%96%AF%E5%9D%A6%E7%A6%8F%20CS329Z%20Agent&f=live"
-    },
-    {
-     "title": "赵丽颖起诉红果短剧：AI“偷脸”第一案",
-     "summary": "11 月 10 日云法庭开庭（未宣判）：赵丽颖以肖像权纠纷起诉红果短剧运营方、其全资股东抖音及一名自然人，指平台内短剧未经许可、用 AI 换脸/融脸技术把她的面部特征合成到角色中，核心争议是 AI 合成脸只要「可被公众识别」是否就构成肖像权侵权。",
-     "url": "https://x.com/search?q=%E8%B5%B5%E4%B8%BD%E9%A2%96%20%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%20AI%E6%8D%A2%E8%84%B8&f=live"
-    },
-    {
-     "title": "花坛藏尸案一审判死刑",
-     "summary": "本周跨平台热度前三的社会案件，9 个平台上榜、连续 4 天在榜，11 月 10 日起持续发酵。",
-     "url": "https://x.com/search?q=%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%20%E4%B8%80%E5%AE%A1%E5%88%A4%E6%AD%BB%E5%88%91&f=live"
-    },
-    {
-     "title": "“APEC 中国年”登上微博、抖音热榜",
-     "summary": "讨论集中在中国外贸底色与“亚太之问中国作答”，为今日时政类头部话题。",
-     "url": "https://x.com/search?q=APEC%E4%B8%AD%E5%9B%BD%E5%B9%B4&f=live"
-    },
-    {
-     "title": "Peter Yang：对 Jensen 非常失望",
-     "summary": "Peter Yang 说对 Jensen 非常失望：那么多人仰望他，从洗碗工、服务员一路做到全球最有价值公司的 CEO，与大学恋人 41 年婚姻，「到底发生了什么？偏偏要选一个间谍、还是英伟达的高管？」",
-     "url": "https://x.com/petergyang/status/2120649149389627493"
-    },
-    {
-     "title": "Garry Tan（YC 总裁）：董事会赶走 Jensen 似乎不明智",
-     "summary": "YC 总裁 Garry Tan 认为董事会赶走 Jensen 似乎不明智，他的领导力对「未来丰裕的引擎」的运转至关重要，很难相信这样的交接不会导致市值大幅缩水。",
-     "url": "https://x.com/garrytan/status/2120657462353330604"
-    },
-    {
-     "title": "Amjad Masad（Replit CEO）：Jensen 被做掉，谁受益、为什么是现在？",
-     "summary": "Replit CEO Amjad Masad 质疑时间点可疑：一些当年都没怎么遮掩的旧事，怎么突然成了国际地缘新闻，如果 Jensen——开放模型最重要的倡导者——被做掉，任何想让 AI 封闭、集中、受控的人都可能受益。",
-     "url": "https://x.com/amasad/status/2120671838909194695"
-    },
-    {
-     "title": "Dan Shipper：用 Fable 5.2 在工作间隙做的事，换以前要 5 个人、20 万美元",
-     "summary": "Every 创始人 Dan Shipper 用 Fable 5.2 在开会间隙分析了用户问卷、给团队做了个游戏、发现了向团队销售 Every 的机会、搭了个 CRM 并开始联系客户，模型在 OpenAI 的 GDPval 基准上从 2024 年 12.4% 胜过人类专家升到 2026 年约 83%。",
-     "url": "https://x.com/danshipper/status/2120539547620790424"
-    },
-    {
-     "title": "Aditya Agarwal：现在基本只有两种公司可建",
-     "summary": "South Park Commons 的 Aditya Agarwal 认为现在基本只有两种公司可建：AI 扩散（把 AI 推到工作发生的地方）与 AI 前沿（用 AI 加速科学进步、再从中做出产品），第二类外界谈得少，但他认为模型驱动回报的大头会在那里。",
-     "url": "https://x.com/adityaag/status/2120578134177464356"
-    },
-    {
-     "title": "Nikunj Kothari：爬了 803 家公司的 sub-processor 清单，看 AI 原生公司用什么基建",
-     "summary": "Nikunj Kothari 爬了 803 家公司的 sub-processor 清单：44% 的公司列出 2 家以上模型供应商（3 月时 33%），Anthropic 的增速是 OpenAI 的两倍，33% 的公司列出推理服务商（3 月时 22%），Modal 继续领跑。",
-     "url": "https://x.com/nikunj/status/2120669243918418237"
-    }
-   ]
-  },
-  {
-   "id": "world",
-   "title": "国际新闻",
-   "items": [
-    {
-     "title": "英伟达 CEO 黄仁勋辞职，AI 巨头陷入动荡",
-     "summary": "英伟达联合创始人兼 CEO 黄仁勋于 11 月 12 日辞去 CEO 及董事职务，CFO 科莱特·克雷斯出任临时 CEO，辞职前董事会正调查他与一名据美方认定为中国间谍的女子的婚外情，英伟达股价当日收跌 4.3%、本周累计跌约 11%。",
-     "url": "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/"
-    },
-    {
-     "title": "黄仁勋辞职后，美国拟进一步收紧对华 AI 芯片出口管制",
-     "summary": "据路透社报道，黄仁勋辞职风波引发美国国会两党对英伟达在国家安全中角色的重新审视，议员正推动出台更严格的对华先进 AI 芯片出口限制，众议院议长约翰逊表示国会已形成共识。",
-     "url": "https://www.reuters.com/world/china/tougher-curbs-ai-chip-sales-china-likely-after-nvidia-ceo-resigns-2026-11-12/"
-    },
-    {
-     "title": "Anthropic IPO 获约六倍超额认购，估值最高 1.4 万亿美元",
-     "summary": "据彭博社报道，Anthropic 的首次公开募股已获得约六倍于可供认购股份的订单，公司及现有股东拟以每股 70–78 美元发行 8.25 亿股、融资至多 644 亿美元，估值最高达 1.4 万亿美元，股票预计 11 月 19 日在纳斯达克以代码 ANT 开始交易。",
-     "url": "https://www.reuters.com/legal/transactional/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-2026-11-12/"
-    },
-    {
-     "title": "《经济学人》社论：当心 AI 泡沫破裂，但未必是金融灾难",
-     "summary": "《经济学人》11 月 12 日社论认为 AI 投资热潮终将迎来调整、但不一定演变为金融灾难，社论发表之际市场已现降温迹象：OpenAI 已把最新一轮融资目标从 300 亿美元下调至 200 亿美元，企业 AI token 支出 8–9 月仅增 1.5%。",
-     "url": "https://aiweekly.co/alerts/the-economist-leader-expect-an-ai-crash-not-cataclysm"
-    },
-    {
-     "title": "俄乌和谈：欧洲将加入下一轮谈判，美方推动史上最大规模换俘",
-     "summary": "美国特使库什纳表示俄乌同意把下一轮和谈扩大到欧洲国家参加，华盛顿同时推动达成战争爆发以来最大规模的换俘、可能让数千人回家，本周在阿布扎比举行的会谈是九个月来的首轮和谈。",
-     "url": "https://www.reuters.com/world/europe/kushner-says-us-working-toward-largest-prisoner-exchange-russias-war-ukraine-2026-11-13/"
-    },
-    {
-     "title": "俄罗斯驻美大使达尔奇耶夫突然去世，终年 66 岁",
-     "summary": "俄罗斯外交部 11 月 11 日宣布，驻美大使亚历山大·达尔奇耶夫当天在莫斯科突然去世、终年 66 岁，发言人扎哈罗娃称他死于慢性疾病，达尔奇耶夫自 2025 年 3 月起出任驻美大使。",
-     "url": "https://www.cnn.com/2026/11/11/europe/russian-ambassador-to-us-dies-intl?cid=external-feeds_iluminar_meta"
-    },
-    {
-     "title": "胡塞武装袭击沙特能源设施、霍尔木兹海峡油轮爆炸，油价大涨逾 3%",
-     "summary": "也门胡塞武装 11 月 12 日声称袭击了沙特东西输油管道泵站、红海延布市设施及利雅得一座沙特阿美大楼，同日伊朗方面称霍尔木兹海峡有四艘油轮发生爆炸起火，布伦特原油收涨 3.06 美元至 95.82 美元/桶（+3.3%）。",
-     "url": "https://www.fxempire.com/forecasts/article/oil-news-wti-and-brent-rise-as-hormuz-shipping-disruptions-renew-supply-fears-1644337"
-    },
-    {
-     "title": "美国通胀超预期，美联储 12 月加息几成定局",
-     "summary": "美国劳工部数据显示 10 月 CPI 环比上涨 0.4%、核心 CPI 连续第三个月上涨 0.3%，均高于预期，利率期货市场随即把美联储 12 月 8–9 日会议加息的概率从 84% 上调至 100%。",
-     "url": "https://www.cfodive.com/news/inflation-rises-faster-expected-boosting-odds-fed-rate-hike-waller-federal-reserve/874314/"
-    },
-    {
-     "title": "中国排除承办 2028 年 COP33 气候大会",
-     "summary": "据《卫报》11 月 12 日报道，中国已告知联合国气候官员不会承办 2028 年 11 月 6–17 日举行的 COP33 气候大会，按轮换规则 COP33 须由亚洲国家承办，乌兹别克斯坦、韩国、印尼和泰国被点名为可能的申办国。",
-     "url": "https://gazewire.com/energy-climate/china-decides-against-hosting-2028-un-climate-summit"
-    },
-    {
-     "title": "西班牙 14 年来首次全国大罢工，抗议住房危机",
-     "summary": "西班牙 11 月 11 日举行自 2012 年欧债危机以来首次全国大罢工，工会称约 400 万工人（约占劳动力五分之一）参与、抗议房租飙升与住房短缺，马德里、巴塞罗那等地出现冲突、全国至少 73 人被捕。",
-     "url": "https://www.devdiscourse.com/article/international/4005408-millions-of-spaniards-stage-first-general-strike-in-14-years-as-anger-over-housing-leads-to-clashes?amp"
-    },
-    {
-     "title": "以军空袭加沙纳赛尔医院，至少六人死亡",
-     "summary": "以色列军方 11 月 12 日凌晨空袭加沙南部汗尤尼斯纳赛尔医院的外科大楼，造成至少六人死亡、约 20 人受伤，死者中包括一名外科医生，以军称打击目标是藏身医院内的哈马斯指挥官、该说法未获独立证实。",
-     "url": "https://www.thenews.pk/print/1448519-doctor-among-six-killed-in-israeli-strike-on-gaza-hospital"
-    },
-    {
-     "title": "三星洽购数据中心冷却商 Modine",
-     "summary": "据彭博社报道，三星电子正洽谈收购美国上市的数据中心冷却系统制造商 Modine Manufacturing，交易可能在未来数周内达成，消息传出后 Modine 股价盘后大涨 29%、公司市值约 56 亿美元。",
-     "url": "https://985theriver.com/2026/11/12/samsung-in-talks-to-buy-data-center-cooling-firm-modine-bloomberg-news-reports/"
-    },
-    {
-     "title": "香港新世界发展拟供股融资至多 32 亿美元",
-     "summary": "据彭博社报道，香港地产商新世界发展已委任银行筹备供股、规模最高可达 250 亿港元（约 31.9 亿美元），公司 11 月 13 日上午停牌、等待发布内幕消息。",
-     "url": "https://www.reuters.com/markets/asia/new-world-development-weighs-up-32-billion-rights-issue-bloomberg-news-reports-2026-11-13/"
-    },
-    {
-     "title": "未成年受害者三州起诉 xAI，指控 Grok 把童年照片变成性化 deepfake",
-     "summary": "据彭博社 11 月 12 日报道，美国田纳西、威斯康星、加州三州的未成年受害者正起诉马斯克的 xAI，指控其聊天机器人 Grok 被用来把毕业照、校刊照等童年照片生成性化裸露图像，反数字仇恨中心估计 Grok 在 11 天内生成约 300 万张性化图片、其中约 23338 张涉及儿童。",
-     "url": "https://aiweekly.co/alerts/minors-in-three-states-sue-xai-over-grok-child-deepfakes"
-    },
-    {
-     "title": "印度 10 月通胀升至 6.09%，突破央行容忍上限",
-     "summary": "印度 10 月零售通胀升至 6.09%、高于预期的 5.93%，自 9 月的 5.54% 大幅跳升、首次突破印度央行 2%–6% 容忍区间的上限，也是两年来最高水平，食品通胀飙升至 8.94% 是主要推手。",
-     "url": "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/"
-    }
-   ]
-  },
-  {
-   "id": "sports",
-   "title": "运动营养科学",
-   "items": [
-    {
-     "title": "低组数新证据：每周每肌群 4–6 组硬组，增肌效果可媲美 12 组以上",
-     "summary": "2026 年《Sports Medicine》的 67 项研究荟萃回归（Pelland 等，2058 人）显示，周组数越多增肌越多、但收益递减明显，受训者每周每肌群做 4–6 组接近力竭的高质量组，增肌效果与 12 组以上基本相当。",
-     "url": "https://hypertrophyprotocol.com/hypertrophy-research/"
-    },
-    {
-     "title": "减脂期蛋白新综述：吃够蛋白保肌肉，体脂越低越重要",
-     "summary": "2026 年 8 月《Refalo、Trexler 与 Helms》的更新综述（29 项研究，减脂期抗阻训练人群）显示，减脂期蛋白吃得更高、瘦体重保留得更好，这种关系按瘦体重折算时更强、体脂越低时越明显。",
-     "url": "https://www.getmypersonaltrainer.com/articles/protein-while-cutting/"
-    },
-    {
-     "title": "睡眠新研究：决定次日表现的不是睡眠效率，而是睡了多久",
-     "summary": "2026 年 11 月 6 日报道的一项大学游泳运动员研究（11 名女选手，28 夜睡眠监测 vs 真实 200 米自由泳比赛成绩）显示，赛前一夜总睡眠时间越长、成绩越快，每多睡 1 小时约快 1 秒以上，而睡眠效率、心率变异性与次日成绩几乎无关。",
-     "url": "https://www.mindbodygreen.com/articles/this-sleep-metric-may-be-most-important-for-improving-athletic-performance"
-    },
-    {
-     "title": "肌酸安全评估更新：162 项临床研究无严重不良事件，每日上限观察值上调至 10 g",
-     "summary": "美国责任营养委员会（CRN）2026 年 11 月 5 日发布更新评估：纳入 162 项临床研究，肌酸单水化合物未发现归因的严重不良事件，成人每日最高观察摄入量从 5 g 上调至 10 g。",
-     "url": "https://crnusa.org/newsroom/new-crn-foundation-review-reaffirms-creatine-safety-backed-decades-research"
-    },
-    {
-     "title": "膝盖康复：低负荷血流限制训练（BFR），股四头肌恢复效果排第一",
-     "summary": "2026 年 8 月《Frontiers in Physiology》的网状 Meta 分析（22 项试验、797 人，前交叉韧带重建术后）显示，血流限制训练在恢复股四头肌力量（SUCRA 81.7）和围度（79.1）上排名第一，优于常规多模式康复。",
-     "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1792091/pdf"
-    }
-   ]
-  },
-  {
-   "id": "others",
-   "title": "其他精选",
-   "items": [
-    {
-     "title": "TikTok Shop 独立 App 登陆东南亚四国：流量从「刷到你」变成「搜到你」，商品字段完整度成新门槛",
-     "summary": "TikTok Shop 独立 App 已在新加坡、马来西亚、泰国、菲律宾四国上线（应用商店上架日期 10 月 27 日），上线仅一周连续 7 天霸榜四国 Google Play「热门免费新应用-购物」榜首，流量结构从信息流迁到货架，标题关键词布局、参数字段完整度共同决定商品能否被搜到。",
-     "url": "https://www.amz123.com/t/SkaoLwoU"
-    },
-    {
-     "title": "TikTok Shop 马来西亚站 12 月 7 日起：买家原因退货，卖家要担双向运费",
-     "summary": "TikTok Shop 马来西亚站公告：自 2026 年 12 月 7 日起，买家原因退货（改变主意、尺码过大过小、下单选错尺码等）卖家要承担「寄给买家的正向运费＋买家退回的退货运费」双向运费，每位买家每月最多可因上述原因发起 3 次此类退货。",
-     "url": "https://www.amz123.com/t/b8V5vq4h"
-    },
-    {
-     "title": "Huberman Lab Essentials：情绪不是学习的干扰项，是学习本身的动力",
-     "summary": "Huberman Lab 11 月 12 日一期 Essentials 请回教育、心理与神经科学教授 Mary Helen Immordino-Yang：人最高层的思考其实是由最基础的生存本能与情绪驱动的，情绪不是学习的干扰项，而是学习、身份形成与决策的主要动力。",
-     "url": "https://thestill.me/podcasts/huberman-lab/episodes/essentials-how-emotions-social-factors-impact-learning-dr-mary-helen-immordino-yang"
-    },
-    {
-     "title": "Hormozi Ep 1015：如果只看一个财富视频，就看这一个——亏过几百万之后，他总结出三个框架",
-     "summary": "Alex Hormozi 11 月 12 日一期（Ep 1015）与 Leila、Sharran Srivatsaa 一起拆解改变他们投资方式的三个框架：主动-被动杠铃配置、私人交易的非流动性溢价、以及「害怕」让几百万闲置在支票账户里的成本。",
-     "url": "https://zeno.fm/podcast/the-game-with-alex-hormozi/episodes/if-you-only-watch-one-wealth-video-make-it-this-one-ep-1015/"
-    }
-   ]
+  ],
+  "podcast": {
+    "title": "晨间充电站（2026-11-13）",
+    "duration": "10分12秒",
+    "audio_url": ""
   }
- ],
- "podcast": {
-  "title": "晨间充电站（2026-11-13）",
-  "duration": "10分11秒",
-  "audio_url": ""
- }
 }
