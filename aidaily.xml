@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Sat, 14 Nov 2026 03:35:18 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 03:33:52 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-15 AI 晨报快递</title>
+      <description><![CDATA[<p>Agent 从「能跑」进化到「可控、可量测、可部署」是今天最明显的讯号。AWS 一口气发四篇 highlight，NVIDIA NeMo Switchyard 按任务复杂度为编码 Agent 挑模型省成本，AgentCore V2 用环境快照做秒级冷启动，显示大厂把执行成本与延迟当核心工程问题处理，而非只谈模型能力。浏览器与执行环境方面，Cloudflare 开源 Kitesurf 让 Agent 浏览器完全跑在 Workers 上，加上 n8n 的沙箱化 Nod、OpenWorker，本地优先、沙箱隔离正成为 Agent 自动化标配设计。评测面则有 Google 的 MKA Benchmark，拿建筑图、临床影像等真实任务考 Agent，结果显示成本效率已和准确率同样重要。</p><p><b>今日重点：</b><br>• <b>在 Amazon Bedrock 上用 NVIDIA NeMo Switchyard 引导编码 Agent 请求</b> (AWS ML Blog): NeMo Switchyard 依任务复杂度为 Claude Code 等编码 Agent 动态选模型，单纯照 token 价格估算无法反映多轮调用真实成本。<br>• <b>Amazon Bedrock AgentCore 执行时快速会话启动架构模式</b> (AWS ML Blog): Bedrock AgentCore V2 用预先快照取代逐次初始化，支援秒级冷启动与缩至零计费，适合长时间运行 Agent 省资源。<br>• <b>Kitesurf 开源——Cloudflare Workers 上的 Agent 浏览器</b> (Cloudflare Blog): Kitesurf 开源（Apache 2.0），整个浏览器引擎跑在 Cloudflare Workers 上，可直接用 Puppeteer 接给 Agent 做网页自动化。<br>• <b>AI Agent 不只看图——Google 推出 MKA Benchmark 直接考专业工作实战</b> (iThome): MKA 基准 200 项实战任务测出 Claude 3.5 Sonnet 57% 达标居首，但 Gemini 4 Carbon 成本仅六分之一，选模型别只看准确率。<br>• <b>Vercel Token Pass 月度额度升至 150 美元</b> (Vercel Blog): Vercel Token Pass 月度额度从 80 美元调到 150 美元、月费不变，用 Kimi、GLM、DeepSeek 等开源模型的团队可直接省成本。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-15.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-15-audio</guid>
+      <pubDate>Sun, 15 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-15.mp3" length="2616192" type="audio/mpeg" />
+      <itunes:duration>2:44</itunes:duration>
+      <itunes:summary><![CDATA[Agent 从「能跑」进化到「可控、可量测、可部署」是今天最明显的讯号。AWS 一口气发四篇 highlight，NVIDIA NeMo Switchyard 按任务复杂度为编码 Agent 挑模型省成本，AgentCore V2 用环境快照做秒级冷启动，显示大厂把执行成本与延迟当核心工程问题处理，而非只谈模型能力。浏览器与执行环境方面，Cloudflare 开源 Kitesurf 让 Agent 浏览器完全跑在 Workers 上，加上 n8n 的沙箱化 Nod、OpenWorker，本地优先]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-14 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是 AI Agent 的「生产化」正式进入可观测、可计费、可治理的阶段，不再只是 demo。Google 在 BigQuery 与 Looker 补齐 Agent 可观测性与治理（列级安全、动态遮罩、BigQueryAgentAnalyticsPlugin），AWS 同步补刀：Bedrock AgentCore Runtime V2 将单一工作阶段资源拉到 4 倍、启动时间压到 7% 以内，并推出零配置成本归因，回答每个使用者实际花费。讯号清楚：Agent 落地瓶颈已从「能不能做」转为「能不能管」。</p><p><b>今日重点：</b><br>• <b>llama.cpp v1.0.0：本地 AI 生态的稳定基石</b> (Hugging Face Blog): llama.cpp 发布 v1.0.0，确立语义版本与 API/ABI 稳定性，依赖它做本地推论的专案可放心升级不怕破坏相容性。<br>• <b>AWS 扩充 Amazon Bedrock AgentCore 执行环境，支援大型程式编译与本地模型载入</b> (iThome): Bedrock AgentCore Runtime V2 单一工作阶段提升至 8 vCPU／32GB，启动时间缩至 7% 以内，适合跑大型专案编译或本地模型的 Agent。<br>• <b>Google 跨 BigQuery 和 Looker 推出 AI Agent 可观测性和治理</b> (Google Cloud AI / ML Blog): Google 为 BigQuery／Looker 一方与 ADK、LangGraph 三方 Agent 统一提供可观测性与列级安全控制，上生产前可先接这层监控。<br>• <b>AI Gateway 免费提供 Parallel Decisions 决策模型</b> (Vercel Blog): Parallel 的 Decisions Fast 决策模型在 AI Gateway 上免费用到 2026/11/23，不用另开帐号就能拿即时网路证据做布林／评分判断。<br>• <b>Amazon Bedrock 成本归因与控制：AI 开发工具的FinOps 实践</b> (AWS ML Blog): Bedrock 新增零配置成本归因，可把每次推论追到 IAM 主体并接 Cost Explorer，拿来算出每个使用者的实际花费。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-17.mp3" length="2572416" type="audio/mpeg" />
       <itunes:duration>2:41</itunes:duration>
       <itunes:summary><![CDATA[Reflection 开源的 Beam（501B MoE、23B 活跃参数、1M 上下文、Apache 2.0）是今天最值得关注的事：这是首个由美国实验室发出的开放前沿模型，原生支援 vLLM、SGLang，专攻编码与 Agent 场景，给想自托管高性能编码 Agent 的团队多了一个不受供应商绑定的选项。围绕 Agent 工具链这条主线也很热闹：Cursor 云端 Agent 启动加速 5 倍并支援 500 个 Repo，PydanticAI v2.57 加入工具调用审批机制，Perplexi]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-16 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得注意的是开源权重模型在这两天集中放量，Meta、IBM、Apertus 的大型 MoE 模型几乎同时发布，加上 llama.cpp v0.7.0 补上 MoE GPU 快取与多模态支援，本地／私有部署的门槛明显在降。第二条主线是 Agent 基础设施往生产环境深化，Cognition 的 Devin Oncall 把 Agent 接进 Datadog 自动修警报，Google 也同步放出 ADK recipes 与 Agent 评估指南，显示大家开始认真处理 Agent 上线后的可观测性与维运问题，而不只是 demo。</p><p><b>今日重点：</b><br>• <b>Meta 发布 Muse Spark Open：816B 参数开源多模态 MoE 模型</b> (Hugging Face Blog): 816B参数MoE模型每token只激活42B，支援1M上下文与多模态输入，适合处理复杂Agentic Coding任务。<br>• <b>IBM 发布 Granite Switch 4.1：单一端点支援聊天、决策与语音</b> (Hugging Face Blog): Granite Switch 4.1单一端点切换聊天、决策、语音，VRAM占用与基础模型相当，可降低多任务部署硬体成本。<br>• <b>llama.cpp v0.7.0 发布：新增 MoE 快取与多款新模型支援</b> (llama.cpp Releases): llama.cpp v0.7.0新增MoE专家GPU快取，解码最高加速2.2倍，本地跑大型MoE模型可直接受益。<br>• <b>Apertus 1.5 发布：支援多模态、思考模式与 262k 上下文</b> (Hugging Face Blog): Apertus 1.5上下文扩至262k tokens并支援图像音频输入，Apache 2.0授权可直接商用。<br>• <b>OpenAI 推出 GPT-Rosalind 学术研究计划</b> (OpenAI News): </p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-16.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-16-audio</guid>
-      <pubDate>Fri, 16 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-16.mp3" length="2212224" type="audio/mpeg" />
-      <itunes:duration>2:18</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得注意的是开源权重模型在这两天集中放量，Meta、IBM、Apertus 的大型 MoE 模型几乎同时发布，加上 llama.cpp v0.7.0 补上 MoE GPU 快取与多模态支援，本地／私有部署的门槛明显在降。第二条主线是 Agent 基础设施往生产环境深化，Cognition 的 Devin Oncall 把 Agent 接进 Datadog 自动修警报，Google 也同步放出 ADK recipes 与 Agent 评估指南，显示大家开始认真处理 Agent 上线后的可观测]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
