@@ -1,1 +1,302 @@
-{"date":"2026-11-15","podcast":{"audio_url":"","duration":"9分14秒","title":"晨间充电站（2026-11-14）"},"sections":[{"id":"ai","items":[{"summary":"Anthropic 11 月 12 日开始推出 Claude Meetings（Beta）：Claude 以可见参会者身份加入 Google Meet 视频会议，实时跟进对话、会中直接建文档与白板，会后留下含文字记录、摘要与行动项的会议页，目前仅 Team 与 Enterprise 计划可用。","title":"Claude Meetings 开始 Beta：Claude 以参会者身份进 Google Meet，会中直接出笔记与文档","url":"https://www.unite.ai/anthropic-launches-claude-meetings-beta-for-live-video-calls/"}],"title":"AI 前沿科技"},{"id":"x","items":[{"summary":"英伟达 11 月 12 日公告黄仁勋即刻辞去总裁、CEO 及董事职务，CFO 科莱特·克雷斯暂代 CEO，辞职当日股价盘中一度跌 14%、市值跌破 4 万亿美元。","title":"黄仁勋辞职，英伟达换帅","url":"https://x.com/search?q=%E9%BB%84%E4%BB%81%E5%8B%8B%20%E8%BE%9E%E8%81%8C%20%E8%8B%B1%E4%BC%9F%E8%BE%BE&f=live"},{"summary":"11 月 13 日因空管通信系统故障，FAA 下令全美所有航班停飞，14 日仍有超 3300 架次取消，局长称预计 15 日晚恢复正常并公开道歉。","title":"FAA 全美停飞，现代史上第三次","url":"https://x.com/search?q=FAA%20%E5%85%A8%E7%BE%8E%E5%81%9C%E9%A3%9E&f=live"},{"summary":"前 OpenAI 研究员的权重取证分析称，DeepSeek V4 等 6 款中国开源模型权重中带有英伟达 Blackwell GPU 的硬件特征签名，训练地点未证实，出口管制争议再起。","title":"DeepSeek V4 被指用禁运 Blackwell 芯片训练","url":"https://x.com/search?q=DeepSeek%20Blackwell&f=live"},{"summary":"智能体在用户生物识别确认后可代为付款，与 Amex、Mastercard、Visa 合作，首批面向美国 18 岁以上 Pro 用户。","title":"OpenAI 推出 ChatGPT Wallet，智能体可代购物","url":"https://x.com/search?q=ChatGPT%20Wallet&f=live"},{"summary":"人员分流至核心研究团队与应用部门，官方称不是退出机器人，具身智能仍是长期愿景，重组为提速研发。","title":"OpenAI 解散独立机器人团队","url":"https://x.com/search?q=OpenAI%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9B%A2%E9%98%9F%20%E8%A7%A3%E6%95%A3&f=live"},{"summary":"App 内的联网搜索、文件解析、链接阅读等能力全部开放为 API，OCR、ASR、TTS 也可独立调用，开发者可按需组合、甚至复刻官方 App 形态。","title":"DeepSeek 开放全家桶 API","url":"https://x.com/search?q=DeepSeek%20API%20%E5%BC%80%E6%94%BE&f=live"},{"summary":"上面级飞船从轨道返回后被发射塔机械臂成功捕获，是星舰完全重复使用的关键一步。","title":"SpaceX 星舰第 15 次试飞首次“筷子夹飞船”","url":"https://x.com/search?q=SpaceX%20%E6%98%9F%E8%88%B0%20%E7%AD%B7%E5%AD%90&f=live"},{"summary":"11 月 10 日启动路演，计划发行 8.25 亿股 A 类股，发行价 70–78 美元，预计 11 月 19 日纳斯达克上市，承销行援引出口管制规定禁止中港投资者认购。","title":"Anthropic IPO 路演，承销行禁中港投资者认购","url":"https://x.com/search?q=Anthropic%20IPO&f=live"},{"summary":"依托昇腾 910C 集群，深圳河套学院联合高校及华为攻关，1500+ 步零中断、MFU 超 30%，打破“国产芯片只能做推理”的说法。","title":"国产算力跑通 DeepSeek-V4-Pro 全参数后训练","url":"https://x.com/search?q=DeepSeek-V4-Pro%20%E5%9B%BD%E4%BA%A7%E7%AE%97%E5%8A%9B&f=live"},{"summary":"11 月 15 日凌晨，伊朗革命卫队海军称两艘油轮在霍尔木兹海峡以南触雷爆炸起火，油价与航运风险受关注。","title":"霍尔木兹海峡两艘油轮触雷爆炸","url":"https://x.com/search?q=%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%20%E6%B2%B9%E8%BD%AE%20%E8%A7%A6%E9%9B%B7&f=live"},{"summary":"把患者的全部病历传到云盘文件夹，让 ChatGPT 或 Claude 装他的免费 skill，自动生成一页病情摘要并检索临床试验，也可 fork 改作其他长期慢性病。","title":"Peter Yang：免费 /fuck-cancer skill，用 AI 帮癌症患者整理病历","url":"https://x.com/petergyang/status/2121430386685395022"},{"summary":"称证据不足、结论跳跃，引用新加坡政府说法与一名英伟达员工的讲述，提醒自行核实。","title":"Peter Yang：质疑 WSJ 关于黄仁勋夫人 Alice Huang 是间谍的报道","url":"https://x.com/petergyang/status/2121430819667579031"},{"summary":"智能体购物合作，更多功能与场景在路上。","title":"Amjad Masad（Replit CEO）：与 Visa 合作推进 agentic commerce","url":"https://x.com/amasad/status/2121428406764204199"},{"summary":"agent 首步与步间延迟大幅改善、加密与安全加码、大规模验证过的可靠性，底层持久化日志抽成可复用的 durable-harness。","title":"Guillermo Rauch（Vercel CEO）：Vercel 发布 Workflow SDK 5 与 Workflows","url":"https://x.com/rauchg/status/2121277727940776114"},{"summary":"52 个编程任务上 Fable 5.2 解题率 82.7% vs Opus 84.6% 差不多，但每个解出任务的成本贵 2.8 倍。","title":"Garry Tan（YC CEO）：实测建议 Claude Code 默认继续用 Opus 5.5","url":"https://x.com/garrytan/status/2121464508225053153"},{"summary":"讨论 AI 写代码时代软件仍值得付费的原因。","title":"Dan Shipper：为什么 Fable 5.2 能 vibe code 任何东西，团队还在为软件付费","url":"https://x.com/danshipper/status/2121248233510818003"}],"title":"推特热议"},{"id":"world","items":[{"summary":"白宫 11 月 14 日确认，特朗普将于 11 月 19 日在深圳 APEC 峰会期间与习近平、普京举行三方会晤，议题为核不扩散与伊朗战争，但中方尚未确认参会。","title":"特朗普、习近平、普京拟在深圳 APEC 期间举行史上首次三方会晤，聚焦核不扩散","url":"https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"},{"summary":"泽连斯基 11 月 14 日表示，美方谈判代表在阿布扎比和谈中首次提出该方案，乌方不会割让领土，但若有包括强军、安全保障与重建资金的“一揽子方案”，他会交由全民公投决定。","title":"美方称首次提出“乌克兰以顿巴斯换北约成员国资格”，泽连斯基称须公投决定","url":"https://www.reuters.com/world/europe/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says-2026-11-14/"},{"summary":"特朗普 11 月 12 日发文称美国“不需要与伊朗达成协议”，要求万斯把全部精力转向欺诈调查；美军中央司令部 11 月 13 日称击落两架飞往巴林美军预警雷达的伊朗攻击无人机。","title":"特朗普撤下万斯的伊朗谈判角色，美军称击落袭击巴林雷达的伊朗无人机","url":"https://www.military.com/with-shifting-iran-rhetoric-following-us-elections-trump-leaves-mideast-in-limbo-about-path-ahead"},{"summary":"《经济学人》11 月 14 日一期认为 AI 相关投资规模巨大、市场回调大概率发生，但与互联网泡沫不同，AI 企业资产负债表与银行体系风险相对可控，演变为深度金融危机的可能性低得多。","title":"《经济学人》本期封面：AI 泡沫将破，但未必酿成金融灾难","url":"https://aiweekly.co/alerts/the-economist-leader-expect-an-ai-crash-not-cataclysm"},{"summary":"英伟达 11 月 12 日宣布黄仁勋即刻辞去 CEO 一职，股价 12 日收跌 4.3%、单周累计跌约 10%，市值蒸发约 1800 亿美元，公司定于 11 月 17 日发布财报。","title":"英伟达 CEO 黄仁勋辞职，CFO 柯莱特·克雷斯暂代，股价单周跌约一成","url":"https://www.thetimes.com/business/companies-markets/article/jensen-huang-resigns-nvidia-boss-affairs-0qmwbch9x"},{"summary":"据彭博社 11 月 12 日报道，Anthropic 的 IPO 认购量约为可供发售股份的六倍，拟募资最高 644 亿美元，定价预计 11 月 18 日，11 月 19 日以代码 ANT 在纳斯达克挂牌。","title":"Anthropic 上市认购约六倍超额，估值目标 1.4 万亿美元，19 日挂牌","url":"https://investinglive.com/stocks/anthropic-ipo-oversubscribed-several-times-ahead-of-record-90-billion-listing/"},{"summary":"微软 11 月 14 日确认 Outlook、Teams、Copilot 等服务已全面恢复，此次宕机始于 11 月 12 日中午，持续 24 小时以上，微软称系网络容量升级中的技术问题、与网络攻击或 AI 无关。","title":"微软 365 全球大宕机持续 24 小时后恢复，波及 70 多国","url":"https://www.thedailyjagran.com/world/news/microsoft-outage-finally-fixed-outlook-teams-copilot-fully-restored-after-24-hours-of-global-disruption-across-70-countries-10336269"},{"summary":"美国交通部长达菲 11 月 14 日表示，停飞令源于承包商 L3Harris 换线时被替换的路由器以每 4–5 秒逾千次的频率“泛洪”其他路由器，停飞令 13 日 15 时 54 分发布、20 时 19 分解除。","title":"FAA 全国停飞令后续：承包商换线时路由器“泛洪”所致，周六仍取消数千航班","url":"https://www.cnn.com/2026/11/14/politics/faa-ground-stop-what-we-know?cid=external-feeds_iluminar_meta"},{"summary":"美联储理事鲍曼 11 月 10 日警告若 AI 投资回报不及预期股市可能大幅回调并支持 12 月加息，美联储 11 月 13 日发布的《金融稳定报告》中 AI 被 87% 的受访市场人士列为美国金融体系的首要风险。","title":"美联储官员密集放鹰：12 月或再加息，AI 被列为金融稳定头号风险","url":"https://emergent.sh/news/fed-s-bowman-warns-ai-investment-bubble-could"},{"summary":"据路透社根据央行数据测算，中国 10 月新增人民币贷款净减少 1000 亿元，为今年第三次月度收缩，贷款余额同比增速降至 4.7%，创有记录以来最低。","title":"中国 10 月新增人民币贷款净减 1000 亿元，信贷需求持续疲软","url":"https://businessnews.com.my/china-october-new-loans-shrink/"},{"summary":"第 31 届联合国气候大会 11 月 9 日在土耳其安塔利亚开幕，世界气象组织同期发布报告称 2026 年 1–9 月全球平均气温较工业化前高约 1.47°C，过去四年为有记录以来最热的四年。","title":"COP31 在土耳其安塔利亚开幕，WMO 警告世界进入“气候极端新时代”","url":"https://froggyweb.com/2026/11/08/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai/"},{"summary":"星舰第 15 次试飞 11 月 13 日从得州升空，约 22 小时后飞船重返发射场首次被发射塔机械臂成功捕获，超重型助推器则因燃料不足被改道在墨西哥湾受控溅落。","title":"SpaceX“星舰”第 15 次试飞：飞船首次被发射塔成功回收，助推器落入海中","url":"https://www.usatoday.com/story/tech/space/2026/11/14/spacex-flight-15-catches-starship-makes-history/92785462007/"},{"summary":"据彭博商业周刊 11 月 12 日报道，Meta、TikTok、YouTube 与 Snap 近几个月已与十余名青少年原告达成保密和解，多数为每人 200–250 万美元，目前针对四家公司的约 9800 起人身伤害诉讼仍在审理中。","title":"彭博社披露：Meta、TikTok 等已秘密向青少年原告支付数百万美元和解金","url":"https://clashreport.com/world/articles/meta-tiktok-paid-teens-millions-over-mental-health-harm-m2wtvlj7u4a"},{"summary":"英国首相安迪·伯纳姆 11 月 14 日表示英国脱欧以来“失去的比得到的更多”，将于 11 月 20 日出席布鲁塞尔英欧峰会，寻求食品与农业协议以降低食品价格。","title":"英国首相伯纳姆：脱欧“失去的比得到的更多”，下周赴欧盟峰会谈新协议","url":"https://www.byteseu.com/2522770/"},{"summary":"11 月 14 日 0 时 17 分，新疆阿克苏地区库车市发生 5.0 级地震，震源深度 20 公里，截至发稿暂无人员伤亡与财产损失报告。","title":"新疆库车发生 5.0 级地震，暂无人员伤亡报告","url":"https://qazinform.com/news/m5-earthquake-hits-chinas-xinjiang-2c862a"}],"title":"国际新闻"},{"id":"sports","items":[{"summary":"ACSM 2026 年立场声明汇总 137 篇系统综述、3 万多名健康成人：每周每块肌肉≥10 组对增肌有效，力量增长靠≥80% 1RM 的大重量、每周练 2 次，练到力竭并非必需。","title":"ACSM 2026 最新立场声明：137 篇系统综述、3 万多人告诉你什么真正增肌","url":"https://hypertrophyprotocol.com/hypertrophy-research/"},{"summary":"ISSN 2026 年 10 月 13 日发布减重饮食立场声明：“高质量减脂”=最大程度减脂肪、最大程度保住肌肉，减重速度以每周 0.5–1% 体重为宜，减脂期蛋白质 1.6–2.2g/kg/天+抗阻训练是保肌肉的关键。","title":"ISSN 2026 减重立场声明：减脂看“减掉的是什么”，不是减了多少","url":"https://nicolocassone.it/contenuti/dimagrire-limitando-la-perdita-di-massa-muscolare-la-nuova-position-stand-issn-2026/"},{"summary":"2026 年 11 月 3 日发表于《BMC Sports Science, Medicine and Rehabilitation》的系统综述纳入 15 项试验：延长睡眠可提升耐力约 3%、短跑快 0.7 秒、反应时间快 43.6 毫秒，60–90 分钟午睡也有帮助。","title":"睡眠操纵系统综述：多睡一点，耐力直接 +3%","url":"https://link.springer.com/article/10.1186/s13102-026-02218-2"},{"summary":"2026 年 11 月《Journal of Orthopaedic & Sports Physical Therapy》的贝叶斯网状 meta 分析纳入 35 项随机对照试验、3808 名膝骨关节炎患者：有氧+抗阻结合在 12 周内对膝盖疼痛、功能和生活质量的改善幅度最大。","title":"膝盖康复新证据：有氧+力量结合，短期止痛和改善功能最强","url":"https://www.emjreviews.com/rheumatology/news/best-exercise-for-knee-osteoarthritis-aerobic-plus-strength/"},{"summary":"2026 年 11 月发表于《Journal of the International Society of Sports Nutrition》的 4 周试验：蛋白质从 1.93 提高到 2.12g/kg/天，瘦体重 +0.67kg、脂肪量和体脂率无显著变化，但该研究无对照组且用 BIA 测体成分，证据较弱。","title":"蛋白质多吃一点：4 周试验瘦体重 +0.67kg、脂肪没涨（但证据较弱）","url":"https://www.mensfitness.com/news/extra-protein-increases-lean-body-mass-without-fat-gain-says-study"}],"title":"运动营养科学"},{"id":"others","items":[{"summary":"11 月 14 日，东盟 11 个经济体的经济部长在马尼拉签署《东盟数字经济框架协定》（DEFA），这是全球首个有法律约束力的区域数字经济协定，波士顿咨询测算全面实施后东盟数字经济有望从约 1 万亿美元增至 2 万亿美元（2030 年）。","title":"东盟 11 国签署全球首个有约束力的数字经济协定：跨境电商、支付与数据流动将有统一规则","url":"https://astig.ph/asean-digital-economy-framework-agreement-defa-signed-2026/"},{"summary":"AMZ123 11 月 14 日报道：亚马逊已更新品牌旗舰店内容规范，旗舰店内任何位置均不得出现亚马逊商标，同时五类促销表述被明确禁止，细则以亚马逊卖家后台公告为准。","title":"亚马逊品牌旗舰店禁用会员日商标：主图文字同步纳入规范，黑五前先改文案","url":"https://www.amz123.com/kx/Ej0LFvs3"},{"summary":"AMZ123 11 月 14 日报道：亚马逊 11 月 13 日发布更新公告，将 Alexa for Shopping 扩展至 15 个国家，其中 13 国已全面上线，澳大利亚不在首批名单里，相关调研数据显示 59% 的 AI 辅助购买行为在亚马逊平台上完成。","title":"亚马逊 Alexa 购物助手扩展至 15 国：AI 购物正在变成新的流量入口","url":"https://www.amz123.com/kx/D6HhoTgk"},{"summary":"TT123 报道（跨境日报 11 月 12 日转载）：TikTok Shop 正式宣布加拿大站将于 2027 年第一季度上线，现阶段已接受卖家预入驻，卖家需提前准备营业执照、品牌授权和北美仓能力。","title":"TikTok Shop 官宣加拿大站 2027 年 Q1 上线：预入驻已开启，北美第二站来了","url":"https://aitosea.ai/daily-reports/2026-11-12"},{"summary":"Huberman Lab 11 月 9 日一期：嘉宾是斯坦福成瘾医学主任 Anna Lembke 博士，围绕新书《Radical Surrender》聊成瘾的神经科学，核心观点是“彻底 surrender”——停止靠意志力控制一切，反而能打破强迫循环。","title":"Huberman 对话 Anna Lembke：最普遍的成瘾不是物质，是「对控制的上瘾」","url":"https://podcastrex.com/shows/huberman-lab/overcome-addictions-obsessions-of-all-kinds-dr-anna-lembke"}],"title":"其他精选"}],"updated":"2026-11-15T12:15:00+08:00","version":3}
+{
+ "date": "2026-11-15",
+ "podcast": {
+  "audio_url": "",
+  "duration": "9分14秒",
+  "title": "晨间充电站（2026-11-14）"
+ },
+ "sections": [
+  {
+   "id": "ai",
+   "items": [
+    {
+     "title": "黄仁勋辞任英伟达 CEO，CFO 科莱特·克雷斯暂代",
+     "summary": "据 WSJ 报道，辞任与两起婚外情有关，消息公布当天英伟达股价开盘跌超 10%，董事会已启动永久 CEO 遴选，AI 基础设施龙头进入交接期。",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/what-we-know-about-huang-s-resignation-FELDYm6e10IKGCnT8ZQ0"
+    },
+    {
+     "title": "Anthropic 发布 Claude Fable/Mythos 5.2，并定于 11 月 19 日纳斯达克上市",
+     "summary": "新模型面向科研、工程与软件开发，FrontierCode 2.0 最高推理档达 49.1%（上一代 32.4%），上市在即，Anthropic 从实验室正式走向公开市场检验。",
+     "url": "https://www.linkedin.com/pulse/146-ai-takes-next-leap-agents-pay-models-reason-satya-suravajjula-z6jrf"
+    },
+    {
+     "title": "Stripe 约 75–80 亿美元收购模型路由平台 OpenRouter",
+     "summary": "OpenRouter 聚合 80 多家供应商、400 余款模型，服务超 1000 万开发者，支付巨头买下模型分发入口；同期 OpenAI 三季度营收首次突破 100 亿美元。",
+     "url": "https://www.shanghaizhuohantech.com/news/tech87"
+    },
+    {
+     "title": "谷歌发布 Gemini 4 Hydrogen，主打“效率层”",
+     "summary": "弃用 Flash 命名，定位为智能体日常执行的效率模型：输入每百万 token 1.5 美元、输出 7.5 美元，任务完成速度较前代 Flash 快约 2.5 倍，行业焦点正从“最强”转向“最省”。",
+     "url": "https://www.shanghaizhuohantech.com/news/tech87"
+    },
+    {
+     "title": "OpenAI 推出 ChatGPT Wallet，AI 智能体可以替用户花钱了",
+     "summary": "11 月 13 日上线：经用户授权的智能体可直接完成购买，智能体从“出主意”走向“办交易”，支付、风控与授权边界成为新的竞争点。",
+     "url": "https://www.linkedin.com/pulse/146-ai-takes-next-leap-agents-pay-models-reason-satya-suravajjula-z6jrf"
+    },
+    {
+     "title": "国产大模型 11 月 11–12 日密集冲顶",
+     "summary": "阿里上线旗舰多模态 Qwen4-Max 预览版，百度发布文心 ERNIE 5.5 Flash Preview，字节推出 Seedream 5.5，竞争坐标已从榜单分数转向任务完成度与单位成本。",
+     "url": "https://www.shanghaizhuohantech.com/news/tech85"
+    },
+    {
+     "title": "谷歌多智能体系统连下数学堡垒：韦伊猜想形式化 180 万行 Lean 代码",
+     "summary": "谷歌 11 月 13 日公布 Antigravity /teamwork 的最新成绩：与中大、南加大、CMU 等合作，全自主完成韦伊猜想的机器可验证形式化（约 180 万行 Lean），还首度形式化了 1927 年的 Birkhoff 猜想。",
+     "url": "https://ai-daily.musxiao.com/"
+    },
+    {
+     "title": "WSJ：英伟达被曝安排信贷支持 AI 初创购买自家芯片，制造 GPU 稀缺",
+     "summary": "TechPowerUp 转述的 WSJ 报道称，英伟达通过信贷安排帮助 AI 初创采购其 GPU，人为收紧了供给；董事 Stevens 在风波前抛售了近 10 亿美元股票。",
+     "url": "https://thecontext.dev/en/topics/frontier-models/"
+    },
+    {
+     "title": "微软全球大宕机波及 74 国，同一天 Claude 宕机、FAA 全国停飞",
+     "summary": "11 月 13 日，一次配置变更导致微软 365 全球中断持续约一天；Claude 全线中断约两小时；FAA 全国地面停飞约 4.5 小时、取消约 7000 架次航班。",
+     "url": "https://thecontext.dev/en/topics/frontier-models/"
+    },
+    {
+     "title": "OpenAI 解散机器人团队：通用模型直接驱动机器人",
+     "summary": "据 HN 11 月 13 日讨论，OpenAI 解散了专门的机器人团队，转向用通用模型直接操控机器人，具身智能不再需要单独的机器人部门，通用智能体就是机器人大脑。",
+     "url": "https://thecontext.dev/en/topics/frontier-models/"
+    },
+    {
+     "summary": "Anthropic 11 月 12 日开始推出 Claude Meetings（Beta）：Claude 以可见参会者身份加入 Google Meet 视频会议，实时跟进对话、会中直接建文档与白板，会后留下含文字记录、摘要与行动项的会议页，目前仅 Team 与 Enterprise 计划可用。",
+     "title": "Claude Meetings 开始 Beta：Claude 以参会者身份进 Google Meet，会中直接出笔记与文档",
+     "url": "https://www.unite.ai/anthropic-launches-claude-meetings-beta-for-live-video-calls/"
+    }
+   ],
+   "title": "AI 前沿科技"
+  },
+  {
+   "id": "x",
+   "items": [
+    {
+     "summary": "英伟达 11 月 12 日公告黄仁勋即刻辞去总裁、CEO 及董事职务，CFO 科莱特·克雷斯暂代 CEO，辞职当日股价盘中一度跌 14%、市值跌破 4 万亿美元。",
+     "title": "黄仁勋辞职，英伟达换帅",
+     "url": "https://x.com/search?q=%E9%BB%84%E4%BB%81%E5%8B%8B%20%E8%BE%9E%E8%81%8C%20%E8%8B%B1%E4%BC%9F%E8%BE%BE&f=live"
+    },
+    {
+     "summary": "11 月 13 日因空管通信系统故障，FAA 下令全美所有航班停飞，14 日仍有超 3300 架次取消，局长称预计 15 日晚恢复正常并公开道歉。",
+     "title": "FAA 全美停飞，现代史上第三次",
+     "url": "https://x.com/search?q=FAA%20%E5%85%A8%E7%BE%8E%E5%81%9C%E9%A3%9E&f=live"
+    },
+    {
+     "summary": "前 OpenAI 研究员的权重取证分析称，DeepSeek V4 等 6 款中国开源模型权重中带有英伟达 Blackwell GPU 的硬件特征签名，训练地点未证实，出口管制争议再起。",
+     "title": "DeepSeek V4 被指用禁运 Blackwell 芯片训练",
+     "url": "https://x.com/search?q=DeepSeek%20Blackwell&f=live"
+    },
+    {
+     "summary": "智能体在用户生物识别确认后可代为付款，与 Amex、Mastercard、Visa 合作，首批面向美国 18 岁以上 Pro 用户。",
+     "title": "OpenAI 推出 ChatGPT Wallet，智能体可代购物",
+     "url": "https://x.com/search?q=ChatGPT%20Wallet&f=live"
+    },
+    {
+     "summary": "人员分流至核心研究团队与应用部门，官方称不是退出机器人，具身智能仍是长期愿景，重组为提速研发。",
+     "title": "OpenAI 解散独立机器人团队",
+     "url": "https://x.com/search?q=OpenAI%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9B%A2%E9%98%9F%20%E8%A7%A3%E6%95%A3&f=live"
+    },
+    {
+     "summary": "App 内的联网搜索、文件解析、链接阅读等能力全部开放为 API，OCR、ASR、TTS 也可独立调用，开发者可按需组合、甚至复刻官方 App 形态。",
+     "title": "DeepSeek 开放全家桶 API",
+     "url": "https://x.com/search?q=DeepSeek%20API%20%E5%BC%80%E6%94%BE&f=live"
+    },
+    {
+     "summary": "上面级飞船从轨道返回后被发射塔机械臂成功捕获，是星舰完全重复使用的关键一步。",
+     "title": "SpaceX 星舰第 15 次试飞首次“筷子夹飞船”",
+     "url": "https://x.com/search?q=SpaceX%20%E6%98%9F%E8%88%B0%20%E7%AD%B7%E5%AD%90&f=live"
+    },
+    {
+     "summary": "11 月 10 日启动路演，计划发行 8.25 亿股 A 类股，发行价 70–78 美元，预计 11 月 19 日纳斯达克上市，承销行援引出口管制规定禁止中港投资者认购。",
+     "title": "Anthropic IPO 路演，承销行禁中港投资者认购",
+     "url": "https://x.com/search?q=Anthropic%20IPO&f=live"
+    },
+    {
+     "summary": "依托昇腾 910C 集群，深圳河套学院联合高校及华为攻关，1500+ 步零中断、MFU 超 30%，打破“国产芯片只能做推理”的说法。",
+     "title": "国产算力跑通 DeepSeek-V4-Pro 全参数后训练",
+     "url": "https://x.com/search?q=DeepSeek-V4-Pro%20%E5%9B%BD%E4%BA%A7%E7%AE%97%E5%8A%9B&f=live"
+    },
+    {
+     "summary": "11 月 15 日凌晨，伊朗革命卫队海军称两艘油轮在霍尔木兹海峡以南触雷爆炸起火，油价与航运风险受关注。",
+     "title": "霍尔木兹海峡两艘油轮触雷爆炸",
+     "url": "https://x.com/search?q=%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%20%E6%B2%B9%E8%BD%AE%20%E8%A7%A6%E9%9B%B7&f=live"
+    },
+    {
+     "summary": "把患者的全部病历传到云盘文件夹，让 ChatGPT 或 Claude 装他的免费 skill，自动生成一页病情摘要并检索临床试验，也可 fork 改作其他长期慢性病。",
+     "title": "Peter Yang：免费 /fuck-cancer skill，用 AI 帮癌症患者整理病历",
+     "url": "https://x.com/petergyang/status/2121430386685395022"
+    },
+    {
+     "summary": "称证据不足、结论跳跃，引用新加坡政府说法与一名英伟达员工的讲述，提醒自行核实。",
+     "title": "Peter Yang：质疑 WSJ 关于黄仁勋夫人 Alice Huang 是间谍的报道",
+     "url": "https://x.com/petergyang/status/2121430819667579031"
+    },
+    {
+     "summary": "智能体购物合作，更多功能与场景在路上。",
+     "title": "Amjad Masad（Replit CEO）：与 Visa 合作推进 agentic commerce",
+     "url": "https://x.com/amasad/status/2121428406764204199"
+    },
+    {
+     "summary": "agent 首步与步间延迟大幅改善、加密与安全加码、大规模验证过的可靠性，底层持久化日志抽成可复用的 durable-harness。",
+     "title": "Guillermo Rauch（Vercel CEO）：Vercel 发布 Workflow SDK 5 与 Workflows",
+     "url": "https://x.com/rauchg/status/2121277727940776114"
+    },
+    {
+     "summary": "52 个编程任务上 Fable 5.2 解题率 82.7% vs Opus 84.6% 差不多，但每个解出任务的成本贵 2.8 倍。",
+     "title": "Garry Tan（YC CEO）：实测建议 Claude Code 默认继续用 Opus 5.5",
+     "url": "https://x.com/garrytan/status/2121464508225053153"
+    },
+    {
+     "summary": "讨论 AI 写代码时代软件仍值得付费的原因。",
+     "title": "Dan Shipper：为什么 Fable 5.2 能 vibe code 任何东西，团队还在为软件付费",
+     "url": "https://x.com/danshipper/status/2121248233510818003"
+    }
+   ],
+   "title": "推特热议"
+  },
+  {
+   "id": "world",
+   "items": [
+    {
+     "summary": "白宫 11 月 14 日确认，特朗普将于 11 月 19 日在深圳 APEC 峰会期间与习近平、普京举行三方会晤，议题为核不扩散与伊朗战争，但中方尚未确认参会。",
+     "title": "特朗普、习近平、普京拟在深圳 APEC 期间举行史上首次三方会晤，聚焦核不扩散",
+     "url": "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
+    },
+    {
+     "summary": "泽连斯基 11 月 14 日表示，美方谈判代表在阿布扎比和谈中首次提出该方案，乌方不会割让领土，但若有包括强军、安全保障与重建资金的“一揽子方案”，他会交由全民公投决定。",
+     "title": "美方称首次提出“乌克兰以顿巴斯换北约成员国资格”，泽连斯基称须公投决定",
+     "url": "https://www.reuters.com/world/europe/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says-2026-11-14/"
+    },
+    {
+     "summary": "特朗普 11 月 12 日发文称美国“不需要与伊朗达成协议”，要求万斯把全部精力转向欺诈调查；美军中央司令部 11 月 13 日称击落两架飞往巴林美军预警雷达的伊朗攻击无人机。",
+     "title": "特朗普撤下万斯的伊朗谈判角色，美军称击落袭击巴林雷达的伊朗无人机",
+     "url": "https://www.military.com/with-shifting-iran-rhetoric-following-us-elections-trump-leaves-mideast-in-limbo-about-path-ahead"
+    },
+    {
+     "summary": "《经济学人》11 月 14 日一期认为 AI 相关投资规模巨大、市场回调大概率发生，但与互联网泡沫不同，AI 企业资产负债表与银行体系风险相对可控，演变为深度金融危机的可能性低得多。",
+     "title": "《经济学人》本期封面：AI 泡沫将破，但未必酿成金融灾难",
+     "url": "https://aiweekly.co/alerts/the-economist-leader-expect-an-ai-crash-not-cataclysm"
+    },
+    {
+     "summary": "英伟达 11 月 12 日宣布黄仁勋即刻辞去 CEO 一职，股价 12 日收跌 4.3%、单周累计跌约 10%，市值蒸发约 1800 亿美元，公司定于 11 月 17 日发布财报。",
+     "title": "英伟达 CEO 黄仁勋辞职，CFO 柯莱特·克雷斯暂代，股价单周跌约一成",
+     "url": "https://www.thetimes.com/business/companies-markets/article/jensen-huang-resigns-nvidia-boss-affairs-0qmwbch9x"
+    },
+    {
+     "summary": "据彭博社 11 月 12 日报道，Anthropic 的 IPO 认购量约为可供发售股份的六倍，拟募资最高 644 亿美元，定价预计 11 月 18 日，11 月 19 日以代码 ANT 在纳斯达克挂牌。",
+     "title": "Anthropic 上市认购约六倍超额，估值目标 1.4 万亿美元，19 日挂牌",
+     "url": "https://investinglive.com/stocks/anthropic-ipo-oversubscribed-several-times-ahead-of-record-90-billion-listing/"
+    },
+    {
+     "summary": "微软 11 月 14 日确认 Outlook、Teams、Copilot 等服务已全面恢复，此次宕机始于 11 月 12 日中午，持续 24 小时以上，微软称系网络容量升级中的技术问题、与网络攻击或 AI 无关。",
+     "title": "微软 365 全球大宕机持续 24 小时后恢复，波及 70 多国",
+     "url": "https://www.thedailyjagran.com/world/news/microsoft-outage-finally-fixed-outlook-teams-copilot-fully-restored-after-24-hours-of-global-disruption-across-70-countries-10336269"
+    },
+    {
+     "summary": "美国交通部长达菲 11 月 14 日表示，停飞令源于承包商 L3Harris 换线时被替换的路由器以每 4–5 秒逾千次的频率“泛洪”其他路由器，停飞令 13 日 15 时 54 分发布、20 时 19 分解除。",
+     "title": "FAA 全国停飞令后续：承包商换线时路由器“泛洪”所致，周六仍取消数千航班",
+     "url": "https://www.cnn.com/2026/11/14/politics/faa-ground-stop-what-we-know?cid=external-feeds_iluminar_meta"
+    },
+    {
+     "summary": "美联储理事鲍曼 11 月 10 日警告若 AI 投资回报不及预期股市可能大幅回调并支持 12 月加息，美联储 11 月 13 日发布的《金融稳定报告》中 AI 被 87% 的受访市场人士列为美国金融体系的首要风险。",
+     "title": "美联储官员密集放鹰：12 月或再加息，AI 被列为金融稳定头号风险",
+     "url": "https://emergent.sh/news/fed-s-bowman-warns-ai-investment-bubble-could"
+    },
+    {
+     "summary": "据路透社根据央行数据测算，中国 10 月新增人民币贷款净减少 1000 亿元，为今年第三次月度收缩，贷款余额同比增速降至 4.7%，创有记录以来最低。",
+     "title": "中国 10 月新增人民币贷款净减 1000 亿元，信贷需求持续疲软",
+     "url": "https://businessnews.com.my/china-october-new-loans-shrink/"
+    },
+    {
+     "summary": "第 31 届联合国气候大会 11 月 9 日在土耳其安塔利亚开幕，世界气象组织同期发布报告称 2026 年 1–9 月全球平均气温较工业化前高约 1.47°C，过去四年为有记录以来最热的四年。",
+     "title": "COP31 在土耳其安塔利亚开幕，WMO 警告世界进入“气候极端新时代”",
+     "url": "https://froggyweb.com/2026/11/08/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai/"
+    },
+    {
+     "summary": "星舰第 15 次试飞 11 月 13 日从得州升空，约 22 小时后飞船重返发射场首次被发射塔机械臂成功捕获，超重型助推器则因燃料不足被改道在墨西哥湾受控溅落。",
+     "title": "SpaceX“星舰”第 15 次试飞：飞船首次被发射塔成功回收，助推器落入海中",
+     "url": "https://www.usatoday.com/story/tech/space/2026/11/14/spacex-flight-15-catches-starship-makes-history/92785462007/"
+    },
+    {
+     "summary": "据彭博商业周刊 11 月 12 日报道，Meta、TikTok、YouTube 与 Snap 近几个月已与十余名青少年原告达成保密和解，多数为每人 200–250 万美元，目前针对四家公司的约 9800 起人身伤害诉讼仍在审理中。",
+     "title": "彭博社披露：Meta、TikTok 等已秘密向青少年原告支付数百万美元和解金",
+     "url": "https://clashreport.com/world/articles/meta-tiktok-paid-teens-millions-over-mental-health-harm-m2wtvlj7u4a"
+    },
+    {
+     "summary": "英国首相安迪·伯纳姆 11 月 14 日表示英国脱欧以来“失去的比得到的更多”，将于 11 月 20 日出席布鲁塞尔英欧峰会，寻求食品与农业协议以降低食品价格。",
+     "title": "英国首相伯纳姆：脱欧“失去的比得到的更多”，下周赴欧盟峰会谈新协议",
+     "url": "https://www.byteseu.com/2522770/"
+    },
+    {
+     "summary": "11 月 14 日 0 时 17 分，新疆阿克苏地区库车市发生 5.0 级地震，震源深度 20 公里，截至发稿暂无人员伤亡与财产损失报告。",
+     "title": "新疆库车发生 5.0 级地震，暂无人员伤亡报告",
+     "url": "https://qazinform.com/news/m5-earthquake-hits-chinas-xinjiang-2c862a"
+    }
+   ],
+   "title": "国际新闻"
+  },
+  {
+   "id": "sports",
+   "items": [
+    {
+     "summary": "ACSM 2026 年立场声明汇总 137 篇系统综述、3 万多名健康成人：每周每块肌肉≥10 组对增肌有效，力量增长靠≥80% 1RM 的大重量、每周练 2 次，练到力竭并非必需。",
+     "title": "ACSM 2026 最新立场声明：137 篇系统综述、3 万多人告诉你什么真正增肌",
+     "url": "https://hypertrophyprotocol.com/hypertrophy-research/"
+    },
+    {
+     "summary": "ISSN 2026 年 10 月 13 日发布减重饮食立场声明：“高质量减脂”=最大程度减脂肪、最大程度保住肌肉，减重速度以每周 0.5–1% 体重为宜，减脂期蛋白质 1.6–2.2g/kg/天+抗阻训练是保肌肉的关键。",
+     "title": "ISSN 2026 减重立场声明：减脂看“减掉的是什么”，不是减了多少",
+     "url": "https://nicolocassone.it/contenuti/dimagrire-limitando-la-perdita-di-massa-muscolare-la-nuova-position-stand-issn-2026/"
+    },
+    {
+     "summary": "2026 年 11 月 3 日发表于《BMC Sports Science, Medicine and Rehabilitation》的系统综述纳入 15 项试验：延长睡眠可提升耐力约 3%、短跑快 0.7 秒、反应时间快 43.6 毫秒，60–90 分钟午睡也有帮助。",
+     "title": "睡眠操纵系统综述：多睡一点，耐力直接 +3%",
+     "url": "https://link.springer.com/article/10.1186/s13102-026-02218-2"
+    },
+    {
+     "summary": "2026 年 11 月《Journal of Orthopaedic & Sports Physical Therapy》的贝叶斯网状 meta 分析纳入 35 项随机对照试验、3808 名膝骨关节炎患者：有氧+抗阻结合在 12 周内对膝盖疼痛、功能和生活质量的改善幅度最大。",
+     "title": "膝盖康复新证据：有氧+力量结合，短期止痛和改善功能最强",
+     "url": "https://www.emjreviews.com/rheumatology/news/best-exercise-for-knee-osteoarthritis-aerobic-plus-strength/"
+    },
+    {
+     "summary": "2026 年 11 月发表于《Journal of the International Society of Sports Nutrition》的 4 周试验：蛋白质从 1.93 提高到 2.12g/kg/天，瘦体重 +0.67kg、脂肪量和体脂率无显著变化，但该研究无对照组且用 BIA 测体成分，证据较弱。",
+     "title": "蛋白质多吃一点：4 周试验瘦体重 +0.67kg、脂肪没涨（但证据较弱）",
+     "url": "https://www.mensfitness.com/news/extra-protein-increases-lean-body-mass-without-fat-gain-says-study"
+    }
+   ],
+   "title": "运动营养科学"
+  },
+  {
+   "id": "others",
+   "items": [
+    {
+     "summary": "11 月 14 日，东盟 11 个经济体的经济部长在马尼拉签署《东盟数字经济框架协定》（DEFA），这是全球首个有法律约束力的区域数字经济协定，波士顿咨询测算全面实施后东盟数字经济有望从约 1 万亿美元增至 2 万亿美元（2030 年）。",
+     "title": "东盟 11 国签署全球首个有约束力的数字经济协定：跨境电商、支付与数据流动将有统一规则",
+     "url": "https://astig.ph/asean-digital-economy-framework-agreement-defa-signed-2026/"
+    },
+    {
+     "summary": "AMZ123 11 月 14 日报道：亚马逊已更新品牌旗舰店内容规范，旗舰店内任何位置均不得出现亚马逊商标，同时五类促销表述被明确禁止，细则以亚马逊卖家后台公告为准。",
+     "title": "亚马逊品牌旗舰店禁用会员日商标：主图文字同步纳入规范，黑五前先改文案",
+     "url": "https://www.amz123.com/kx/Ej0LFvs3"
+    },
+    {
+     "summary": "AMZ123 11 月 14 日报道：亚马逊 11 月 13 日发布更新公告，将 Alexa for Shopping 扩展至 15 个国家，其中 13 国已全面上线，澳大利亚不在首批名单里，相关调研数据显示 59% 的 AI 辅助购买行为在亚马逊平台上完成。",
+     "title": "亚马逊 Alexa 购物助手扩展至 15 国：AI 购物正在变成新的流量入口",
+     "url": "https://www.amz123.com/kx/D6HhoTgk"
+    },
+    {
+     "summary": "TT123 报道（跨境日报 11 月 12 日转载）：TikTok Shop 正式宣布加拿大站将于 2027 年第一季度上线，现阶段已接受卖家预入驻，卖家需提前准备营业执照、品牌授权和北美仓能力。",
+     "title": "TikTok Shop 官宣加拿大站 2027 年 Q1 上线：预入驻已开启，北美第二站来了",
+     "url": "https://aitosea.ai/daily-reports/2026-11-12"
+    },
+    {
+     "summary": "Huberman Lab 11 月 9 日一期：嘉宾是斯坦福成瘾医学主任 Anna Lembke 博士，围绕新书《Radical Surrender》聊成瘾的神经科学，核心观点是“彻底 surrender”——停止靠意志力控制一切，反而能打破强迫循环。",
+     "title": "Huberman 对话 Anna Lembke：最普遍的成瘾不是物质，是「对控制的上瘾」",
+     "url": "https://podcastrex.com/shows/huberman-lab/overcome-addictions-obsessions-of-all-kinds-dr-anna-lembke"
+    }
+   ],
+   "title": "其他精选"
+  }
+ ],
+ "updated": "2026-11-15T17:31:17+08:00",
+ "version": 3
+}
