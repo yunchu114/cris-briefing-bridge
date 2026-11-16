@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Sun, 15 Nov 2026 03:33:52 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 03:33:06 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-16 AI 晨报快递</title>
+      <description><![CDATA[<p>今天真正值得盯紧的是 Fireworks AI 两度遭入侵、客户 API 金钥与 Notion 聊天记录外泄的事件，凡是把金钥或资料交给第三方推论供应商的团队都该立刻检查曝险范围。本地化与稳定化是今天的主线：llama.cpp 发布 v1.0.0，确立 C/C++ API/ABI 语义版本与 GGUF 长期相容性，加上 Whisper large-v3 GGUF 压缩到不到 1GB、Cloudflare 开源轻量无头浏览器 Kitesurf，显示推论基础设施正从实验玩具走向可长期维运的生产元件。</p><p><b>今日重点：</b><br>• <b>Fireworks AI 安全事件：两次入侵、泄露顾客 API 金钥与资料</b> (Zenn (AI)): Fireworks AI 10月遭两次入侵，客户第三方 API 金钥与 Notion 聊天记录外泄，需立即重新签发金钥。<br>• <b>llama.cpp v1.0.0 发布的意义与生产推论基础设施设计的影响</b> (Qiita (LLM)): llama.cpp 发布 v1.0.0，明确化 C/C++ API/ABI 版本规则与破坏性变更政策，部署依赖可放心锁版。<br>• <b>Whisper large-v3 GGUF 版本上线，不到 1GB 即可在本机运行</b> (AlphaSignal): Whisper large-v3 GGUF 版仅 997MB，WER 损失仅 0.05%，可直接装进笔电做离线多语音辨识。<br>• <b>llama.cpp GPU 层数多载 2 层导致提示处理效能掉 19 倍的「悬崖效应」</b> (Qiita (LLM)): llama.cpp 把 GPU 层数从 42 调到 44 层，提示处理速度从 318 tok/s 暴跌到 16.5 tok/s，调参前务必用 llama-bench 实测。<br>• <b>Claude 障碍汇整：11/13 同时故障、认证错误、使用量限误判与对应方式</b> (Qiita (AI)): Claude API 在 11/13 同步故障逾 2 小时，排程任务可能被跳过，用户需检查该时段执行纪录并手动重跑。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-16.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-16-audio</guid>
+      <pubDate>Mon, 16 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-16.mp3" length="2468736" type="audio/mpeg" />
+      <itunes:duration>2:34</itunes:duration>
+      <itunes:summary><![CDATA[今天真正值得盯紧的是 Fireworks AI 两度遭入侵、客户 API 金钥与 Notion 聊天记录外泄的事件，凡是把金钥或资料交给第三方推论供应商的团队都该立刻检查曝险范围。本地化与稳定化是今天的主线：llama.cpp 发布 v1.0.0，确立 C/C++ API/ABI 语义版本与 GGUF 长期相容性，加上 Whisper large-v3 GGUF 压缩到不到 1GB、Cloudflare 开源轻量无头浏览器 Kitesurf，显示推论基础设施正从实验玩具走向可长期维运的生产元件。]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-15 AI 晨报快递</title>
       <description><![CDATA[<p>Agent 从「能跑」进化到「可控、可量测、可部署」是今天最明显的讯号。AWS 一口气发四篇 highlight，NVIDIA NeMo Switchyard 按任务复杂度为编码 Agent 挑模型省成本，AgentCore V2 用环境快照做秒级冷启动，显示大厂把执行成本与延迟当核心工程问题处理，而非只谈模型能力。浏览器与执行环境方面，Cloudflare 开源 Kitesurf 让 Agent 浏览器完全跑在 Workers 上，加上 n8n 的沙箱化 Nod、OpenWorker，本地优先、沙箱隔离正成为 Agent 自动化标配设计。评测面则有 Google 的 MKA Benchmark，拿建筑图、临床影像等真实任务考 Agent，结果显示成本效率已和准确率同样重要。</p><p><b>今日重点：</b><br>• <b>在 Amazon Bedrock 上用 NVIDIA NeMo Switchyard 引导编码 Agent 请求</b> (AWS ML Blog): NeMo Switchyard 依任务复杂度为 Claude Code 等编码 Agent 动态选模型，单纯照 token 价格估算无法反映多轮调用真实成本。<br>• <b>Amazon Bedrock AgentCore 执行时快速会话启动架构模式</b> (AWS ML Blog): Bedrock AgentCore V2 用预先快照取代逐次初始化，支援秒级冷启动与缩至零计费，适合长时间运行 Agent 省资源。<br>• <b>Kitesurf 开源——Cloudflare Workers 上的 Agent 浏览器</b> (Cloudflare Blog): Kitesurf 开源（Apache 2.0），整个浏览器引擎跑在 Cloudflare Workers 上，可直接用 Puppeteer 接给 Agent 做网页自动化。<br>• <b>AI Agent 不只看图——Google 推出 MKA Benchmark 直接考专业工作实战</b> (iThome): MKA 基准 200 项实战任务测出 Claude 3.5 Sonnet 57% 达标居首，但 Gemini 4 Carbon 成本仅六分之一，选模型别只看准确率。<br>• <b>Vercel Token Pass 月度额度升至 150 美元</b> (Vercel Blog): Vercel Token Pass 月度额度从 80 美元调到 150 美元、月费不变，用 Kimi、GLM、DeepSeek 等开源模型的团队可直接省成本。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-18.mp3" length="2623488" type="audio/mpeg" />
       <itunes:duration>2:44</itunes:duration>
       <itunes:summary><![CDATA[今天最值得留意的是 Agent 工程化正在从「能不能跑」转向「跑得稳不稳、查得到查不到」。第一条主线是推理层基础设施持续补齐：Vercel AI Gateway 新增 Session 检视，DeepSeek V4.1 Flash 1017 缩短输出长度，llama.cpp 为 Hexagon DSP 加上量化支援，三者都指向把 Agent 跑得更快更省且可观测。第二条主线是可靠性与治理意识抬头，多篇文章谈审批日志、回滚机制、RAG 引用过期文件、Codex CLI 的 .env 权限漏洞，说明资]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-17 AI 晨报快递</title>
-      <description><![CDATA[<p>Reflection 开源的 Beam（501B MoE、23B 活跃参数、1M 上下文、Apache 2.0）是今天最值得关注的事：这是首个由美国实验室发出的开放前沿模型，原生支援 vLLM、SGLang，专攻编码与 Agent 场景，给想自托管高性能编码 Agent 的团队多了一个不受供应商绑定的选项。围绕 Agent 工具链这条主线也很热闹：Cursor 云端 Agent 启动加速 5 倍并支援 500 个 Repo，PydanticAI v2.57 加入工具调用审批机制，Perplexity 开源 Firecracker 沙箱 SPACE，显示大家都在补齐 Agent 从开发到生产的最后一哩路。</p><p><b>今日重点：</b><br>• <b>Reflection 发布 501B 参数开放模型 Beam</b> (Hugging Face Blog): Reflection推出501B参数、23B活跃参数的Beam模型，支援1M上下文、Apache 2.0授权，可自建编码Agent基础设施。<br>• <b>PydanticAI v2.57.0 发布</b> (PydanticAI Releases): PydanticAI v2.57.0新增Harness ApprovalReviewer，可让模型在人类介入前自动审批低风险工具调用，降低Agent误操作风险。<br>• <b>Vercel Shop 正式发布：让 AI Agent 成为 Shopify 商店的一级消费者</b> (Vercel Blog): Vercel Shop用Universal Commerce Protocol把产品页转成Agent可读结构，电商团队可直接让AI购物助手搜寻、加购、结帐。<br>• <b>TypeSafe 扩充 Jev 决策模型，支援图片判断与物件定位</b> (iThome): TypeSafe决策模型Jev 1.14新增图片物件定位与26.2万词元长上下文，但官方提醒影像判断尚未达生产可靠度，部署前需自行验证。<br>• <b>Ubuntu 26.10 全面采用 Rust 核心工具，强化后量子密码与企业登入</b> (iThome): Ubuntu 26.10全面改用Rust版coreutils与Sequoia PGP验证更新，维运团队需先测试既有备份、部署脚本相容性再升级。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-17.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-17-audio</guid>
-      <pubDate>Sat, 17 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-17.mp3" length="2572416" type="audio/mpeg" />
-      <itunes:duration>2:41</itunes:duration>
-      <itunes:summary><![CDATA[Reflection 开源的 Beam（501B MoE、23B 活跃参数、1M 上下文、Apache 2.0）是今天最值得关注的事：这是首个由美国实验室发出的开放前沿模型，原生支援 vLLM、SGLang，专攻编码与 Agent 场景，给想自托管高性能编码 Agent 的团队多了一个不受供应商绑定的选项。围绕 Agent 工具链这条主线也很热闹：Cursor 云端 Agent 启动加速 5 倍并支援 500 个 Repo，PydanticAI v2.57 加入工具调用审批机制，Perplexi]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
