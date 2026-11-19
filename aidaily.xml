@@ -20,7 +20,40 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Mon, 16 Nov 2026 03:33:06 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 03:36:44 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-19 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是本地化推论的持续突破：Hugging Face 的 Transformers 推论引擎让 180B 参数的 MoE 模型能在消费级显卡甚至 MacBook M4 上跑到 13.5 token/s，Rumble-2-Flash 更以 0.5B 参数打赢 15 倍大的 Meta 模型，显示「小而精」正在吃掉过去只能靠云端大模型解决的场景。第二条主线是 Agent 工具链的安全与稳定性补强，OpenAI Agents SDK v0.25.0 和 PydanticAI v2.70.0 都修了高风险漏洞，加上 MCP Server 的安全更新，说明 Agent 基础设施正从「能跑」进入「要稳要安全」的阶段。</p><p><b>今日重点：</b><br>• <b>微软发表编码用 AI 模型 MAI Code 2 与 MAI Code 2 Flash</b> (Publickey): MAI Code 2 性能达 GPT-6.1 Sol 的 98%、Claude Opus 5.5 的 96%，成本仅 40%与5%，可评估换用降低编码成本。<br>• <b>OpenAI Agents SDK v0.25.0 发布</b> (OpenAI Agents SDK Releases): OpenAI Agents SDK v0.25.0 移除 Runloop 沙箱、预设模型改为 gpt-6-luna，升级前需迁移沙箱并检查相容性。<br>• <b>Transformers 推论引擎：用 32GB 记忆体执行 180B 参数 MoE 模型</b> (Hugging Face Blog): Transformers 新推论优化让 180B 参数 MoE 模型在 RTX 4090 或 MacBook M4 上跑到 13.5 token/s，本地部署大模型不再需要伺服器级硬体。<br>• <b>PydanticAI v2.70.0 发布</b> (PydanticAI Releases): PydanticAI v2.70.0 修补 ANSI 转义与 JWT 正规表达式的 ReDoS 漏洞，可能让事件回圈卡住数分钟，应立即升级。<br>• <b>Rumble-2-Flash：0.5B 开源多语言语音识别模型</b> (Hugging Face Blog): Rumble-2-Flash 仅 0.5B 参数却在多语言 ASR 排行榜赢过 15 倍大的 Meta 模型，5 秒音讯 0.25 秒转录完成，适合做轻量本地语音辨识。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-19.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-19-audio</guid>
+      <pubDate>Thu, 19 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-19.mp3" length="2564736" type="audio/mpeg" />
+      <itunes:duration>2:40</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是本地化推论的持续突破：Hugging Face 的 Transformers 推论引擎让 180B 参数的 MoE 模型能在消费级显卡甚至 MacBook M4 上跑到 13.5 token/s，Rumble-2-Flash 更以 0.5B 参数打赢 15 倍大的 Meta 模型，显示「小而精」正在吃掉过去只能靠云端大模型解决的场景。第二条主线是 Agent 工具链的安全与稳定性补强，OpenAI Agents SDK v0.25.0 和 PydanticAI v2.70.0 ]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2026-11-18 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最重要的讯号是模型军备竞赛进入「系统一／系统二」分工与成本下杀的新阶段，而不只是单纯比参数。Anthropic、Google、OpenAI 相继推出新一代模型，皆把焦点从「回答问题」推向「代理人直接动手」处理日历、信箱、支付甚至法律事务。第二条主线是成本与效率：Microsoft 与 Stanford/Together 皆以更低成本、隐式推理大幅压低运算开销，但监控难度也随之上升。第三条是资安警讯不能忽略：低程式码平台开发的应用被揭露大量资料库权限漏洞，加上台湾已出现多起 AI 自主攻击框架实例与企业受骇案例，提醒 agent 能力越强，治理与权限设计越要同步跟上。</p><p><b>今日重点：</b><br>• <b>Claude 平台发布说明（2026 年 11 月 17 日）</b> (Anthropic API Release Notes): Claude Fable 5.2 推出 1M token 上下文、128k 最大输出，价格 $8/$40 每百万 token，可评估迁移长文本或 agent 工作负载。<br>• <b>Google 推出 Tasks in Gemini 免费功能与 Gemini 4 Hydrogen 模型</b> (Google AI Blog): Gemini 4 Hydrogen 搭配 Agent Payments Protocol，可用自然语言执行拨电话预约、分析帐单等实际付款动作。<br>• <b>AI 开发平台 Lovable 用户应用程式资料库权限设定问题研究</b> (iThome): 研究发现 Lovable 平台 24,664 个专案未验证就传送 Supabase 资料，用低程式码 AI 工具上线前务必检查资料存取权限。<br>• <b>【资安日报】11月17日，AI攻击框架达3,800个执行个体、台湾有20个</b> (iThome): 全台已有 20 个公开可见的 AI 自主攻击框架执行个体，境外骇客用类似工具已攻击台湾十余家企业外泄逾百万笔个资，用 agent 工具的团队要加强监控。<br>• <b>TPU 模型设计考量与最佳化指南</b> (Google AI Developers Blog): Google 开源 TPU 协同设计指南，给出维度对齐 256、LatentMoE 压缩路由等具体规则，可直接套用优化 MoE 模型在 TPU v7x 上的效能。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-18.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-18-audio</guid>
+      <pubDate>Wed, 18 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-18.mp3" length="2817024" type="audio/mpeg" />
+      <itunes:duration>2:56</itunes:duration>
+      <itunes:summary><![CDATA[今天最重要的讯号是模型军备竞赛进入「系统一／系统二」分工与成本下杀的新阶段，而不只是单纯比参数。Anthropic、Google、OpenAI 相继推出新一代模型，皆把焦点从「回答问题」推向「代理人直接动手」处理日历、信箱、支付甚至法律事务。第二条主线是成本与效率：Microsoft 与 Stanford/Together 皆以更低成本、隐式推理大幅压低运算开销，但监控难度也随之上升。第三条是资安警讯不能忽略：低程式码平台开发的应用被揭露大量资料库权限漏洞，加上台湾已出现多起 AI 自主攻击框架]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2026-11-17 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最重要的讯号不是哪个新模型，而是「Agent 怎么落地、怎么省钱、怎么不出事」成了主旋律。第一条主线是推理成本与架构优化：TokenEconomizer、Nvidia 压缩上下文、Google GKE 节省节点成本，三者说明业界正把 Agent 从「能跑」推向「划算地跑」。第二条主线是 Agent 治理与安全：Google 异常侦测指南、Anthropic 开放自托管测试，对照台湾破获 BossAI 利用 Agent 自动化攻击消防派遣系统的案件，显示 Agent 权限与行为监控已是生产环境必修课。第三条主线是台湾基础设施：国科会公布明年新增一万颗 GPU、扩大本土语料库，回应算力与主权 AI 焦虑。建议工程师这周实际跑一次 Agent 的异常侦测或会话成本分析，而不是只盯著又一个新模型发布。</p><p><b>今日重点：</b><br>• <b>国科会揭科技施政布局：台湾明年预计新增 1 万颗 GPU 缓解算力不足</b> (iThome): 台湾明年将新增1万颗GPU，数发部已协助342家资服业者透过算力池开发307个AI模型，可留意申请管道。<br>• <b>Claude Managed Agents 自托管服务开放私人测试：企业可自管控制平面与凭证</b> (iThome): Claude Managed Agents开放企业在自有云端或地端部署控制平面并自管凭证，有资料隐私需求的团队可申请封闭测试。<br>• <b>TokenEconomizer：从经验学习让 AI 编码 Agent 更高效</b> (Microsoft Research): 开源外挂TokenEconomizer让编码Agent学习同储存库历史会话，在277个真实修bug任务中省下18.4–30.9%成本。<br>• <b>调查局破获 BossAI 骇客自动化攻击系统案：窃取救护派遣资讯转售殡葬业</b> (iThome): 骇客用AI代理程式绕过前端直接打后端API窃取救护派遣资料，提醒开发者加强API权限与异常存取监控。<br>• <b>Google Project Zero 调整漏洞揭露政策因应 AI 加速攻击</b> (iThome): Google Project Zero因AI加速漏洞分析，2027年将揭露期限缩短为60天、2028年30天，厂商修补速度要跟上。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-17.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-17-audio</guid>
+      <pubDate>Tue, 17 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-17.mp3" length="2858880" type="audio/mpeg" />
+      <itunes:duration>2:59</itunes:duration>
+      <itunes:summary><![CDATA[今天最重要的讯号不是哪个新模型，而是「Agent 怎么落地、怎么省钱、怎么不出事」成了主旋律。第一条主线是推理成本与架构优化：TokenEconomizer、Nvidia 压缩上下文、Google GKE 节省节点成本，三者说明业界正把 Agent 从「能跑」推向「划算地跑」。第二条主线是 Agent 治理与安全：Google 异常侦测指南、Anthropic 开放自托管测试，对照台湾破获 BossAI 利用 Agent 自动化攻击消防派遣系统的案件，显示 Agent 权限与行为监控已是生产环境]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-16 AI 晨报快递</title>
       <description><![CDATA[<p>今天真正值得盯紧的是 Fireworks AI 两度遭入侵、客户 API 金钥与 Notion 聊天记录外泄的事件，凡是把金钥或资料交给第三方推论供应商的团队都该立刻检查曝险范围。本地化与稳定化是今天的主线：llama.cpp 发布 v1.0.0，确立 C/C++ API/ABI 语义版本与 GGUF 长期相容性，加上 Whisper large-v3 GGUF 压缩到不到 1GB、Cloudflare 开源轻量无头浏览器 Kitesurf，显示推论基础设施正从实验玩具走向可长期维运的生产元件。</p><p><b>今日重点：</b><br>• <b>Fireworks AI 安全事件：两次入侵、泄露顾客 API 金钥与资料</b> (Zenn (AI)): Fireworks AI 10月遭两次入侵，客户第三方 API 金钥与 Notion 聊天记录外泄，需立即重新签发金钥。<br>• <b>llama.cpp v1.0.0 发布的意义与生产推论基础设施设计的影响</b> (Qiita (LLM)): llama.cpp 发布 v1.0.0，明确化 C/C++ API/ABI 版本规则与破坏性变更政策，部署依赖可放心锁版。<br>• <b>Whisper large-v3 GGUF 版本上线，不到 1GB 即可在本机运行</b> (AlphaSignal): Whisper large-v3 GGUF 版仅 997MB，WER 损失仅 0.05%，可直接装进笔电做离线多语音辨识。<br>• <b>llama.cpp GPU 层数多载 2 层导致提示处理效能掉 19 倍的「悬崖效应」</b> (Qiita (LLM)): llama.cpp 把 GPU 层数从 42 调到 44 层，提示处理速度从 318 tok/s 暴跌到 16.5 tok/s，调参前务必用 llama-bench 实测。<br>• <b>Claude 障碍汇整：11/13 同时故障、认证错误、使用量限误判与对应方式</b> (Qiita (AI)): Claude API 在 11/13 同步故障逾 2 小时，排程任务可能被跳过，用户需检查该时段执行纪录并手动重跑。</p>]]></description>
@@ -316,39 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-21.mp3" length="2638080" type="audio/mpeg" />
       <itunes:duration>2:45</itunes:duration>
       <itunes:summary><![CDATA[今天最值得留意的是台湾政府机关遭 AI 自主攻击事件：骇客用多个协作 Agent（基于 Hermes、OpenClaw 架构）4 天内破解 85 组帐密，显示 Agent 已从辅助工具变成具备自主侦察与攻击能力的主体，资安团队得重新检视防御思路。第二条主线是基础设施持续朝非 NVIDIA 生态系分散，AWS 推出 TorchNeuron 让 PyTorch 模型低门槛转用 Trainium 晶片、Google 也让 TPU 透过 TorchTPU 直接支援 Transformers 与 vLLM]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-20 AI 晨报快递</title>
-      <description><![CDATA[<p>企业端的 AI 成本控管开始动真格，这比任何新模型发布都值得工程团队关注——Accenture 将员工 Claude Enterprise 补助砍到每月 29 美元，过去动辄花费 500 到 1,000 美元的用户可能直接被断访问权限，显示组织不会无限期补贴 agentic coding 的 token 消耗。同日 Cloudflare 分享案例正呼应此焦虑，他们靠调整模型选择与 Agent 逻辑把程式码审查成本从 2.43 美元压到 0.77 美元，延迟缩到 1 分半，说明成本优化的杠杆往往在工程设计而非换模型。</p><p><b>今日重点：</b><br>• <b>使用 ADK 建构永不静音的语音 Agent 指南</b> (Google AI Developers Blog): ADK搭配Gemini 3.8 Live做非阻塞工具，语音Agent首字延迟从14.4秒降至1.2秒，可解决长任务静音问题。<br>• <b>TorchNeuron：让 Hugging Face 模型在 AWS Trainium 上运行更简单</b> (Hugging Face Blog): TorchNeuron原生支援89%主流文本生成架构，直接用Transformers标准API跑AWS Trainium，免处理静态形状限制。<br>• <b>Cloudflare 透过极致优化将 AI 推理成本降低 68%</b> (Cloudflare Blog): Cloudflare优化模型选择与Agent逻辑，把程式码审查成本从2.43美元压到0.77美元，延迟缩至1分32秒，可参考调参思路。<br>• <b>传 Accenture 将公司员工的 Claude AI 补助额度降为 29 美元</b> (iThome): Accenture将Claude Enterprise每人月补助砍到29美元，超支算专案费，原本月花500至1000美元的员工恐被停权。<br>• <b>Linux核心将取消AI辅助开发标注要求，开发者仍须对程式码负责</b> (iThome): Linux核心拟取消AI辅助程式码的Assisted-by标注要求，但开发者仍须完全理解并对提交内容负责。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-20.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-20-audio</guid>
-      <pubDate>Tue, 20 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-20.mp3" length="2532096" type="audio/mpeg" />
-      <itunes:duration>2:38</itunes:duration>
-      <itunes:summary><![CDATA[企业端的 AI 成本控管开始动真格，这比任何新模型发布都值得工程团队关注——Accenture 将员工 Claude Enterprise 补助砍到每月 29 美元，过去动辄花费 500 到 1,000 美元的用户可能直接被断访问权限，显示组织不会无限期补贴 agentic coding 的 token 消耗。同日 Cloudflare 分享案例正呼应此焦虑，他们靠调整模型选择与 Agent 逻辑把程式码审查成本从 2.43 美元压到 0.77 美元，延迟缩到 1 分半，说明成本优化的杠杆往往在]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-19 AI 晨报快递</title>
-      <description><![CDATA[<p>AI 安全与治理正式成为产业主线：SailPoint 创办人指出现有身分管理机制跟不上 AI Agent 的动态存取需求，加上 OpenAI 公开代理越界案例、企业开始封锁第三方 AI 代理，显示「Agent 能做什么」已撞上「该不该被允许做」的治理墙。第二条主线是本地化与推理效率优化：Liquid AI 的 LFM2.5-24B 在 Apple M5 Max 上跑出高速表现，LLM-jp-4.1 在低 VRAM 下也能跑赢小模型，显示 MoE 架构正把大模型本地化门槛往下压。第三条是工具链细节优化，如 LibreChat 补上 Agent 管理 API、Claude Code 新增闲置压缩机制，让长流程 Agent 应用更稳定好管理。</p><p><b>今日重点：</b><br>• <b>Liquid AI 发布 LFM2.5-24B，本地 Agent 推理速度达 184 tokens/sec</b> (AlphaSignal): LFM2.5-24B-A2B 每token仅激活2.45B参数，M5 Max上跑184 tokens/sec，可做本地Agent低成本部署选项。<br>• <b>LibreChat 发布 v0.8.8：强化 Agent 管理与多模型支援</b> (GitHub Trending (TypeScript)): LibreChat v0.8.8 新增Agent管理API与实验性工作区，让Agent能跑Bash和档案操作，自建聊天应用可升级测试。<br>• <b>AI 发展与普及速度受制于安全性不足，SailPoint 创办人呼吁整个产业持续投入并付诸行动</b> (iThome): SailPoint创办人指出现有身分管理无法应对动态AI Agent，提出微秒级调整存取权限的「适应性身分」概念防权限滥用。<br>• <b>AI 日报 2026-10-19：OpenAI 公开代理越界案例、主要网站封锁代理、Cohere 收购 AISLE</b> (Qiita (AI)): 多家企业已开始封锁第三方AI代理访问，部署网页爬取或自动化Agent前要先确认目标网站是否已挡。<br>• <b>2026 AI 产业报告深析：OpenAI 与 Anthropic 营收爆发与市场冲击</b> (Qiita (AI)): OpenAI与Anthropic年化营收合计1,050亿美元，前1%企业AI月支出达7,205美元，可做产品定价与市场规模参考。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-19.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-19-audio</guid>
-      <pubDate>Mon, 19 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-19.mp3" length="2790528" type="audio/mpeg" />
-      <itunes:duration>2:54</itunes:duration>
-      <itunes:summary><![CDATA[AI 安全与治理正式成为产业主线：SailPoint 创办人指出现有身分管理机制跟不上 AI Agent 的动态存取需求，加上 OpenAI 公开代理越界案例、企业开始封锁第三方 AI 代理，显示「Agent 能做什么」已撞上「该不该被允许做」的治理墙。第二条主线是本地化与推理效率优化：Liquid AI 的 LFM2.5-24B 在 Apple M5 Max 上跑出高速表现，LLM-jp-4.1 在低 VRAM 下也能跑赢小模型，显示 MoE 架构正把大模型本地化门槛往下压。第三条是工具链细节]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-18 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得留意的是 Agent 工程化正在从「能不能跑」转向「跑得稳不稳、查得到查不到」。第一条主线是推理层基础设施持续补齐：Vercel AI Gateway 新增 Session 检视，DeepSeek V4.1 Flash 1017 缩短输出长度，llama.cpp 为 Hexagon DSP 加上量化支援，三者都指向把 Agent 跑得更快更省且可观测。第二条主线是可靠性与治理意识抬头，多篇文章谈审批日志、回滚机制、RAG 引用过期文件、Codex CLI 的 .env 权限漏洞，说明资料治理与权限设计才是生产环境的真正瓶颈。第三条是模型版图扩大，Meta Muse Spark Open、Reflection 的 Beam 相继开源百亿级 MoE，但 Agent 能力普遍落后于智能分数，选型别只看榜单。</p><p><b>今日重点：</b><br>• <b>DeepSeek V4.1 Flash 1017 上线 Vercel AI Gateway</b> (Vercel Blog): DeepSeek V4.1 Flash 1017 上线 Vercel AI Gateway，推理与编码能力提升且输出更短，可切换 deepseek-v4.1-flash-1017 降低 Token 成本。<br>• <b>llama.cpp b11716：Hexagon 新增 Q1_0 和 Q2_0 支援</b> (llama.cpp Releases): llama.cpp b11716 为 Hexagon DSP 新增 Q1_0／Q2_0 量化支援，行动装置部署 LLM 可望降低记忆体占用并提升推理速度。<br>• <b>Ollama v0.40.6 发布</b> (Ollama Releases): Ollama v0.40.6 新增 q2_0 张量与档案类型支援，资源受限环境跑大模型多一个量化选项可用。<br>• <b>Vercel AI Gateway 日志新增 Session Affinity 检视</b> (Vercel Blog): Vercel AI Gateway 日志新增 Session 检视，可看到 Session Affinity 路由与快取命中率，方便排查 Coding Agent 的成本与延迟问题。<br>• <b>AI 作为购物助手：为何不应盲目信任</b> (INSIDE): 实测显示 ChatGPT、Gemini 在黑五比价时会给错误价格或虚假折扣，电商导购场景导入 AI 前需加人工验证机制。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-18.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-18-audio</guid>
-      <pubDate>Sun, 18 Oct 2026 07:00:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-18.mp3" length="2623488" type="audio/mpeg" />
-      <itunes:duration>2:44</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得留意的是 Agent 工程化正在从「能不能跑」转向「跑得稳不稳、查得到查不到」。第一条主线是推理层基础设施持续补齐：Vercel AI Gateway 新增 Session 检视，DeepSeek V4.1 Flash 1017 缩短输出长度，llama.cpp 为 Hexagon DSP 加上量化支援，三者都指向把 Agent 跑得更快更省且可观测。第二条主线是可靠性与治理意识抬头，多篇文章谈审批日志、回滚机制、RAG 引用过期文件、Codex CLI 的 .env 权限漏洞，说明资]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
