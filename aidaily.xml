@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Thu, 19 Nov 2026 03:36:44 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 05:05:49 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-20 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最重要的讯号是模型更新全面转向「更便宜、更能用工具」：Google推出Gemini 4 Neon与Tool Retrieval功能，让Agent能按需载入工具，重新洗牌「大模型＋多工具」的成本结构。第二条主线是Agent基础设施持续补强：Cloudflare开源Clairic提取模型，AWS整合Skyflow做敏感资料去识别化，PydanticAI、CrewAI、LangGraph也补齐工具快取与状态一致性，显示框架重心从「能跑」转向「能管、能审」。第三条主线是风险提醒：ARTEX、Cairn等AI自动化攻击框架已被实际用于入侵，加州同时提出紧急关闭高风险模型的监管草案，显示Agent自动化攻击与治理压力正同步升温。</p><p><b>今日重点：</b><br>• <b>推出 Gemini 4 Neon 模型</b> (Google DeepMind Blog): Gemini 4 Neon 开放 API／AI Studio／Gemini app，百万 token 上下文、每百万输入 3 美元，可评估换模型。<br>• <b>五大 AI 自动化攻击框架已被滥用于实际入侵，包括 ARTEX、Cairn、CyberStrikeAI 等</b> (iThome): ARTEX、CyberStrikeAI 等 5 款 AI 攻击框架已用于实际入侵，更新频繁使 IOC 侦测失效，需转向行为式侦测。<br>• <b>Gemini API 推出工具检索功能</b> (Google AI Blog): Gemini API 新增 Tool Retrieval，Agent 可按需加载数百工具参数并降低输入 token 成本与延迟，相容前缀快取。<br>• <b>Cloudflare 推出开源 Clairic 和 Clairic-flash 模型</b> (Cloudflare Blog): Cloudflare 开源 Clairic 与 90 亿参数 Clairic-flash 提取模型，附信心分数与字符位置，可直接用于 RAG／文件处理。<br>• <b>加州强化 AI 安全监管，拟赋予政府紧急关闭高风险模型权力</b> (iThome): 加州拟赋予政府紧急关闭高风险模型权力，重大事件通报期限由 15 天缩短至 48 小时，建模型的团队需留意合规时限。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-20.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-20-audio</guid>
+      <pubDate>Fri, 20 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-20.mp3" length="2559744" type="audio/mpeg" />
+      <itunes:duration>2:40</itunes:duration>
+      <itunes:summary><![CDATA[今天最重要的讯号是模型更新全面转向「更便宜、更能用工具」：Google推出Gemini 4 Neon与Tool Retrieval功能，让Agent能按需载入工具，重新洗牌「大模型＋多工具」的成本结构。第二条主线是Agent基础设施持续补强：Cloudflare开源Clairic提取模型，AWS整合Skyflow做敏感资料去识别化，PydanticAI、CrewAI、LangGraph也补齐工具快取与状态一致性，显示框架重心从「能跑」转向「能管、能审」。第三条主线是风险提醒：ARTEX、Cair]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-19 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是本地化推论的持续突破：Hugging Face 的 Transformers 推论引擎让 180B 参数的 MoE 模型能在消费级显卡甚至 MacBook M4 上跑到 13.5 token/s，Rumble-2-Flash 更以 0.5B 参数打赢 15 倍大的 Meta 模型，显示「小而精」正在吃掉过去只能靠云端大模型解决的场景。第二条主线是 Agent 工具链的安全与稳定性补强，OpenAI Agents SDK v0.25.0 和 PydanticAI v2.70.0 都修了高风险漏洞，加上 MCP Server 的安全更新，说明 Agent 基础设施正从「能跑」进入「要稳要安全」的阶段。</p><p><b>今日重点：</b><br>• <b>微软发表编码用 AI 模型 MAI Code 2 与 MAI Code 2 Flash</b> (Publickey): MAI Code 2 性能达 GPT-6.1 Sol 的 98%、Claude Opus 5.5 的 96%，成本仅 40%与5%，可评估换用降低编码成本。<br>• <b>OpenAI Agents SDK v0.25.0 发布</b> (OpenAI Agents SDK Releases): OpenAI Agents SDK v0.25.0 移除 Runloop 沙箱、预设模型改为 gpt-6-luna，升级前需迁移沙箱并检查相容性。<br>• <b>Transformers 推论引擎：用 32GB 记忆体执行 180B 参数 MoE 模型</b> (Hugging Face Blog): Transformers 新推论优化让 180B 参数 MoE 模型在 RTX 4090 或 MacBook M4 上跑到 13.5 token/s，本地部署大模型不再需要伺服器级硬体。<br>• <b>PydanticAI v2.70.0 发布</b> (PydanticAI Releases): PydanticAI v2.70.0 修补 ANSI 转义与 JWT 正规表达式的 ReDoS 漏洞，可能让事件回圈卡住数分钟，应立即升级。<br>• <b>Rumble-2-Flash：0.5B 开源多语言语音识别模型</b> (Hugging Face Blog): Rumble-2-Flash 仅 0.5B 参数却在多语言 ASR 排行榜赢过 15 倍大的 Meta 模型，5 秒音讯 0.25 秒转录完成，适合做轻量本地语音辨识。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-22.mp3" length="2476032" type="audio/mpeg" />
       <itunes:duration>2:35</itunes:duration>
       <itunes:summary><![CDATA[今天最值得留意的是 OpenAI 与 Google Cloud 的合作：前沿模型与 Codex 工作流进入 Gemini Model Garden，让开发者不必切换供应商即可在 GCP 内统一存取 OpenAI 模型，对云端选型与计费治理是实质利多。围绕 Agent 工具链这条主线，Claude Mods 把 Harness 从「对机器」翻转成「对人类」的注意力介面，AWS 的 AAIF 示范用 Strands Agents 依请求复杂度动态路由模型以省成本，Qiita 也分享用 Ollama ]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-21 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得留意的是台湾政府机关遭 AI 自主攻击事件：骇客用多个协作 Agent（基于 Hermes、OpenClaw 架构）4 天内破解 85 组帐密，显示 Agent 已从辅助工具变成具备自主侦察与攻击能力的主体，资安团队得重新检视防御思路。第二条主线是基础设施持续朝非 NVIDIA 生态系分散，AWS 推出 TorchNeuron 让 PyTorch 模型低门槛转用 Trainium 晶片、Google 也让 TPU 透过 TorchTPU 直接支援 Transformers 与 vLLM/SGLang，加上 Bedrock 在加拿大开放跨区域存取 OpenAI GPT 模型，算力选择与地缘合规都在往更弹性的方向走。</p><p><b>今日重点：</b><br>• <b>PydanticAI v1.107.8 发布：修复 MCP 遥测资安漏洞</b> (PydanticAI Releases): 启用 OpenTelemetry 追踪的 PydanticAI 服务可能泄漏伺服器 URL 与授权 Token，需立即升级至 v1.107.8 并轮换已暴露凭证。<br>• <b>AI 网攻兵临城下：从台湾受骇事件看 AI 自主攻击掀起的典范转移</b> (iThome): 骇客以多个 AI Agent 协作，4 天内破解台湾政府机关 85 组帐密并窃取资料，Agent 架构下的防御边界需重新检视。<br>• <b>AWS 推出 PyTorch 扩充套件 TorchNeuron，降低 AI 模型转用 Trainium 晶片门槛</b> (iThome): AWS 发布 TorchNeuron 测试版，PyTorch 模型可不大改程式码迁移到 Trainium2/3，想降推理成本或避开 NVIDIA 生态系可评估。<br>• <b>加拿大地区可透过 Bedrock 跨区域推理存取 OpenAI GPT 模型</b> (AWS ML Blog): Bedrock 跨区域推理让加拿大用户直接存取 GPT-5.6／GPT-6，资料留在境内，不用迁移基础设施就能用最新 OpenAI 模型。<br>• <b>OpenAI 释出 AI 基准测试 MultiLangBench，评测 20 种程式语言开发能力</b> (iThome): OpenAI 的 MultiLangBench 要求模型用 20 种语言重写 SQLite，COBOL 等旧语言仍是弱项，维护旧系统团队可参考模型实际表现。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-21.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-21-audio</guid>
-      <pubDate>Wed, 21 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-21.mp3" length="2638080" type="audio/mpeg" />
-      <itunes:duration>2:45</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得留意的是台湾政府机关遭 AI 自主攻击事件：骇客用多个协作 Agent（基于 Hermes、OpenClaw 架构）4 天内破解 85 组帐密，显示 Agent 已从辅助工具变成具备自主侦察与攻击能力的主体，资安团队得重新检视防御思路。第二条主线是基础设施持续朝非 NVIDIA 生态系分散，AWS 推出 TorchNeuron 让 PyTorch 模型低门槛转用 Trainium 晶片、Google 也让 TPU 透过 TorchTPU 直接支援 Transformers 与 vLLM]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
