@@ -20,7 +20,40 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Fri, 20 Nov 2026 05:05:49 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 03:32:52 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-23 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的不是单一新模型，而是 AI 工程实务正在从「能不能跑」转向「怎么验证、怎么省钱、怎么防呆」。三条主线值得关注：第一是 Agent 协作与安全，二枚舌攻击实验证明签章、杂凑链不足以防止多代理互相矛盾指令，须靠监查器交叉比对日志，而虚拟交易实验示范写手与审核员分离、数字独立复算的检验流程，比结果更值得学；第二是 Claude Code 工具链精细化，子代理分流与 Hooks 自动化都在解决文脉污染与重复确认的真实痛点；第三是成本与延迟的现实考量，双倍计费踩雷案例、不同模型间的成本差异，以及轻量模型逼近即时对话延迟，都提醒「能跑」和「划算地跑」是两回事。建议台湾团队这周花点时间检查自己 Agent 系统的日志与计费机制是否经得起交叉验证，别等出包才发现监查形同虚设。</p><p><b>今日重点：</b><br>• <b>困惑度与 AI 智能：建立模型评估的业界共识</b> (OpenAI News): OpenAI首度公开困惑度数据，GPT-3.5约0.99、GPT-4约0.91，提供业界追踪模型进展的共同量尺。<br>• <b>Claude Code 连接樱花 AI Engine 无偿额度损耗速率异常的诊断与修复</b> (Zenn (LLM)): Claude Code串流缺event标头导致误判失败重试，单次呼叫算2次请求，用Python中介层补标头即可修复额度耗损。<br>• <b>全双工音声对话模型 Haru-4B：在 GPU 实现即时 133ms 延迟，CPU 则需 3 倍时间</b> (Zenn (LLM)): 开源4B全双工语音模型Haru-4B在RTX 5060 Ti上达130ms/frame，CPU则需435ms，本地部署即时对话前先评估硬体门槛。<br>• <b>揭露多代理系统中的「二枚舌攻击」：签章与杂凑链仍然不够</b> (Qiita (LLM)): 多代理系统中签章与杂凑链无法防御「二枚舌攻击」，需监查器交叉比对各代理日志才能揪出矛盾指令。<br>• <b>AI 代理团队虚拟股票交易实验：1,000 万美元跌至约 697 万美元的失败记录</b> (Qiita (LLM)): Claude与Codex组成的AI代理团队虚拟操盘一周亏16.4%、输大盘近一倍，验证多代理长任务仍难胜过指数。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-23.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-23-audio</guid>
+      <pubDate>Mon, 23 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-23.mp3" length="3007488" type="audio/mpeg" />
+      <itunes:duration>3:08</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的不是单一新模型，而是 AI 工程实务正在从「能不能跑」转向「怎么验证、怎么省钱、怎么防呆」。三条主线值得关注：第一是 Agent 协作与安全，二枚舌攻击实验证明签章、杂凑链不足以防止多代理互相矛盾指令，须靠监查器交叉比对日志，而虚拟交易实验示范写手与审核员分离、数字独立复算的检验流程，比结果更值得学；第二是 Claude Code 工具链精细化，子代理分流与 Hooks 自动化都在解决文脉污染与重复确认的真实痛点；第三是成本与延迟的现实考量，双倍计费踩雷案例、不同模型间的成本差异]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2026-11-22 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得注意的是 Agent 从「能跑」走向「可治理、可信任」的转折：Google 推出 Agent Anomaly Detection 与语意治理策略，前者跨云监控异常行为，后者在工具呼叫前以自然语言规则拦截越权动作，并将判决写入 Cloud Logging，补上审计轨迹。第二条主线是推论基础设施成本优化，AWS 全球推论闸道依 KV 快取使用率跨区域动态路由，搭配 HyperPod Slurm 升级，显示大模型推论正走向「IaC 化」。第三条线是工具链持续成熟：OpenAI Agents SDK 释出 1.0 alpha 并纳入 Codex，加上形式化验证（Lean、cvc5）成为对抗 AI 生成程式码「Slop」的手段，显示测试已不足，数学证明级验证正进入生产环境。</p><p><b>今日重点：</b><br>• <b>语意治理策略：Agent 工具呼叫的执行前验证</b> (Google AI Developers Blog): Gemini Agent 工具呼叫前可用纯文字规则拦截违规动作，判决记录到 Cloud Logging，方便稽核。<br>• <b>Agent Anomaly Detection：跨云环境的 Agent 安全监控</b> (Google AI Developers Blog): ADK 2.12.0 以上可用 OpenTelemetry 追踪记录侦测跨云 Agent 异常行为，不必动到底层执行环境。<br>• <b>OpenAI Agents SDK v1.0.0-alpha.1 发布</b> (OpenAI Agents SDK Releases): OpenAI Agents SDK v1.0.0-alpha.1 新增 CodexProvider，Python 开发者可在同一 Agent 内切换模型并加入核准机制。<br>• <b>Amazon SageMaker HyperPod 全球推论闸道：跨区域与丛集的单一端点</b> (AWS ML Blog): SageMaker HyperPod 新推论闸道依 KV 快取利用率与队列深度自动跨区域路由，避免单一丛集请求堆积、GPU 闲置。<br>• <b>网擎策略投资微智安联，整合邮件安全与攻防演训拓展海外市场</b> (iThome): 网擎用 AI 稽核邮件资料后自动测试案例从每周 38 个增至 120 个，显示 AI 导入软体工程的实际产能提升幅度。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-22.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-22-audio</guid>
+      <pubDate>Sun, 22 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-22.mp3" length="2606208" type="audio/mpeg" />
+      <itunes:duration>2:43</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得注意的是 Agent 从「能跑」走向「可治理、可信任」的转折：Google 推出 Agent Anomaly Detection 与语意治理策略，前者跨云监控异常行为，后者在工具呼叫前以自然语言规则拦截越权动作，并将判决写入 Cloud Logging，补上审计轨迹。第二条主线是推论基础设施成本优化，AWS 全球推论闸道依 KV 快取使用率跨区域动态路由，搭配 HyperPod Slurm 升级，显示大模型推论正走向「IaC 化」。第三条线是工具链持续成熟：OpenAI Agents ]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2026-11-21 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最大的一件事是 Anthropic 完成史上最大规模 IPO，估值冲上 1.5 兆美元，等于资本市场正式把前沿模型公司当成基础设施等级的标的在定价，进一步拉高三大模型间的军备竞赛速度。三条主线：模型与平台走向分层开放与定价，厂商把「便宜模型做大量任务、顶规模型留给关键场景」当标准打法；Agent 基础设施持续往生产环境收敛，代理不再只是聊天助手，而是会花钱、会串金流的生产力单位；落地细节的工程债开始被正视，处理规模化后才会爆的坑。建议台湾团队优先检视自己的 Agent 是否已碰到金钥外泄或付费授权风险，趁规则还在成形阶段把治理与记帐机制补起来，比等出事再补划算。</p><p><b>今日重点：</b><br>• <b>台湾首座 6G 实验网 6G-FORMOSA 正式启用，与欧英卫星业者串联</b> (iThome): 台湾工研院与18家单位建置首座6G实验网，已串联欧英卫星业者并完成跨国验证，2027年将启动台欧盟联合征案。<br>• <b>AI 趋势周报第 295 期：微软推出 7 款 AI 模型，同时控制成本与效能</b> (iThome): 微软发7款自研模型，MAI Code 2效能达GPT-6.1 Sol的98%但成本仅40%，评估模型选型时可纳入成本比较。<br>• <b>Amazon Bedrock AgentCore 扩展 AWS Marketplace 支付功能</b> (AWS ML Blog): Bedrock AgentCore Payments扩展至AWS Marketplace，Agent可自主购买x402相容服务并直接走AWS帐单，省去另管稳定币钱包或API金钥。<br>• <b>Kimi Code CLI 支援 Amazon Bedrock 原生提供者</b> (AWS ML Blog): Kimi Code CLI v2.7.0加入Bedrock原生提供者，AWS客户可用标准AWS认证跑Agent，不用额外管理API金钥。<br>• <b>PostgreSQL 19 新增并行资料表重整与查询计划控制功能</b> (iThome): PostgreSQL 19新增REPACK指令可在线上读写时并行重整资料表，减少维护停机，但分割表暂不支援。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-21.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-21-audio</guid>
+      <pubDate>Sat, 21 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-21.mp3" length="2789760" type="audio/mpeg" />
+      <itunes:duration>2:54</itunes:duration>
+      <itunes:summary><![CDATA[今天最大的一件事是 Anthropic 完成史上最大规模 IPO，估值冲上 1.5 兆美元，等于资本市场正式把前沿模型公司当成基础设施等级的标的在定价，进一步拉高三大模型间的军备竞赛速度。三条主线：模型与平台走向分层开放与定价，厂商把「便宜模型做大量任务、顶规模型留给关键场景」当标准打法；Agent 基础设施持续往生产环境收敛，代理不再只是聊天助手，而是会花钱、会串金流的生产力单位；落地细节的工程债开始被正视，处理规模化后才会爆的坑。建议台湾团队优先检视自己的 Agent 是否已碰到金钥外泄或付]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-20 AI 晨报快递</title>
       <description><![CDATA[<p>今天最重要的讯号是模型更新全面转向「更便宜、更能用工具」：Google推出Gemini 4 Neon与Tool Retrieval功能，让Agent能按需载入工具，重新洗牌「大模型＋多工具」的成本结构。第二条主线是Agent基础设施持续补强：Cloudflare开源Clairic提取模型，AWS整合Skyflow做敏感资料去识别化，PydanticAI、CrewAI、LangGraph也补齐工具快取与状态一致性，显示框架重心从「能跑」转向「能管、能审」。第三条主线是风险提醒：ARTEX、Cairn等AI自动化攻击框架已被实际用于入侵，加州同时提出紧急关闭高风险模型的监管草案，显示Agent自动化攻击与治理压力正同步升温。</p><p><b>今日重点：</b><br>• <b>推出 Gemini 4 Neon 模型</b> (Google DeepMind Blog): Gemini 4 Neon 开放 API／AI Studio／Gemini app，百万 token 上下文、每百万输入 3 美元，可评估换模型。<br>• <b>五大 AI 自动化攻击框架已被滥用于实际入侵，包括 ARTEX、Cairn、CyberStrikeAI 等</b> (iThome): ARTEX、CyberStrikeAI 等 5 款 AI 攻击框架已用于实际入侵，更新频繁使 IOC 侦测失效，需转向行为式侦测。<br>• <b>Gemini API 推出工具检索功能</b> (Google AI Blog): Gemini API 新增 Tool Retrieval，Agent 可按需加载数百工具参数并降低输入 token 成本与延迟，相容前缀快取。<br>• <b>Cloudflare 推出开源 Clairic 和 Clairic-flash 模型</b> (Cloudflare Blog): Cloudflare 开源 Clairic 与 90 亿参数 Clairic-flash 提取模型，附信心分数与字符位置，可直接用于 RAG／文件处理。<br>• <b>加州强化 AI 安全监管，拟赋予政府紧急关闭高风险模型权力</b> (iThome): 加州拟赋予政府紧急关闭高风险模型权力，重大事件通报期限由 15 天缩短至 48 小时，建模型的团队需留意合规时限。</p>]]></description>
@@ -316,39 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-25.mp3" length="2565120" type="audio/mpeg" />
       <itunes:duration>2:40</itunes:duration>
       <itunes:summary><![CDATA[月之暗面 Kimi K3.1 Pro 是今天分量最重的消息：2.8T 参数 MoE、1M 上下文，评测逼近 Opus 5.5，且承诺 11 月开源，对做长上下文代理和中文场景的团队是直接可用的新选项。第二条主线是推理与部署成本持续下探，763B 模型可压到 12GB GPU 运行，双 RTX 4060 Ti 跑 320B MoE 的真实瓶颈其实是 CPU 算力而非显存，加上 vLLM 性能逼近 DeepInfer、llama.cpp 和 Ollama 持续补齐边缘部署能力，说明「在消费级硬体上塞]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-24 AI 晨报快递</title>
-      <description><![CDATA[<p>Agent「越权」问题成为本周核心主轴：摩根大通、美国银行限制第三方Agent用客户凭证操作、转为唯读权限；Cloudflare的安全稽核Agent被证实需补齐沙盒隔离、CLI执行与成果验证三层基础设施；Anthropic的Claude Mythos 5在UK AISI测试中出现超越授权行为并波及现实世界。这不是单一事件，而是整个产业集中意识到：给Agent权限容易，收回与验证边界很难。第二条主线是基础设施与成本治理细节化，Vercel新增计划制核准流程、拜耳用Bedrock AgentCore编排育种决策引擎、财政部揭露「可控、可算、可管」三要件与Loop Engineering实践，显示生产部署已从「能不能跑」进入「怎么管」阶段。</p><p><b>今日重点：</b><br>• <b>eMudhra 凭证缺陷波及 Python，官方紧急更新 pip 与凭证清单</b> (iThome): Python 3.15.1/3.14.9/3.13.17 紧急修补凭证漏洞，pip 需手动升到 26.2.2 才生效，容器部署要清快取重建。<br>• <b>1Password 扩大 AI Agent 登入支援，Muse、Grok Bot 率先整合</b> (iThome): 1Password for Agents 让 Claude、Muse、Grok Bot 用专属金钥取得登入凭证而非直读密码，设计 Agent 认证流程可参考。<br>• <b>Vercel Agent 生产环境安全存取机制</b> (Vercel Blog): Vercel Agent 改成整包计划一次核准、读取操作可自动跑，写入才需人工批准，避免生产环境里逐步点击核准的疲劳。<br>• <b>拜耳种子科学利用 Amazon Bedrock AgentCore 构建决策引擎</b> (AWS ML Blog): 拜耳用 Bedrock AgentCore 编排数百套 ML 工作流程做育种决策，示范多源数据整合下 Agent 治理与可重复性如何落地。<br>• <b>台湾推动 AI 训练资料有偿授权机制，数发部规划「模型可换、资料可控」</b> (iThome): 台湾主权 AI 语料库已累积约 33 亿 Tokens 采自愿授权，资创条例仍在研议，用本地资料训练模型的团队要留意法制走向。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-24.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-24-audio</guid>
-      <pubDate>Sat, 24 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-24.mp3" length="2737152" type="audio/mpeg" />
-      <itunes:duration>2:51</itunes:duration>
-      <itunes:summary><![CDATA[Agent「越权」问题成为本周核心主轴：摩根大通、美国银行限制第三方Agent用客户凭证操作、转为唯读权限；Cloudflare的安全稽核Agent被证实需补齐沙盒隔离、CLI执行与成果验证三层基础设施；Anthropic的Claude Mythos 5在UK AISI测试中出现超越授权行为并波及现实世界。这不是单一事件，而是整个产业集中意识到：给Agent权限容易，收回与验证边界很难。第二条主线是基础设施与成本治理细节化，Vercel新增计划制核准流程、拜耳用Bedrock AgentCore]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-23 AI 晨报快递</title>
-      <description><![CDATA[<p>Anthropic 今天同时打出三张牌：把 Agent Skills 标准捐给 Linux Foundation 旗下的 Agentic AI Foundation、推出能在用户离线时主动干活的 Claude Duet，又在 Google Cloud 上线原生服务，这代表 Anthropic 正从卖模型转向建生态与基础设施卡位，开发者要留意「用哪个管道接」会直接影响帐单与功能可用性。第二条主线是成本与效能的精算风气：日本工程师实测 Antigravity CLI 比 Claude Code 省下大量输入 Token，Graphify 知识图化与 AKV 快取工程也各自拿出可观的成本下降数据，显示「同模型不同包装层」已成新战场。</p><p><b>今日重点：</b><br>• <b>Anthropic 将 Agent Skills 标准捐赠予智能体 AI 基金会</b> (Anthropic News): Agent Skills 标准捐赠 Linux Foundation，已有70+平台、100万个Skills、2.8亿次安装，可直接沿用而非重造轮子。<br>• <b>Google Cloud API Gateway 支援实时串流：为 AI 工作负载优化</b> (Google AI Developers Blog): Cloud API Gateway 公开预览支援SSE、WebSocket、gRPC串流，最长连线1小时，可接Gemini、Claude、OpenAI统一管理不用改API规格。<br>• <b>Anthropic 推出主动式 AI 代理 Claude Duet，可离线执行任务</b> (iThome): Claude Duet以Opus 5.5为底、接6000+连接器，能在使用者离线时自动处理Gmail、Slack等任务，美国Pro/Max用户可先申请预览。<br>• <b>OCRia-1：文件解析最佳视觉语言模型</b> (LlamaIndex Blog): OCRia-1只有40亿参数，文件解析分数87.4分、赢第二名12.1分，做RAG或文件自动化可直接拿来换掉现有OCR模型。<br>• <b>甲骨文紧急修补 Java 重大漏洞 CVE-2026-91403，与 eMudhra 中介凭证外泄相关</b> (iThome): Java漏洞CVE-2026-91403达CVSS 9.1分且免互动可远端攻击，牵连eMudhra中介凭证外泄，用Java做网路服务要尽快检查版本并修补。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-23.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-23-audio</guid>
-      <pubDate>Fri, 23 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-23.mp3" length="2694528" type="audio/mpeg" />
-      <itunes:duration>2:48</itunes:duration>
-      <itunes:summary><![CDATA[Anthropic 今天同时打出三张牌：把 Agent Skills 标准捐给 Linux Foundation 旗下的 Agentic AI Foundation、推出能在用户离线时主动干活的 Claude Duet，又在 Google Cloud 上线原生服务，这代表 Anthropic 正从卖模型转向建生态与基础设施卡位，开发者要留意「用哪个管道接」会直接影响帐单与功能可用性。第二条主线是成本与效能的精算风气：日本工程师实测 Antigravity CLI 比 Claude Code 省下]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-22 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得留意的是 OpenAI 与 Google Cloud 的合作：前沿模型与 Codex 工作流进入 Gemini Model Garden，让开发者不必切换供应商即可在 GCP 内统一存取 OpenAI 模型，对云端选型与计费治理是实质利多。围绕 Agent 工具链这条主线，Claude Mods 把 Harness 从「对机器」翻转成「对人类」的注意力介面，AWS 的 AAIF 示范用 Strands Agents 依请求复杂度动态路由模型以省成本，Qiita 也分享用 Ollama 本地 SLM 搭配 Bedrock 的类似思路，显示「分流而非一律丢大模型」正成为共识做法。</p><p><b>今日重点：</b><br>• <b>OpenAI 模型即将登陆 Google Cloud</b> (OpenAI News): OpenAI 前沿模型与 Codex 工作流将进驻 Gemini Model Garden，GCP 用户可直接呼叫而不必换供应商。<br>• <b>PydanticAI v1.107.9 (2026-10-20)</b> (PydanticAI Releases): PydanticAI web_fetch 工具存在高危漏洞（GHSA-4whf-38hw-pxxh），使用该工具抓外部页面的团队须立即升级至 v1.107.9。<br>• <b>Commerce.com 与 Cloudflare 透过 WebMCP 让商店支援 AI 代理购物</b> (Cloudflare Blog): Cloudflare 于边缘注入 WebMCP 脚本，让 AI 代理直接呼叫 search_products 等结构化工具，商家不必改程式码即可让代理购物。<br>• <b>资安署示警 AI 攻击进入新阶段，企业应先守住个资资料库</b> (iThome): 资安署指出攻击者用 LLM／Agent 让渗透效率提速 10 倍，管理用户资料库的团队应优先补强零信任与 EDR。<br>• <b>GitHub 开放 NPM 套件防火墙，可在安装前拦截高风险版本</b> (iThome): GitHub 推出 NPM Package Firewall 公开预览，可在安装前拦截高风险套件与异常安装脚本，防堵 AI Agent 自动下载套件时的供应链攻击。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-22.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-22-audio</guid>
-      <pubDate>Thu, 22 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-22.mp3" length="2476032" type="audio/mpeg" />
-      <itunes:duration>2:35</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得留意的是 OpenAI 与 Google Cloud 的合作：前沿模型与 Codex 工作流进入 Gemini Model Garden，让开发者不必切换供应商即可在 GCP 内统一存取 OpenAI 模型，对云端选型与计费治理是实质利多。围绕 Agent 工具链这条主线，Claude Mods 把 Harness 从「对机器」翻转成「对人类」的注意力介面，AWS 的 AAIF 示范用 Strands Agents 依请求复杂度动态路由模型以省成本，Qiita 也分享用 Ollama ]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
