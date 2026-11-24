@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Mon, 23 Nov 2026 03:32:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:35:01 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-24 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是 AI Agent 安全防护开始系统化：Google 推出语义治理策略，在 Agent 执行工具呼叫前验证是否符合使用者意图，把 AgentDojo 基准上的攻击成功率从 48.7% 压到 0.9%，效用损失仅 2.6 个百分点，对已用 Gemini 或其他框架做 Agent 的团队是可直接评估的方案。第二条主线是资安漏洞与 AI 辅助发现的结合，phpAfterShell 与 Ghostscript 的 Upload2Shell 都是高危漏洞，后者甚至由 AI 渗透测试工具 11 分钟内揪出零时差漏洞，显示 AI 已实质进入攻防两端。</p><p><b>今日重点：</b><br>• <b>语义治理策略：保护 AI Agent 免受意图劫持攻击</b> (Google AI Developers Blog): Gemini 2.5 Flash 工具呼叫前验证意图，AgentDojo 攻击成功率从48.7%降到0.9%，可用于防提示注入。<br>• <b>OCRia-nano-1：轻量级文件解析模型发布</b> (LlamaIndex Blog): 8.1M参数OCR模型CPU上每页426ms，比Tesseract快2-5倍，适合大规模文件转RAG管道。<br>• <b>PHP 爆发重大漏洞 phpAfterShell，CVE-2026-126714 CVSS 评分 9.2</b> (iThome): PHP 8.2以上CVSS 9.2漏洞phpAfterShell，靠上传竞争条件配合反序列化可远端执行程式码，需尽快检查修补。<br>• <b>Ghostscript 漏洞 Upload2Shell 被利用，AI 系统 11 分钟内发现零时差漏洞</b> (iThome): Ghostscript CVE-2026-125396已有10.08.0修补，影响WordPress、Roundcube等上传/预览功能，应立即更新。<br>• <b>荷兰测试6款AI眼镜发现安全漏洞，建议消费者不购买</b> (iThome): 荷兰测试6款AI眼镜皆存在陌生人可无需认证接管、偷录影等风险，评估AI穿戴装置前先看这份报告。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-24.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-24-audio</guid>
+      <pubDate>Tue, 24 Nov 2026 03:30:02 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-24.mp3" length="2515200" type="audio/mpeg" />
+      <itunes:duration>2:37</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是 AI Agent 安全防护开始系统化：Google 推出语义治理策略，在 Agent 执行工具呼叫前验证是否符合使用者意图，把 AgentDojo 基准上的攻击成功率从 48.7% 压到 0.9%，效用损失仅 2.6 个百分点，对已用 Gemini 或其他框架做 Agent 的团队是可直接评估的方案。第二条主线是资安漏洞与 AI 辅助发现的结合，phpAfterShell 与 Ghostscript 的 Upload2Shell 都是高危漏洞，后者甚至由 AI 渗透测试工具 ]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-23 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的不是单一新模型，而是 AI 工程实务正在从「能不能跑」转向「怎么验证、怎么省钱、怎么防呆」。三条主线值得关注：第一是 Agent 协作与安全，二枚舌攻击实验证明签章、杂凑链不足以防止多代理互相矛盾指令，须靠监查器交叉比对日志，而虚拟交易实验示范写手与审核员分离、数字独立复算的检验流程，比结果更值得学；第二是 Claude Code 工具链精细化，子代理分流与 Hooks 自动化都在解决文脉污染与重复确认的真实痛点；第三是成本与延迟的现实考量，双倍计费踩雷案例、不同模型间的成本差异，以及轻量模型逼近即时对话延迟，都提醒「能跑」和「划算地跑」是两回事。建议台湾团队这周花点时间检查自己 Agent 系统的日志与计费机制是否经得起交叉验证，别等出包才发现监查形同虚设。</p><p><b>今日重点：</b><br>• <b>困惑度与 AI 智能：建立模型评估的业界共识</b> (OpenAI News): OpenAI首度公开困惑度数据，GPT-3.5约0.99、GPT-4约0.91，提供业界追踪模型进展的共同量尺。<br>• <b>Claude Code 连接樱花 AI Engine 无偿额度损耗速率异常的诊断与修复</b> (Zenn (LLM)): Claude Code串流缺event标头导致误判失败重试，单次呼叫算2次请求，用Python中介层补标头即可修复额度耗损。<br>• <b>全双工音声对话模型 Haru-4B：在 GPU 实现即时 133ms 延迟，CPU 则需 3 倍时间</b> (Zenn (LLM)): 开源4B全双工语音模型Haru-4B在RTX 5060 Ti上达130ms/frame，CPU则需435ms，本地部署即时对话前先评估硬体门槛。<br>• <b>揭露多代理系统中的「二枚舌攻击」：签章与杂凑链仍然不够</b> (Qiita (LLM)): 多代理系统中签章与杂凑链无法防御「二枚舌攻击」，需监查器交叉比对各代理日志才能揪出矛盾指令。<br>• <b>AI 代理团队虚拟股票交易实验：1,000 万美元跌至约 697 万美元的失败记录</b> (Qiita (LLM)): Claude与Codex组成的AI代理团队虚拟操盘一周亏16.4%、输大盘近一倍，验证多代理长任务仍难胜过指数。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-26.mp3" length="2573952" type="audio/mpeg" />
       <itunes:duration>2:41</itunes:duration>
       <itunes:summary><![CDATA[今天没有单一爆点新闻，但几条基础设施更新值得工程师停下来看。MCP 官方释出 v2.1.0 安全更新，修补路径穿越与 CORS 等八个漏洞，正在使用 MCP 的团队应立即升级，避免被套件管理器不自动提议版本的行为坑到。模型与工具链方面也有进展：NVIDIA Nemotron 3.5 Lightning 以 Mamba-2 混合架构在单张 H100 上实现百万 token 上下文，适合长文件 RAG；Ant Group 开源 Ming-3.0 语音模型组，TTS 达成零样本声音复制并可商用；Moo]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-25 AI 晨报快递</title>
-      <description><![CDATA[<p>月之暗面 Kimi K3.1 Pro 是今天分量最重的消息：2.8T 参数 MoE、1M 上下文，评测逼近 Opus 5.5，且承诺 11 月开源，对做长上下文代理和中文场景的团队是直接可用的新选项。第二条主线是推理与部署成本持续下探，763B 模型可压到 12GB GPU 运行，双 RTX 4060 Ti 跑 320B MoE 的真实瓶颈其实是 CPU 算力而非显存，加上 vLLM 性能逼近 DeepInfer、llama.cpp 和 Ollama 持续补齐边缘部署能力，说明「在消费级硬体上塞大模型」已从能不能做变成怎么做划算。</p><p><b>今日重点：</b><br>• <b>Ollama v0.40.11：语音生成与 d3 决策模型支援</b> (Ollama Releases): Ollama v0.40.11 新增文字转语音及 d3 决策模型（2B至27B），可接图片或结构化状态输出分类与评分，适合本地部署分类任务。<br>• <b>PydanticAI v2.61.0 发布</b> (PydanticAI Releases): PydanticAI v2.61.0 新增 MCP 非同步认证与结构化引文支援，并支援 Kimi K3.1 模型，开发 Agent 整合多供应商时可用。<br>• <b>llama.cpp b11868：Hexagon 多核 Flash Attention KV 头分隔优化</b> (llama.cpp Releases): llama.cpp b11868 针对 Hexagon 多核处理器优化 KV 头分隔 Flash Attention，提升行动装置上小 KV 头模型（如 Gemma-4）推论效能。<br>• <b>LangGraph 1.2.17 版本发布</b> (LangGraph Releases): LangGraph 1.2.17 修正递回限制与 RemoteGraph 子图串流命名空间保留，多代理系统开发者可避免递回与隔离错误。<br>• <b>llama.cpp b11869：修正 Jinja 样板选择器与属性处理</b> (llama.cpp Releases): llama.cpp b11869 修正 Jinja 样板 select／selectattr 引数处理错误，自订 chat template 的部署流程可减少解析失误。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-25.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-25-audio</guid>
-      <pubDate>Sun, 25 Oct 2026 07:00:03 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-25.mp3" length="2565120" type="audio/mpeg" />
-      <itunes:duration>2:40</itunes:duration>
-      <itunes:summary><![CDATA[月之暗面 Kimi K3.1 Pro 是今天分量最重的消息：2.8T 参数 MoE、1M 上下文，评测逼近 Opus 5.5，且承诺 11 月开源，对做长上下文代理和中文场景的团队是直接可用的新选项。第二条主线是推理与部署成本持续下探，763B 模型可压到 12GB GPU 运行，双 RTX 4060 Ti 跑 320B MoE 的真实瓶颈其实是 CPU 算力而非显存，加上 vLLM 性能逼近 DeepInfer、llama.cpp 和 Ollama 持续补齐边缘部署能力，说明「在消费级硬体上塞]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
