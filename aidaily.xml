@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Tue, 24 Nov 2026 03:35:01 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 03:35:06 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-25 AI 晨报快递</title>
+      <description><![CDATA[<p>今天最值得留意的是 Agent 从「写程式」正式走向「管生产环境与企业系统」：OpenAI 与 Cisco 推出开源防护执行时 Shirudo，即时阻断漏洞利用；Google 替 Workspace 与 Cloud Agent 补上权限检查、DLP 与人类确认机制；AWS Bedrock 也上线 Claude 的企业级防护与资料控制。三家大厂同日都在帮 Agent 装护栏，说明「能跑」已非重点，「敢放权限」才是现在的战场。</p><p><b>今日重点：</b><br>• <b>OpenAI 与 Cisco 推出开源防护执行时 Shirudo</b> (OpenAI News): OpenAI 与 Cisco 用 Codex 生成防护程式码的 Shirudo，可在系统执行期用 eBPF 不重启就挡漏洞利用。<br>• <b>Google Workspace 和 Google Cloud Agent 新增信任控制机制</b> (Google Cloud AI / ML Blog): Google Workspace/Cloud Agent 新介面内建权限检查与人类确认机制，部署企业 Agent 前可参考其 DLP 与提示注入防护设计。<br>• <b>Amazon Bedrock 推出 Trusted Access API 与 Claude 企业级防护功能</b> (AWS ML Blog): AWS Bedrock 新增 Trusted Access API 与 Claude Opus/Sonnet 5.5 企业级防护选项，已进入公开预览可评估导入。<br>• <b>Amazon 收购 Decart AI 运算最佳化技术，75 亿美元延揽核心研发团队</b> (iThome): Amazon 以 75 亿美元收购 Decart AI 运算最佳化技术，号称让 Trainium 3 跑即时影片模型速度提升 30 倍，压低训推成本。<br>• <b>Kubernetes 1.38 预告调整 cgroup 驱动程式设定，旧版容器执行环境恐影响节点启动</b> (iThome): K8s 1.38（12/16发布）停用旧版 cgroup 驱动设定，容器执行环境不支援 CRI RuntimeConfig 会导致节点无法启动，升级前要先检查。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-25.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-25-audio</guid>
+      <pubDate>Wed, 25 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-25.mp3" length="2387328" type="audio/mpeg" />
+      <itunes:duration>2:29</itunes:duration>
+      <itunes:summary><![CDATA[今天最值得留意的是 Agent 从「写程式」正式走向「管生产环境与企业系统」：OpenAI 与 Cisco 推出开源防护执行时 Shirudo，即时阻断漏洞利用；Google 替 Workspace 与 Cloud Agent 补上权限检查、DLP 与人类确认机制；AWS Bedrock 也上线 Claude 的企业级防护与资料控制。三家大厂同日都在帮 Agent 装护栏，说明「能跑」已非重点，「敢放权限」才是现在的战场。]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-24 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是 AI Agent 安全防护开始系统化：Google 推出语义治理策略，在 Agent 执行工具呼叫前验证是否符合使用者意图，把 AgentDojo 基准上的攻击成功率从 48.7% 压到 0.9%，效用损失仅 2.6 个百分点，对已用 Gemini 或其他框架做 Agent 的团队是可直接评估的方案。第二条主线是资安漏洞与 AI 辅助发现的结合，phpAfterShell 与 Ghostscript 的 Upload2Shell 都是高危漏洞，后者甚至由 AI 渗透测试工具 11 分钟内揪出零时差漏洞，显示 AI 已实质进入攻防两端。</p><p><b>今日重点：</b><br>• <b>语义治理策略：保护 AI Agent 免受意图劫持攻击</b> (Google AI Developers Blog): Gemini 2.5 Flash 工具呼叫前验证意图，AgentDojo 攻击成功率从48.7%降到0.9%，可用于防提示注入。<br>• <b>OCRia-nano-1：轻量级文件解析模型发布</b> (LlamaIndex Blog): 8.1M参数OCR模型CPU上每页426ms，比Tesseract快2-5倍，适合大规模文件转RAG管道。<br>• <b>PHP 爆发重大漏洞 phpAfterShell，CVE-2026-126714 CVSS 评分 9.2</b> (iThome): PHP 8.2以上CVSS 9.2漏洞phpAfterShell，靠上传竞争条件配合反序列化可远端执行程式码，需尽快检查修补。<br>• <b>Ghostscript 漏洞 Upload2Shell 被利用，AI 系统 11 分钟内发现零时差漏洞</b> (iThome): Ghostscript CVE-2026-125396已有10.08.0修补，影响WordPress、Roundcube等上传/预览功能，应立即更新。<br>• <b>荷兰测试6款AI眼镜发现安全漏洞，建议消费者不购买</b> (iThome): 荷兰测试6款AI眼镜皆存在陌生人可无需认证接管、偷录影等风险，评估AI穿戴装置前先看这份报告。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-27.mp3" length="2741376" type="audio/mpeg" />
       <itunes:duration>2:51</itunes:duration>
       <itunes:summary><![CDATA[今天最值得工程团队关注的是 AI 安全防线被反复突破：LiteLLM 因主金钥外泄遭供应链攻击，官方发布流程一度遭劫持，骇客更打造出名为 Skynet 的自主攻击代理人，能劫持暴露的 LLM 模型连续执行十万步攻击；对照之下，OpenAI 已停止在连网环境训练顶尖模型，改采离线快取网页、沙箱隔离的纵深防御策略。第二条主线是算力与模型基础设施的松动，AWS 与 Google Cloud 推出 TorchNeuron、TorchTPU，让 PyTorch 原生跑在 Trainium 与 TPU 上，]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-26 AI 晨报快递</title>
-      <description><![CDATA[<p>今天没有单一爆点新闻，但几条基础设施更新值得工程师停下来看。MCP 官方释出 v2.1.0 安全更新，修补路径穿越与 CORS 等八个漏洞，正在使用 MCP 的团队应立即升级，避免被套件管理器不自动提议版本的行为坑到。模型与工具链方面也有进展：NVIDIA Nemotron 3.5 Lightning 以 Mamba-2 混合架构在单张 H100 上实现百万 token 上下文，适合长文件 RAG；Ant Group 开源 Ming-3.0 语音模型组，TTS 达成零样本声音复制并可商用；Moonshot 则将 Kimi Code 的多 Agent 协调改回预设单一模式以防止 token 暴走，这对正在调校 Agent swarm 的团队是个警讯。</p><p><b>今日重点：</b><br>• <b>Model Context Protocol 伺服器 v2.1.0 安全更新</b> (MCP Servers Releases): MCP 三个官方伺服器套件修补八个漏洞，含路径穿越与跨来源请求问题，用 MCP 工具链的团队应立即指定版本升级。<br>• <b>DuckDB 2.0 LTS 正式发布，加入 Quack 协议与非同步 I/O</b> (Publickey): DuckDB 2.0 LTS 推出 Quack 协议、VARIANT 型别与非同步 S3 读取，支援到 2027 年，可评估升级以加速远端资料查询。<br>• <b>llama.cpp b11887：测试执行绪参数最佳化</b> (llama.cpp Releases): llama.cpp b11887 调整测试执行绪预设设定，跨平台编译者可检查效能基准是否受影响。<br>• <b>@ai-sdk/workflow@2.0.85 - Vercel AI SDK 补丁版本</b> (Vercel AI SDK Releases): Vercel AI SDK workflow 套件更新至 2.0.85，仅文件与依赖调整，无需紧急处理但可顺手升级。<br>• <b>@ai-sdk/voyage@2.0.68 - Vercel AI SDK 补丁版本</b> (Vercel AI SDK Releases): Vercel AI SDK Voyage 嵌入模型套件更新至 2.0.68，仅依赖版本调整，使用该套件者可同步升级。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-26.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-26-audio</guid>
-      <pubDate>Mon, 26 Oct 2026 03:30:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-26.mp3" length="2573952" type="audio/mpeg" />
-      <itunes:duration>2:41</itunes:duration>
-      <itunes:summary><![CDATA[今天没有单一爆点新闻，但几条基础设施更新值得工程师停下来看。MCP 官方释出 v2.1.0 安全更新，修补路径穿越与 CORS 等八个漏洞，正在使用 MCP 的团队应立即升级，避免被套件管理器不自动提议版本的行为坑到。模型与工具链方面也有进展：NVIDIA Nemotron 3.5 Lightning 以 Mamba-2 混合架构在单张 H100 上实现百万 token 上下文，适合长文件 RAG；Ant Group 开源 Ming-3.0 语音模型组，TTS 达成零样本声音复制并可商用；Moo]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
