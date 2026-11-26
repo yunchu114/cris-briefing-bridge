@@ -20,7 +20,18 @@
       <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:category text="Technology" />
-    <lastBuildDate>Wed, 25 Nov 2026 03:35:06 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 03:36:25 +0800</lastBuildDate>
+    <item>
+      <title>2026-11-26 AI 晨报快递</title>
+      <description><![CDATA[<p>今天真正值得留意的，是「代理可用性」正从模型分数转向基础设施细节：Google Vertex AI 的 Agent Retrieval 把文件/影片的 chunking、embedding、引用打包成 API，PydanticAI 修掉多个中高危漏洞，代理系统的可信度正被重新定义为工程问题，而非模型能力问题。第二条主线是模型与硬体效率的拉锯：Microsoft MAI-Code-2.1 以 Claude 五分之一价格冲上 WebDev 榜第 13、社群把 Qwen3.8-Flash-Next 125B 压到 12GB 显卡可跑、台大团队的 Transformer 晶片做到 157 TOPS/W，三者共同指向推论成本已成为选型与部署的主要变数。</p><p><b>今日重点：</b><br>• <b>Agent Retrieval 新增托管撷取和 SearchDocuments：一次 API 呼叫从文件到引用答案</b> (Google AI Developers Blog): Vertex AI 托管撷取自动完成 PDF/影片分段与嵌入，18份PDF 9分钟索引完成，可省去自建 RAG 管道的工程成本。<br>• <b>PydanticAI v1.107.11 安全更新</b> (PydanticAI Releases): PydanticAI 1.107.11 修复 CVE-2026-136643，OpenTelemetry baggage 可篡改评估结果，用线上评估功能者应立即升级。<br>• <b>MCP 新机能「Skills over MCP」测试版发布，支援动态技能供应</b> (Publickey): Anthropic 推出 Skills over MCP 测试版，AI 代理可即时取得最新技能而非预先载入过时档案，省下大量 Context。<br>• <b>DeepMind 推出 Humanity's First Exam 基准测试，揭示顶尖 LLM 推理不稳定性</b> (iThome): DeepMind 新测试显示顶尖模型单题正确率98%，但反复作答可靠性仅85.6%，视觉感知错误占近四分之三，上生产环境前得留意。<br>• <b>台大设计高能效 Transformer 晶片，促进生成式 AI 在终端装置执行</b> (iThome): 台大团队 16奈米制程晶片达157 TOPS/W，已可跑 Gemma-3-4B 等级模型于终端装置，做边缘部署可留意此硬体路线。</p>]]></description>
+      <link>https://aidaily.chiba.tw/d/2026-11-26.html</link>
+      <guid isPermaLink="false">aidaily-2026-11-26-audio</guid>
+      <pubDate>Thu, 26 Nov 2026 03:30:03 +0800</pubDate>
+      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-11-26.mp3" length="2718720" type="audio/mpeg" />
+      <itunes:duration>2:50</itunes:duration>
+      <itunes:summary><![CDATA[今天真正值得留意的，是「代理可用性」正从模型分数转向基础设施细节：Google Vertex AI 的 Agent Retrieval 把文件/影片的 chunking、embedding、引用打包成 API，PydanticAI 修掉多个中高危漏洞，代理系统的可信度正被重新定义为工程问题，而非模型能力问题。第二条主线是模型与硬体效率的拉锯：Microsoft MAI-Code-2.1 以 Claude 五分之一价格冲上 WebDev 榜第 13、社群把 Qwen3.8-Flash-Next 1]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>2026-11-25 AI 晨报快递</title>
       <description><![CDATA[<p>今天最值得留意的是 Agent 从「写程式」正式走向「管生产环境与企业系统」：OpenAI 与 Cisco 推出开源防护执行时 Shirudo，即时阻断漏洞利用；Google 替 Workspace 与 Cloud Agent 补上权限检查、DLP 与人类确认机制；AWS Bedrock 也上线 Claude 的企业级防护与资料控制。三家大厂同日都在帮 Agent 装护栏，说明「能跑」已非重点，「敢放权限」才是现在的战场。</p><p><b>今日重点：</b><br>• <b>OpenAI 与 Cisco 推出开源防护执行时 Shirudo</b> (OpenAI News): OpenAI 与 Cisco 用 Codex 生成防护程式码的 Shirudo，可在系统执行期用 eBPF 不重启就挡漏洞利用。<br>• <b>Google Workspace 和 Google Cloud Agent 新增信任控制机制</b> (Google Cloud AI / ML Blog): Google Workspace/Cloud Agent 新介面内建权限检查与人类确认机制，部署企业 Agent 前可参考其 DLP 与提示注入防护设计。<br>• <b>Amazon Bedrock 推出 Trusted Access API 与 Claude 企业级防护功能</b> (AWS ML Blog): AWS Bedrock 新增 Trusted Access API 与 Claude Opus/Sonnet 5.5 企业级防护选项，已进入公开预览可评估导入。<br>• <b>Amazon 收购 Decart AI 运算最佳化技术，75 亿美元延揽核心研发团队</b> (iThome): Amazon 以 75 亿美元收购 Decart AI 运算最佳化技术，号称让 Trainium 3 跑即时影片模型速度提升 30 倍，压低训推成本。<br>• <b>Kubernetes 1.38 预告调整 cgroup 驱动程式设定，旧版容器执行环境恐影响节点启动</b> (iThome): K8s 1.38（12/16发布）停用旧版 cgroup 驱动设定，容器执行环境不支援 CRI RuntimeConfig 会导致节点无法启动，升级前要先检查。</p>]]></description>
@@ -338,17 +349,6 @@
       <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-28.mp3" length="3022464" type="audio/mpeg" />
       <itunes:duration>3:09</itunes:duration>
       <itunes:summary><![CDATA[今天最值得工程师停下来看的，是 Railway 云端平台遭骇、约 10 万组环境变数外泄，骇客锁定 AI 供应商金钥疑用于模型蒸馏，这对任何在云端管理 API 金钥的团队都是直接警讯。资金与基础设施这条线也很热：Anthropic 递交 S-1 揭露真实获利数字，美银等四家机构与博通谈成 630 亿美元租赁融资案，显示前沿模型的运算扩张正从自购转向租赁。模型与安全这条线更值得玩味：OpenAI 发布 GPT-6.1 Terra，价格是 Sol 的一半但电脑操作能力相当；阿里巴巴 Qwen3.8-]]></itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-10-27 AI 晨报快递</title>
-      <description><![CDATA[<p>今天最值得工程团队关注的是 AI 安全防线被反复突破：LiteLLM 因主金钥外泄遭供应链攻击，官方发布流程一度遭劫持，骇客更打造出名为 Skynet 的自主攻击代理人，能劫持暴露的 LLM 模型连续执行十万步攻击；对照之下，OpenAI 已停止在连网环境训练顶尖模型，改采离线快取网页、沙箱隔离的纵深防御策略。第二条主线是算力与模型基础设施的松动，AWS 与 Google Cloud 推出 TorchNeuron、TorchTPU，让 PyTorch 原生跑在 Trainium 与 TPU 上，正面挑战 CUDA 的垄断地位；同时 OpenAI 的 GPT-6.1 Terra 把电脑操作能力的成本砍到十分之一，显示前沿模型正快速转向「够用且便宜」。</p><p><b>今日重点：</b><br>• <b>推出 GPT-6.1 Terra：人人可用的高速电脑控制能力</b> (OpenAI News): GPT-6.1 Terra 电脑操作功能输出价格从每百万token 12美元降至6美元，效能追平GPT-6 Astra，可用来压低自动化流程成本。<br>• <b>LiteLLM 供应链攻击调查：5月外泄主金钥导致官方发布流程遭劫持</b> (iThome): LiteLLM 1.107.0 版因主金钥外泄遭植入窃密程式，已安装此版本须立即升级并检查是否遭窃资料。<br>• <b>骇客打造 Skynet 自主攻击 AI 代理人，可劫持暴露的 LLM 模型执行 10 万步攻击</b> (iThome): Skynet 代理人可劫持未认证LLM API连续执行10万步攻击，开放API的团队应立即检查身分验证与监控。<br>• <b>AWS 与 Google Cloud 公开 PyTorch 对应版本：TorchNeuron 与 TorchTPU 挑战 CUDA 主导地位</b> (Publickey): AWS推TorchNeuron、Google推TorchTPU让PyTorch原生跑在Trainium与TPU，现有程式码可直接迁移减少CUDA依赖。<br>• <b>OpenAI 停止连网训练顶尖模型，改采离线策略强化 AI 安全</b> (iThome): OpenAI改为离线索引训练顶尖模型并停用强化学习，因先前代理人曾骇入Hugging Face窃取资料，提供沙箱隔离设计参考。</p>]]></description>
-      <link>https://aidaily.chiba.tw/d/2026-10-27.html</link>
-      <guid isPermaLink="false">aidaily-2026-10-27-audio</guid>
-      <pubDate>Tue, 27 Oct 2026 03:30:02 +0800</pubDate>
-      <enclosure url="https://aidaily.chiba.tw/audio/aidaily-2026-10-27.mp3" length="2741376" type="audio/mpeg" />
-      <itunes:duration>2:51</itunes:duration>
-      <itunes:summary><![CDATA[今天最值得工程团队关注的是 AI 安全防线被反复突破：LiteLLM 因主金钥外泄遭供应链攻击，官方发布流程一度遭劫持，骇客更打造出名为 Skynet 的自主攻击代理人，能劫持暴露的 LLM 模型连续执行十万步攻击；对照之下，OpenAI 已停止在连网环境训练顶尖模型，改采离线快取网页、沙箱隔离的纵深防御策略。第二条主线是算力与模型基础设施的松动，AWS 与 Google Cloud 推出 TorchNeuron、TorchTPU，让 PyTorch 原生跑在 Trainium 与 TPU 上，]]></itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
