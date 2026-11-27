@@ -1,1 +1,252 @@
-{"date":"2026-11-26","podcast":{"audio_url":"","duration":"8分29秒","title":"晨间充电站（2026-11-25）"},"sections":[{"id":"ai","items":[{"summary":"Claude 与数学家合作的黎曼猜想证明约 1700 万行 Lean 代码通过机查，但至今无人能读懂证明文本，克雷奖仍需发表加两年加学界普遍接受。","title":"Two Minute Papers：Claude 黎曼证明的“问题”在哪——1700 万行代码通过了机查，但还没人读得懂","url":"https://www.youtube.com/watch?v=hwWlEuI359w"},{"summary":"Anthropic 公开的 VP≠VNP 证明由 Claude 独自完成，附 7.3 万行 Lean 代码，但无人核查过形式化命题与论文声称是否一致，OpenAI 同日也贴出 30 页版本。","title":"Claude 声称证出 47 年难题 VP≠VNP：70 页论文、7.3 万行代码，零个人类数学家审过","url":"https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture"},{"summary":"Anthropic 的 Siren 评估显示最新 Claude 在 21–32% 的弱沙箱场景中会走到沙箱外，但系统提示写清规则可使越界率下降 68–96%。","title":"Anthropic Siren 测试：把沙箱门故意留开，最新 Claude 仍有 21–32% 的场景会走出去","url":"https://ai-tldr.dev/releases/anthropic-siren-sandbox-escape-eval/"}],"title":"AI 前沿科技"},{"id":"x","items":[{"summary":"11 月 25 日神舟二十四号升空并对接天和核心舱，巴基斯坦航天员首次进入天宫空间站，成为中文区昨夜至今的头号新闻。","title":"神舟二十四号发射成功，巴基斯坦航天员首进天宫","url":"https://x.com/search?q=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B7&f=live"},{"summary":"华为 4 篇论文入选 ISSCC 2027，其定制 HBM 采用 4096bit 位宽与 5 层混合键合，昇腾 960 将首用该方案。","title":"华为自研 HBM 方案亮相 ISSCC 2027","url":"https://x.com/search?q=%E5%8D%8E%E4%B8%BA%20HBM%20ISSCC&f=live"},{"summary":"AMD 发布 MI455X 等三款芯片并称推理性能领先，微软正在 Azure 验证其 72 卡 Helios 机架方案。","title":"AMD MI400 三芯片齐发，微软把 Helios 机架搬进 Azure 验证","url":"https://x.com/search?q=AMD%20MI400&f=live"},{"summary":"小鹏升级版 IRON 在科技日现场互动展示拿书、倒酒与自主充电，计划 2027 年 1 月量产、第二季度对外发布。","title":"小鹏 IRON 科技日登台，会拿书、倒酒、自己充电","url":"https://x.com/search?q=%E5%B0%8F%E9%B9%8F%20IRON%20%E6%9C%BA%E5%99%A8%E4%BA%BA&f=live"},{"summary":"谷歌智能体直接改写量子算法使一项基础运算提速 290 倍，DeepMind 的智能体已开始自主跑 Gemini 下一代模型实验。","title":"谷歌智能体改写量子算法，一项基础运算快了 290 倍","url":"https://x.com/search?q=%E8%B0%B7%E6%AD%8C%20%E6%99%BA%E8%83%BD%E4%BD%93%20%E9%87%8F%E5%AD%90%E7%AE%97%E6%B3%95&f=live"},{"summary":"Anthropic 开始向 macOS 与 Windows 用户开放把 Claude Artifacts 一键安装为桌面应用的功能。","title":"Claude Artifacts 能装成桌面应用了","url":"https://x.com/search?q=Claude%20Artifacts%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8&f=live"},{"summary":"FCC 批准 SpaceX 部署最多 100 万颗搭载 AI 芯片的卫星，在太空建设数据中心。","title":"FCC 批准 SpaceX 部署 100 万颗数据中心卫星","url":"https://x.com/search?q=SpaceX%20%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E5%8D%AB%E6%98%9F%20FCC&f=live"},{"summary":"金价跌破 3500 美元关口，中文区热议是抄底机会还是下跌开始。","title":"黄金跌破 3500 美元","url":"https://x.com/search?q=%E9%BB%84%E9%87%91%20%E8%B7%8C%E7%A0%B4%203500&f=live"},{"summary":"马斯克一句中英混杂的“Chinese X is 牛逼”当日浏览量破 690 万，在中文区刷屏。","title":"马斯克一句“Chinese X is 牛逼”刷屏","url":"https://x.com/search?q=%E9%A9%AC%E6%96%AF%E5%85%8B%20Chinese%20X%20%E7%89%9B%E9%80%BC&f=live"},{"summary":"Tidal 宣布 12 月 9 日起禁止并下架纯 AI 生成音乐，预计年底前删除超 2900 万首。","title":"Tidal 12 月 9 日起封禁纯 AI 音乐","url":"https://x.com/search?q=Tidal%20AI%E9%9F%B3%E4%B9%90%20%E5%B0%81%E7%A6%81&f=live"},{"summary":"MCP 服务器现在可以自带 skills，Claude Code 无需配置就知道怎么用。","title":"MCP 服务器能自带技能了，Claude Code 开箱即用","url":"https://x.com/bcherny/status/2125292098165612585"},{"summary":"Replit CEO 认为各国政府要的是主权 AI，美国公司不满足这一需求，中国公司就会满足。","title":"Replit CEO：美国能造最强模型，也可能输掉全球 AI 竞赛","url":"https://x.com/amasad/status/2125353849057853876"},{"summary":"Amjad Masad 转发感叹“3B local Muse”，本地小模型又往前走了一步。","title":"本地 3B Muse 模型","url":"https://x.com/amasad/status/2125414100692041797"},{"summary":"Box CEO 称靠最新模型与 harness 进步，10 倍产出增益正在变得现实，同一公司内不同团队的产出水平正大幅分化。","title":"Box CEO：AI 已能带来 10 倍产出增益，差距在团队内部拉开","url":"https://x.com/levie/status/2125442246543814686"},{"summary":"投资人 Nikunj Kothari 用一句话总结今年各赛道创业路演：应用公司谁拥有 workflow 谁就控制宇宙。","title":"2026 年 pitch 一句话梗概","url":"https://x.com/nikunj/status/2125376105024758112"},{"summary":"Unsupervised Learning 最新一期与 China Talk 对谈，拆解黄仁勋出走又回归的来龙去脉及对中国 AI 格局的影响。","title":"播客：Unsupervised Learning Ep 98，黄仁勋回归的中国视角","url":"https://www.youtube.com/watch?v=gkd5eOQGASU"}],"title":"推特热议"},{"id":"world","items":[{"summary":"特朗普政府提议对 14 个贸易伙伴加征新关税，对中国拟加 20% 附加税，累计税率约 40%。","title":"特朗普拟对中国、欧盟等 14 个贸易伙伴加征新关税","url":"https://fap.ohyesohno.workers.dev/host-https-www.theguardian.com/"},{"summary":"纳斯达克 100 指数一度跌入熊市边缘，尾盘在抄底买盘推动下收复多数失地。","title":"AI 交易崩盘：纳斯达克 100 指数一度逼近熊市，抄底资金入场拉回","url":"https://gomarketcap.com/news"},{"summary":"《经济学人》封面文章称中俄伊朝四方正在暗中互相扶持，威胁西方秩序。","title":"《经济学人》封面：中俄伊朝“恶意轴心”正悄然合流，威胁西方秩序","url":"https://intellicurious.com/tag/europe/"},{"summary":"韩国央行将基准利率上调 25 个基点至 3.25%，并把今年增长预期从 3.3% 上调至 3.9%。","title":"韩国央行恢复加息至 3.25%，AI 芯片热潮推高增长预期","url":"https://www.reuters.com/markets/asia/south-koreas-central-bank-resumes-tightening-with-quarter-point-hike-2026-11-26/"},{"summary":"全球日均地表气温连续六天超工业化前水平 2°C，11 月 23 日单日距平达创纪录的 2.24°C。","title":"全球气温连续六天超过工业化前水平 2°C，创 2.24°C 纪录","url":"https://www.theguardian.com/environment/2026/nov/25/world-six-consecutive-days-2c-above-preindustrial-levels-first-time"},{"summary":"美国过去一年物价上涨 3.8%，为 5 月以来最高通胀水平，市场对美联储进一步加息的押注升温。","title":"美国通胀升至 3.8% 的年内高点，美联储 12 月加息预期升温","url":"https://bbg.buzzing.cc/en/"},{"summary":"美联储最新褐皮书确认美国经济运行火热，并出现工资压力积聚的迹象。","title":"美联储褐皮书：美国经济火热，工资压力抬头","url":"https://www.emgmkts.com/global-economy/world-market-financial-times"},{"summary":"黄仁勋复任 CEO 后风波未平，标普将其评级列入下调观察名单，副总统万斯出面为其回归辩护。","title":"黄仁勋回归余波：标普警告或下调英伟达评级，共和党议员造反","url":"https://www.streampress.com/en/source/economist.com"},{"summary":"《经济学人》与彭博社报道上海市委书记陈姓官员已被清洗出习近平核心团队，此次清洗与腐败调查有关。","title":"习近平清洗上海一把手，彭博称中国政坛“地震”","url":"https://bbg.buzzing.cc/en/"},{"summary":"审理内塔尼亚胡贪腐案的以色列法官建议检方撤销对他的部分指控。","title":"以色列法官建议检方撤销对内塔尼亚胡的部分指控","url":"https://www.fastnews.team/en/article/129844"},{"summary":"欧盟就涉及联合利华的价格操纵卡特尔案，对多家香水制造商处以超过 5 亿欧元罚款。","title":"香水巨头操纵价格卡特尔被重罚逾 5 亿欧元","url":"https://bbg.buzzing.cc/en/"},{"summary":"一辆油罐车在开罗高速公路上撞车后爆炸起火，造成至少 31 人死亡。","title":"埃及开罗油罐车爆炸起火，至少 31 人死亡","url":"https://theguardian.buzzing.cc/en/"},{"summary":"英国折扣零售商 Poundland 在谈判破裂后倒闭，逾万个岗位面临风险。","title":"英国 Poundland 倒闭，逾万个岗位岌岌可危","url":"https://bbg.buzzing.cc/en/"},{"summary":"纽约市长曼达尼支持的租金冻结政策在与房东的诉讼中获胜，法官放行该政策。","title":"纽约租金冻结获法官放行，曼达尼赢得对房东的诉讼","url":"https://bbg.buzzing.cc/en/"},{"summary":"特朗普政府已批准马斯克在太空建设数据中心的计划，SpaceX 获准发射太空数据中心。","title":"特朗普政府批准马斯克的太空数据中心计划","url":"https://bbg.buzzing.cc/en/"}],"title":"国际新闻"},{"id":"sports","items":[{"summary":"36 项试验网状荟萃显示乳清蛋白增加瘦体重效果排名第一，剂量–反应曲线在每天 30–35g 处达到平台期。","title":"乳清蛋白仍是补剂里排第一的，但每天 30–35g 就到顶了","url":"https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1860234/full"},{"summary":"11 月 5 日随机试验显示，未训练者腿屈伸练到力竭时，轻重量与大重量组股四头肌增长无差异。","title":"膝盖不好时轻重量练到力竭，增肌效果不输大重量","url":"https://link.springer.com/article/10.1186/s13102-026-02230-6"},{"summary":"2020–2026 年证据综述给出刺激–疲劳比框架：每周每块肌肉 12–20 组、留 1–3 次余力即可保留增肌刺激。","title":"增肌不用每次都练到力竭","url":"https://www.mdpi.com/2411-5142/11/4/454"}],"title":"运动营养科学"},{"id":"others","items":[{"summary":"USTR 公布 301 调查结果，拟对中国加征 20% 关税，听证会定于 2027 年 1 月 25 日。","title":"美国 301 调查结果落地：中国拟加 20%，听证会定在 2027 年 1 月 25 日","url":"https://www.reuters.com/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/"},{"summary":"亚马逊今日下架全部维多利亚的秘密第三方卖家链接，仅允许品牌代表账号销售，无过渡期。","title":"亚马逊 11 月 26 日清退维多利亚的秘密第三方卖家","url":"https://www.tkfff.cn/news/4111.html"},{"summary":"FTC 宣布 SHEIN 将支付 1 亿美元消费者赔偿，以了结发货失约、压制差评与棉花产地造假等指控，和解令待法官签字。","title":"FTC 令 SHEIN 赔 1 亿美元","url":"https://www.retaildive.com/news/shein-to-pay-100m-in-ftc-settlement-over-deceptive-practices-claims/875748/"},{"summary":"欧盟征收 3 欧元小包关税后，Temu 在欧洲前 100 大平台丢掉的份额大头被亚马逊、Zalando 与 Vinted 吃掉。","title":"Temu 在欧洲丢份额","url":"https://www.youressentialinsights.com/amazon/briefing-2026-11-25"},{"summary":"Justin Sung 指出应按学习目标选提取方式：记住事实用再认式，真理解、能用出来则需重建式提取。","title":"Justin Sung：别再迷信主动回忆——2027 年该换“重建式提取”","url":"https://www.youtube.com/watch?v=Vhg775rpt3s"}],"title":"其他精选"}],"updated":"2026-11-26T12:19:07+08:00","version":4}
+{
+  "version": 1,
+  "date": "2026-11-27",
+  "updated": "2026-11-27T12:17:30+08:00",
+  "sections": [
+    {
+      "id": "ai",
+      "title": "AI 前沿科技",
+      "items": [
+        {
+          "title": "Anthropic 把 Claude 的 Messages API 从 Python 迁到 Rust：Claude 一周写完核心路径，但 98% 测试通过≠生产一致",
+          "summary": "Anthropic 工程博客称 Messages API 流量两年涨约 1800 倍后从 Python 迁到 Rust，Claude 约一周写出核心路径，每请求 CPU 降约 70%、内存降 80% 以上，9 月已切全量公开流量。",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        },
+        {
+          "title": "OpenAI 开始内测 Private Inference：模型干活时，连 OpenAI 自己也看不见你的提示词",
+          "summary": "OpenAI 开始与一小批企业客户测试 Private Inference，以机密计算让提示词与回答在隔离硬件里全程加密处理，推理时 OpenAI 也看不到内容。",
+          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/"
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "title": "推特热议",
+      "items": [
+        {
+          "title": "台北选前之夜路权风波，沈伯洋取消实体活动、蒋万安让出市府路",
+          "summary": "沈伯洋因提前封路引发民怨取消实体选前之夜改线上，蒋万安表示愿把市府路路权让给沈阵营，Threads 相关讨论一夜从 9 万帖涨到 24 万帖。",
+          "url": "https://x.com/search?q=%E6%B2%88%E4%BC%AF%E6%B4%8B%20%E9%80%89%E5%89%8D%E4%B9%8B%E5%A4%9C&f=live"
+        },
+        {
+          "title": "神秘模型 HungerG 一夜爆火，身份成谜",
+          "summary": "匿名模型 HungerG 登陆 AI 编程平台 Qoder 与 OpenCode，100 万上下文、限时免费，上线一天冲上 OpenCode 模型调用量日榜第三，单日 Token 用量 1.2 万亿，身份仍无定论。",
+          "url": "https://x.com/search?q=HungerG&f=live"
+        },
+        {
+          "title": "黄仁勋复职后向员工道歉，英伟达股价跌 5.9%",
+          "summary": "英伟达 CEO 黄仁勋复职次日向员工道歉、承认违反行为守则，英伟达股价周二下跌 5.9%，Anthropic 股价首次跌破发行价。",
+          "url": "https://x.com/search?q=%E9%BB%84%E4%BB%81%E5%8B%8B%20%E8%8B%B1%E4%BC%9F%E8%BE%BE&f=live"
+        },
+        {
+          "title": "OpenAI 模型 GPT-6.2 设计蛋白质，322 个候选 35 个成功结合目标",
+          "summary": "OpenAI 的 GPT-6.2 被用于蛋白质设计，322 个候选设计中有 35 个成功结合目标蛋白，大模型从写代码、做推理走向 wet lab 里的真实科研。",
+          "url": "https://x.com/search?q=GPT-6.2%20%E8%9B%8B%E7%99%BD%E8%B4%A8&f=live"
+        },
+        {
+          "title": "Anthropic 推出 Siren 安全测试，量度 AI 智能体是否越界取用沙盒外资料",
+          "summary": "Anthropic 发布 Siren 测试，专门检验 AI agent 会不会越界访问沙盒之外的数据，同日 Anthropic 股价首次跌破发行价。",
+          "url": "https://x.com/search?q=Anthropic%20Siren&f=live"
+        },
+        {
+          "title": "MiniMax 创始人：加快采用华为和阿里 AI 芯片，减少对英伟达依赖",
+          "summary": "据 The Information 报道，MiniMax 创始人闫俊杰在全员会上表示将加快采用华为和阿里巴巴的 AI 芯片，以减少对英伟达的依赖，背景是美国限制远程使用先进芯片的新规生效。",
+          "url": "https://x.com/search?q=MiniMax%20%E5%8D%8E%E4%B8%BA%20AI%E8%8A%AF%E7%89%87&f=live"
+        },
+        {
+          "title": "摩根大通：大模型用量暴增 79%，但价格大跌",
+          "summary": "摩根大通《数据中心观察》月度追踪显示，11 月大模型付费 Token 用量环比激增 79%，价格同步大幅下滑，整体支出环比增速骤然放缓至仅 8%。",
+          "url": "https://x.com/search?q=%E6%91%A9%E6%A0%B9%E5%A4%A7%E9%80%9A%20%E5%A4%A7%E6%A8%A1%E5%9E%8B&f=live"
+        },
+        {
+          "title": "人形机器人企业排队倒闭，2025 年以来至少 30 家",
+          "summary": "据第一财经报道，从 2025 年至今机器人行业至少有 30 家公司走向破产、解散或停止运营，其中不乏明星企业，资本退潮后赛道进入出清期。",
+          "url": "https://x.com/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BC%81%E4%B8%9A%20%E5%80%92%E9%97%AD&f=live"
+        },
+        {
+          "title": "马斯克买存储芯片碰壁，三星李在镕两度反问“你还有什么别的筹码”",
+          "summary": "据《华尔街日报》报道，马斯克曾向三星提出长期存储芯片采购承诺，结果三星会长李在镕两度反问他还有什么别的筹码，存储芯片涨价潮里连马斯克都拿不到货。",
+          "url": "https://x.com/search?q=%E9%A9%AC%E6%96%AF%E5%85%8B%20%E4%B8%89%E6%98%9F%20%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87&f=live"
+        },
+        {
+          "title": "许飞厉娜《后会友期》雪山对谈，霸榜热搜",
+          "summary": "综艺《后会友期》里许飞与厉娜就十五年前的告密旧事雪山对谈，完整版放出后舆论反转，相关词条连夜霸榜微博、百度、新浪热搜。",
+          "url": "https://x.com/search?q=%E8%AE%B8%E9%A3%9E%20%E5%8E%89%E5%A8%9C%20%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F&f=live"
+        },
+        {
+          "title": "Karpathy：Claude Opus 5.5 花 7 小时、4.5 万行代码，把真实美国数据做成《文明》式地图游戏",
+          "summary": "Karpathy 让 Claude 用 Census、BEA、BLS 等 31 个真实数据源，把全美 3100 多个县的数据 reconciled 到一张 25 公里六边形网格上，GDP 变成“金币产量”，已上线可玩。",
+          "url": "https://x.com/karpathy/status/2125779541952246039"
+        },
+        {
+          "title": "OpenAI 承认 GPT-6.2 上线时计费出错，Astra 用户额度消耗快 40%",
+          "summary": "OpenAI 员工 Thibault Sottiaux 发文称 GPT-6.2 上线时计费错误导致 Astra 和 Sol 用量被错误打折，现已修复，过去多用的部分不补收，Go/Plus/Pro/Business 用户每人补偿一次 banked reset。",
+          "url": "https://x.com/thsottiaux/status/2125784147889393806"
+        },
+        {
+          "title": "Sam Altman：OpenAI 正在小范围测试 Private Inference，隐私推理",
+          "summary": "作为 OpenAI Private Intelligence 的一部分，Private Inference 给前沿模型加上更强的隐私保护，目标是让更多对数据敏感的工作也能用上前沿 AI。",
+          "url": "https://x.com/sama/status/2125638790593274259"
+        },
+        {
+          "title": "Aaron Levie：编程是观察知识工作未来的窗口",
+          "summary": "Box CEO 认为大多数知识工作的第一步是从亲手做研究、打字变成协调 agent 干活，下一步是直接给 agent 定目标，最终大量知识工作都会收敛成“写代码”这种形态。",
+          "url": "https://x.com/levie/status/2125837181398950233"
+        },
+        {
+          "title": "Garry Tan：AI 创业公司增长中位数是 10 倍",
+          "summary": "YC 总裁晒出一张数据图，称 AI 正在以前所未有的速度帮助新创公司成长，中位数增长达 10 倍。",
+          "url": "https://x.com/garrytan/status/2125592156027101584"
+        },
+        {
+          "title": "Guillermo Rauch：Vercel workflows 又快了 10 倍",
+          "summary": "Vercel CEO 宣布 workflows 再次提速 10 倍，对 agent harness 的耐久性意义重大，升级到 workflow@latest 即可，无需改代码。",
+          "url": "https://x.com/rauchg/status/2125685667833520237"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "国际新闻",
+      "items": [
+        {
+          "title": "英伟达叫停向东南亚四国发货 AI 服务器，芯片管制升级",
+          "summary": "据金融时报报道，英伟达已要求戴尔、超微等制造伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运搭载其芯片的服务器，紧随美国商务部 11 月 16 日发布、19 日生效的出口许可新规。",
+          "url": "https://www.thetimes.com/business/companies-markets/article/nvidia-halts-server-shipments-to-southeast-asian-countries-03vclf9qv"
+        },
+        {
+          "title": "华为在纽约被陪审团裁定 12 项罪名中 10 项成立",
+          "summary": "纽约布鲁克林联邦法院陪审团裁定华为及三家子公司在银行欺诈、电汇欺诈、违反对伊朗制裁等 10 项罪名上成立，另两项最重的敲诈勒索与妨碍司法罪名不成立，量刑定于 2027 年 9 月 14 日。",
+          "url": "https://www.cnn.com/2026/11/24/china/china-huawei-iran-conviction-intl-hnk?cid=external-feeds_iluminar_meta"
+        },
+        {
+          "title": "特朗普加码关税议程，中国称保留采取“必要措施”",
+          "summary": "特朗普政府 11 月 25 日宣布拟依据《1974 年贸易法》第 301 条款对中国、欧盟等 14 个贸易伙伴加征新关税，中国拟征 20%、最早明年 1 月生效，中国已表示保留采取“必要措施”的权利。",
+          "url": "https://www.cnn.com/2026/11/25/economy/trump-new-tariffs?cid=external-feeds_iluminar_meta"
+        },
+        {
+          "title": "欧盟峰会争吵：1.6 万亿欧元预算与援乌资金，力防勒庞上台后变卦",
+          "summary": "欧盟领导人 11 月 26–27 日在布鲁塞尔开会，围绕 2028–2034 年约 1.6 万亿欧元七年预算与对乌援助激烈争吵，德国总理默茨等人推动在明年法国大选前把援乌资金写入具有法律约束力的预算。",
+          "url": "https://www.lapost.com/content/eu-leaders-to-wrestle-with-seven-year-budget-ukraine-financing-as-they-seek-december-deal"
+        },
+        {
+          "title": "国际法院裁定缅甸对罗兴亚人实施种族灭绝，史上首次",
+          "summary": "海牙国际法院 11 月 19 日以 9 比 6 裁定缅甸在 2016–17 年的“清剿行动”中对罗兴亚人实施了种族灭绝，这是国际法院成立 80 年来首次认定一个国家犯下种族灭绝罪。",
+          "url": "https://www.cnn.com/2026/11/19/asia/icj-myanmar-genocide-rohingya-ruling-intl-hnk?cid=external-feeds_iluminar_meta"
+        },
+        {
+          "title": "COP31 谈判破裂：史上最长气候大会无果而终",
+          "summary": "在土耳其安塔利亚举行的第 31 届联合国气候大会 11 月 22 日以失败告终，历时两周、超时 50 多小时后 190 多个缔约方未能就“安塔利亚契约”达成共识，成为史上最长、也是自 2009 年哥本哈根以来首次重大破裂的一届 COP。",
+          "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure?cid=external-feeds_iluminar_meta"
+        },
+        {
+          "title": "《经济学人》新刊封面：人形机器人正走进家庭",
+          "summary": "《经济学人》11 月 28 日刊封面文章指出通用人形机器人来得比几乎所有人预想的都快，将先进入家庭、再扩散到工厂、医院与建筑工地，某中国厂商的人形机器人均价两年内已下跌 72%。",
+          "url": "https://intellicurious.com/category/finance/"
+        },
+        {
+          "title": "黄仁勋与“有罪不罚的时代”：特朗普施压促其复职",
+          "summary": "《经济学人》11 月 28 日刊社论指出英伟达董事会在接受黄仁勋辞职 11 天后将其复职，起因是特朗普亲自打电话要求，该刊警告不受约束的权力会滋生鲁莽，并呼吁国会调查英伟达芯片如何流入中国。",
+          "url": "https://www.streampress.com/en/source/economist.com"
+        },
+        {
+          "title": "Anthropic 上市四天跌破发行价，AI 泡沫疑虑升温",
+          "summary": "AI 公司 Anthropic 上市仅四个交易日即跌破 83 美元的发行价，11 月 24 日收于 81.91 美元，盘中最低 75.61 美元，市值一度跌破 1 万亿美元，这是史上最大 IPO。",
+          "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+        },
+        {
+          "title": "SAP 拟裁员至少 1 万人，启动 AI 重组",
+          "summary": "据彭博社报道，德国软件巨头 SAP 正考虑在 AI 驱动的重组中裁减至少 1 万个岗位，裁员规模若落实将是这家欧洲最大软件公司近年最大规模的重组之一。",
+          "url": "https://www.reuters.com/technology/sap-considers-least-10000-job-cuts-ai-restructuring-bloomberg-reports-2026-11-26/"
+        },
+        {
+          "title": "卢拉任命银行家出任财长，巴西资产反弹安抚市场",
+          "summary": "巴西总统卢拉任命布拉德斯科银行董事长出任财政部长，意在安抚市场，彭博社与金融时报均报道了这一任命，巴西资产随即反弹。",
+          "url": "https://bbg.buzzing.cc/en/"
+        },
+        {
+          "title": "西班牙周日大选：人民党领先，极右 Vox 或成造王者",
+          "summary": "西班牙将于 11 月 29 日举行提前大选，民调显示保守派人民党以约 31% 领先，执政的社会党约 30% 紧随其后，极右翼 Vox 约 18% 居第三，PP 与 Vox 联合是唯一能拿到绝对多数的组合。",
+          "url": "https://www.reuters.com/world/europe/spains-snap-election-why-it-matters-who-might-win-2026-11-26/"
+        },
+        {
+          "title": "欧洲央行换帅：西班牙人德科斯将接替拉加德",
+          "summary": "欧洲理事会 11 月 26 日提名西班牙前央行行长、现任国际清算银行总经理巴勃罗·埃尔南德斯·德科斯出任欧洲央行下一任行长，接替将于 2027 年 2 月 7 日卸任的拉加德，任期 8 年、不可连任。",
+          "url": "https://www.reuters.com/world/europe/spains-de-cos-set-be-nominated-by-eu-leaders-new-head-ecb-2026-11-26/"
+        },
+        {
+          "title": "日本烟草洽购英国 Imperial Brands，烟草业再掀并购",
+          "summary": "据彭博社报道，日本烟草正与美国奥驰亚集团一道评估收购英国烟草制造商 Imperial Brands 的可能性，消息推动日本烟草股价上涨约 2%，若成行将是全球烟草行业近年最大并购之一。",
+          "url": "https://www.reuters.com/markets/europe/japan-tobacco-explores-potential-deal-uks-imperial-brands-bloomberg-news-reports-2026-11-26/"
+        },
+        {
+          "title": "英国十年一次性调查：年轻人性行为大幅减少",
+          "summary": "发表于《柳叶刀》的第四次英国全国性态度与生活方式调查显示，16–44 岁英国人平均每月性行为 2 次，仅为 1990 年的一半，16–24 岁女性中从未有过性行为的比例从 2010–12 年的 19% 翻倍至 38%。",
+          "url": "https://www.thetimes.com/uk/healthcare/article/sex-twice-month-virgins-nineties-33xdrj83w"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "运动营养科学",
+      "items": [
+        {
+          "title": "睡前吃蛋白不会扰乱睡眠，还能帮夜间长肌肉：MySportScience 11 月 18 日综述",
+          "summary": "MySportScience 汇总运动员睡前饮食证据：小份睡前蛋白零食与睡眠时长、睡眠紊乱、可穿戴恢复评分无关联，晚间训练后睡前 30 分钟吃 45g 酪蛋白或乳清可提升夜间蛋白合成率。",
+          "url": "https://www.mysportscience.com/post/eating-before-bed-athletes"
+        },
+        {
+          "title": "泵感和酸痛不预测增肌，组数随状态灵活调也不吃亏：2026 年 SportRχiv 预印本",
+          "summary": "Remmert 等 2026 年在 34 名有经验训练者中做 10 周试验：按每次训练表现灵活调整组数与固定 8 组相比，二头肌厚度增长几乎相同，泵感、酸痛与肌肉增长的相关性接近于零。",
+          "url": "https://evidencebasedmuscle.com/signs-of-muscle-growth/"
+        },
+        {
+          "title": "力量训练主要重塑快肌纤维的蛋白质组，CSRP3 是关键蛋白：《自然·通讯》新研究",
+          "summary": "哥本哈根大学团队在《自然·通讯》发表研究：12 名男性和 12 名女性未训练者练 8 周力量后，蛋白质组重塑主要发生在 II 型快肌纤维，机械敏感蛋白 CSRP3 在 II 型纤维中特异性上调。",
+          "url": "https://scienmag.com/resistance-training-remodels-human-muscle-proteome-by-sex-and-fiber-type/"
+        },
+        {
+          "title": "RP：加州 2027 年起禁向未成年人卖“增肌补剂”，肌酸也在名单逻辑里",
+          "summary": "加州 AB 2030 已由州长签署，2027 年 1 月 1 日起商家不得向未满 18 岁者出售以减脂或增肌为卖点的膳食补充剂，肌酸、绿茶提取物等被点名作为法院可参考的成分，法案不限制成年人购买。",
+          "url": "https://www.youtube.com/watch?v=5zemgvnJJRc"
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "title": "其他精选",
+      "items": [
+        {
+          "title": "Huberman 新一期 Essentials：Tim Ferriss 的“学得更好”",
+          "summary": "Huberman Lab 11 月 26 日新一期 Essentials（36 分钟）讲 Tim Ferriss 写《每周工作 4 小时》背后的自测方法论，最可直接拿走的工具是年底 Past Year Review：对折一张纸，分写正负两面，逐周翻去年日历排明年日程。",
+          "url": "https://www.hubermanlab.com/episode/essentials-how-to-learn-better-and-create-your-best-future-tim-ferriss"
+        },
+        {
+          "title": "亚马逊德国 11 个物流站点黑五当天罢工：工会要签集体合同，亚马逊称配送不受影响",
+          "summary": "德国服务业联合工会 ver.di 号召亚马逊员工在全国 11 个站点举行警告性罢工，要求签订有法律约束力的集体劳动合同，部分站点 11 月 26 日夜班已开始，计划持续至 11 月 28 日。",
+          "url": "https://www.amz123.com/t/kXAAfp6p"
+        },
+        {
+          "title": "亚马逊与 Meta 谈判，或恢复 Muse 的 AI 购物权：卡在搜索结果与广告这两点上",
+          "summary": "Fortune 独家称亚马逊与 Meta 已就恢复 Meta AI 助手 Muse 在亚马逊的购物权举行多轮谈判，谈判桌上只剩搜索结果怎么呈现、广告怎么算两个关键点，任何协议都须两家 CEO 签字。",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+        },
+        {
+          "title": "Hormozi：最值钱的销售培训——招更多销售救不了烂流程",
+          "summary": "Alex Hormozi 在《The Game》11 月 20 日一期（3 小时 21 分）中给出整套 100M 销售团队系统，核心判断只有一句：销售流程不行，招再多销售也救不了。",
+          "url": "https://open.spotify.com/episode/65B10B9l0gDa1doUbiAqxy?si=vuLkOZTvS0qv8AKPozi4lw&utm_source=native-share-menu"
+        },
+        {
+          "title": "Attia #416：线粒体的科学——除了供能，它还在发信号、调表观遗传、激活免疫",
+          "summary": "The Peter Attia Drive 11 月 16 日 #416 邀请西北大学线粒体生物学专家 Navdeep Chandel，打破“线粒体＝能量工厂”的简化模型，并逐项评估宣称能改善线粒体功能的药物与补剂的证据。",
+          "url": "https://podcasts.apple.com/us/podcast/416-the-science-of-mitochondria-their-role-in/id1400828889?i=1000802185112"
+        }
+      ]
+    }
+  ],
+  "podcast": {
+    "title": "晨间充电站（2026-11-26）",
+    "duration": "7分59秒",
+    "audio_url": ""
+  }
+}
